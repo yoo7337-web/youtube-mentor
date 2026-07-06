@@ -72,6 +72,41 @@
       "thesis": "금 대비 비트코인 비율이 바닥 형성 과정을 거쳐 이미 바닥을 쳤다고 판단 — 금은 하락 중이고 비트코인은 변동성이 크지만 장기의 넓은 상승 추세를 재개할 것으로 전망. 크레딧 시장(은행 CDS·하이일드 스프레드)도 사모신용 자금 유출에도 불구하고 조용해 시스템 리스크 신호는 없으며, 이는 위험자산에 우호적인 환경이라는 방증.",
       "date": "2026-07-02",
       "video": "https://www.youtube.com/watch?v=V5W2rJ2fi3A"
+    },
+    {
+      "topic": "미국주식",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "원칙",
+      "thesis": "'미국 예외주의의 종말'이라는 내러티브는 크게 과장됐다고 본다 — SpaceX·OpenAI·Anthropic이 그 반례. 미국은 투하자본이익률(ROIC)과 노동수익률이 세계 어디보다 높고, 혁신을 향한 인센티브 구조가 독보적이기 때문에 자본과 인재가 계속 미국으로 향한다. SpaceX 상장이 수많은 백만장자를 만든 것처럼, AI發 생산성 혁명은 미국의 자본수익률을 상대적으로 더 끌어올려 이 우위를 강화한다는 게 ARK의 판단.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=V5W2rJ2fi3A"
+    },
+    {
+      "topic": "AI/혁신",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "원칙",
+      "thesis": "AI는 소규모 기업의 생산성 문턱을 낮춰 성장 방정식을 바꾼다 — ARK조차 예전 같으면 정당화할 수 없던 엔지니어 3명을 지난 1년간 채용했고, 이는 AI로 필요한 생산성이 확보됐기 때문. 동시에 대기업은 채용을 늦추고 AI에 의존하면서 정부 고용통계가 신규 창업·AI 네이티브 인력 채용을 제대로 포착하지 못한다. 따라서 '고용 둔화=침체'라는 통상 해석은 기술 전환기에는 오독이며, 오히려 생산성 가속의 신호로 읽어야 한다는 프레임.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=V5W2rJ2fi3A"
+    },
+    {
+      "topic": "환율",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "아시아·유럽 출장에서 인플레이션·고금리 공포가 뚜렷했는데, ARK는 그 근원이 물가 자체보다 각국 통화 약세라고 본다 — 특히 일본·한국 원화·엔화 하락이 두드러지며, 이들의 달러·금리 focus는 사실 자국 통화 방어와 얽혀 있다. 또한 미국 고용지표가 침체처럼 보이는 것은 정부 통계가 심하게 왜곡됐기 때문이며, Kevin Warsh의 연준 합류로 민간 데이터를 보강해 통계 신뢰도를 높일 것으로 기대한다.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=DMkXwCiFH80"
+    },
+    {
+      "topic": "유전체/헬스케어",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "원칙",
+      "thesis": "암 치료의 다음 단계는 'n=1' 개인 맞춤 신약 — 환자 자신의 종양을 시퀀싱해 그 한 사람만을 위한 임상시험을 충분히 싸게 설계하면 백만 명이 아니라 단 한 명을 겨냥하므로 FDA 비용 구조 전체가 무너진다. 한 사람에게 듣는 약을 찾으면 곧이어 그와 유사한 99명을 찾아낼 수 있어, 게놈 시퀀싱 비용의 지수적 하락(Wright's Law)이 정밀의료를 대중화한다는 파괴적 혁신 논리.",
+      "date": "2026-06-19",
+      "video": "https://www.youtube.com/watch?v=uPh02zk5EF4"
     }
   ],
   "quotes": [
@@ -86,7 +121,7 @@
       "video": "https://www.youtube.com/watch?v=82SjtW7oMkU"
     },
     {
-      "text": "The end of American exceptionalism is, we think, greatly exaggerated — SpaceX, OpenAI and Anthropic very important cases in point.",
+      "text": "the return on invested capital uh is higher here and the return on labor is higher here. uh the the kind of incentives for innovation in this country um are like nowhere else in the world.",
       "date": "2026-07-02",
       "video": "https://www.youtube.com/watch?v=V5W2rJ2fi3A"
     },
@@ -104,6 +139,16 @@
       "text": "It's not like memory has suddenly become a secular business whereas before it was cyclical. It's just this is a wildly large cycle.",
       "date": "2026-07-01",
       "video": "https://www.youtube.com/watch?v=Bl6_uF9UstY"
+    },
+    {
+      "text": "companies are not hiring as rapidly as they once did and they are relying more on AI uh and the new business creations",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=V5W2rJ2fi3A"
+    },
+    {
+      "text": "the fear of inflation and higher interest rates was palpable. Now, I think one of the reasons for that is currencies elsewhere in the world have been going down",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=DMkXwCiFH80"
     }
   ]
 }

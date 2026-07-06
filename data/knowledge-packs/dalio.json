@@ -7,16 +7,26 @@
     "tone": "장기 부채 사이클·제국 흥망 같은 거대 프레임으로 현재를 설명.\n\"원칙(principles)\"과 역사적 유사 사례를 반복 인용. 차분하고 교훈적.",
     "guardrails": "구체적 매수/매도 지시 금지. 원칙·역사·사이클 관점 중심.\n영어 발언을 한국어로 옮길 때 의미 왜곡 금지. 실제 인물이 아닌 'AI 재현' 전제.\n발언 근거(영상·날짜) 없는 주장 금지."
   },
-  "last_indexed": "2026-07-03",
-  "video_count": 14,
-  "insight_count": 8,
+  "last_indexed": "2026-07-04",
+  "video_count": 49,
+  "insight_count": 14,
   "videos": [
+    {
+      "id": "rXLAzYOn7rc",
+      "title": "The 4th of July 250 Years Later",
+      "date": "2026-07-04",
+      "url": "https://www.youtube.com/watch?v=rXLAzYOn7rc",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 1247
+    },
     {
       "id": "UA_BPWQ-KhQ",
       "title": "Principles Behind 250 Years Of American Success",
       "date": "2026-07-03",
       "url": "https://www.youtube.com/watch?v=UA_BPWQ-KhQ",
       "lang": "en",
+      "source": "youtube",
       "char_count": 1063
     },
     {
@@ -25,6 +35,7 @@
       "date": "2026-07-01",
       "url": "https://www.youtube.com/watch?v=Egj2E4zFNy8",
       "lang": "en",
+      "source": "youtube",
       "char_count": 3366
     },
     {
@@ -33,6 +44,7 @@
       "date": "2026-06-30",
       "url": "https://www.youtube.com/watch?v=wniw-4AUCsk",
       "lang": "en",
+      "source": "youtube",
       "char_count": 3764
     },
     {
@@ -41,6 +53,7 @@
       "date": "2026-06-29",
       "url": "https://www.youtube.com/watch?v=cmkb5Vfa614",
       "lang": "en",
+      "source": "youtube",
       "char_count": 1156
     },
     {
@@ -49,6 +62,7 @@
       "date": "2026-06-23",
       "url": "https://www.youtube.com/watch?v=KLZaX7J60rc",
       "lang": "en",
+      "source": "youtube",
       "char_count": 643
     },
     {
@@ -57,6 +71,7 @@
       "date": "2026-06-18",
       "url": "https://www.youtube.com/watch?v=uklvYjjafR8",
       "lang": "en",
+      "source": "youtube",
       "char_count": 801
     },
     {
@@ -65,6 +80,7 @@
       "date": "2026-06-16",
       "url": "https://www.youtube.com/watch?v=gnTL3fTmIlk",
       "lang": "en",
+      "source": "youtube",
       "char_count": 759
     },
     {
@@ -73,6 +89,7 @@
       "date": "2026-06-08",
       "url": "https://www.youtube.com/watch?v=J3FDjBY2wp8",
       "lang": "en",
+      "source": "youtube",
       "char_count": 718
     },
     {
@@ -81,6 +98,7 @@
       "date": "2026-06-04",
       "url": "https://www.youtube.com/watch?v=zCiQlIs4lYY",
       "lang": "en",
+      "source": "youtube",
       "char_count": 562
     },
     {
@@ -89,6 +107,7 @@
       "date": "2026-06-03",
       "url": "https://www.youtube.com/watch?v=_gPiZxbxfso",
       "lang": "en",
+      "source": "youtube",
       "char_count": 810
     },
     {
@@ -97,6 +116,7 @@
       "date": "2026-06-02",
       "url": "https://www.youtube.com/watch?v=T2I2Wxv7-oA",
       "lang": "en",
+      "source": "youtube",
       "char_count": 1738
     },
     {
@@ -105,6 +125,7 @@
       "date": "2026-05-28",
       "url": "https://www.youtube.com/watch?v=hfSPKYK5PJ4",
       "lang": "en",
+      "source": "youtube",
       "char_count": 937
     },
     {
@@ -113,6 +134,7 @@
       "date": "2026-05-26",
       "url": "https://www.youtube.com/watch?v=q0l7atY_J7c",
       "lang": "en",
+      "source": "youtube",
       "char_count": 934
     },
     {
@@ -121,7 +143,314 @@
       "date": "2026-05-22",
       "url": "https://www.youtube.com/watch?v=qT_aFiLztc8",
       "lang": "en",
+      "source": "youtube",
       "char_count": 543
+    },
+    {
+      "id": "rnzz0YJpc9o",
+      "title": "레이 달리오: 롱아일랜드 대학교 졸업식 연설",
+      "date": "2026-05-15",
+      "url": "https://www.youtube.com/watch?v=rnzz0YJpc9o",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6906
+    },
+    {
+      "id": "0cEimVh-Ahs",
+      "title": "우리 경제의 고질적인 문제점은 바로 부채입니다.",
+      "date": "2026-04-28",
+      "url": "https://www.youtube.com/watch?v=0cEimVh-Ahs",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3000
+    },
+    {
+      "id": "I5p65RRYm3E",
+      "title": "변화하는 세계 질서에 대처하는 원칙 - 5분 요약",
+      "date": "2026-04-15",
+      "url": "https://www.youtube.com/watch?v=I5p65RRYm3E",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3772
+    },
+    {
+      "id": "2F6UQq5D2aU",
+      "title": "건강한 미중 관계와 해양의 중요성",
+      "date": "2026-04-11",
+      "url": "https://www.youtube.com/watch?v=2F6UQq5D2aU",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 1321
+    },
+    {
+      "id": "p4YvGfkyprY",
+      "title": "저는 제가 배운 것을 다른 사람들에게 전수하는 단계에 있습니다.",
+      "date": "2026-04-07",
+      "url": "https://www.youtube.com/watch?v=p4YvGfkyprY",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3237
+    },
+    {
+      "id": "tM-BPJSKC34",
+      "title": "달리오 시장 원칙 온라인 프로그램",
+      "date": "2026-03-12",
+      "url": "https://www.youtube.com/watch?v=tM-BPJSKC34",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 1858
+    },
+    {
+      "id": "PX5cKGqbpGQ",
+      "title": "레이 달리오, 대규모 부채 악순환 속 긴축 정책에 대해 논하다",
+      "date": "2026-01-27",
+      "url": "https://www.youtube.com/watch?v=PX5cKGqbpGQ",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3614
+    },
+    {
+      "id": "gz583ZtPnfY",
+      "title": "빅 사이클: 정상에 도달하기",
+      "date": "2026-01-26",
+      "url": "https://www.youtube.com/watch?v=gz583ZtPnfY",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 2891
+    },
+    {
+      "id": "CkmIg65YC44",
+      "title": "변화하는 세계 질서에 대처하는 원칙 - 5분 요약",
+      "date": "2026-01-21",
+      "url": "https://www.youtube.com/watch?v=CkmIg65YC44",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3764
+    },
+    {
+      "id": "kNhwMH49TOQ",
+      "title": "Ray Dalio Explains Debt Cycles",
+      "date": "2026-01-08",
+      "url": "https://www.youtube.com/watch?v=kNhwMH49TOQ",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3724
+    },
+    {
+      "id": "w4-FcVIQSv8",
+      "title": "성공을 위한 원칙: 모험에 대한 부름",
+      "date": "2025-11-18",
+      "url": "https://www.youtube.com/watch?v=w4-FcVIQSv8",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3407
+    },
+    {
+      "id": "rlkJzLqYXCw",
+      "title": "미국이 돈이 바닥난 때",
+      "date": "2025-11-11",
+      "url": "https://www.youtube.com/watch?v=rlkJzLqYXCw",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1669
+    },
+    {
+      "id": "jLRpv9MGV60",
+      "title": "경제 기계의 작동 원리 5부",
+      "date": "2025-10-31",
+      "url": "https://www.youtube.com/watch?v=jLRpv9MGV60",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3548
+    },
+    {
+      "id": "HnIo7DbZw9A",
+      "title": "레이 달리오와 앤드류 로스 소킨이 그의 신작 \"1929\"와 부채가 모든 경제 위기를 초래하는 방식에 대해 이야기합니다.",
+      "date": "2025-10-30",
+      "url": "https://www.youtube.com/watch?v=HnIo7DbZw9A",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 39280
+    },
+    {
+      "id": "fQbxk4R9nSk",
+      "title": "Ray Dalio와 Bloomberg의 Francine Lacqua가 인생, 부채 및 글로벌 위기에 대해 토론합니다.",
+      "date": "2025-10-29",
+      "url": "https://www.youtube.com/watch?v=fQbxk4R9nSk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11648
+    },
+    {
+      "id": "iQ7p9As_WUI",
+      "title": "걱정된다면 걱정할 필요가 없고, 걱정하지 않는다면 걱정해야 합니다.",
+      "date": "2025-10-10",
+      "url": "https://www.youtube.com/watch?v=iQ7p9As_WUI",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 200
+    },
+    {
+      "id": "SyOD5WLwb0I",
+      "title": "경제 기계의 작동 원리 - 4부",
+      "date": "2025-09-29",
+      "url": "https://www.youtube.com/watch?v=SyOD5WLwb0I",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 4514
+    },
+    {
+      "id": "opxrty7fIvU",
+      "title": "경제 기계의 작동 원리 3부",
+      "date": "2025-09-05",
+      "url": "https://www.youtube.com/watch?v=opxrty7fIvU",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3931
+    },
+    {
+      "id": "vp4ww-Hm5i0",
+      "title": "경제 기계의 작동 원리 2부",
+      "date": "2025-08-26",
+      "url": "https://www.youtube.com/watch?v=vp4ww-Hm5i0",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 4940
+    },
+    {
+      "id": "WGF8lNPcl40",
+      "title": "경제 기계의 작동 원리 1부",
+      "date": "2025-08-25",
+      "url": "https://www.youtube.com/watch?v=WGF8lNPcl40",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 5377
+    },
+    {
+      "id": "oS4dwo38xso",
+      "title": "국내 및 세계 질서의 변화",
+      "date": "2025-07-07",
+      "url": "https://www.youtube.com/watch?v=oS4dwo38xso",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 2628
+    },
+    {
+      "id": "CYrGgyge4GQ",
+      "title": "The Reason I Studied 500 Years of History",
+      "date": "2025-06-10",
+      "url": "https://www.youtube.com/watch?v=CYrGgyge4GQ",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3121
+    },
+    {
+      "id": "2pa0trbk_no",
+      "title": "How Countries Go Broke: The Big Cycle",
+      "date": "2025-06-05",
+      "url": "https://www.youtube.com/watch?v=2pa0trbk_no",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 30561
+    },
+    {
+      "id": "LZouHyMjF7g",
+      "title": "The Big Cycle: Reaching the Top",
+      "date": "2025-05-29",
+      "url": "https://www.youtube.com/watch?v=LZouHyMjF7g",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 2772
+    },
+    {
+      "id": "_NFZ6t7jy0Q",
+      "title": "Ray Dalio's the Big Cycle Explained in 3 Minutes",
+      "date": "2025-05-28",
+      "url": "https://www.youtube.com/watch?v=_NFZ6t7jy0Q",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 2367
+    },
+    {
+      "id": "Bmd1BQlds0k",
+      "title": "The Time the United States Ran Out of Money",
+      "date": "2025-05-13",
+      "url": "https://www.youtube.com/watch?v=Bmd1BQlds0k",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1701
+    },
+    {
+      "id": "SoKr0QVCLPA",
+      "title": "Ray Dalio Explains Debt Cycles",
+      "date": "2025-05-01",
+      "url": "https://www.youtube.com/watch?v=SoKr0QVCLPA",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3722
+    },
+    {
+      "id": "rg2nZGZjE64",
+      "title": "Ray Dalio Breaks Down the Long Debt Cycle",
+      "date": "2025-04-10",
+      "url": "https://www.youtube.com/watch?v=rg2nZGZjE64",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3021
+    },
+    {
+      "id": "7ivIC01QxtQ",
+      "title": "Ray Dalio On The Changing World Order",
+      "date": "2025-04-05",
+      "url": "https://www.youtube.com/watch?v=7ivIC01QxtQ",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3764
+    },
+    {
+      "id": "W3LsqC1D_qU",
+      "title": "레이 달리오와 빌 벨리칙 - 좋은 관계를 맺다",
+      "date": "2024-12-12",
+      "url": "https://www.youtube.com/watch?v=W3LsqC1D_qU",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3776
+    },
+    {
+      "id": "RqhumsFCZLA",
+      "title": "변화하는 세계 질서에 대처하기 위한 원칙 - 5분",
+      "date": "2024-12-10",
+      "url": "https://www.youtube.com/watch?v=RqhumsFCZLA",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3664
+    },
+    {
+      "id": "Rg1-T1Gr7hA",
+      "title": "트럼프 행정부에서 이런 일이 일어날 것으로 예상",
+      "date": "2024-11-25",
+      "url": "https://www.youtube.com/watch?v=Rg1-T1Gr7hA",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 2499
+    },
+    {
+      "id": "z-KC-FyIp5c",
+      "title": "미국 대선 이후 영향을 미치는 5가지 세력",
+      "date": "2024-11-21",
+      "url": "https://www.youtube.com/watch?v=z-KC-FyIp5c",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3871
+    },
+    {
+      "id": "xt1AWjNcal8",
+      "title": "Why I Founded OceanX",
+      "date": "2024-10-10",
+      "url": "https://www.youtube.com/watch?v=xt1AWjNcal8",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 1907
     }
   ],
   "insights": [
@@ -188,6 +517,60 @@
       "thesis": "성공은 필요 이상의 돈이나 지위가 아니라 '의미 있는 일과 의미 있는 관계'를 갖는 것이다. 일과 열정을 일치시키고 서로 아끼는 사람들과 함께한다면 행복하고 성공적인 삶이 된다. 삶이 원하는 것을 주지 않을 때 분노하는 대신 현실의 작동 원리를 배우고 원칙을 만들어라 — 고통스러운 경험조차 배움의 기회로 삼는 '삶에 대한 접근법'이 졸업장보다 가치 있다.",
       "date": "2026-05-26",
       "video": "https://www.youtube.com/watch?v=q0l7atY_J7c"
+    },
+    {
+      "topic": "경제기계",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "경제는 복잡해 보이지만 무수히 반복되는 단순한 거래(transaction)의 합으로 작동하는 기계다. 모든 거래는 구매자가 돈이나 신용을 재화·서비스·금융자산과 교환하는 것이며, 신용은 돈처럼 쓰이므로 총지출(돈+신용)이 경제를 움직인다. 이 기계는 생산성 성장·단기 부채사이클·장기 부채사이클 3대 힘으로 구성되며, 이 세 힘을 겹쳐 놓으면 경제 흐름을 추적하는 템플릿이 된다.",
+      "date": "2025-08-25",
+      "video": "https://www.youtube.com/watch?v=WGF8lNPcl40"
+    },
+    {
+      "topic": "경제기계",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "경제 변동의 핵심은 신용(credit)이다. 신용은 경제에서 가장 크고 변동성이 큰 부분인데 가장 이해받지 못한다. 두 사람이 합의만 하면 신용은 '무(無)에서' 즉시 만들어지고, 만들어지는 순간 대출자에겐 자산·차입자에겐 부채가 된다. 한 사람의 지출은 다른 사람의 소득이므로, 소득 증가→차입 여력 증가→지출 증가가 자기강화적으로 순환하며 이것이 사이클을 만든다.",
+      "date": "2025-08-25",
+      "video": "https://www.youtube.com/watch?v=WGF8lNPcl40"
+    },
+    {
+      "topic": "경제기계",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "장기적으로 생활수준을 끌어올리는 것은 생산성이지만, 생산성은 완만해 경기 변동의 주 원인이 아니다. 단기 변동을 만드는 것은 신용(부채)이다. 부채는 획득할 때 생산보다 많이 소비하게 하고 갚을 때 생산보다 적게 소비하게 만들기 때문이다. 즉 '생산성이 장기를, 신용이 단기를 지배한다'는 것이 경제기계의 핵심 구분이며, 차입은 곧 '미래의 나로부터 지출을 앞당겨 오는 것'이다.",
+      "date": "2025-08-26",
+      "video": "https://www.youtube.com/watch?v=vp4ww-Hm5i0"
+    },
+    {
+      "topic": "거시/부채사이클",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "단기 부채사이클은 보통 5~8년이며 중앙은행이 금리로 통제한다 — 신용이 풍부하면 확장, 부족하면 침체. 그러나 매 사이클의 저점·고점은 이전보다 더 많은 성장과 더 많은 부채로 끝난다. 사람들이 빚을 갚기보다 더 빌려 더 쓰려는 인간 본성 때문에, 수십 년에 걸쳐 부채가 소득보다 빠르게 쌓여 결국 장기 부채사이클(약 75~100년)의 정점에서 부채상환이 소득을 앞질러 사이클이 역전된다.",
+      "date": "2026-01-08",
+      "video": "https://www.youtube.com/watch?v=kNhwMH49TOQ"
+    },
+    {
+      "topic": "세계질서",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "세계를 근본적으로 바꾸는 것은 5대 힘이다 — ① 부채·신용·화폐·경제 사이클 ② 내부 질서·무질서 사이클 ③ 외부 지정학 질서·무질서(세계질서 변화) ④ 자연의 작용(가뭄·홍수·팬데믹) ⑤ 인간의 발명력(특히 신기술). 단기(1~10년)엔 부채·정치 사이클이 지배적이고, 장기(10년 이상)엔 이 대사이클과 생산성의 우상향 추세선이 훨씬 큰 영향을 준다. 지금은 2차대전(1945) 이후 시작된 대사이클의 80년째로, 부채 과잉·내부 분열·국가간 갈등·비싼 자연재해·신기술이 동시에 나타나는 후기(5단계)다.",
+      "date": "2025-06-05",
+      "video": "https://www.youtube.com/watch?v=2pa0trbk_no"
+    },
+    {
+      "topic": "세계질서",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "제국의 정점에는 이미 쇠퇴의 씨앗이 심겨 있다. 부유해진 국민은 임금이 올라 경쟁력을 잃고, 후발국이 그 기술을 모방하며, 부를 물려받은 세대는 덜 단련되고 사치에 익숙해져 도전에 취약해진다. 좋은 시절이 계속되리라 믿고 빚을 내 베팅하며 금융버블이 커지고, 금융이익은 불균등해 빈부격차가 벌어진다. 기축통화 보유국은 필연적으로 과도하게 차입해 단기엔 강해 보이지만 장기엔 재정과 통화가 약해진다.",
+      "date": "2025-05-29",
+      "video": "https://www.youtube.com/watch?v=LZouHyMjF7g"
     }
   ],
   "quotes": [
@@ -220,6 +603,26 @@
       "text": "If you can make your work and your passion one in the same, and you could do it with people who you care about and care about you, you will have a happy, successful life.",
       "date": "2026-05-26",
       "video": "https://www.youtube.com/watch?v=q0l7atY_J7c"
+    },
+    {
+      "text": "Credit is the most important part of the economy and probably the least understood.",
+      "date": "2025-08-25",
+      "video": "https://www.youtube.com/watch?v=WGF8lNPcl40"
+    },
+    {
+      "text": "As the saying goes, any fool can make something complicated. It takes a genius to make it simple.",
+      "date": "2025-06-05",
+      "video": "https://www.youtube.com/watch?v=2pa0trbk_no"
+    },
+    {
+      "text": "While in the top phase, most of these strengths are sustained, embedded within the fruits of their success are the seeds of their decline.",
+      "date": "2025-05-29",
+      "video": "https://www.youtube.com/watch?v=LZouHyMjF7g"
+    },
+    {
+      "text": "They have an inclination to borrow and spend more instead of paying back debt. It's human nature.",
+      "date": "2026-01-08",
+      "video": "https://www.youtube.com/watch?v=kNhwMH49TOQ"
     }
   ]
 }

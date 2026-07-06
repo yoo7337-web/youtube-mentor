@@ -7,16 +7,26 @@
     "tone": "시장 사이클·수급·역사적 밸류에이션을 근거로 한 실전 전략가. 섹터 로테이션·투자심리 강조.\n구체적 시황 코멘트가 많지만 원칙(쌀 때 사라 등)을 반복. 단정적이되 근거 제시.",
     "guardrails": "구체적 매수/매도 종목 지시는 재현하지 말고 '전략·판단 근거'로 환원.\n시황성 발언은 반드시 날짜 명시(시점 민감). 'AI 재현' 전제. 근거 없는 예측 금지."
   },
-  "last_indexed": "2026-07-04",
-  "video_count": 15,
-  "insight_count": 9,
+  "last_indexed": "2026-07-06",
+  "video_count": 35,
+  "insight_count": 15,
   "videos": [
+    {
+      "id": "jtLxuKRXtnI",
+      "title": "2분기 실적·나스닥 상장… 반도체 투톱 ‘운명의 한주’",
+      "date": "2026-07-06",
+      "url": "https://www.youtube.com/watch?v=jtLxuKRXtnI",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 20219
+    },
     {
       "id": "gHh_epTOZlo",
       "title": "[별주부전] 체슬리 주말 라이브 [26/07/04]",
       "date": "2026-07-04",
       "url": "https://www.youtube.com/watch?v=gHh_epTOZlo",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 66824
     },
     {
@@ -25,6 +35,7 @@
       "date": "2026-07-03",
       "url": "https://www.youtube.com/watch?v=45Y6EIJTZ4c",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 21067
     },
     {
@@ -33,6 +44,7 @@
       "date": "2026-07-03",
       "url": "https://www.youtube.com/watch?v=BXAkpHPhaCc",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 18042
     },
     {
@@ -41,6 +53,7 @@
       "date": "2026-07-03",
       "url": "https://www.youtube.com/watch?v=dnb54s4j9m4",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 538
     },
     {
@@ -49,6 +62,7 @@
       "date": "2026-07-03",
       "url": "https://www.youtube.com/watch?v=nH6kcxUlP9Q",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 42081
     },
     {
@@ -57,6 +71,7 @@
       "date": "2026-07-02",
       "url": "https://www.youtube.com/watch?v=9zVArT4CW54",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 500
     },
     {
@@ -65,6 +80,7 @@
       "date": "2026-07-02",
       "url": "https://www.youtube.com/watch?v=LyEVQyARiIQ",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 49005
     },
     {
@@ -73,6 +89,7 @@
       "date": "2026-07-02",
       "url": "https://www.youtube.com/watch?v=TcUlbcact20",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 24677
     },
     {
@@ -81,6 +98,7 @@
       "date": "2026-07-01",
       "url": "https://www.youtube.com/watch?v=UTQjUTD6eFo",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 48083
     },
     {
@@ -89,6 +107,7 @@
       "date": "2026-07-01",
       "url": "https://www.youtube.com/watch?v=aTI6ModgwYQ",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 370
     },
     {
@@ -97,6 +116,7 @@
       "date": "2026-07-01",
       "url": "https://www.youtube.com/watch?v=dj2AfyaNkd0",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 23913
     },
     {
@@ -105,6 +125,7 @@
       "date": "2026-06-30",
       "url": "https://www.youtube.com/watch?v=Px4PJYdFkfo",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 26646
     },
     {
@@ -113,6 +134,7 @@
       "date": "2026-06-30",
       "url": "https://www.youtube.com/watch?v=o28_OLQ_tLk",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 45883
     },
     {
@@ -121,6 +143,7 @@
       "date": "2026-06-30",
       "url": "https://www.youtube.com/watch?v=ufJyBGmyIIA",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 229
     },
     {
@@ -129,7 +152,179 @@
       "date": "2026-06-29",
       "url": "https://www.youtube.com/watch?v=M9BJ2bmyEX4",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 26894
+    },
+    {
+      "id": "Ixtt_n9adoA",
+      "title": "“1만5천피’ 간다”…조정 때 주워담으라는 JP모건",
+      "date": "2026-06-26",
+      "url": "https://www.youtube.com/watch?v=Ixtt_n9adoA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 24951
+    },
+    {
+      "id": "fT9A2rLPz24",
+      "title": "어제 12% 급락, 오늘 9.8% 급등…삼성전자에 무슨 일이",
+      "date": "2026-06-25",
+      "url": "https://www.youtube.com/watch?v=fT9A2rLPz24",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 17679
+    },
+    {
+      "id": "XKTbWI5z8k0",
+      "title": "“꼬리가 몸통 흔든다”…증시 흔드는 레버리지 ETF의 그늘",
+      "date": "2026-06-24",
+      "url": "https://www.youtube.com/watch?v=XKTbWI5z8k0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 18102
+    },
+    {
+      "id": "Z5klnVUfDZM",
+      "title": "모건스탠리 \"반도체發 수출 호황, 내년말까지 간다\"",
+      "date": "2026-06-23",
+      "url": "https://www.youtube.com/watch?v=Z5klnVUfDZM",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 27300
+    },
+    {
+      "id": "EfjmiEh7P_I",
+      "title": "“1만 간다” vs “6500도 열려 있다”… 5대 리서치센터장의 코스피 전망",
+      "date": "2026-06-22",
+      "url": "https://www.youtube.com/watch?v=EfjmiEh7P_I",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 25067
+    },
+    {
+      "id": "m_S5W3b7RiQ",
+      "title": "높아진 벨류에이션, 시장 지표 속 기본을 잡는 투자 전략을 세워봅니다 | 체슬리투자자문 최일호 부사장",
+      "date": "2026-06-21",
+      "url": "https://www.youtube.com/watch?v=m_S5W3b7RiQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4518
+    },
+    {
+      "id": "pnUQi97UafQ",
+      "title": "고점에서 발생한 매수 신호가 발생했다. 차트로 보는 국내 시장 투자 전략  | 체슬리투자자문 박세익 전무",
+      "date": "2026-06-20",
+      "url": "https://www.youtube.com/watch?v=pnUQi97UafQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 8028
+    },
+    {
+      "id": "gZx4J6suVu4",
+      "title": "점도표 뒤집혔다…‘인플레 파이터’ 워시, 금리 인상 예고",
+      "date": "2026-06-19",
+      "url": "https://www.youtube.com/watch?v=gZx4J6suVu4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 24480
+    },
+    {
+      "id": "wJxULUBCZIQ",
+      "title": "\"이대로 가면 죽겠다\"…삼성전자 그만두고 버스기사 된 20대",
+      "date": "2026-06-18",
+      "url": "https://www.youtube.com/watch?v=wJxULUBCZIQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 23634
+    },
+    {
+      "id": "G4_D_6XGynI",
+      "title": "“MSCI 편입, 다들 호재라 믿지만”…외국인 자금 오히려 8조 빠진다는데",
+      "date": "2026-06-17",
+      "url": "https://www.youtube.com/watch?v=G4_D_6XGynI",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 25791
+    },
+    {
+      "id": "KKC8NeMpqLY",
+      "title": "삼성전자, 보스턴다이내믹스 지분 인수 타진…“피지컬 AI는 핵심 축”",
+      "date": "2026-06-16",
+      "url": "https://www.youtube.com/watch?v=KKC8NeMpqLY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 24884
+    },
+    {
+      "id": "LoFycePGc6E",
+      "title": "삼양식품...다시 강해진 성장 모멘텀",
+      "date": "2026-06-15",
+      "url": "https://www.youtube.com/watch?v=LoFycePGc6E",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6377
+    },
+    {
+      "id": "i4F0ZLJawPc",
+      "title": "\"반도체 10배 뛸 때 전혀 안 올랐다…지금 사두면 돈 되는 주식\"",
+      "date": "2026-06-15",
+      "url": "https://www.youtube.com/watch?v=i4F0ZLJawPc",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 29584
+    },
+    {
+      "id": "zEjDQWypd_c",
+      "title": "필라델피아 반도체 지수가 급락한 진짜 이유, 금리 공포와 변동성 속 투자 전략 점검해봅니다 | 체슬리투자자문 최일호 부사장",
+      "date": "2026-06-14",
+      "url": "https://www.youtube.com/watch?v=zEjDQWypd_c",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6471
+    },
+    {
+      "id": "D1WeOlTgRxo",
+      "title": "미국 증시, AI 인프라에 집중하자 | 체슬리투자자문 최일호 부사장",
+      "date": "2026-06-03",
+      "url": "https://www.youtube.com/watch?v=D1WeOlTgRxo",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9423
+    },
+    {
+      "id": "3zOBJF2bxkA",
+      "title": "\"역대급 '불장'이라는데 내 주식만 한겨울\"…이유 있었네",
+      "date": "2026-06-01",
+      "url": "https://www.youtube.com/watch?v=3zOBJF2bxkA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 26264
+    },
+    {
+      "id": "t7XiajRyXdg",
+      "title": "포스트 M7 흐름이 시작됐다. 글로벌 투자 전략을 분석합니다 | 체슬리투자자문 최일호 부사장",
+      "date": "2026-05-31",
+      "url": "https://www.youtube.com/watch?v=t7XiajRyXdg",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6959
+    },
+    {
+      "id": "QHBpTb7v2cw",
+      "title": "반도체 쏠림 장세 속 코스피의 흐름과 국내 시장 투자 전략 | 체슬리투자자문 박세익 전무",
+      "date": "2026-05-30",
+      "url": "https://www.youtube.com/watch?v=QHBpTb7v2cw",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 8543
+    },
+    {
+      "id": "CPM4V7QkYlw",
+      "title": "“이러다 진짜 시총 1등 바뀌나”…SK하이닉스, 삼성전자 시총 턱밑까지 추격",
+      "date": "2026-05-29",
+      "url": "https://www.youtube.com/watch?v=CPM4V7QkYlw",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 23440
     }
   ],
   "insights": [
@@ -217,38 +412,106 @@
       "thesis": "원화 등 아시아 통화 동반 약세(원달러 1,500원대, 엔화 40년만 슈퍼엔저)가 1997년 외환위기와 닮았다는 우려가 있으나 시스템 위기는 아니다. 당시 고정환율제·바닥난 외환보유액과 달리 지금은 변동환율제로 환율이 충격을 흡수하고, 한국 외환보유액도 4,270억 달러로 외환위기 당시의 10배 이상이며 수출도 호조다. 프라이빗 크레딧(사모신용) 리스크 역시 GDP 대비 약 3% 수준으로 2008년(GDP 45% 익스포저)과 직접 비교는 과장. 금융붕괴보다 고환율·고유가발 스태그플레이션 위험에 가깝다.",
       "date": "2026-07-03",
       "video": "https://www.youtube.com/watch?v=45Y6EIJTZ4c"
+    },
+    {
+      "topic": "투자원칙/우량주",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "주가(강아지)는 하루하루 촐싹촐싹 널뛰지만 결국 실적(주인)을 따라간다 — 매출이 계속 늘어나는지, 영업이익이 계속 늘어나는지 그것만 확인하면 강아지는 잠시 앞서거니 뒤서거니 해도 주인 곁으로 돌아온다. 그래서 좋은 주식이 수급 때문에 이유 없이 빠지면 파는 게 아니라 오히려 담아야 한다. '강아지의 속성'을 이해하는 것이 변동성을 견디는 핵심이다.",
+      "date": "2026-06-17",
+      "video": "https://www.youtube.com/watch?v=G4_D_6XGynI"
+    },
+    {
+      "topic": "투자전략/밸류에이션",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "박세익 투자의 사고 프레임은 '모자이크 띠어리'다 — 신문·지표·기업의 조각조각 정보(닷)를 연결하면 선이 되고, 선을 연결하면 면이 되어 앞으로 세상이 이런 그림으로 바뀌겠구나 하는 인사이트가 그려진다. 그 그림 속에서 어떤 기업의 가치가 폭발적으로 성장하고 어떤 쪽이 파괴될지를 판단해 종목을 고른다. 수많은 퀀트 지표보다 이 '커넥팅 닷'에서 나온 인사이트로 아마존·네이버 같은 대박 종목을 잡았다.",
+      "date": "2026-06-17",
+      "video": "https://www.youtube.com/watch?v=G4_D_6XGynI"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "운용 자금이 커질수록 종목 수를 늘려 분산해야 살아남는다 — 미래에셋 박현주식 '25종목 압축'은 자금이 80조로 커지자 시클리컬(조선·철강) 다운사이클에서 환매가 나올 때마다 팔며 수익률이 서서히 무너졌다. 반면 피터린치는 마젤란펀드가 600배 커지자 해외주식까지 담아 종목을 다변화했다. 시장 주도주는 반도체→소비재→가치주로 계속 로테이션하므로 한 명의 매니저·소수 종목으로는 모든 국면을 커버할 수 없고, 성격이 다른 전략(1등 매니저 MP 추종 등)을 섞어 분산하는 것이 파워풀한 운용이다.",
+      "date": "2026-06-17",
+      "video": "https://www.youtube.com/watch?v=G4_D_6XGynI"
+    },
+    {
+      "topic": "시황/전략",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "2026년 6월 코스피가 사상 처음 9천을 돌파한 시점(6/23)에서, 박세익은 향후 1년간 코스피가 대략 6,600~9,900 박스권에서 등락하리라 봤다(위로 살짝 뚫거나 아래로 더 내릴 수는 있음). 중간선거가 있는 짝수해 하반기(5~10월)의 계절적 약세와 통화정책 전환기 변동성을 근거로, 과열 국면에 뒤늦게 진입한 투자자에게는 '지금은 아주 과열일 때 오셨다, 기대 수익을 낮추라'고 조언했다.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=Z5klnVUfDZM"
+    },
+    {
+      "topic": "투자심리/자금관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "주식은 변동성 자산이라는 본질을 이해하지 못하면 돈을 벌 수 없다 — 예금·채권 같은 확정금리(픽스드 인컴)에 익숙한 사람이 변동성에 불안해 '본전 되면 팔아야지' 하며 나오기 때문에 시장은 구조적으로 이런 사람이 돈을 못 벌게 만들어져 있다. 2~3년을 해도 변동성 스트레스를 못 견디면 차라리 안 하거나 믿을 만한 곳에 맡기고 잊어버리는 것이 낫다. 결국 '인내하는 자에게 보상을 주고 그 영광은 살아남은 자만이 누린다'는 것이 주식 시장의 원리다.",
+      "date": "2026-06-15",
+      "video": "https://www.youtube.com/watch?v=i4F0ZLJawPc"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "본인과 체슬리투자자문은 SNS·밴드·텔레그램·카톡 등 온라인 채널로 일체의 투자자문(유료·무료)을 하지 않으며, 정식 자문은 반드시 회사 내방·계약서 작성 절차를 거친다. '앞으로 몇백% 날 급등주를 알려줄 테니 방에 가입하라'며 송금을 요구하는 사칭·리딩방은 모두 불법이므로 즉시 삭제·신고하라. 종목·수익을 미끼로 한 무료 리딩방은 근절되어야 할 대상이며, 본인은 개별 종목을 SNS로 찍어주지 않는다는 것이 소통 원칙이다.",
+      "date": "2026-06-22",
+      "video": "https://www.youtube.com/watch?v=EfjmiEh7P_I"
     }
   ],
   "quotes": [
     {
-      "text": "핵심 자산은 반드시 전고점을 돌파하게 돼 있고, 왜냐면 인플레이션보다는 더 상승을 하게 돼 있으니까. 고점 대비 -30부터 분할 매수. 왜 -30부터냐면 -35까지 빠졌다가 올라가는 경우도 되게 많거든요. 아 -30대 살 걸, 요 후회를 할까 봐.",
+      "text": "핵심 자산은 반드시 어 전고점을 돌파하게 돼 있고 왜냐면 인플레이션보다는 더 상승을 하게 돼 있으니까 고점 대비 -30부터 분할 매수",
       "date": "2026-06-30",
       "video": "https://www.youtube.com/watch?v=ufJyBGmyIIA"
     },
     {
-      "text": "여기서 손절해야 되나가 아니라 오히려 물타기하셔도 될 거 같다. 정말 좋은 종목이라고 확신을 가지신다면 -50%면 만 원에서 5천 됐는데 5,000이 다시 만 원 되면 100% 수익 나는 거잖아요. 웬만하면 전고점을 돌파할 수 있는 핵심 우량주식 중심으로 하시라. 왜냐면 물려도 결국은 전고점 돌파할 거니까.",
+      "text": "여기서 손절해야 되나가 아니라 오히려 물타기하셔도 될 거 같다. 예, 그런 말씀을 드렸습니다.",
       "date": "2026-07-02",
       "video": "https://www.youtube.com/watch?v=9zVArT4CW54"
     },
     {
-      "text": "설사 장기 투자가 아니라 트레이딩을 하더라도 좋은 자산으로 트레이딩을 해야 물리더라도 기다리면 올라오잖아요. 근데 잡주로 매매하다가 물리면 답이 없습니다.",
+      "text": "설사 장기 투자가 아니라 트레이딩을 하더라도 좋은 자산으로 트레이딩을 해야 물리더라도 기다리면 올라오잖아요.",
       "date": "2026-07-01",
       "video": "https://www.youtube.com/watch?v=aTI6ModgwYQ"
     },
     {
-      "text": "지금 내 계좌는 풀로 지르고 있더라도 반드시 어느 정도 현금을 가지고 계시는 게 맞고, 좋은 주식을 싸게 살 수 있는 기회를 줘도 그 기회가 똑같은 기회인데 내가 자금 관리를 어떻게 하고 있느냐에 따라서 심각한 위기가 되기도 하고 아주 꿀 같은 기회가 되기도 합니다.",
+      "text": "지금 내 계좌는 풀로 지르고 있더라도 반드시 어느 정도 현금을 가지고 계시는게 맞고",
       "date": "2026-06-30",
       "video": "https://www.youtube.com/watch?v=Px4PJYdFkfo"
     },
     {
-      "text": "밸루에이션을 잣대로 투자를 하는 게 제일 속 편하더라고요. 밸루에이션 대비 너무 싼 영역에서는 모으고, 적정 가치를 회복하고 더 올라갔을 때, 좀 과하다 싶을 때는 팔고. 올라가는 무릎에서 사고 떨어지는 어깨에서 판다.",
+      "text": "결국은 밸루에이션을 잣대로 투자를 하는게 제일 속편하더라고요.",
       "date": "2026-06-29",
       "video": "https://www.youtube.com/watch?v=M9BJ2bmyEX4"
     },
     {
-      "text": "주식으로 크게 성공한 분들 다 보면 뼈아픈 경험이 있었거든요. 초심자의 행운으로 처음에 잘 되면 겁이 없어지고, 나중에 크게 투자를 했을 때 한방에 큰 손실이 나기 때문에, 오히려 처음에 뼈아픈 경험을 하신 게 큰 수익을 만들 수 있는 발판이 될 거다.",
+      "text": "주식으로 크게 성공한 분들 다 보면 뼈아픈 경험이 있었거든요.",
       "date": "2026-07-03",
       "video": "https://www.youtube.com/watch?v=dnb54s4j9m4"
+    },
+    {
+      "text": "매출이 계속 늘어나는지 영업이익이 계속 늘어나는지 네, 그것만 어, 확인을 하면 결국은 주인은 계속 열로 가고 있는데 네, 강아지가 지금은 네, 촐싹촐싹 왔다갔다 그러고 있습니다. 이 강아지의 속성을 아셔야 됩니다.",
+      "date": "2026-06-17",
+      "video": "https://www.youtube.com/watch?v=G4_D_6XGynI"
+    },
+    {
+      "text": "저는 앞으로 1년 동안은음 그냥 9,900에서 한 6,600요 사이에서 왔다 갔다 움직여야 하지 않을까?",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=Z5klnVUfDZM"
+    },
+    {
+      "text": "주식 시장은 인내하는 이게이 이에게 보상을 주지마 그 영광은 살아남은 자만이 누릴 수 있다.",
+      "date": "2026-06-15",
+      "video": "https://www.youtube.com/watch?v=i4F0ZLJawPc"
     }
   ]
 }

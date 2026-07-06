@@ -8,8 +8,8 @@
     "guardrails": "구체적 매수/매도 종목 지시는 '분석 근거'로 환원. 기업·산업 판단 사고방식 중심.\n실제 인물이 아닌 'AI 재현'임을 전제. 발언 근거(영상·날짜) 없는 주장 금지."
   },
   "last_indexed": "2023-06-18",
-  "video_count": 15,
-  "insight_count": 9,
+  "video_count": 28,
+  "insight_count": 15,
   "videos": [
     {
       "id": "VLau4nAYpCw",
@@ -17,6 +17,7 @@
       "date": "2023-06-18",
       "url": "https://www.youtube.com/watch?v=VLau4nAYpCw",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 13258
     },
     {
@@ -25,6 +26,7 @@
       "date": "2023-06-16",
       "url": "https://www.youtube.com/watch?v=UTKLEXyJuGo",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 6169
     },
     {
@@ -33,6 +35,7 @@
       "date": "2023-06-11",
       "url": "https://www.youtube.com/watch?v=7VN0msxOFXA",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 13992
     },
     {
@@ -41,6 +44,7 @@
       "date": "2023-06-11",
       "url": "https://www.youtube.com/watch?v=_szFt0UPuIQ",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 10400
     },
     {
@@ -49,6 +53,7 @@
       "date": "2023-06-10",
       "url": "https://www.youtube.com/watch?v=jNeU7OvIINA",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 18661
     },
     {
@@ -57,6 +62,7 @@
       "date": "2023-06-09",
       "url": "https://www.youtube.com/watch?v=XUuejhaNtg0",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 6659
     },
     {
@@ -65,6 +71,7 @@
       "date": "2023-06-03",
       "url": "https://www.youtube.com/watch?v=Sxg2f4gGiO8",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 20889
     },
     {
@@ -73,6 +80,7 @@
       "date": "2023-05-28",
       "url": "https://www.youtube.com/watch?v=DtWjkEFTcug",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 22599
     },
     {
@@ -81,6 +89,7 @@
       "date": "2023-05-20",
       "url": "https://www.youtube.com/watch?v=Lo67za3NIjk",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 24928
     },
     {
@@ -89,6 +98,7 @@
       "date": "2023-05-13",
       "url": "https://www.youtube.com/watch?v=94MtNCmnui4",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 17365
     },
     {
@@ -97,6 +107,7 @@
       "date": "2023-05-06",
       "url": "https://www.youtube.com/watch?v=mZazaYXJwjY",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 24537
     },
     {
@@ -105,6 +116,7 @@
       "date": "2023-04-30",
       "url": "https://www.youtube.com/watch?v=qIPrrloVtWc",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 35962
     },
     {
@@ -113,6 +125,7 @@
       "date": "2023-04-22",
       "url": "https://www.youtube.com/watch?v=-whQXeiBqwI",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 27213
     },
     {
@@ -121,6 +134,7 @@
       "date": "2023-04-19",
       "url": "https://www.youtube.com/watch?v=I-xbBQWM308",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 4491
     },
     {
@@ -129,7 +143,125 @@
       "date": "2023-04-18",
       "url": "https://www.youtube.com/watch?v=Blqoai5OBPE",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 7376
+    },
+    {
+      "id": "vNYptNsaQnk",
+      "title": "새 일본은행 총재 취임. 과연 기존 정책이 빨리 바뀔까?",
+      "date": "2023-04-17",
+      "url": "https://www.youtube.com/watch?v=vNYptNsaQnk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5078
+    },
+    {
+      "id": "St2lSPdJTsQ",
+      "title": "폭락? 침체? 이러다 코스피 3천 이야기 나올 수도",
+      "date": "2023-04-14",
+      "url": "https://www.youtube.com/watch?v=St2lSPdJTsQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9499
+    },
+    {
+      "id": "72VZ0OkViOM",
+      "title": "연준, 이제 동결해도 되는 수준",
+      "date": "2023-04-13",
+      "url": "https://www.youtube.com/watch?v=72VZ0OkViOM",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6285
+    },
+    {
+      "id": "VtyhfEDLAQE",
+      "title": "86번가 위클리 (4월 첫째 주 증시 정리) - 고용 데이터 리뷰, 삼성전자 깜짝 감산 발표.",
+      "date": "2023-04-11",
+      "url": "https://www.youtube.com/watch?v=VtyhfEDLAQE",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 16635
+    },
+    {
+      "id": "u3itLhkZfg0",
+      "title": "86번가 위클리 (2월 넷째 주 증시 정리) 한국은행의 금리 동결. 계속되는 물가 경계감.",
+      "date": "2023-02-25",
+      "url": "https://www.youtube.com/watch?v=u3itLhkZfg0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 20467
+    },
+    {
+      "id": "engHohjeFSA",
+      "title": "86번가 위클리 (2월 셋째 주 증시 정리) 물가 서프라이즈에 놀란 자산 시장",
+      "date": "2023-02-18",
+      "url": "https://www.youtube.com/watch?v=engHohjeFSA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 28200
+    },
+    {
+      "id": "HvBKbqXNLhA",
+      "title": "86번가 위클리 (2월 둘째 주 증시 정리) 파월 의장 이코노믹 클럽 대담. 2023년 CPI 바스켓 업데이트 정리.",
+      "date": "2023-02-11",
+      "url": "https://www.youtube.com/watch?v=HvBKbqXNLhA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 26245
+    },
+    {
+      "id": "TF00brn8F5s",
+      "title": "2023년 1월 미국 고용보고서 리뷰",
+      "date": "2023-02-07",
+      "url": "https://www.youtube.com/watch?v=TF00brn8F5s",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10569
+    },
+    {
+      "id": "Nn17ip3Ge4Q",
+      "title": "한국 증시의 고질적 문제점들이 해결된다면?",
+      "date": "2023-01-15",
+      "url": "https://www.youtube.com/watch?v=Nn17ip3Ge4Q",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3178
+    },
+    {
+      "id": "i5ccaN0Qur0",
+      "title": "86번가 선정 2023년 10서프라이즈",
+      "date": "2023-01-01",
+      "url": "https://www.youtube.com/watch?v=i5ccaN0Qur0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15255
+    },
+    {
+      "id": "t6-FGBOgtkc",
+      "title": "86번가 위클리 (12월 다섯째 주 증시 정리) 장기 금리 상승에 짓눌린 증시",
+      "date": "2023-01-01",
+      "url": "https://www.youtube.com/watch?v=t6-FGBOgtkc",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11992
+    },
+    {
+      "id": "fy-75GLHH7k",
+      "title": "의무공개매수 도입예정 (기대효과와 아쉬운점)",
+      "date": "2022-12-27",
+      "url": "https://www.youtube.com/watch?v=fy-75GLHH7k",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 7836
+    },
+    {
+      "id": "6CEA08DGXfk",
+      "title": "86번가 위클리 (12월 셋째 주 증시 정리) 미국과 유럽 중앙은행의 연이은 매파성에 하락한 증시",
+      "date": "2022-12-19",
+      "url": "https://www.youtube.com/watch?v=6CEA08DGXfk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 14398
     }
   ],
   "insights": [
@@ -207,6 +339,60 @@
       "thesis": "SG증권발 무더기 하한가 사태의 교훈 — 유통가능 주식수가 적고(대주주+자사주 비중 과다) 신용융자 잔고율이 높은 소외주는 물량 통제가 쉬워 작전 대상이 되기 쉽고, 최대 레버리지가 걸려 있어 작은 하락에도 반대매매 연쇄로 하한가가 나온다. 다만 증권사 미수채권은 13개사 합산 2,500억원(최대사 685억원) 수준으로 추심까지 감안하면 시스템 리스크가 아니며, 시장 전체 신용잔고(약 20조)도 코로나 고점(26조) 대비 과도하지 않다. 거래량이 적은데 신용잔고가 높은 종목은 피하라는 것이 실전 체크포인트.",
       "date": "2023-04-30",
       "video": "https://www.youtube.com/watch?v=qIPrrloVtWc"
+    },
+    {
+      "topic": "한국증시/MSCI 선진지수",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "(2023-01 시점 발언·판단 프레임) 한국의 MSCI 선진지수 편입 여부를 가리는 단 하나의 리트머스 시험지는 '외환시장 전면 개방'이다. 정부가 편입 노력을 말할 때 이 핵심 조건을 언급하면 믿어도 좋고, 언급 없이 노력한다고만 하면 실현 가능성이 없으니 믿지 말라는 것. 실제로 이번엔 외환시장 새벽 2시 연장 같은 개방 방향의 구체안이 처음 나왔다는 점에서 진전으로 평가. 편입 시 골드만삭스 추정 500~550억 달러 유입에 밸류에이션 재평가로 30% 상승 여력이 이 판단의 근거.",
+      "date": "2023-01-15",
+      "video": "https://www.youtube.com/watch?v=Nn17ip3Ge4Q"
+    },
+    {
+      "topic": "한국증시/지배구조",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "원칙",
+      "thesis": "(2023-01 시점·주주환원 판단 프레임) 코리아 디스카운트 해소는 제도 3종이 좌우한다 — ① 자사주 매입 후 소각 의무화(해외는 소각이 당연 전제인데 한국은 오버행으로 재활용돼 진정한 주주환원이 아님) ② 의무공개매수제(M&A 때 대주주만 프리미엄을 받지 않고 일반주주도 매각 기회를 갖게) ③ 이사의 충실의무 강화. 제도는 유럽식→미국식으로 단계적으로 가야 하며, 미국이 규제 없이도 주주보호가 최고인 이유는 이사회 충실의무와 축적된 판례·소송제도라는 인프라 때문이라고 분석. 제도 설계의 '악마는 디테일'(예외조항·안분비례 방식)까지 봐야 실효성이 결정된다.",
+      "date": "2023-01-15",
+      "video": "https://www.youtube.com/watch?v=Nn17ip3Ge4Q"
+    },
+    {
+      "topic": "투자원칙/기대와 실제",
+      "tickers": [
+        "000660"
+      ],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "(2023-04 시점 사례로 설명한 원칙) 주가는 사실 그 자체가 아니라 '기대치와 실제의 괴리'로 움직인다. SK하이닉스가 오래 시장을 짓눌러온 자금조달·희석 우려로 교환사채를 발행하자 오히려 '드디어 최대 악재가 확정되어 불확실성이 소멸됐다'고 해석 — 악재의 현실화가 곧 악재의 소멸이 될 수 있다는 역발상. 삼성전자의 예상 밖 감산도 같은 맥락에서 업황 바닥을 앞당기는 신호로 읽었다.",
+      "date": "2023-04-11",
+      "video": "https://www.youtube.com/watch?v=VtyhfEDLAQE"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "(데이터 해석 원칙) 같은 경기를 보는 두 지표(ISM PMI vs S&P글로벌 마켓 PMI)의 방향이 서로 반대로 갈리면, 한쪽만 붙잡고 침체를 단정하지 말고 '중립기어를 놓고 더 지켜보는' 것이 옳은 해석법이다. 하나의 나쁜 데이터로 성급히 결론 내리기보다 상충하는 신호를 교차 확인하고 판단을 유보하는 태도. ISM 지불가격 항목이 소비자물가를 약 6개월 선행한다는 식으로, 지표는 '무엇을 선행하는가'를 알고 봐야 한다는 것이 그의 데이터 활용 프레임.",
+      "date": "2023-04-11",
+      "video": "https://www.youtube.com/watch?v=VtyhfEDLAQE"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [],
+      "direction": "긍정",
+      "thesis": "(2023 연초 시황·10서프라이즈) 2023년의 키워드를 예년의 3~4개에서 딱 하나 '증시가 생각보다 괜찮지 않을까'(증시 강세)로 압축. 근거로 ① 중국의 인구 감소 공식 인정과 호구제 개혁 등 화끈한 경기부양 카드 가능성 ② 세계 3대 IT 전시회 히트상품 기대 ③ 한국 증시 고질적 문제(주주환원·지배구조·MSCI) 개선 조짐과 연초 외국인·연금의 순매수 유입을 제시. 시장 컨센서스가 비관 일색이던 2023년 초에 강세로 방향을 잡은 역발상 콜.",
+      "date": "2023-01-01",
+      "video": "https://www.youtube.com/watch?v=i5ccaN0Qur0"
+    },
+    {
+      "topic": "에너지",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "(2023-04 시점 시황) OPEC+의 116만 배럴 깜짝 감산으로 WTI가 70불 중반에서 80불로 튀었지만, 이는 유가를 받치는 정도이지 전쟁급 충격이 아니어서 90~100불까지 밀어올릴 이슈로는 부족하다고 판단 — 영향은 제한적. 감산으로 되살아난 인플레 우려와, 예상을 밑돈 ISM 제조업지수가 부른 침체 우려가 맞물려 증시가 방향을 못 잡던 국면으로, 유가·물가·경기 신호를 각각의 무게로 저울질하는 그의 시황 판단이 드러난다.",
+      "date": "2023-04-11",
+      "video": "https://www.youtube.com/watch?v=VtyhfEDLAQE"
     }
   ],
   "quotes": [
@@ -226,7 +412,7 @@
       "video": "https://www.youtube.com/watch?v=jNeU7OvIINA"
     },
     {
-      "text": "미국 증시는 정직하게 가고 있어요. 미국 증시는 이익에 동행해서 움직이거든요.",
+      "text": "미국 증시는 정직하게 가고 있어요 뭘로 미국 증시는 이익에 동행해서 움직이거든요 근데 보시면은 12개월 그 미래 주당 순위 추정치가 상향이 되면서 거기 따라서 증시는 그냥 반등이 나오고 있습니다",
       "date": "2023-05-28",
       "video": "https://www.youtube.com/watch?v=DtWjkEFTcug"
     },
@@ -239,6 +425,21 @@
       "text": "저는 이 현상이 어떨 때 나타나는 거냐라고 하면은 결국에는 국면이 전환되고 있을 때 나타나는거다라고 생각을 합니다.",
       "date": "2023-05-06",
       "video": "https://www.youtube.com/watch?v=mZazaYXJwjY"
+    },
+    {
+      "text": "그게 뭐냐면 외환시장 전면 개방이에요 우리나라 외환시장이 개방되지 않고서 선진지수는 편입이 안 됩니다",
+      "date": "2023-01-15",
+      "video": "https://www.youtube.com/watch?v=Nn17ip3Ge4Q"
+    },
+    {
+      "text": "23년도에 대한 거는 딱 한 가지입니다 증시가 생각보다 괜찮지 않을까 증시 강세로 잡았구요",
+      "date": "2023-01-01",
+      "video": "https://www.youtube.com/watch?v=i5ccaN0Qur0"
+    },
+    {
+      "text": "방향이 반대했다는 중립기어를 놓고 좀 더 지켜보자라고 하는게 데이터 해석에서는 저는 맞지 않나라고 생각을 합니다",
+      "date": "2023-04-11",
+      "video": "https://www.youtube.com/watch?v=VtyhfEDLAQE"
     }
   ]
 }

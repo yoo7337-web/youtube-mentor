@@ -13,9 +13,9 @@
     "name": "레이 달리오 (Ray Dalio)",
     "domain": "거시 사이클 / 부채 사이클 / 원칙(Principles)",
     "intro": "빅사이클·부채사이클 관점의 매크로 사상가. 신용을 경제의 순환계로 보고, 지금을 부채·통화질서가 위태로운 '위험 구간의 문턱'으로 진단. 500년 제국 흥망 주기로 미·중 전환기를 읽는다.",
-    "video_count": 14,
-    "insight_count": 8,
-    "last_indexed": "2026-07-03"
+    "video_count": 49,
+    "insight_count": 14,
+    "last_indexed": "2026-07-04"
   },
   {
     "slug": "damodaran",
@@ -31,8 +31,8 @@
     "name": "86번가 (정광우)",
     "domain": "가치투자 / 주식·경제 · 기업분석",
     "intro": "펀드매니저 출신의 가치투자·거시 해설. 미 인플레는 예상보다 빨리 꺾이는 디스인플레이션, 증시는 '의심의 벽'을 타고 오른다는 역발상. (지식팩은 2023년 발언 기준)",
-    "video_count": 15,
-    "insight_count": 9,
+    "video_count": 28,
+    "insight_count": 15,
     "last_indexed": "2023-06-18"
   },
   {
@@ -40,8 +40,8 @@
     "name": "홍춘욱",
     "domain": "거시경제 / 자산배분 · 부동산 · 환율",
     "intro": "데이터·역사로 푸는 실증 거시경제. 미 ISM 가격지수를 반도체 수출의 선행지표로 보고, 30년 국채 5%를 매력 구간으로 평가. 모멘텀이냐 자산배분이냐부터 정하라고 조언한다.",
-    "video_count": 15,
-    "insight_count": 9,
+    "video_count": 35,
+    "insight_count": 15,
     "last_indexed": "2026-07-03"
   },
   {
@@ -58,8 +58,8 @@
     "name": "김단테",
     "domain": "자산배분 / 올웨더 포트폴리오",
     "intro": "올웨더·자산배분을 알렸지만 지금은 시장을 이기려 하지 않는다. 물타기 금지·불타기, 초보의 백화점식 분산은 무의미하다며 집중투자를 강조. 마이크론 장기계약(SCA)에 주목.",
-    "video_count": 15,
-    "insight_count": 7,
+    "video_count": 22,
+    "insight_count": 12,
     "last_indexed": "2026-07-03"
   },
   {
@@ -76,8 +76,8 @@
     "name": "하워드 막스 (Howard Marks)",
     "domain": "시장 사이클 / 리스크 관리 · 크레딧",
     "intro": "시장 사이클과 리스크의 대가. AI 열광은 분명하나 '비이성적'인지는 단정 불가라는 신중론. 데이터센터 붐이 부채로 조달되는 점과 다이렉트 렌딩의 언더라이팅 완화를 경계한다.",
-    "video_count": 20,
-    "insight_count": 20,
+    "video_count": 49,
+    "insight_count": 26,
     "last_indexed": "2026-05-26"
   },
   {
@@ -94,9 +94,9 @@
     "name": "박세익",
     "domain": "시황 / 주식 투자전략 · 마켓타이밍",
     "intro": "마켓타이밍·시황 전략가. AI 케펙스가 꺾인 증거는 아직 없다고 보며, 변동성의 핵심은 사상 최대 레버리지(마진). 반도체가 쉴 때 화장품·조선·방산 등 소외 섹터로의 순환매에 주목.",
-    "video_count": 15,
-    "insight_count": 9,
-    "last_indexed": "2026-07-04"
+    "video_count": 35,
+    "insight_count": 15,
+    "last_indexed": "2026-07-06"
   },
   {
     "slug": "sosumonkey",
@@ -113,7 +113,7 @@
     "domain": "경제 전반 / 시사 · 산업 해설",
     "intro": "경제·시사·산업을 쉽게 푸는 해설가. 코스피 사상 최고속 급등의 과열(레버리지 ETF발 사이드카·서킷 급증)을 경계하고, SK하이닉스의 시총 1위 도전과 메모리 구조변화에 주목.",
     "video_count": 15,
-    "insight_count": 9,
+    "insight_count": 13,
     "last_indexed": "2026-07-04"
   },
   {
@@ -131,7 +131,7 @@
     "domain": "파괴적 혁신 / 기술 성장주 · 장기 테마",
     "intro": "파괴적 혁신·장기 테마 신봉자. 로보택시의 '우버 모먼트'와 SpaceX·Starlink 잠재력에 베팅, 자율주행의 최대 제약은 규제라 지적. 단기 밸류에이션보다 혁신의 지수적 확산에 초점.",
     "video_count": 15,
-    "insight_count": 9,
+    "insight_count": 13,
     "last_indexed": "2026-07-02"
   }
 ]

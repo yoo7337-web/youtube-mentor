@@ -1,5 +1,5 @@
 {
- "_generated": "2026-07-06T20:21",
+ "_generated": "2026-07-07T08:16",
  "_thresh": 3.0,
  "experts": {
   "eightysixth": {
@@ -40,7 +40,7 @@
      "topic": "채권/미국장기국채",
      "direction": "긍정",
      "verdict": "보류",
-     "ret": -0.7
+     "ret": -0.8
     },
     {
      "ticker": "005930",
@@ -89,7 +89,7 @@
      "topic": "반도체/메모리",
      "direction": "긍정",
      "verdict": "보류",
-     "ret": -0.1
+     "ret": 0.3
     },
     {
      "ticker": "SNDK",
@@ -105,7 +105,7 @@
      "topic": "빅테크/AI 케펙스",
      "direction": "부정",
      "verdict": "적중",
-     "ret": -13.7
+     "ret": -14.5
     },
     {
      "ticker": "GOOGL",
@@ -113,7 +113,7 @@
      "topic": "빅테크/AI 케펙스",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 11.9
+     "ret": 14.0
     },
     {
      "ticker": "AMZN",
@@ -121,7 +121,7 @@
      "topic": "빅테크/AI 케펙스",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 5.1
+     "ret": 5.7
     },
     {
      "ticker": "AAPL",
@@ -129,7 +129,7 @@
      "topic": "빅테크/AI 케펙스",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 25.3
+     "ret": 27.0
     },
     {
      "ticker": "NVDA",
@@ -137,7 +137,7 @@
      "topic": "빅테크/AI 케펙스",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 9.5
+     "ret": 10.0
     }
    ]
   },
@@ -154,7 +154,7 @@
      "topic": "반도체/메모리",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -7.0
+     "ret": -6.1
     },
     {
      "ticker": "005930",
@@ -178,7 +178,7 @@
      "topic": "빅테크/AI 케펙스",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 12.2
+     "ret": 13.6
     }
    ]
   },
@@ -195,7 +195,7 @@
      "topic": "AI/버블",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 5.5
+     "ret": 5.8
     },
     {
      "ticker": "MSFT",
@@ -203,7 +203,7 @@
      "topic": "AI/버블",
      "direction": "부정",
      "verdict": "적중",
-     "ret": -20.3
+     "ret": -21.0
     },
     {
      "ticker": "GOOGL",
@@ -211,7 +211,7 @@
      "topic": "AI/버블",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 13.7
+     "ret": 15.7
     },
     {
      "ticker": "AMZN",
@@ -219,7 +219,7 @@
      "topic": "AI/버블",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 6.5
+     "ret": 7.1
     },
     {
      "ticker": "META",
@@ -227,7 +227,7 @@
      "topic": "AI/버블",
      "direction": "부정",
      "verdict": "적중",
-     "ret": -11.0
+     "ret": -8.4
     },
     {
      "ticker": "ORCL",
@@ -235,7 +235,7 @@
      "topic": "AI/버블",
      "direction": "부정",
      "verdict": "적중",
-     "ret": -36.3
+     "ret": -34.7
     },
     {
      "ticker": "AAPL",
@@ -243,7 +243,7 @@
      "topic": "밸류에이션",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 32.6
+     "ret": 34.4
     },
     {
      "ticker": "MSFT",
@@ -251,7 +251,7 @@
      "topic": "밸류에이션",
      "direction": "부정",
      "verdict": "적중",
-     "ret": -24.4
+     "ret": -25.1
     },
     {
      "ticker": "GOOGL",
@@ -259,7 +259,7 @@
      "topic": "밸류에이션",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 78.7
+     "ret": 82.0
     },
     {
      "ticker": "AMZN",
@@ -267,7 +267,7 @@
      "topic": "밸류에이션",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 8.1
+     "ret": 8.7
     },
     {
      "ticker": "META",
@@ -275,7 +275,7 @@
      "topic": "밸류에이션",
      "direction": "부정",
      "verdict": "적중",
-     "ret": -25.0
+     "ret": -22.8
     },
     {
      "ticker": "NVDA",
@@ -283,7 +283,7 @@
      "topic": "밸류에이션",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 7.4
+     "ret": 7.8
     },
     {
      "ticker": "TSLA",
@@ -291,7 +291,7 @@
      "topic": "밸류에이션",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 15.9
+     "ret": 23.7
     }
    ]
   },
@@ -340,7 +340,7 @@
      "topic": "반도체/메모리",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -14.8
+     "ret": -14.0
     },
     {
      "ticker": "161890",
@@ -370,8 +370,8 @@
   },
   "sosumonkey": {
    "name": "소수몽키",
-   "hits": 10,
-   "miss": 11,
+   "hits": 11,
+   "miss": 10,
    "hold": 5,
    "nodata": 0,
    "details": [
@@ -381,7 +381,7 @@
      "topic": "AI/반도체·메모리",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -9.2
+     "ret": -8.9
     },
     {
      "ticker": "MU",
@@ -389,7 +389,7 @@
      "topic": "AI/반도체·메모리",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 8.9
+     "ret": 9.9
     },
     {
      "ticker": "SNDK",
@@ -397,7 +397,7 @@
      "topic": "AI/반도체·메모리",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 9.8
+     "ret": 9.7
     },
     {
      "ticker": "005930",
@@ -421,15 +421,15 @@
      "topic": "빅테크/유동성",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -6.6
+     "ret": -6.3
     },
     {
      "ticker": "GOOGL",
      "date": "2026-06-22",
      "topic": "빅테크/유동성",
      "direction": "긍정",
-     "verdict": "보류",
-     "ret": 2.9
+     "verdict": "적중",
+     "ret": 4.8
     },
     {
      "ticker": "AMZN",
@@ -437,7 +437,7 @@
      "topic": "빅테크/유동성",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 4.2
+     "ret": 4.9
     },
     {
      "ticker": "ORCL",
@@ -445,7 +445,7 @@
      "topic": "빅테크/유동성",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -19.9
+     "ret": -17.9
     },
     {
      "ticker": "MSFT",
@@ -453,7 +453,7 @@
      "topic": "빅테크",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 5.9
+     "ret": 4.9
     },
     {
      "ticker": "AAPL",
@@ -461,18 +461,10 @@
      "topic": "빅테크",
      "direction": "부정",
      "verdict": "빗나감",
-     "ret": 9.5
+     "ret": 11.0
     },
     {
      "ticker": "GOOGL",
-     "date": "2026-06-29",
-     "topic": "빅테크",
-     "direction": "부정",
-     "verdict": "보류",
-     "ret": 1.8
-    },
-    {
-     "ticker": "META",
      "date": "2026-06-29",
      "topic": "빅테크",
      "direction": "부정",
@@ -480,12 +472,20 @@
      "ret": 3.6
     },
     {
+     "ticker": "META",
+     "date": "2026-06-29",
+     "topic": "빅테크",
+     "direction": "부정",
+     "verdict": "빗나감",
+     "ret": 6.7
+    },
+    {
      "ticker": "AMZN",
      "date": "2026-06-29",
      "topic": "빅테크",
      "direction": "부정",
      "verdict": "보류",
-     "ret": 1.1
+     "ret": 1.7
     },
     {
      "ticker": "BE",
@@ -493,15 +493,15 @@
      "topic": "AI/전력 인프라",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -17.0
+     "ret": -9.5
     },
     {
      "ticker": "CAT",
      "date": "2026-06-24",
      "topic": "AI/전력 인프라",
      "direction": "긍정",
-     "verdict": "빗나감",
-     "ret": -3.1
+     "verdict": "보류",
+     "ret": -2.5
     },
     {
      "ticker": "GEV",
@@ -509,15 +509,15 @@
      "topic": "AI/전력 인프라",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 5.2
+     "ret": 8.9
     },
     {
      "ticker": "VRT",
      "date": "2026-06-24",
      "topic": "AI/전력 인프라",
      "direction": "긍정",
-     "verdict": "빗나감",
-     "ret": -5.0
+     "verdict": "보류",
+     "ret": 0.6
     },
     {
      "ticker": "INTC",
@@ -525,7 +525,7 @@
      "topic": "미국 정책/전략자산",
      "direction": "긍정",
      "verdict": "보류",
-     "ret": -1.2
+     "ret": 0.4
     },
     {
      "ticker": "IBM",
@@ -533,7 +533,7 @@
      "topic": "미국 정책/전략자산",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 13.4
+     "ret": 17.4
     },
     {
      "ticker": "MU",
@@ -541,7 +541,7 @@
      "topic": "미국 정책/전략자산",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 5.1
+     "ret": 6.1
     },
     {
      "ticker": "INTC",
@@ -549,7 +549,7 @@
      "topic": "AI 에이전트/CPU",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 9.1
+     "ret": 10.8
     },
     {
      "ticker": "AMD",
@@ -557,7 +557,7 @@
      "topic": "AI 에이전트/CPU",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 5.6
+     "ret": 12.6
     },
     {
      "ticker": "ARM",
@@ -565,7 +565,7 @@
      "topic": "AI 에이전트/CPU",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -9.0
+     "ret": -7.0
     },
     {
      "ticker": "QCOM",
@@ -573,7 +573,7 @@
      "topic": "AI 에이전트/CPU",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -19.1
+     "ret": -14.4
     },
     {
      "ticker": "DELL",
@@ -581,15 +581,15 @@
      "topic": "AI 에이전트/CPU",
      "direction": "긍정",
      "verdict": "보류",
-     "ret": -1.6
+     "ret": 2.8
     }
    ]
   },
   "syuka": {
    "name": "슈카 (슈카월드)",
    "hits": 0,
-   "miss": 6,
-   "hold": 3,
+   "miss": 7,
+   "hold": 2,
    "nodata": 0,
    "details": [
     {
@@ -614,7 +614,7 @@
      "topic": "반도체/시총역전",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -7.2
+     "ret": -6.4
     },
     {
      "ticker": "MU",
@@ -622,7 +622,7 @@
      "topic": "반도체/메모리 구조변화",
      "direction": "긍정",
      "verdict": "빗나감",
-     "ret": -15.5
+     "ret": -14.7
     },
     {
      "ticker": "005930",
@@ -645,8 +645,8 @@
      "date": "2026-07-02",
      "topic": "대만/투자열풍",
      "direction": "부정",
-     "verdict": "보류",
-     "ret": 0.0
+     "verdict": "빗나감",
+     "ret": 4.1
     },
     {
      "ticker": "005930",
@@ -666,11 +666,68 @@
     }
    ]
   },
+  "wazoski": {
+   "name": "와조스키",
+   "hits": 2,
+   "miss": 3,
+   "hold": 1,
+   "nodata": 0,
+   "details": [
+    {
+     "ticker": "000660",
+     "date": "2026-07-02",
+     "topic": "한국증시/수급",
+     "direction": "부정",
+     "verdict": "빗나감",
+     "ret": 7.1
+    },
+    {
+     "ticker": "005930",
+     "date": "2026-07-02",
+     "topic": "한국증시/수급",
+     "direction": "부정",
+     "verdict": "빗나감",
+     "ret": 11.2
+    },
+    {
+     "ticker": "META",
+     "date": "2026-06-27",
+     "topic": "미국주식",
+     "direction": "긍정",
+     "verdict": "적중",
+     "ret": 6.7
+    },
+    {
+     "ticker": "AAPL",
+     "date": "2026-06-27",
+     "topic": "미국주식",
+     "direction": "긍정",
+     "verdict": "적중",
+     "ret": 11.0
+    },
+    {
+     "ticker": "NVDA",
+     "date": "2026-06-27",
+     "topic": "미국주식",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": 0.3
+    },
+    {
+     "ticker": "MU",
+     "date": "2026-06-27",
+     "topic": "미국주식",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -14.0
+    }
+   ]
+  },
   "wood": {
    "name": "캐시 우드 (Cathie Wood)",
-   "hits": 1,
+   "hits": 2,
    "miss": 0,
-   "hold": 1,
+   "hold": 0,
    "nodata": 0,
    "details": [
     {
@@ -679,15 +736,15 @@
      "topic": "로보택시/자율주행",
      "direction": "긍정",
      "verdict": "적중",
-     "ret": 3.1
+     "ret": 10.0
     },
     {
      "ticker": "TSLA",
      "date": "2026-06-18",
      "topic": "우주/SpaceX",
      "direction": "긍정",
-     "verdict": "보류",
-     "ret": -1.8
+     "verdict": "적중",
+     "ret": 4.8
     }
    ]
   }

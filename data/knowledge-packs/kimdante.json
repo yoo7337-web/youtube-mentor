@@ -8,8 +8,8 @@
     "guardrails": "구체적 매수/매도 종목 지시 금지. 자산배분 원칙과 사고방식 중심.\n실제 인물이 아닌 'AI 재현'임을 전제. 발언 근거(영상·날짜) 없는 주장 금지."
   },
   "last_indexed": "2026-07-03",
-  "video_count": 15,
-  "insight_count": 7,
+  "video_count": 22,
+  "insight_count": 12,
   "videos": [
     {
       "id": "AluijCouFX0",
@@ -17,6 +17,7 @@
       "date": "2026-07-03",
       "url": "https://www.youtube.com/watch?v=AluijCouFX0",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 430
     },
     {
@@ -25,6 +26,7 @@
       "date": "2026-07-03",
       "url": "https://www.youtube.com/watch?v=_UqhawRBnuo",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 13430
     },
     {
@@ -33,6 +35,7 @@
       "date": "2026-07-02",
       "url": "https://www.youtube.com/watch?v=yWggJjPpUrI",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 6461
     },
     {
@@ -41,6 +44,7 @@
       "date": "2026-07-01",
       "url": "https://www.youtube.com/watch?v=54ezOCcHpok",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 568
     },
     {
@@ -49,6 +53,7 @@
       "date": "2026-07-01",
       "url": "https://www.youtube.com/watch?v=MQOJg4UkMmI",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 558
     },
     {
@@ -57,6 +62,7 @@
       "date": "2026-06-30",
       "url": "https://www.youtube.com/watch?v=1iTCIPsYEXM",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 571
     },
     {
@@ -65,6 +71,7 @@
       "date": "2026-06-29",
       "url": "https://www.youtube.com/watch?v=RK6CokUKILo",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 460
     },
     {
@@ -73,6 +80,7 @@
       "date": "2026-06-27",
       "url": "https://www.youtube.com/watch?v=fkdvvAzTkds",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 14973
     },
     {
@@ -81,6 +89,7 @@
       "date": "2026-06-26",
       "url": "https://www.youtube.com/watch?v=19jkMF5QuSc",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 653
     },
     {
@@ -89,6 +98,7 @@
       "date": "2026-06-25",
       "url": "https://www.youtube.com/watch?v=vXIsYWw2-rw",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 4559
     },
     {
@@ -97,6 +107,7 @@
       "date": "2026-06-25",
       "url": "https://www.youtube.com/watch?v=x1Sdd2s995I",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 621
     },
     {
@@ -105,6 +116,7 @@
       "date": "2026-06-24",
       "url": "https://www.youtube.com/watch?v=bC8xlSNYYJg",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 3754
     },
     {
@@ -113,6 +125,7 @@
       "date": "2026-06-24",
       "url": "https://www.youtube.com/watch?v=m0vQsBN_V9s",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 632
     },
     {
@@ -121,6 +134,7 @@
       "date": "2026-06-23",
       "url": "https://www.youtube.com/watch?v=JlE8n7uBDiE",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 8284
     },
     {
@@ -129,7 +143,71 @@
       "date": "2026-06-23",
       "url": "https://www.youtube.com/watch?v=M7xD-w5kehw",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 583
+    },
+    {
+      "id": "dB4WmhJPKv8",
+      "title": "한국의 미래를 보았습니다.",
+      "date": "2026-06-13",
+      "url": "https://www.youtube.com/watch?v=dB4WmhJPKv8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 19606
+    },
+    {
+      "id": "n8aPEV40uo0",
+      "title": "나스닥 안전벨트 꽉 붙잡으세요!",
+      "date": "2026-06-05",
+      "url": "https://www.youtube.com/watch?v=n8aPEV40uo0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3267
+    },
+    {
+      "id": "Bj5QpRLFt7I",
+      "title": "엔비디아 젠슨황은 '이것'에 가장 집중하고 있습니다. (GTC 젠슨황 90분 Q&A 후기) with @안될공학 - IT 테크 신기술",
+      "date": "2026-06-02",
+      "url": "https://www.youtube.com/watch?v=Bj5QpRLFt7I",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 17353
+    },
+    {
+      "id": "9vYK-f4tKH4",
+      "title": "2022년의 폭락장의 악몽이 시작됐다.",
+      "date": "2026-05-12",
+      "url": "https://www.youtube.com/watch?v=9vYK-f4tKH4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5824
+    },
+    {
+      "id": "IPyYlcH9ZtY",
+      "title": "레이달리오 - 이미 세계대전 시작됐다",
+      "date": "2026-04-07",
+      "url": "https://www.youtube.com/watch?v=IPyYlcH9ZtY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6409
+    },
+    {
+      "id": "oYdvWz0Nnrk",
+      "title": "각자도생. 아비규환.",
+      "date": "2026-03-27",
+      "url": "https://www.youtube.com/watch?v=oYdvWz0Nnrk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 8175
+    },
+    {
+      "id": "SFeP-8zD-lk",
+      "title": "최후의 일격 준비하는 트럼프.",
+      "date": "2026-03-26",
+      "url": "https://www.youtube.com/watch?v=SFeP-8zD-lk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3369
     }
   ],
   "insights": [
@@ -198,21 +276,71 @@
       "thesis": "본인 보유종목·매매를 유튜브에서 공개하지 않는다 — 팔로우 매수 피해 우려 + 공개하면 생각을 바꾸기(태세전환)가 어려워지기 때문. 특정 종목·섹터에 늘 중립적 입장을 유지해 언제든 유연하게 견해를 바꿀 수 있게 한다. '투자에는 정답이 없고, 어떻게 투자하느냐는 어떻게 살고 싶으냐와 같다'.",
       "date": "2026-07-03",
       "video": "https://www.youtube.com/watch?v=_UqhawRBnuo"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "한쪽 의견만 강하게 주장하지 않는다 — 자기 강세/약세 시나리오를 세운 뒤 반드시 '반대 주장'도 함께 검토해 양쪽을 다 들어보고 판단한다(2022 재현 리스크를 논하면서도 '기저 금리·인플레이션 절대치·기업 이익 질'이라는 세 가지 반대 논거를 스스로 제시). 유튜브에서도 자기 생각을 노출하지 않고 중립을 유지하려 의도적으로 노력하는 태도와 같은 맥락.",
+      "date": "2026-05-12",
+      "video": "https://www.youtube.com/watch?v=9vYK-f4tKH4"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "권위 있는 전망도 곧이곧대로 받지 않고 반박 논거로 스트레스 테스트한다. 레이 달리오의 '이미 세계대전이 시작됐다' 글을 소개하면서도 AI(클로드)에게 반박을 시켜 '세계대전 프레이밍은 과장이다·핵 억제력 과소평가·중국이 승자라는 분석의 허점' 같은 반론을 함께 제시. 방향성(미국이 종이호랑이로 비치면 확전 리스크 증가)에는 동의하되 발생 확률은 달리오보다 낮게 본다.",
+      "date": "2026-04-07",
+      "video": "https://www.youtube.com/watch?v=IPyYlcH9ZtY"
+    },
+    {
+      "topic": "거시/금리",
+      "tickers": [
+        "MU",
+        "005930",
+        "000660"
+      ],
+      "direction": "중립",
+      "thesis": "호르무즈 해협 이슈로 에너지 가격이 급등하면 물가 상승→금리 인상→주가 할인율 확대라는 2022년식 시나리오가 재현될 수 있다(그날 CPI 3.8%·근원 2.8% 서프라이즈, 마이크론 -8%·한국 EWY -8%). 다만 ①기저 금리가 이미 4%대라 인상 체감이 작고 ②인플레 절대치가 2022년 9.1%보다 훨씬 낮으며 ③빅테크는 돈을 잘 버는 회사라 2022년과 다를 수 있다며 양방향을 함께 제시. 결국 다음 달 CPI와 연준 반응을 봐야 한다는 조건부 판단.",
+      "date": "2026-05-12",
+      "video": "https://www.youtube.com/watch?v=9vYK-f4tKH4"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [
+        "005930",
+        "000660"
+      ],
+      "direction": "중립",
+      "thesis": "코스피가 하루 -9.99%로 역대 1일 하락률 5위를 기록. 앞선 4번(전쟁·9·11·타컨법·금융위기)과 달리 결정적 단일 이유가 없다는 점이 특이 — 이유가 많다는 건 곧 결정적 이유가 없다는 뜻. 신용·레버리지 ETF 확대로 방향성이 생기면 한쪽으로 쭉 쏠리는 성질이 강해졌고, 삼전·하이닉스가 글로벌 AI 주인공급이 되면서 한국장의 하락이 미국장을 끌어내리는 전무후무한 역방향 전염까지 나타났다.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=JlE8n7uBDiE"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "폭락장 시작 여부는 두 축으로 점검한다 — ①AI/메모리 업황(스페이스X 회사채 발행·앤트로픽·MS 데이터센터 확장은 오히려 케펙스 확대 신호라 업황 이상 없음)과 ②매크로(금리). 가장 경계하는 건 나스닥↔코스피가 서로를 끌어내리는 '자기 강화적 폭락'이며, 이는 주식시장 불안이 빅테크 자금 조달·케펙스를 막을 때 진짜 붕괴로 이어진다고 본다. 불안하다고 다 팔지는 않고 상황을 보며 대응한다는 스탠스.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=JlE8n7uBDiE"
     }
   ],
   "quotes": [
     {
-      "text": "떨어지는 주식에는 물타기를 하지 않습니다. 물타기는 리스크를 더 한 곳에 몰아넣는 거라서.",
+      "text": "물을 타지 않습니다. 왜냐면 이제 물을 타는 건 제 입장에서는 이제 리스크를 더 한 곳에 몰아넣는 거라",
       "date": "2026-07-03",
       "video": "https://www.youtube.com/watch?v=_UqhawRBnuo"
     },
     {
-      "text": "아무리 좋은 비즈니스더라도 시장이 인정해 주지 않으면 아 진짜 의미가 없다.",
+      "text": "아무리 좋은 비즈니스더라도 시장이 좋아하지 않으면 시장이 좋아할 땐 당연히 좋은데 시장이 인정해 주지 않는 좋은 비즈니스는 아 진짜 의미가 없다",
       "date": "2026-07-03",
       "video": "https://www.youtube.com/watch?v=_UqhawRBnuo"
     },
     {
-      "text": "한 종목에 30% 정도 되는 비중을 가지고 가셔야 좀 더 좋은 투자자가 될 수 있다.",
+      "text": "한 종목에 30% 정도 되는 비중을 가지고 가셔야 적어도 그래야 여러분들이 좀 더 좋은 투자자가 될 수 있지 않을까",
       "date": "2026-07-03",
       "video": "https://www.youtube.com/watch?v=_UqhawRBnuo"
     },
@@ -222,9 +350,24 @@
       "video": "https://www.youtube.com/watch?v=bC8xlSNYYJg"
     },
     {
-      "text": "향후 5년간 마이크론의 최소 마진은 정해졌다. 오피 마진 52%. 에르메스보다 높고 페라리보다 높습니다.",
+      "text": "에르메스보다 높고 페라리보다 높습니다. 향후 5년간 마이크론의 최소 마진은 정해졌다.",
       "date": "2026-06-24",
       "video": "https://www.youtube.com/watch?v=bC8xlSNYYJg"
+    },
+    {
+      "text": "저는 한쪽 의견만 강하게 주장하는 스타일은 아니에요.",
+      "date": "2026-05-12",
+      "video": "https://www.youtube.com/watch?v=9vYK-f4tKH4"
+    },
+    {
+      "text": "사실은 이렇게 이유가 많다는 거 자체가 결정적인 이유가 없다라는 얘기기도 합니다.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=JlE8n7uBDiE"
+    },
+    {
+      "text": "그런데 저는 절대 다 팔진 않을 것 같아요.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=JlE8n7uBDiE"
     }
   ]
 }

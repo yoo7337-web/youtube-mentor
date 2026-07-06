@@ -9,7 +9,7 @@
   },
   "last_indexed": "2026-07-04",
   "video_count": 15,
-  "insight_count": 9,
+  "insight_count": 13,
   "videos": [
     {
       "id": "mR8q1hsV3jU",
@@ -17,6 +17,7 @@
       "date": "2026-07-04",
       "url": "https://www.youtube.com/watch?v=mR8q1hsV3jU",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 10173
     },
     {
@@ -25,6 +26,7 @@
       "date": "2026-07-03",
       "url": "https://www.youtube.com/watch?v=KpJ4hnQm9uw",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 13463
     },
     {
@@ -33,6 +35,7 @@
       "date": "2026-07-02",
       "url": "https://www.youtube.com/watch?v=yV0XTcQXFrM",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 17165
     },
     {
@@ -41,6 +44,7 @@
       "date": "2026-07-01",
       "url": "https://www.youtube.com/watch?v=WYFCkrnfpVo",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 11049
     },
     {
@@ -49,6 +53,7 @@
       "date": "2026-06-30",
       "url": "https://www.youtube.com/watch?v=wKzs5A39HZs",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 18322
     },
     {
@@ -57,6 +62,7 @@
       "date": "2026-06-29",
       "url": "https://www.youtube.com/watch?v=7Ti32JpIQKw",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 5214
     },
     {
@@ -65,6 +71,7 @@
       "date": "2026-06-27",
       "url": "https://www.youtube.com/watch?v=A9p2K9uDIao",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 13816
     },
     {
@@ -73,6 +80,7 @@
       "date": "2026-06-25",
       "url": "https://www.youtube.com/watch?v=knP57QdvQic",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 16434
     },
     {
@@ -81,6 +89,7 @@
       "date": "2026-06-24",
       "url": "https://www.youtube.com/watch?v=piTt9ttMPlQ",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 13949
     },
     {
@@ -89,6 +98,7 @@
       "date": "2026-06-23",
       "url": "https://www.youtube.com/watch?v=NN4GVaBvroE",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 21730
     },
     {
@@ -97,6 +107,7 @@
       "date": "2026-06-22",
       "url": "https://www.youtube.com/watch?v=vrV9tu0p2LI",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 13903
     },
     {
@@ -105,6 +116,7 @@
       "date": "2026-06-20",
       "url": "https://www.youtube.com/watch?v=MOYn7_AOMcM",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 15764
     },
     {
@@ -113,6 +125,7 @@
       "date": "2026-06-18",
       "url": "https://www.youtube.com/watch?v=04Nmb_HeeqI",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 13757
     },
     {
@@ -121,6 +134,7 @@
       "date": "2026-06-18",
       "url": "https://www.youtube.com/watch?v=ivgpN0sYeB8",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 642
     },
     {
@@ -129,6 +143,7 @@
       "date": "2026-06-17",
       "url": "https://www.youtube.com/watch?v=V5r7QtwBis4",
       "lang": "ko",
+      "source": "youtube",
       "char_count": 16676
     }
   ],
@@ -221,6 +236,47 @@
       "thesis": "정부 '대도약 3대 메가프로젝트' 보고회에서 삼성전자는 15년간 총 2,450조(반도체 2,100조 — 용인 등 기존 단지 1,650조+선남권 400조), SK하이닉스는 2,100조(반도체 1,100조+AI데이터센터 1,000조) 투자 계획을 공시. 양사 합산 3,450조~최대 4,450조로 수도권 반도체 생산을 5년 내 2배로 늘리고 팹 구축 시기를 최대 12년 앞당기며, 광주·전남에 신규 메모리 클러스터를 조성해 대한민국 전체를 반도체 클러스터로 만들겠다는 국가 산업지형을 바꿀 규모의 계획이다.",
       "date": "2026-06-29",
       "video": "https://www.youtube.com/watch?v=7Ti32JpIQKw"
+    },
+    {
+      "topic": "미국주식/IPO 수급",
+      "tickers": [
+        "SPCX"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "스페이스X가 주당 135달러, 시총 약 1조7천억 달러(세계 8위)로 역대 최대 규모 IPO를 했는데, 100조원 넘게 조달하는 딜에 수요가 발행 주식수의 네 배가 넘게 몰려 거의 500조원 가까운 청약이 들어왔다. 블랙록 혼자 50억 달러, 한 패밀리오피스가 1조5천억원짜리 청약을 넣을 정도로 개인·기관 자금이 쏠렸고, 미국 개인들이 3일 연속 순매도한 것도 이 주식 청약용 현금 확보 때문이라는 해석이 나온다. 상장 첫날 19% 급등해 받은 사람도 기존 보유자도 모두 만족한 '해피한' 상장이었지만, 한국은 골드만삭스의 최종 배정에서 물량을 전혀 못 받아(제로 배정) 아쉬움이 컸다.",
+      "date": "2026-06-17",
+      "video": "https://www.youtube.com/watch?v=V5r7QtwBis4"
+    },
+    {
+      "topic": "빅테크/부의 집중",
+      "tickers": [
+        "SPCX",
+        "TSLA"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "스페이스X 상장으로 머스크는 세계 최초의 조만장자(트릴리어네어)가 됐다 — 재산 약 1조5천억 달러(1,500조원)로 2위 래리 페이지(약 3천억 달러·450조)와 1천조원 넘게 벌어져 2·3·4위를 다 합쳐도 못 미친다. 머스크는 시총 세계 7위 스페이스X와 12위 테슬라의 사실상 최대 주주로, 재산이 남아공 GDP의 두 배·한국 GDP의 절반 수준이고 156개국보다 부유하다. 부의 집중이 국가 규모를 압도하는 극단적 사례라는 해설.",
+      "date": "2026-06-17",
+      "video": "https://www.youtube.com/watch?v=V5r7QtwBis4"
+    },
+    {
+      "topic": "거시/지정학 경제",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "코로나 때 '고난의 행군' 직전까지 몰렸던 북한이 러시아-우크라이나 전쟁을 계기로 경제가 살아났다 — 파병(1만5천명 이상)·무기 지원의 대가로 2023년 여름부터 지난해 말까지 100억 달러 이상이 유입됐는데, 이는 북한 GDP(약 270억 달러)의 40%에 육박한다. 남한에 반도체 특수가 있던 기간 북한엔 '전쟁 특수'가 있었던 셈이며, 러시아와 상호방위조약·대교 건설·에너지/식량 지원까지 더해져 김정은이 '북한 역사상 가장 강력한 지도자'라는 외신 평가를 받는 배경이 됐다.",
+      "date": "2026-06-18",
+      "video": "https://www.youtube.com/watch?v=04Nmb_HeeqI"
+    },
+    {
+      "topic": "거시/지정학 경제",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "전쟁으로 러시아 청년 약 50만 명이 사망하고 중앙아시아 노동자까지 빠져나가 극심한 인력 공백(실업률 2.2% 완전고용)이 생기자, 그 빈자리를 북한이 노동 수출로 채우며 외화를 번다 — 러시아 파견 북한 근로자 임금이 월 1,200달러(약 180만원)까지 급등해 중국(20만명)보다 러시아(4만명)가 돈을 더 줘 '러시아는 가장이 벌어온 수준'이라 불린다. KDI 추산 해외 파견이 북한 노동력의 10%에 이르고, 여기에 국가가 주도하는 코인 탈취(2024년 12억 달러 등)까지 더해져 제재 속에서도 외화가 도는 구조라는 분석.",
+      "date": "2026-06-18",
+      "video": "https://www.youtube.com/watch?v=04Nmb_HeeqI"
     }
   ],
   "quotes": [
@@ -235,7 +291,7 @@
       "video": "https://www.youtube.com/watch?v=wKzs5A39HZs"
     },
     {
-      "text": "제가 진짜 감히 말씀드리면 그 청년 미래적금 이런 건 해제하지 마세요. (중략) 내가 주식으로 19% 수익을 올리는게 굉장히 어렵습니다.",
+      "text": "19%면 그냥 하는게 맞다. 내가 주식으로 19% 수익을 올리는게 굉장히 어렵습니다.",
       "date": "2026-07-02",
       "video": "https://www.youtube.com/watch?v=yV0XTcQXFrM"
     },
@@ -253,6 +309,16 @@
       "text": "개인도 그렇고 기업도 그렇고 대투자 시대를 맞이해서 해외 투자 특히 미국 투자를 굉장히 늘리다 보니까 환율의 압박을 이제 많이 받고 있다",
       "date": "2026-06-24",
       "video": "https://www.youtube.com/watch?v=piTt9ttMPlQ"
+    },
+    {
+      "text": "투자자들이 돈을 들고 몰려오고 있다. 제발 내 돈 받아가 주세요.",
+      "date": "2026-06-17",
+      "video": "https://www.youtube.com/watch?v=V5r7QtwBis4"
+    },
+    {
+      "text": "러시아는 가장이 버러온 수준이고 중국은 딸이 버러온 수준밖에 안 된다.",
+      "date": "2026-06-18",
+      "video": "https://www.youtube.com/watch?v=04Nmb_HeeqI"
     }
   ]
 }
