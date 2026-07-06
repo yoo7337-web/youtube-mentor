@@ -81,6 +81,15 @@
     "last_indexed": "2026-05-26"
   },
   {
+    "slug": "newyorker",
+    "name": "뉴욕주민",
+    "domain": "해외주식 / 미국시장 · 월가 실무 관점",
+    "intro": "월가 IB 출신으로 미국시장을 '안에서 본' 시각으로 해설. 나스닥·빅테크·공모주의 수급과 메커니즘을 현실적으로 짚고, 과열과 환상을 경계한다.",
+    "video_count": 6,
+    "insight_count": 11,
+    "last_indexed": "2026-05-03"
+  },
+  {
     "slug": "ohgunyoung",
     "name": "오건영",
     "domain": "거시경제 / 유동성 · 금리 · 환율",
