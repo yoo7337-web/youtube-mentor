@@ -31,7 +31,10 @@
 - **"○○○에게 물어봐줘"** → `data/knowledge-packs/<slug>.json` 로드 → 그 사람 페르소나로 답변. 여러 명이면 **답변 각각(카드식)**, 절대 합성 금지. 근거(영상·날짜) 인용, persona YAML 가드레일 준수
 - **"○○○에게 심층으로 물어봐줘"** → 지식팩 인사이트뿐 아니라 `data/transcripts/<slug>/`의 **원문 자막·문서를 직접 읽고** 답변(압축 손실 보완). 사이트에선 상담 탭 **🔬 심층 모드** 체크박스(로컬 전용 — 질문 관련 원문 발췌 자동 투입)
 - **문서 소스 확장**: `python src/fetch_documents.py marks|buffett` (Oaktree 메모·Berkshire 서한 — 유튜브 밖 정수). 신규 fetcher는 가이드 §7.0 패턴
-- **주 1회 자동 수집**: Windows 작업 `youtube-mentor-weekly-collect`(토 03:00, `scripts/weekly_collect.cmd` → `--all --limit 50 --max-new 10`). 로그 `data/collect.log`. 수집만 자동 → 그 뒤 "멘토 인덱싱해줘"로 신규분 증분 큐레이션
+- **주 1회 자동 수집**: Windows 작업 `youtube-mentor-weekly-collect`(토 03:00, `scripts/weekly_collect.cmd` → `--all --limit 50 --max-new 10` + **git 자동 커밋**). 로그 `data/collect.log`. 수집만 자동 → 그 뒤 "멘토 인덱싱해줘"로 신규분 증분 큐레이션
+- **"다이제스트 보내줘"**: `python src/daily_digest.py [--dry-run]` — 텔레그램 '오늘의 거인'(신규 인사이트·🧭원칙 로테이션·🔄견해 변화 감지·⚔️대립 1건). 상태 `data/digest_state.json`(중복 방지). 설정 `.env`(TELEGRAM_BOT_TOKEN·GIANTS_CHANNEL_ID)
+- **"스코어카드 갱신해줘"**: `python src/scorecard.py` — 시황 인사이트(티커+긍/부정)를 발언일→현재 수익률로 채점(±3% 문턱) → `data/scorecard.json` → 사이트 전문가 헤더 🎯 배지. 원칙·중립·무티커는 채점 제외(정상)
+- **백업**: git 저장소(주간 자동 커밋). 브라우저 데이터(분류·상담일지·메모)는 📓개발일지 모달의 💾 내보내기/복원 버튼
 
 ## 다음 단계
 1. 슈카·달리오 인사이트 큐레이션 → 지식팩 완성(수집은 완료됨)
