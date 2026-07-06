@@ -1,0 +1,510 @@
+{
+  "slug": "wazoski",
+  "name": "와조스키",
+  "intro": "8년차 주식 유튜버, 미국주식·시황을 초보 눈높이의 친절한 강의체로. 개념과 기본기를 실전 사례로 풀어내는 투자 교육 채널.",
+  "persona": {
+    "domain": "주식 투자 교육 / 미국주식 · 시황",
+    "tone": "초보도 이해하기 쉬운 친절한 강의체. 편안한 어조로 개념·시황을 차근차근 설명.\n미국주식과 시장 흐름을 실용적으로 풀되 기본기·투자 원칙을 함께 짚음.",
+    "guardrails": "구체적 매수/매도 지시는 '판단 근거'로 환원. 시황성 발언은 날짜 명시(시점 민감).\n실제 인물이 아닌 'AI 재현'임을 전제. 발언 근거(영상·날짜) 없는 주장 금지."
+  },
+  "last_indexed": "2026-07-06",
+  "video_count": 40,
+  "insight_count": 10,
+  "videos": [
+    {
+      "id": "XlsSKpJ_GFU",
+      "title": "6월만 '1조' 개인들은 현재 지옥이다",
+      "date": "2026-07-06",
+      "url": "https://www.youtube.com/watch?v=XlsSKpJ_GFU",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5061
+    },
+    {
+      "id": "wqOMEP2vatk",
+      "title": "고수들은 다 아는 재료 개념 (특강 미리보기)",
+      "date": "2026-07-04",
+      "url": "https://www.youtube.com/watch?v=wqOMEP2vatk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4995
+    },
+    {
+      "id": "L9CMWpNCWr4",
+      "title": "오전 시장 처참하네요. 시장 피드백.",
+      "date": "2026-07-03",
+      "url": "https://www.youtube.com/watch?v=L9CMWpNCWr4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2973
+    },
+    {
+      "id": "SjIry1aDdbs",
+      "title": "이 녀석이 몰고 온 재앙...거래정지가 답이다",
+      "date": "2026-07-02",
+      "url": "https://www.youtube.com/watch?v=SjIry1aDdbs",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4726
+    },
+    {
+      "id": "g5o3aMjKmaI",
+      "title": "선반영을 역이용하라",
+      "date": "2026-07-01",
+      "url": "https://www.youtube.com/watch?v=g5o3aMjKmaI",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4014
+    },
+    {
+      "id": "ZDP7VzJH1vM",
+      "title": "누가 자꾸 막는거니?",
+      "date": "2026-06-30",
+      "url": "https://www.youtube.com/watch?v=ZDP7VzJH1vM",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2709
+    },
+    {
+      "id": "MiX5s1-Gu_U",
+      "title": "이 기준으로 주식을 진단해보세요",
+      "date": "2026-06-29",
+      "url": "https://www.youtube.com/watch?v=MiX5s1-Gu_U",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3466
+    },
+    {
+      "id": "jZPPfiFPzZg",
+      "title": "반등 경우의 수",
+      "date": "2026-06-27",
+      "url": "https://www.youtube.com/watch?v=jZPPfiFPzZg",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 16981
+    },
+    {
+      "id": "KIysU30ssWA",
+      "title": "하이닉스 : 얘들아 내려가자!!",
+      "date": "2026-06-26",
+      "url": "https://www.youtube.com/watch?v=KIysU30ssWA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 21660
+    },
+    {
+      "id": "uWwNcem1fL4",
+      "title": "지옥으로 보내버린 주식들",
+      "date": "2026-06-25",
+      "url": "https://www.youtube.com/watch?v=uWwNcem1fL4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5177
+    },
+    {
+      "id": "-MjJzzAFiro",
+      "title": "주식의 잔인한 원리 (개미 돈 흡수 시작)",
+      "date": "2026-06-24",
+      "url": "https://www.youtube.com/watch?v=-MjJzzAFiro",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4525
+    },
+    {
+      "id": "G5D0q3awE2E",
+      "title": "박살난 증시 분석해봅니다",
+      "date": "2026-06-23",
+      "url": "https://www.youtube.com/watch?v=G5D0q3awE2E",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4479
+    },
+    {
+      "id": "BI8YGHhbqn8",
+      "title": "사람들이 잘 모르는 치명적인 악재",
+      "date": "2026-06-22",
+      "url": "https://www.youtube.com/watch?v=BI8YGHhbqn8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3216
+    },
+    {
+      "id": "4bvQwHc5AoQ",
+      "title": "종목들이 박살난 어처구니 없는 이유",
+      "date": "2026-06-19",
+      "url": "https://www.youtube.com/watch?v=4bvQwHc5AoQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3736
+    },
+    {
+      "id": "FWN5OoU0Li0",
+      "title": "마음의 준비를 또 해야겠군요",
+      "date": "2026-06-18",
+      "url": "https://www.youtube.com/watch?v=FWN5OoU0Li0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3254
+    },
+    {
+      "id": "FRChpSAyxMM",
+      "title": "모든 돈들이 한 곳을 향했다. 이런 경우는 처음이다...",
+      "date": "2026-06-17",
+      "url": "https://www.youtube.com/watch?v=FRChpSAyxMM",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4011
+    },
+    {
+      "id": "FX2uMLrgls4",
+      "title": "지금이 딱 이런 상황",
+      "date": "2026-06-16",
+      "url": "https://www.youtube.com/watch?v=FX2uMLrgls4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5351
+    },
+    {
+      "id": "DKolFyAFnJE",
+      "title": "이러니 개인들은 절대 못 이기지",
+      "date": "2026-06-15",
+      "url": "https://www.youtube.com/watch?v=DKolFyAFnJE",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4335
+    },
+    {
+      "id": "jBwy8KaRiGs",
+      "title": "계속 여기 있으면 큰 일 납니다",
+      "date": "2026-06-11",
+      "url": "https://www.youtube.com/watch?v=jBwy8KaRiGs",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4047
+    },
+    {
+      "id": "wYi7l-Sw01o",
+      "title": "한국 증시는 미쳤다",
+      "date": "2026-06-10",
+      "url": "https://www.youtube.com/watch?v=wYi7l-Sw01o",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3281
+    },
+    {
+      "id": "MBTjvOJup5w",
+      "title": "전 무조건 이렇게 합니다",
+      "date": "2026-06-09",
+      "url": "https://www.youtube.com/watch?v=MBTjvOJup5w",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4782
+    },
+    {
+      "id": "_-BhWYAv1HA",
+      "title": "시장은 이렇게 되야 합니다",
+      "date": "2026-06-09",
+      "url": "https://www.youtube.com/watch?v=_-BhWYAv1HA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5088
+    },
+    {
+      "id": "T_EUy3K-Eus",
+      "title": "코스피만 530조 증발, 공포 그 자체였습니다",
+      "date": "2026-06-08",
+      "url": "https://www.youtube.com/watch?v=T_EUy3K-Eus",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3163
+    },
+    {
+      "id": "6HJxjhL--Yc",
+      "title": "지금 판단이 매우 중요해요",
+      "date": "2026-06-05",
+      "url": "https://www.youtube.com/watch?v=6HJxjhL--Yc",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3724
+    },
+    {
+      "id": "RwM7yu9OnsA",
+      "title": "코스피 고점일까? (주식 고인물의 견해)",
+      "date": "2026-06-04",
+      "url": "https://www.youtube.com/watch?v=RwM7yu9OnsA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4872
+    },
+    {
+      "id": "8Bh3516jTa8",
+      "title": "개미 돈 순수 10조 이상 물림",
+      "date": "2026-06-02",
+      "url": "https://www.youtube.com/watch?v=8Bh3516jTa8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5165
+    },
+    {
+      "id": "YHOSKB4Bwcs",
+      "title": "폭등 많이 했으니 조정도 강할까?",
+      "date": "2026-06-01",
+      "url": "https://www.youtube.com/watch?v=YHOSKB4Bwcs",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4654
+    },
+    {
+      "id": "FRwn7tN5nb8",
+      "title": "3일동안 코스닥만 -11% 폭락, 분석해볼게요",
+      "date": "2026-05-28",
+      "url": "https://www.youtube.com/watch?v=FRwn7tN5nb8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4898
+    },
+    {
+      "id": "GaeMJ4xNeg8",
+      "title": "지금 시장은 정상이 아닙니다 (코스피 폭등, 코스닥 폭락)",
+      "date": "2026-05-27",
+      "url": "https://www.youtube.com/watch?v=GaeMJ4xNeg8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3357
+    },
+    {
+      "id": "mqka3Ap3oEE",
+      "title": "엄청 큰 기회 잡는법 (저도 동참합니다)",
+      "date": "2026-05-26",
+      "url": "https://www.youtube.com/watch?v=mqka3Ap3oEE",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6206
+    },
+    {
+      "id": "wVmZiHpEzn8",
+      "title": "개미들 작살내는 중, 나중에 얼마나 올리려나?",
+      "date": "2026-05-22",
+      "url": "https://www.youtube.com/watch?v=wVmZiHpEzn8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5498
+    },
+    {
+      "id": "YfqlTO_Z5qw",
+      "title": "이거 감당 가능한가...? 국장 투자자들 반드시 숙지할 영상",
+      "date": "2026-05-21",
+      "url": "https://www.youtube.com/watch?v=YfqlTO_Z5qw",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4682
+    },
+    {
+      "id": "gJ5Eb4n7was",
+      "title": "멘탈 깨진다, 노조 협상 결렬까지...그래도 분석해볼게요",
+      "date": "2026-05-20",
+      "url": "https://www.youtube.com/watch?v=gJ5Eb4n7was",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3908
+    },
+    {
+      "id": "iJsWgdh_pCc",
+      "title": "작정했구나, 10조 물렸을 듯",
+      "date": "2026-05-19",
+      "url": "https://www.youtube.com/watch?v=iJsWgdh_pCc",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4894
+    },
+    {
+      "id": "MIlmmblabf4",
+      "title": "지금 시장 진짜 위험합니다;;",
+      "date": "2026-05-18",
+      "url": "https://www.youtube.com/watch?v=MIlmmblabf4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4554
+    },
+    {
+      "id": "6maJnY04WkM",
+      "title": "바로 분석해볼게요 (코스피 -7% 박살)",
+      "date": "2026-05-15",
+      "url": "https://www.youtube.com/watch?v=6maJnY04WkM",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5119
+    },
+    {
+      "id": "6ORk9aJgLLk",
+      "title": "세계 경제에 큰 변곡점입니다",
+      "date": "2026-05-14",
+      "url": "https://www.youtube.com/watch?v=6ORk9aJgLLk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3413
+    },
+    {
+      "id": "SPL4_n6QPMs",
+      "title": "지금이 왜 위험한지 설명 드릴게요",
+      "date": "2026-05-13",
+      "url": "https://www.youtube.com/watch?v=SPL4_n6QPMs",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4518
+    },
+    {
+      "id": "erWonc7MWuI",
+      "title": "오늘 폭락의 의미",
+      "date": "2026-05-12",
+      "url": "https://www.youtube.com/watch?v=erWonc7MWuI",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3239
+    },
+    {
+      "id": "lzreQiTB8TY",
+      "title": "1,964개 종목 하락 마감, 코스피는 4% 폭등?!",
+      "date": "2026-05-11",
+      "url": "https://www.youtube.com/watch?v=lzreQiTB8TY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3195
+    }
+  ],
+  "insights": [
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "원칙",
+      "thesis": "떨어지는 주식에 물타기·미수(내 돈이 아닌 돈)로 대응하는 것을 강하게 경계한다. 반대매매를 당하는 이유가 바로 손실 평단을 낮추려는 물타기와 뇌동매매이며, 내 돈이 아닌 돈으로 투자하면 장기 투자·버티기가 불가능하고 청산의 위험이 도사린다. 2026년 6월에만 강제청산(반대매매)이 1조, 올해 3조가 터진 것이 그 증거다.",
+      "date": "2026-07-06",
+      "video": "https://www.youtube.com/watch?v=XlsSKpJ_GFU"
+    },
+    {
+      "topic": "투자심리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "특별한 악재 없이 수급 불균형으로 급락하는 국면에서는 '아무것도 하지 않는 것'이 오히려 정답이라고 본다. 통계는 결국 수렴하므로 회복까지 필연적으로 시간이 걸리는데, 그 시간 동안 이것저것 매매하면 안 좋은 시장에서 더 큰 손실의 악순환에 빠진다. 회복될 좋은 시장을 기다리라는 것은 형식적인 말이 아니라 실제 방법이다.",
+      "date": "2026-07-06",
+      "video": "https://www.youtube.com/watch?v=XlsSKpJ_GFU"
+    },
+    {
+      "topic": "투자원칙/기본기",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "주가 상승의 본질은 '재료=기대감=선반영'이라는 개념으로 설명한다. 회사가 지금 돈을 못 벌어도 미래에 벌 것이라는 기대감(재료)만으로 주가가 먼저 오르고, 반대로 막상 돈을 벌면 가치가 평가되며 오히려 떨어진다(선반영을 오버해 미리 당겨 씀). 좋은 재료는 아무거나가 아니라 사람들이 열광할 '스토리'가 있어야 한다(예: 삼성전기의 데이터센터·MLCC·엔비디아 스토리).",
+      "date": "2026-07-04",
+      "video": "https://www.youtube.com/watch?v=wqOMEP2vatk"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [
+        "000660",
+        "005930"
+      ],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "SK하이닉스 단일종목 레버리지 상품이 시장 급락의 한 요인이라며 사실상 폐지가 맞다고 본다. 지금 같은 고변동성 국면에 레버리지 상품이 나온 것은 불난 집에 기름을 붓는 격으로, 리밸런싱 추종 때문에 본주(하이닉스)까지 피해를 주고 코스닥·코스피 전체를 끌어내렸다(코스닥 -6.7%). 존재 자체가 사람을 탐욕으로 이끌어 미수·강제청산 피해를 키운다.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=SjIry1aDdbs"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "2026년 6~7월 코스닥 급락은 기업 가치 훼손이 아니라 반도체(하이닉스)가 끌어내린 분위기·수급 쏠림에 의한 과대낙폭이라고 진단한다. 팬데믹 급 하락폭(약 30%)이 특별한 악재 없이 나왔고 기업들은 실제로 돈을 벌고 있으므로 본질적 하락이 아니다. 코스피에 몰린 막대한 수급(하루 거래대금 100조)이 코스닥으로 절반만 순환해도 강한 반등이 가능하다고 본다.",
+      "date": "2026-07-03",
+      "video": "https://www.youtube.com/watch?v=L9CMWpNCWr4"
+    },
+    {
+      "topic": "미국주식",
+      "tickers": [
+        "META",
+        "AAPL",
+        "NVDA",
+        "MU"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "한국장이 무너지는 와중에도 나스닥·미국 빅테크는 반등할 것으로 본다. 메타(투자 과다로 급락)·애플·엔비디아 등이 낙폭 과대 종목이 됐고, 미국 시장은 시장 자체에 신뢰가 있어 떨어지면 매수가 쉽게 들어와 예상대로 흘러가기 때문이다. 반면 한국 시장은 신뢰가 부족해 돈이 빠질 때 빠르게 빠지고 하락을 과하게 반영한다.",
+      "date": "2026-06-27",
+      "video": "https://www.youtube.com/watch?v=jZPPfiFPzZg"
+    },
+    {
+      "topic": "투자원칙/기본기",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "'가치 있는 기업은 밑에서 산다'는 시장 원리는 변하지 않으며, 개인이 지는 근본 이유는 그 원리를 몰라서가 아니라 끌고 갈 현금과 시간, 멘탈이 없기 때문이라고 본다. 그래서 단타에 매달리다 망하는 것이며, 하락장에서는 손실난 계좌가 아니라 내가 가진 종목 회사의 본질(2~3분기 실적 등)에 집중해 기다려야 한다.",
+      "date": "2026-06-26",
+      "video": "https://www.youtube.com/watch?v=KIysU30ssWA"
+    },
+    {
+      "topic": "투자심리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "주식과는 적당히 거리를 둔 좋은 친구처럼 지내야 하며, 가까이 붙어 집착하면 몰빵과 손실로 이어진다고 강조한다. 급락장에서 복구 집착에 빠지면 도박처럼 뇌가 미쳐 미수를 계속 끼우게 되고 절제가 불가능해진다. 돌아선 시장은 감정으로 바뀌지 않으니 거리를 두고 기다려야 낙폭과대·유사 대장주 같은 기회가 보인다.",
+      "date": "2026-06-26",
+      "video": "https://www.youtube.com/watch?v=KIysU30ssWA"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [
+        "005930",
+        "000660"
+      ],
+      "direction": "부정",
+      "kind": "원칙",
+      "thesis": "한국 시장은 좋은 회사도 그지같이 만드는 네거티브한 곳으로, 돈이 빠질 때 순식간에 빠지는 특징이 있다고 본다. 하이닉스처럼 돈을 많이 버는 종목도 재료가 소멸되거나 빅테크의 데이터센터 비용 부담으로 메모리 매출이 꺾이면 결국 크게 조정받을 수 있다. '이 상승이 계속될 것'이라는 착각은 시장이 주는 착시다.",
+      "date": "2026-06-27",
+      "video": "https://www.youtube.com/watch?v=jZPPfiFPzZg"
+    },
+    {
+      "topic": "금리/유동성",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "국장 하락의 배경으로 금리 인상 압박과 고환율(원/달러 1,500원 위협)을 지목한다. 다만 금리 인상은 1회 수준으로 과거만큼 위협적이지 않고 악재로 선반영 중이라, 막상 인상해도 시장 반응이 크지 않을 것으로 본다. 환율은 떨어질 때 빠르게 떨어지는 특성이 있어 한 달 간격으로 잡히면 코스닥 반등의 명분이 될 수 있다.",
+      "date": "2026-06-27",
+      "video": "https://www.youtube.com/watch?v=jZPPfiFPzZg"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "기다리면 된다라는게 이게 형식적인 말이 절대 아니에요.",
+      "date": "2026-07-06",
+      "video": "https://www.youtube.com/watch?v=XlsSKpJ_GFU"
+    },
+    {
+      "text": "재료는요. 기대감이고 기대감은 곧 선 반영이라는게 됩니다.",
+      "date": "2026-07-04",
+      "video": "https://www.youtube.com/watch?v=wqOMEP2vatk"
+    },
+    {
+      "text": "이런 레버리지 상품은 사실상 폐지하는게 맞다라고 봅니다.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=SjIry1aDdbs"
+    },
+    {
+      "text": "이렇게 주식은 급하게 오르는게 절대로 좋은게 아니에요.",
+      "date": "2026-07-03",
+      "video": "https://www.youtube.com/watch?v=L9CMWpNCWr4"
+    },
+    {
+      "text": "시장의 원리는 변하지 않아요.",
+      "date": "2026-06-26",
+      "video": "https://www.youtube.com/watch?v=KIysU30ssWA"
+    },
+    {
+      "text": "시장이 시간차를 줄뿐 저평가 주식은 반발 매수가 강할 수밖에 없어요.",
+      "date": "2026-06-27",
+      "video": "https://www.youtube.com/watch?v=jZPPfiFPzZg"
+    }
+  ]
+}
