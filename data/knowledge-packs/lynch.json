@@ -1,0 +1,270 @@
+{
+  "slug": "lynch",
+  "name": "피터 린치 (Peter Lynch)",
+  "intro": "'아는 것에 투자하라'의 전설, 마젤란 펀드 13년 연 29%. 생활 속 관찰에서 텐배거를 찾고, 주식 뒤의 기업을 보라 강조. 위장(인내)이 두뇌보다 중요하다는 실전 철학. (발언은 1990년대 강연 기준)",
+  "persona": {
+    "domain": "종목 발굴 원칙 / 생활 속 투자 아이디어",
+    "tone": "'아는 것에 투자하라(invest in what you know)', 생활 속 관찰에서 텐배거를 찾는 실용주의자.\n기업 스토리·성장 카테고리 분류를 즐겨 씀. 유쾌하고 상식적인 화법.",
+    "guardrails": "구체적 종목 지시 금지. 종목 발굴 사고방식·기업 분석 원칙 중심.\n발언이 수십 년 전이므로 반드시 시대·연도 명시(현 시황과 구분). 'AI 재현' 전제."
+  },
+  "last_indexed": "2021-10-03",
+  "video_count": 14,
+  "insight_count": 10,
+  "videos": [
+    {
+      "id": "NMD3efhzETM",
+      "title": "Peter Lynch Lectures: How Does News Impact The Stock Market",
+      "date": "2021-10-03",
+      "url": "https://www.youtube.com/watch?v=NMD3efhzETM",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 2185
+    },
+    {
+      "id": "OrE-I26-VDo",
+      "title": "Peter Lynch Lectures: How To Read An Income Statement",
+      "date": "2021-07-31",
+      "url": "https://www.youtube.com/watch?v=OrE-I26-VDo",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 4426
+    },
+    {
+      "id": "2gg_QWjngRM",
+      "title": "Peter Lynch Lectures: Are Dividends Important?",
+      "date": "2021-07-03",
+      "url": "https://www.youtube.com/watch?v=2gg_QWjngRM",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 2538
+    },
+    {
+      "id": "XayuGP8IlAU",
+      "title": "Peter Lynch Lectures: How To Analyse Earnings",
+      "date": "2021-06-18",
+      "url": "https://www.youtube.com/watch?v=XayuGP8IlAU",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 4038
+    },
+    {
+      "id": "b-LtYGA6UOc",
+      "title": "I got MONETIZED as fast as I could - HERE'S HOW",
+      "date": "2021-06-16",
+      "url": "https://www.youtube.com/watch?v=b-LtYGA6UOc",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6967
+    },
+    {
+      "id": "YA4Oj2UgHn8",
+      "title": "Peter Lynch Lectures: How To Categorise Stocks",
+      "date": "2021-06-06",
+      "url": "https://www.youtube.com/watch?v=YA4Oj2UgHn8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1405
+    },
+    {
+      "id": "TiYIU4I__JE",
+      "title": "Peter Lynch Lectures: How To Exploit Your Local Investor Edge",
+      "date": "2021-05-31",
+      "url": "https://www.youtube.com/watch?v=TiYIU4I__JE",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2280
+    },
+    {
+      "id": "ovZucEubpbc",
+      "title": "Peter Lynch Lectures: Why The Stock Market Is Crucial To Long Term Investing",
+      "date": "2021-05-25",
+      "url": "https://www.youtube.com/watch?v=ovZucEubpbc",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 3110
+    },
+    {
+      "id": "9nvJ457BJ34",
+      "title": "How to invest while markets are  crashing like nothing - Peter Lynch",
+      "date": "2021-04-20",
+      "url": "https://www.youtube.com/watch?v=9nvJ457BJ34",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1563
+    },
+    {
+      "id": "QGya1pi-11Q",
+      "title": "Peter Lynch: 7 Tips to Consistently Outperform the Market",
+      "date": "2020-12-14",
+      "url": "https://www.youtube.com/watch?v=QGya1pi-11Q",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 22364
+    },
+    {
+      "id": "ap7PytYLu-M",
+      "title": "Peter Lynch: How to achieve 29.2% CAGR over 13 years",
+      "date": "2020-11-27",
+      "url": "https://www.youtube.com/watch?v=ap7PytYLu-M",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 7125
+    },
+    {
+      "id": "ZQMAEFMZb5c",
+      "title": "Peter Lynch: How to Achieve a 30% Return Per Year",
+      "date": "2020-11-20",
+      "url": "https://www.youtube.com/watch?v=ZQMAEFMZb5c",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 26271
+    },
+    {
+      "id": "rf_f8GV0yYM",
+      "title": "Peter Lynch 1994 Lecture (WITH TIMESTAMPS)",
+      "date": "2020-07-05",
+      "url": "https://www.youtube.com/watch?v=rf_f8GV0yYM",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 51810
+    },
+    {
+      "id": "cRMpgaBv-U4",
+      "title": "THE BEST STOCK TIPS FROM HEDGE FUND MANAGER PETER LYNCH",
+      "date": "2015-06-11",
+      "url": "https://www.youtube.com/watch?v=cRMpgaBv-U4",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 49426
+    }
+  ],
+  "insights": [
+    {
+      "topic": "투자원칙/아는것에투자",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "종목의 정수는 '자기가 아는 것에 투자하라(invest in what you know)'이다. 소비자·직장인·이웃으로서 직접 겪은 몇 개 기업(아마추어라면 5~8개면 충분)만 깊이 알면 된다. 린치는 볼보 자동차를 직접 사고 나서 그 회사가 현금과 거의 같은 가격에 거래되는 걸 발견해 리서치를 시작했고, 던킨도너츠는 경기침체나 한국산 저가 수입에 흔들리지 않는 이해하기 쉬운 사업이라 10~15배를 벌었다. 반대로 무슨 말인지도 모르는 '메가플롭·웻스톤' 같은 반도체 잡동사니 종목을 사면 절대 돈을 못 번다. (1990년대 강연)",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "topic": "종목발굴/생활속아이디어",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "생활 속 관찰이 프로보다 앞선 '엣지'가 된다. 쇼핑몰에서 갭(Gap)·리미티드가 붐비는 걸 보거나, 크라이슬러 미니밴을 모는 사람들에게 만족도를 물어보는 것이 곧 리서치다. 1950년대 뉴잉글랜드의 한 소방관은 컴퓨터도 전문지식도 없이 동네 공장(탐 브랜즈)이 계속 확장·고용하는 걸 보고 매년 2천 달러씩 투자해 1972년 백만장자가 됐다. 다만 몰에서 본 것으로 끝내지 말고 반드시 추가 조사(재무제표·스토리 확인)를 해야 한다. (1990년대 강연)",
+      "date": "2021-05-31",
+      "video": "https://www.youtube.com/watch?v=TiYIU4I__JE"
+    },
+    {
+      "topic": "투자원칙/아는것에투자",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "자기 산업의 엣지를 살리면 평생 몇 종목만 사도 충분하다. 스미스클라인의 궤양약 타가메트는 임상시험이 끝나 시판된 뒤에도 간호사·약사·환자로서 그 놀라운 효과를 직접 본 사람이 2년 뒤에 사서 5~6배를 벌 수 있었다. 자동차 딜러는 크라이슬러 미니밴이나 포드 토러스/세이블이 매장을 가득 채우는 걸 보고 10배·7배를 벌 수 있었다. 산업이 '끔찍→그저그럼→좋음'으로 갈 때마다 주가는 북쪽으로 향한다. (1990년대 강연)",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "topic": "투자원칙/펀더멘털",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "주식은 복권이 아니라 그 뒤에 회사가 있다. 회사가 잘하면 주가도 잘한다 — 그게 전부다. 코카콜라는 32년 전보다 주당순이익이 30배가 됐고 주가도 30배 올랐지만, 베들레헴스틸은 30년 전보다 이익이 줄어 주가는 반토막이 났다. 그래서 사려는 것은 오르는 회사이지 오르는 티커가 아니다. 주가는 거의 언제나 이익의 방향을 따라간다. (1990년대 강연)",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "topic": "종목분류/성장주",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "모든 주식을 똑같이 다루면 안 되므로 린치는 기업을 5가지 범주로 나눈다 — ①고속성장 ②저속성장 ③경기순환 ④자산주 ⑤회생주. '두 배 되면 팔아라'식 공식은 어리석다: 같은 50% 수익도 이미 시장의 95%를 포화시킨 저속성장 대기업엔 훌륭한 매도 시점이지만, 고속성장 기업엔 빙산의 일각일 수 있다. 매출을 1억→2억으로 키우는 게 100억→200억보다 훨씬 쉬우므로 작은 회사의 성장 잠재력이 크지만, 범주는 절대규칙이 아닌 '스토리를 짜기 위한 지침'일 뿐이다. (1990년대 강연)",
+      "date": "2021-06-06",
+      "video": "https://www.youtube.com/watch?v=YA4Oj2UgHn8"
+    },
+    {
+      "topic": "종목발굴/텐배거",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "위대한 종목은 서두를 필요가 없고, 오래 가지고 있을 때 텐배거가 된다. 월마트가 상장하고 10년이나 기다렸다가 사도 35배를 벌었고, 상장 때 샀으면 500배였다. 린치의 최고 종목들은 산 지 5·6·7일째가 아니라 5·6·7년째에 나왔다. 반면 최대 실수는 좋은 회사를 너무 일찍 판 것 — 토이저러스와 홈디포를 팔고 나서 각각 20배가 더 올랐다. 그래서 '이 종목에 10년·20년짜리 스토리가 있는가'를 스스로 물어야 한다. (1990년대 강연)",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "'많이 떨어졌으니 얼마나 더 떨어지겠어'는 위험한 매수 논리다. 폴라로이드는 무차입 우량주였는데도 130→100→18달러로 폭락했고, 린치 본인도 카이저 인더스트리를 26→16달러에 대량 매수했다가 3달러까지 밀렸다. 다만 그는 그 회사가 카이저스틸·알루미늄·시멘트·지프 등을 무차입으로 보유해 시가총액이 보잉747 한 대 값(약 7,500만 달러)에 불과함을 이해했기에 버텨 결국 주당 약 50달러를 회수했다. '왜 샀는지'를 모르면 하락 때 아무것도 할 수 없다 — 회사를 이해했기에 버틸 수 있었다. (1990년대 강연)",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "topic": "투자심리/인내",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "주식투자에서 중요한 장기는 두뇌가 아니라 '위장'이다 — 변동성을 견디는 감정적 힘이 관건. 20세기 93년 동안 시장은 10% 이상 하락을 50번(약 2년에 한 번), 25% 이상 하락을 15번(약 6년에 한 번) 겪었다. 이건 반드시 오는 일이므로 각오가 안 됐으면 주식을 갖지 말아야 한다. 오히려 이해하는 좋은 회사가 14→6달러로 빠지면 22달러를 노릴 때 6→22가 14→22보다 훨씬 큰 기회다. 변동성은 재앙이 아니라 기회다. (1990년대 강연)",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "topic": "투자원칙/펀더멘털",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "경제·금리·시장을 예측하는 데 쓰는 시간은 낭비다 — 아무도 그것을 맞힐 수 없다(금리를 세 번 연속 맞히면 억만장자가 됐을 것이다). 그린스펀조차 장기금리를 모른다고 말한다. 린치가 관심 두는 '경제'는 거시전망이 아니라 사실(fact)이다: 자동차주를 가지면 중고차 가격, 호텔주면 객실 가동률, 알루미늄 재고가 5개월 연속 줄면 그것이 유의미한 신호다. 뉴스·전쟁·선거는 좋은 회사를 싸게 살 기회를 줄 뿐, 모든 주식 뒤엔 회사가 있다. (1990년대 강연)",
+      "date": "2020-12-14",
+      "video": "https://www.youtube.com/watch?v=QGya1pi-11Q"
+    },
+    {
+      "topic": "투자원칙/펀더멘털",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "이익(earnings)을 늘리는 방법은 매출 증대 아니면 비용 절감 둘뿐이며, 주가는 거의 언제나 이익의 방향을 따라간다. 회사의 이익 증가 '스토리'(신제품·원가절감·연구개발·브랜드·해외확장 등)를 근거로 설명할 수 있어야 하고, 과거 실적만으로는 미래를 보장하지 못한다. 적정 주가의 기준은 PER이 향후 3~5년 예상 성장률과 대략 같은 것 — PER이 성장률보다 크게 높으면 비싸다. 1970년대 EDS는 PER 500배로 그로스는 좋았는데도 주가가 40→3달러로 무너졌다. (1990년대 강연)",
+      "date": "2021-06-18",
+      "video": "https://www.youtube.com/watch?v=XayuGP8IlAU"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "the single single most important thing to me in the stock market for anyone is to know what you own",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "text": "you can't explain to a 10 year old and two minutes or less why you own a stock you shouldn't own it",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "text": "i made 10 or 15 times my money in dunkin donuts those are the kind of stocks i can understand",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "text": "my best stocks have been my fifth sixth seventh year i own them not my fifth sixth seventh day",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "text": "the key organ in your body in the stock market is your stomach it's not the brain",
+      "date": "2020-11-20",
+      "video": "https://www.youtube.com/watch?v=ZQMAEFMZb5c"
+    },
+    {
+      "text": "i've always said if you spend 14 minutes a year in economics you've wasted 12 minutes",
+      "date": "2020-12-14",
+      "video": "https://www.youtube.com/watch?v=QGya1pi-11Q"
+    },
+    {
+      "text": "when you sell your great companies and add to the losers it's like watering the weeds and cutting the flowers",
+      "date": "2020-12-14",
+      "video": "https://www.youtube.com/watch?v=QGya1pi-11Q"
+    }
+  ]
+}

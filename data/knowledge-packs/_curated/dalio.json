@@ -1,0 +1,101 @@
+{
+  "_note": "Claude가 자막(data/transcripts/dalio/)에서 추출. thesis 한국어, quote 영어 원문",
+  "insights": [
+    {
+      "topic": "거시/부채사이클",
+      "tickers": [],
+      "direction": "부정",
+      "thesis": "신용 시스템은 경제 각 부위에 구매력(영양분)을 공급하는 순환계와 같다. 빌린 돈이 생산성을 창출해 소득으로 부채를 갚으면 건강하지만, 부채상환(debt service)이 소득 대비 커지면 혈관의 플라크처럼 지출을 짜낸다. 미국 정부는 약 7조 달러를 쓰고 5조 달러를 걷어 지출의 40%가 적자이며, 부채는 세입의 6배(600%)에 달해 이 플라크가 쌓이는 메커니즘이 진행 중이다.",
+      "date": "2026-05-28",
+      "video": "https://www.youtube.com/watch?v=hfSPKYK5PJ4"
+    },
+    {
+      "topic": "거시/부채사이클",
+      "tickers": [],
+      "direction": "부정",
+      "thesis": "빅사이클상 지금은 특히 위험한 구간의 문턱이며, 2026년 중간선거와 2028년 대선 사이에 통화(재정) 상황이 더 위협적으로 변할 것으로 본다. 미국 국채 수요는 단순 수급 요인뿐 아니라, 달러표시 채권 보유자들이 제재(sanction)당할 수 있다는 우려 때문에도 감소하고 있다.",
+      "date": "2026-06-18",
+      "video": "https://www.youtube.com/watch?v=uklvYjjafR8"
+    },
+    {
+      "topic": "세계질서",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "지난 500년간 10대 제국과 3개 기축통화(네덜란드 길더·영국 파운드·미국 달러)를 연구한 결과, 제국은 약 250년 주기로 흥망하며 전환기는 10~20년의 대격돌 기간이었다. 교육→혁신·기술→기축통화 확립의 순서로 부상하고, 버블 붕괴→돈 찍기→빈부격차發 내부갈등(혁명·내전)→신흥 강국과의 외부 전쟁→새 세계질서 수립의 인과 사슬로 쇠퇴한다. 국력은 교육·기술·경쟁력·경제규모·무역점유율·군사력·금융센터·기축통화 8개 지표로 측정 가능하다.",
+      "date": "2026-06-30",
+      "video": "https://www.youtube.com/watch?v=wniw-4AUCsk"
+    },
+    {
+      "topic": "미중관계",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "이란 전쟁 등을 거치며 미국 대중이 전쟁을 감내할 의지가 약해졌다는 인식이 퍼져, 세계 지도자들 사이에 '미국이 기존 세계질서 수호에 덜 신뢰할 만하다'는 평가가 생기고 동맹 구도가 흔들리고 있다. 부상하는 중국은 수천 년에 걸쳐 발달한 '조공 시스템(tribute system)'과 손자병법식 접근 — 싸우지 않고 위계와 상호 배려로 힘의 차이를 관리하고 압박을 행사하는 방식 — 을 따를 것으로 보며, 새 세계질서에서는 군사력 없이 갈등을 해결하는 이 시스템을 이해하는 것이 모두에게 중요하다.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=Egj2E4zFNy8"
+    },
+    {
+      "topic": "통화가치/금",
+      "tickers": [],
+      "direction": "긍정",
+      "thesis": "돈은 교환수단이자 부의 저장수단인데, 금은 역사상 전 세계에서 가장 널리 통용된 돈이다. 금은 누군가의 부채(liability)가 아닌 유일한 돈으로, 다른 모든 돈은 상대방이 무언가를 지급해줘야 성립하지만 금은 그렇지 않아 몰수(confiscation) 리스크가 가장 낮다.",
+      "date": "2026-06-03",
+      "video": "https://www.youtube.com/watch?v=_gPiZxbxfso"
+    },
+    {
+      "topic": "미국 내부질서",
+      "tickers": [],
+      "direction": "부정",
+      "thesis": "성공하는 국가의 3대 조건은 ① 자녀를 생산적이고 시민적(civil)으로 교육하고 ② 질서 있는 시민적 환경에서 경쟁·협력해 다수가 생산적이 되게 하며 ③ 내전·국제전을 피하는 것이다. 그러나 지금 미국은 화해 불가능한 차이(irreconcilable differences)의 단계에 있으며, 사람들이 자신의 대의를 시스템 자체보다 중시하는 순간 시스템은 위기에 처한다 — 미국 시스템이 바로 그 위기에 있다. 250년 성공의 원칙(자유·협력·교육·시민의식)을 잃지 말아야 한다.",
+      "date": "2026-06-02",
+      "video": "https://www.youtube.com/watch?v=T2I2Wxv7-oA"
+    },
+    {
+      "topic": "AI/기술",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "AI는 부채 등과 함께 작동하는 5대 힘 중 하나로, 생산성을 높이고 장기적으로 비용을 낮추겠지만 일자리를 크게 줄이고 거대한 빈부격차를 만들어내는 '격차 생산자'다. 미국인의 60%가 6학년 이하 읽기 수준인 상황에서 그 인구를 생산적으로 만들지 못하고 부와 교육 같은 혜택의 분배에 실패하면 큰 충돌(great clash)이 온다.",
+      "date": "2026-06-16",
+      "video": "https://www.youtube.com/watch?v=gnTL3fTmIlk"
+    },
+    {
+      "topic": "원칙/인생",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "성공은 필요 이상의 돈이나 지위가 아니라 '의미 있는 일과 의미 있는 관계'를 갖는 것이다. 일과 열정을 일치시키고 서로 아끼는 사람들과 함께한다면 행복하고 성공적인 삶이 된다. 삶이 원하는 것을 주지 않을 때 분노하는 대신 현실의 작동 원리를 배우고 원칙을 만들어라 — 고통스러운 경험조차 배움의 기회로 삼는 '삶에 대한 접근법'이 졸업장보다 가치 있다.",
+      "date": "2026-05-26",
+      "video": "https://www.youtube.com/watch?v=q0l7atY_J7c"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The debt service is like plaque in the circulatory system in that it squeezes out spending.",
+      "date": "2026-06-08",
+      "video": "https://www.youtube.com/watch?v=J3FDjBY2wp8"
+    },
+    {
+      "text": "Gold is the only money that you can have, and nobody has to give you anything to have it.",
+      "date": "2026-06-03",
+      "video": "https://www.youtube.com/watch?v=_gPiZxbxfso"
+    },
+    {
+      "text": "Typically, these transitions have been periods of great conflict because leading powers don't decline without a fight.",
+      "date": "2026-06-30",
+      "video": "https://www.youtube.com/watch?v=wniw-4AUCsk"
+    },
+    {
+      "text": "When the causes people are behind are more important to them than the system, the system is in jeopardy. Our system is in jeopardy.",
+      "date": "2026-06-02",
+      "video": "https://www.youtube.com/watch?v=T2I2Wxv7-oA"
+    },
+    {
+      "text": "We are on the brink of a particularly risky period. Um is between the two next two elections.",
+      "date": "2026-06-18",
+      "video": "https://www.youtube.com/watch?v=uklvYjjafR8"
+    },
+    {
+      "text": "If you can make your work and your passion one in the same, and you could do it with people who you care about and care about you, you will have a happy, successful life.",
+      "date": "2026-05-26",
+      "video": "https://www.youtube.com/watch?v=q0l7atY_J7c"
+    }
+  ]
+}

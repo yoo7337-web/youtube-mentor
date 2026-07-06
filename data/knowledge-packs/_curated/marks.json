@@ -1,0 +1,260 @@
+{
+  "_note": "Claude가 자막(data/transcripts/marks/)에서 추출. thesis 한국어, quote 영어 원문",
+  "insights": [
+    {
+      "topic": "AI/버블",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "AI는 역사상 최대의 변혁 기술이 될 잠재력이 있고 투자자들의 열광(exuberance)이 존재하는 것은 분명하지만, 그것이 '비이성적'인지는 사실상 아무도 단정할 수 없다 — 버블은 사후에야 확인된다. 다만 변혁 기술은 예외 없이 과잉 열광·과잉 인프라 투자(버블)를 낳아왔고, 이번에 그 패턴이 반복되지 않는다면 그것이 역사상 최초일 것. 철도·전기·광통신처럼 버블은 기술 보급을 가속하지만 그 과정에서 자금을 댄 투자자의 부는 파괴된다. 결론은 올인도 전량 회피도 아닌, 선별과 신중함을 갖춘 중도적(moderate) 포지션.",
+      "date": "2025-12-09",
+      "video": "https://www.youtube.com/watch?v=sAjGXSdDkhQ"
+    },
+    {
+      "topic": "AI/버블",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "ORCL"
+      ],
+      "direction": "부정",
+      "thesis": "AI 데이터센터 붐이 현금흐름(에쿼티)이 아닌 부채로 조달되기 시작한 것이 과거 기술혁명과 다른 위험 요인. 오라클·메타·알파벳의 30년채 발행, SPV 오프밸런스 금융, 벤더 파이낸싱, 순환 거래(circular deals)는 2000년 텔레콤 버블·엔론을 연상시킨다. 승자독식 기술 경쟁은 에쿼티로 참여해야 하며(승자의 대박이 패자 손실을 보상), 분산된 부채 포트폴리오는 승자에게서 쿠폰만 받고 패자에게서 원금이 깎여 정반대 구조. 결과가 '불확실'한 사업에 대한 대출은 가능하지만 '순전한 추측'인 사업에 대한 대출은 불가하다.",
+      "date": "2025-12-09",
+      "video": "https://www.youtube.com/watch?v=sAjGXSdDkhQ"
+    },
+    {
+      "topic": "리스크 관리",
+      "tickers": [],
+      "direction": "부정",
+      "thesis": "First Brands·Tricolor 파산과 지역은행 사기 대출 등 연쇄 사건은 금융 시스템의 배관(plumbing)이 고장난 '시스템적(systemic)' 문제가 아니라, 호황기마다 반복되는 행동 패턴이라는 의미에서 '체계적(systematic)' 현상. 호황이 오래가면 리스크 허용도가 커지고 실사가 느슨해지며 대출 기준이 낮아지고, 그 토양에서 사기(갤브레이스의 'bezel')가 자란다. 지난 16년의 대체로 좋은 시절에 만들어진 오류들이 앞으로 드러나는 더 '흥미로운' 시기가 올 것이므로, 서브투자등급 투자에서 신용 분석 능력은 좋은 시절에도 항상 필수다.",
+      "date": "2025-11-06",
+      "video": "https://www.youtube.com/watch?v=fu-kRKyzbJ8"
+    },
+    {
+      "topic": "크레딧/채권",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "다이렉트 렌딩은 15년간 약 2조 달러가 유입되며 골드러시 심리 속에 금리·안전장치 등 언더라이팅 기준이 경쟁적으로 낮아졌고, 2026년 2월 AI에 의한 소프트웨어 산업 파괴 우려가 인지적 티핑포인트가 되며 조정에 진입했다. 다만 현재의 혼란은 신용 악화보다 수급·심리 주도이며, 투자자들이 승자와 패자를 구분하지 않고 소프트웨어 섹터 전체를 팔고 있다. 사모대출은 시가평가가 없어 변동성이 낮을 뿐 신용 리스크는 공모 크레딧과 동일하다는 점(리스크≠변동성)이 핵심 교훈. 하이일드가 그랬듯 다이렉트 렌딩도 결국 괜찮겠지만, 좋아지려면 한 차례 신용 사이클을 통과해야 한다.",
+      "date": "2026-04-09",
+      "video": "https://www.youtube.com/watch?v=coXK2_bm-1I"
+    },
+    {
+      "topic": "심리/역발상",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "기업·시장·경제의 내재가치는 추세선을 따라 완만하게 진보하지만 가격은 심리의 진동 때문에 지속 불가능한 고점과 저점 사이를 격렬하게 오간다. 일확천금 욕망, 부자가 된 이웃에 대한 질투, FOMO 같은 인간 본성은 튤립(1620)·남해회사(1720) 이래 변한 적이 없다('역사는 반복되지 않지만 운율을 맞춘다'). 오크트리의 방식은 천성적 역발상 — 남들이 두려움 없이 낙관에 취해 있을 때 움츠러들고, 모두가 공포에 질려 리스크를 기피해 리스크 감수의 대가가 높아졌을 때 공격적으로 전환한다. 확신에 찬 사람은 바보이며, 블랙스완(개연성 낮은 재앙)은 대비 비용이 너무 비싸 결국 안고 살아야 하는 것이다.",
+      "date": "2026-05-26",
+      "video": "https://www.youtube.com/watch?v=km2LidRpRvo"
+    },
+    {
+      "topic": "AI/투자업의 미래",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "AI는 챗봇(레벨1)→도구(레벨2)를 지나 자율 에이전트(레벨3)에 도달해 '생산성 도구'가 아닌 '노동 대체재'가 됐고, GPT-5.3처럼 AI가 스스로의 개발에 기여하는 단계까지 왔다. AI의 잠재력은 현재 과대평가보다 과소평가됐을 가능성이 크지만, 그것이 AI 자산의 가격이 싸다는 뜻은 아니다. 투자에서 AI는 데이터 흡수·과거 패턴 인식·무감정에서 인간을 능가해 인덱스펀드가 그랬듯 부가가치 없는 운용역을 도태시키겠지만, 전례 없는 신상황 판단과 질적·주관적 판단(경영진 평가, 카운터파티 선택)에는 약해 최고 수준의 투자자는 계속 가치를 더할 수 있다. AI의 가설은 실행 전 인간의 합리성 검증이 필요하다.",
+      "date": "2026-02-26",
+      "video": "https://www.youtube.com/watch?v=b9BbEFQ0fUQ"
+    },
+    {
+      "topic": "밸류에이션",
+      "tickers": [],
+      "direction": "중립",
+      "thesis": "1969년 입사 당시 시장이 사랑한 니프티50 — 미국 최고의 기업들 — 을 사서 5년 보유했다면 약 95%를 잃었을 것이라는 경험이 평생의 교훈: 무엇을 사느냐가 아니라 얼마를 지불하느냐가 중요하며, 가격을 배제한 좋은 아이디어는 존재하지 않는다. 초과수익은 효율적 시장이 아니라 타인의 실수(mispricing)에서 나온다 — 복잡성, 강제 매도, 수급 왜곡, 오해가 그 원천. 너무 미움받는 자산은 싸져서 사야 할 대상이 되고, 너무 사랑받는 자산(유럽 헬스케어 대출처럼)은 과도한 레버리지가 허용되며 피해야 할 대상이 된다.",
+      "date": "2026-03-24",
+      "video": "https://www.youtube.com/watch?v=9wwuvo_0fUw"
+    },
+    {
+      "topic": "시장 사이클",
+      "tickers": [],
+      "direction": "긍정",
+      "thesis": "2025년 말부터 사모신용을 중심으로 조수가 빠지기 시작(the tide going out)했고, 좋은 시절에 가려졌던 흠(warts)들이 드러나는 중이나 본격적 디폴트는 아직 오지 않았다. 오크트리는 2025년에 이미 절제된 태도를 취했고 2026년의 '흔들림(shakiness)'에 준비돼 있다. 낙관의 꽃이 지고 투자자들이 FOMO 대신 리스크 회피를 반영하기 시작하면, 지난 몇 달보다 훨씬 좋은 매수 기회가 향후 몇 달간 올 것 — 역발상 투자자에게 조정은 위협이 아니라 기회다.",
+      "date": "2026-03-24",
+      "video": "https://www.youtube.com/watch?v=9wwuvo_0fUw"
+    },
+    {
+      "topic": "AI/버블",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "AI를 둘러싼 '버블' 질문은 (1)기술이 진짜냐 (2)적용이 먼 미래냐 (3)인프라 투자가 무모하냐 (4)적정 수익을 낼까 (5)밸류에이션이 비합리적이냐로 나눠 봐야 한다. 마크스의 결론은 기술은 진짜고 수요도 이미 대규모이지만, 변혁 기술은 예외 없이 과잉 인프라 투자와 자본 소각을 낳았고 이번에 그 패턴이 반복되지 않는다면 역사상 최초일 것이라는 것. 엔비디아는 IPO(1999) 이후 26년간 약 8,000배(연 40%) 올랐고 S&P500 상승·이익·설비투자의 대부분을 AI가 차지한다. 열광(exuberance)은 분명하나 그것이 '비이성적(irrational)'인지는 사후에야 알 수 있으며, 버블은 회고적으로만 식별된다.",
+      "date": "2025-12-09",
+      "video": "https://www.oaktreecapital.com/insights/memo/is-it-a-bubble"
+    },
+    {
+      "topic": "AI/버블",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "버블은 기술·금융 발전 그 자체가 아니라 그 발전에 '과도한 낙관'이 적용될 때 생긴다. 신규성(newness)이 핵심 재료로, 역사가 없기에 상상력을 제약할 것이 없어 미래가 무한해 보이고 과거 기준을 벗어난 밸류에이션이 정당화된다(갤브레이스의 '금융 기억의 극단적 단명'). 좋은 버블(철도·인터넷 같은 '변곡 버블')은 필요한 인프라 구축을 압축·가속해 세상을 진보시키지만, 그 과정에서 자금을 댄 투자자의 부는 파괴된다. 핵심은 진보를 부르는 과정에서 부가 파괴되는 투자자가 되지 않는 것이다.",
+      "date": "2025-12-09",
+      "video": "https://www.oaktreecapital.com/insights/memo/is-it-a-bubble"
+    },
+    {
+      "topic": "AI/투자업의 미래",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "2025년 12월 메모의 후속편으로, 마크스는 앤트로픽의 Claude에게 AI 튜토리얼을 만들게 해 배운 내용을 공유한다. AI는 정보를 저장하는 검색엔진이 아니라 '사고하는 법'을 훈련받아 데이터를 종합·추론하는 시스템이며, 2026년 2월 5일 GPT-5.3 Codex·Opus 4.6 출시로 챗봇(레벨1)·도구(레벨2)를 넘어 목표만 주면 스스로 실행·검증하는 자율 에이전트(레벨3)에 도달했다. AI가 '스스로의 개발에 기여'하기 시작한 것이 결정적 분기점(생산성 도구 vs 노동 대체재, 500억 달러 시장 vs 수조 달러 시장)이다. 마크스는 AI의 잠재력이 과대평가보다 과소평가됐을 가능성이 크다고 본다.",
+      "date": "2026-02-26",
+      "video": "https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead"
+    },
+    {
+      "topic": "투자원칙/2차적사고",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "AI는 데이터 흡수·기억·과거 패턴 인식에서 인간을 능가하고 두려움·탐욕·군집본능이 없어 좋은 투자자의 자질을 상당수 갖췄지만, 결정적으로 약한 곳이 있다. 훈련 데이터에 선례가 없는 전례 없는 신상황 판단, 경영진·제품 같은 질적 요소에 대한 주관적 판단과 안목, 그리고 카운터파티 선택이다. AI에는 '자기 돈이 걸린(skin in the game)' 절박함이 없어 집중 포지션의 무게나 자본 손실의 공포를 못 느껴 리스크 감수가 인간의 정상적 리스크 회피로 제약되지 않는다. 인덱스가 부가가치 없는 액티브 운용역을 도태시켰듯 AI는 기준을 더 높이겠지만, 예외적 통찰을 가진 최상위 투자자는 계속 가치를 더한다. AI의 가설은 실행 전 인간의 합리성 검증이 필요하다.",
+      "date": "2026-02-26",
+      "video": "https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead"
+    },
+    {
+      "topic": "리스크 관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "리스크의 순환(Cycle in Attitudes Toward Risk)이 시장의 근본 동력이다. 증권 가격은 기업의 내재가치보다 훨씬 크게 출렁이는데, 그 주된 이유는 사람들이 리스크를 느끼는 방식의 극단적 변동성 때문이다. 호황이 이어지면 손실 가능성이 의식에서 사라지고 '리스크는 내 친구'라는 심리가 지배하며 실사가 느슨해지고 기준이 낮아진다. 그러다 하강이 오면 '리스크는 돈을 잃는 길, 어떤 값에도 빼달라'로 진자가 반대로 넘어간다. '최악의 대출은 최고의 시절에 이뤄진다'는 격언이 이 패턴을 압축한다.",
+      "date": "2025-11-06",
+      "video": "https://www.oaktreecapital.com/insights/memo/cockroaches-in-the-coal-mine"
+    },
+    {
+      "topic": "리스크 관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "First Brands 사례는 우월한 신용분석이 '2차적 사고'(남과 다르고 더 나은 사고)임을 보여준다. 결론은 하나의 결정적 발견('아하 모멘트')이 아니라 여러 정보 조각을 '모자이크'로 조립해 '증거의 우위'에 기울이는 과정으로 얻어진다. 오크트리는 6년 업력에 이미 연매출 50억 달러, 온라인 흔적이 거의 없는 개인이 지배, 업계 평균을 웃도는 이익률, 다수의 M&A로 얽힌 복잡한 법인 구조 등 적신호들을 조립해 조기에 부정적 결론에 도달했다. 신용 결함 탐지의 큰 보상은 '남보다 먼저'인 데 있다 — 남들과 동시에 부정적 결론에 이르면 가격은 이미 다 반영돼 있다(시장 효율성).",
+      "date": "2025-11-06",
+      "video": "https://www.oaktreecapital.com/insights/memo/cockroaches-in-the-coal-mine"
+    },
+    {
+      "topic": "크레딧/채권",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "2022년 금리가 바닥에서 올라온 뒤 크레딧에 대한 관심이 커졌다. 마크스는 하이일드 스프레드가 약 290bp로 1977~78년 발행 개시 이래 가장 좁은 축이라는 우려는 과장됐다고 본다. 1986~2024년 39년간 하이일드는 연 7.83%로 10년물 국채(5.14%)를 269bp 앞섰고, 평균 부도율 3.5%·부도 시 손실 2/3를 반영한 연 신용손실은 약 230bp여서 오늘의 좁은 스프레드로도 과거 부도를 상쇄하고 남았다. 채권 수익은 계약적이라 스프레드 확대로 인한 가격 하락은 일시적이고 만기 상환 시 약정 수익을 받는다('쿠폰의 힘'). 핵심은 '스프레드는 먹을 수도 쓸 수도 없다 — 필요한 건 수익률'이며, 현재 크레딧은 주식보다 나은 거래다.",
+      "date": "2024-12-31",
+      "video": "https://www.oaktreecapital.com/insights/memo/gimme-credit"
+    },
+    {
+      "topic": "리스크 관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "리스크는 변동성이 아니라 '영구적 손실 가능성'이다. 한 연기금 이사회 세션을 소재로, 마크스는 리스크를 '감당 능력(재무적 여력)'과 '감수 의향(태도)'의 2x2 매트릭스로 정리한다. 능력은 높은데 의향이 낮으면 '방어적', 둘 다 높으면 '활용', 둘 다 낮으면 '보호적'이며, 능력은 낮은데 의향만 높은 것은 '순진(naive)' — 생존 못 할 결과를 낳는 리스크를 지는 것보다 어리석은 게 없다. 변동성은 장기 투자자에겐 본질적 리스크가 아니라 상황·제도·경력·심리적 '외부요인(externality)'일 뿐이어서, 같은 발행자의 공모채와 시가평가 없는 사모대출의 부도 위험은 동일하다. 버핏의 '매끄러운 12%보다 울퉁불퉁한 15%'가 이를 요약한다.",
+      "date": "2025-10-28",
+      "video": "https://www.oaktreecapital.com/insights/memo/a-look-under-the-hood"
+    },
+    {
+      "topic": "밸류에이션",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "가치(value)는 자산의 미래 이익창출력(earning power)을 할인한 것으로 주관적이고 산정하기 어렵지만, 가격(price)은 낙관론자와 비관론자의 '줄다리기'가 만드는 투자자 심리의 산물이라 훨씬 크게 출렁인다. 단기 성과는 대부분 가격 변동(심리)에서, 장기 성과는 이익창출력을 옳게 봤는지에서 온다. 가치는 가격에 '자석 같은' 영향을 주지만(고평가→낮은 후속수익, 저평가→높은 후속수익), 그 수렴은 오직 장기적으로만 기대할 수 있다 — '시장은 당신이 지불능력을 유지하는 것보다 오래 비이성적일 수 있다'(케인스). 초과수익은 효율적 시장이 아니라 심리가 만든 미스프라이싱을 남보다 먼저 간파하는 데서 나온다.",
+      "date": "2025-08-13",
+      "video": "https://www.oaktreecapital.com/insights/memo/the-calculus-of-value"
+    },
+    {
+      "topic": "밸류에이션",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "NVDA",
+        "TSLA"
+      ],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "2025년 8월 기준 S&P500 선행 PER은 약 23배로 역사적 평균을 크게 웃돌고, 매출 대비 3.3배·버핏지표(시총/GDP) 모두 사상 최고, 스프레드는 사상 최저 부근이다. '매그니피센트 세븐'은 지수 시총의 1/3을 차지하며 PER 약 33배지만 마크스는 그 해자·이익률을 보면 불합리하지 않다고 보고, 오히려 나머지 493개 종목의 평균 PER 22배(역사적 중간 십수 배 대비 높음)가 지수를 우려스럽게 만든다고 본다. 관세 발표 후 급락했다가 29% 반등한 것은 대체로 '안도 랠리'이며, 펀더멘털은 7개월 전보다 나빠졌는데 가격은 더 올랐다. 시장은 '높은(elevated)'에서 '우려스러운(worrisome)' 단계로 넘어갔고, 이럴 때 방어적으로 기울이는 것(INVESTCON 5: 매수 중단, 공격적 보유 축소)이 합리적이다.",
+      "date": "2025-08-13",
+      "video": "https://www.oaktreecapital.com/insights/memo/the-calculus-of-value"
+    },
+    {
+      "topic": "시장 사이클",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "'아무도 모른다'는 것이 위기 대응의 출발점이다. 2008년 리먼 파산 나흘 뒤 마크스는 (1)세상의 종말은 자신 있게 예측할 수 없고 (2)종말을 안다 해도 무엇을 할지 모르며 (3)종말에 대비하는 행동은 종말이 안 오면 재앙이 되고 (4)대개 세상은 끝나지 않는다는 논리로, 미투자 상태의 100억 달러를 헐값 자산에 투입하기로 결정했다. '미래를 분석한다'는 말은 최대의 모순어법 — 미래는 아직 만들어지지 않았고 수백만 개의 불확실 변수에 좌우된다. 예측이 아니라 '지금 어디에 있는지'를 아는 것이 답이며, 행동하지 않기로 하는 것 역시 하나의 행동이므로 매수만큼 엄격히 검증돼야 한다. 매수해야 할 때는 대개 매수하기 싫은 때다.",
+      "date": "2025-04-09",
+      "video": "https://www.oaktreecapital.com/insights/memo/nobody-knows-yet-again"
+    },
+    {
+      "topic": "거시/정책",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "정부는 임대료·화재보험료·관세로 경제 법칙을 무력화하려 하지만 대가가 따른다. 관세는 결국 세금이며 대개 소비자가 부담하고, 국내 산업 보호의 반대급부로 물가 상승·품질 저하·수출 위축·2·3차적 역효과를 낳는다. 미국 제조업 고용 비중이 1950년 30%에서 8%로 준 것은 불공정 무역이 아니라 1인당 GDP가 4만 달러에 이르면 서비스 경제로 이행하는 보편적 곡선(니얼 퍼거슨) 때문이라 되돌릴 수 없다. 마크스는 지금까지의 관세를 축구의 '자책골', 브렉시트에 비유하며, 재정적자(최근 45년 중 41년 적자)와 2035년 사회보장기금 고갈처럼 정치권이 회피하는 문제가 미국의 '골든 신용카드'를 위협한다고 본다.",
+      "date": "2025-06-18",
+      "video": "https://www.oaktreecapital.com/insights/memo/more-on-repealing-the-laws-of-economics"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The scariest thing in the world, the riskiest thing in the world is the belief there's no risk. And when people believe there's no risk, the world gets crazy.",
+      "date": "2026-05-26",
+      "video": "https://www.youtube.com/watch?v=km2LidRpRvo"
+    },
+    {
+      "text": "Since no one can say definitively whether this is a bubble, I'd advise that no one should go all in without acknowledging that they face the risk of ruin if things go badly. But by the same token, no one should stay all out and risk missing out on one of the great technological steps forward.",
+      "date": "2025-12-09",
+      "video": "https://www.youtube.com/watch?v=sAjGXSdDkhQ"
+    },
+    {
+      "text": "It's okay to supply debt financing for a venture where the outcome is uncertain. It's not okay where the outcome is purely a matter of conjecture.",
+      "date": "2025-12-09",
+      "video": "https://www.youtube.com/watch?v=sAjGXSdDkhQ"
+    },
+    {
+      "text": "For me, the most important investment adage of all is, what the wise man does in the beginning, the fool does in the end.",
+      "date": "2026-04-09",
+      "video": "https://www.youtube.com/watch?v=coXK2_bm-1I"
+    },
+    {
+      "text": "It's not what you buy, it's what you pay that matters. And there is nothing that's a good idea in the absence of price.",
+      "date": "2026-03-24",
+      "video": "https://www.youtube.com/watch?v=9wwuvo_0fUw"
+    },
+    {
+      "text": "In real life, things fluctuate between pretty good and not so hot. But in investors minds, they go from flawless to hopeless.",
+      "date": "2025-11-06",
+      "video": "https://www.youtube.com/watch?v=fu-kRKyzbJ8"
+    },
+    {
+      "text": "The markets aren't crooked per se, but they're full of money, and thus they tend to attract crooks.",
+      "date": "2025-11-06",
+      "video": "https://www.oaktreecapital.com/insights/memo/cockroaches-in-the-coal-mine"
+    },
+    {
+      "text": "I insist strenuously that risk and volatility aren't the same thing.",
+      "date": "2026-04-09",
+      "video": "https://www.oaktreecapital.com/insights/memo/whats-going-on-in-private-credit"
+    },
+    {
+      "text": "True believers make the most money in manias, and skeptics lose the least when they crash.",
+      "date": "2026-04-09",
+      "video": "https://www.oaktreecapital.com/insights/memo/whats-going-on-in-private-credit"
+    },
+    {
+      "text": "I consider the phrase \"analyze the future\" one of the great oxymorons.",
+      "date": "2025-04-09",
+      "video": "https://www.oaktreecapital.com/insights/memo/nobody-knows-yet-again"
+    },
+    {
+      "text": "Value is what you get when you make an investment, and price is what you pay for it.",
+      "date": "2025-08-13",
+      "video": "https://www.oaktreecapital.com/insights/memo/the-calculus-of-value"
+    },
+    {
+      "text": "Just as with rents, you can limit the price insurers can charge for coverage, but you can't make them provide coverage at that price.",
+      "date": "2025-06-18",
+      "video": "https://www.oaktreecapital.com/insights/memo/more-on-repealing-the-laws-of-economics"
+    }
+  ]
+}

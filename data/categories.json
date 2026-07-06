@@ -1,0 +1,8 @@
+{
+  "categories": [
+    { "id": "domestic", "label": "국내투자" },
+    { "id": "overseas", "label": "해외투자" },
+    { "id": "general", "label": "일반" }
+  ],
+  "assignments": {}
+}

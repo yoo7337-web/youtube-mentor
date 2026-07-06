@@ -1,0 +1,4 @@
+// 로컬 전용 Gemini 키 주입 파일 (이 파일을 복사해 config.local.js 로 저장).
+// config.local.js 는 .gitignore 로 커밋 제외되므로 GitHub Pages 배포 시 키가 공개되지 않는다.
+// Gemini 무료 키 발급: https://aistudio.google.com/apikey
+window.GEMINI_API_KEY = "여기에_당신의_Gemini_API_키";

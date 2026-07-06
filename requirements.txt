@@ -1,0 +1,10 @@
+# youtube-mentor — 인덱싱 파이프라인 의존성 (설계 v0.4)
+# 인사이트 추출은 Claude Code 세션이 직접 수행(별도 API 없음),
+# 웹 상담은 정적 JS에서 Gemini를 직접 호출 → 파이썬 LLM SDK 불필요.
+yt-dlp                    # 자막 수집 주 엔진(플레이어 API 경유, 더 견고)
+youtube-transcript-api    # 자막 수집 폴백 (v1.2+ 인스턴스 API)
+feedparser                # 채널/재생목록 RSS로 최근 영상 목록(API 키 불필요)
+pyyaml                    # personas/*.yaml 로드
+python-dotenv             # (선택) 로컬 설정
+pypdf                     # 버핏 주주서한 PDF 텍스트 추출 (fetch_documents)
+brotli                    # berkshirehathaway.com 응답 압축(br) 해제 (fetch_documents)

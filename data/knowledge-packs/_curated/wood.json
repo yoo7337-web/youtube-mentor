@@ -1,0 +1,109 @@
+{
+  "_note": "Claude가 자막(data/transcripts/wood/)에서 추출. thesis 한국어, quote 영어 원문",
+  "insights": [
+    {
+      "topic": "로보택시/자율주행",
+      "tickers": ["TSLA"],
+      "direction": "긍정",
+      "thesis": "오스틴에서 테슬라 로보택시에 직접 탑승하며 '우버 모먼트'(폭발적 확산)의 최대 제약은 규제라고 지적. 자율주행차는 이미 인간 운전보다 안전하며 앞으로 2배→10배→100배 더 안전해질 것이므로 규제 허용은 시간문제. 자녀 안전을 걱정하는 부모도 안심하고 아이를 태울 것이고, '무급 운전기사' 역할을 해온 수많은 부모들의 시간이 해방된다.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=Btx0GVZL7fM"
+    },
+    {
+      "topic": "우주/SpaceX",
+      "tickers": ["TSLA"],
+      "direction": "긍정",
+      "thesis": "SpaceX IPO는 공모가 상회 상장으로 성공적. trailing 재무 기준으론 극도로 비싸 보이지만, Starlink 위성에 현금을 투입하는 것이 가장 효율적인 자본 사용 — 10번째 Starship 발사에 선행 현금 5억 달러가 들고 연 10억 달러 이상 매출을 창출해 약 6개월 만에 회수된다. ARK는 2030년 매출을 3,000억~4,000억 달러로 전망(머스크의 1조 달러 목표의 약 1/3)하지만, 테슬라와 합병해 로보택시 현금흐름을 우주 AI 데이터센터에 재투자하면 머스크 전망도 실현 가능 범위에 들어온다. Starlink의 대역폭당 매출 로그 추세를 연장하면 1.5조 달러 수준의 매출 잠재력.",
+      "date": "2026-06-18",
+      "video": "https://www.youtube.com/watch?v=fRav7Mln28A"
+    },
+    {
+      "topic": "AI/혁신",
+      "tickers": ["AMZN", "COIN"],
+      "direction": "중립",
+      "thesis": "중국 open-weight 모델들이 frontier 모델을 distillation해 6~12개월 시차로 추격하고, Coinbase처럼 토큰 사용량은 늘리되 지출은 줄이는 기업이 등장 — OpenAI·Anthropic이 R&D 수십억 달러를 회수 못한다는 '악몽 시나리오' 내러티브가 단기 역풍이 될 수 있다. 그러나 ARK는 현재 에이전트 모델이 6개월~1년 뒤 대비 '형편없이 조악한' 수준이라 R&D 갭이 여전히 크고, 고부가가치 작업을 위해 토큰 소모는 오히려 훨씬 더 늘어나야 하므로 이 내러티브는 틀렸다고 반박. 다만 Anthropic은 선도적 기업용 제품은 있으나 OpenAI의 R&D 예산도, xAI의 미래 컴퓨트 접근성도 없어 전략적으로 위태로운 위치라고 평가.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=Bl6_uF9UstY"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": ["AAPL"],
+      "direction": "중립",
+      "thesis": "DRAM 가격이 60~90% 급등하며 애플이 평균 약 20% 제품 가격 인상을 단행, 다른 하드웨어 업체들도 동조. 원인은 하이퍼스케일러의 AI 데이터센터發 수요 폭발과 2년 전 메모리 업체들의 과소투자. 그러나 메모리가 사이클 산업에서 구조적(secular) 산업으로 바뀐 것은 아니며 '유난히 큰 사이클'일 뿐 — 가격 신호에 따라 결국 과잉투자가 일어나 마진은 다시 붕괴할 것이라는 게 ARK의 판단.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=Bl6_uF9UstY"
+    },
+    {
+      "topic": "거시/고용·생산성",
+      "tickers": [],
+      "direction": "긍정",
+      "thesis": "가계조사 고용 -50만, 비농업 고용 +5.7만(예상의 절반)으로 차트만 보면 침체 신호지만 ARK는 동의하지 않는다. 기업들이 AI를 활용해 채용을 늦추고 있고, AI만으로 창업하는 신규 사업 급증을 정부 통계가 포착하지 못하고 있기 때문. Ramp 연구에 따르면 AI를 적극 도입한 기업이 이후 2년간 오히려 약 10% 더 많이 채용했다. 생산성은 현재 전년비 2.9%에서 향후 5년 내(아마 더 일찍) 5~6%대로 가속 전망이며, 소비는 침체가 아니면 꺾이지 않는 견조한 흐름을 유지 중.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=V5W2rJ2fi3A"
+    },
+    {
+      "topic": "거시/금리·인플레이션",
+      "tickers": [],
+      "direction": "긍정",
+      "thesis": "실시간 물가지표 트루플레이션은 유가 급등에도 2% 아래로 되돌아왔고, 코어 소비자물가는 1.2~1.3%로 이미 붕괴 수준 — 정부 CPI(헤드라인 4.2%)의 절반에도 못 미친다. 따라서 올해 인플레이션 서프라이즈는 '예상보다 훨씬 낮은' 하방 쪽이며, 이란전을 통과하면 매우 빠른 디스인플레이션이 올 수 있다. 기술발 디플레 저류를 장기금리(수익률곡선 평탄화)가 감지하고 있다는 게 ARK의 해석.",
+      "date": "2026-06-22",
+      "video": "https://www.youtube.com/watch?v=t_KsI8S3fNc"
+    },
+    {
+      "topic": "에너지",
+      "tickers": [],
+      "direction": "긍정",
+      "thesis": "경제성장의 근원 투입물은 에너지이며, AI 데이터센터發 투자 재점화는 악재가 아니라 호재 — '더 많은 에너지가 좋다'. ARK의 연 7% GDP 성장 전망이 맞다면 전력 CapEx는 향후 5년간 약 10조 달러(직전 5년의 약 2배)로 확대되고, 고정형 에너지저장장치(ESS)는 같은 기간 약 19배 성장 전망. Wright's Law(누적 생산 2배마다 비용 일정률 하락)에 따르면 1970년대 규제로 원자력이 탈선하지 않았다면 전기요금은 지금보다 약 40% 쌌을 것 — 저비용 발전을 늘리면 전기요금 하락 추세가 재개돼 소비자와 AI 하이퍼스케일러 모두 승자가 된다.",
+      "date": "2026-06-22",
+      "video": "https://www.youtube.com/watch?v=AaU5of9xYaA"
+    },
+    {
+      "topic": "유전체/헬스케어",
+      "tickers": [],
+      "direction": "긍정",
+      "thesis": "Midjourney가 트랜지스터 기반 초음파 센서 링으로 전신을 1분 만에 스캔하는 의료기기를 발표 — MRI 대비 비용이 1/10~1/100(2,000~3,000달러 → 약 100달러)로 떨어진다. 2028년 샌프란시스코 출시, 2031년 월 10억 건 스캔이 목표. 저렴·고빈도 스캔은 시점 데이터가 아닌 종단(longitudinal) 데이터를 만들어 조기암 등 기존엔 발견 불가능했던 질환의 탐지를 가능케 한다. 보험사는 거부하고 인플루언서는 지지하는 '헬스케어의 소비자화' 흐름이며 단기적으로는 소비자 쪽이 이긴다는 판단.",
+      "date": "2026-06-24",
+      "video": "https://www.youtube.com/watch?v=rkcQ7SDfglg"
+    },
+    {
+      "topic": "비트코인/크립토",
+      "tickers": [],
+      "direction": "긍정",
+      "thesis": "금 대비 비트코인 비율이 바닥 형성 과정을 거쳐 이미 바닥을 쳤다고 판단 — 금은 하락 중이고 비트코인은 변동성이 크지만 장기의 넓은 상승 추세를 재개할 것으로 전망. 크레딧 시장(은행 CDS·하이일드 스프레드)도 사모신용 자금 유출에도 불구하고 조용해 시스템 리스크 신호는 없으며, 이는 위험자산에 우호적인 환경이라는 방증.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=V5W2rJ2fi3A"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Autonomous driving is safer than human driving, and it will only get better over time. It's just past humans in terms of driver safety.",
+      "date": "2026-06-30",
+      "video": "https://www.youtube.com/watch?v=-ADHQ3Hiskc"
+    },
+    {
+      "text": "For every car in the United States, there are five parking spaces. With autonomous, let's just say everyone went autonomous, it would be only one.",
+      "date": "2026-06-26",
+      "video": "https://www.youtube.com/watch?v=82SjtW7oMkU"
+    },
+    {
+      "text": "The end of American exceptionalism is, we think, greatly exaggerated — SpaceX, OpenAI and Anthropic very important cases in point.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=V5W2rJ2fi3A"
+    },
+    {
+      "text": "We believe that the surprise in inflation this year is going to be much lower than expected inflation, and maybe a very rapid deceleration in inflation once we clear through the Iran war.",
+      "date": "2026-06-22",
+      "video": "https://www.youtube.com/watch?v=t_KsI8S3fNc"
+    },
+    {
+      "text": "When history is written and has enough hindsight I will look at the 2022 rate hikes as, you know, a massive mistake. It caused a lot of harm.",
+      "date": "2026-06-18",
+      "video": "https://www.youtube.com/watch?v=nCt0jy4vQIo"
+    },
+    {
+      "text": "It's not like memory has suddenly become a secular business whereas before it was cyclical. It's just this is a wildly large cycle.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=Bl6_uF9UstY"
+    }
+  ]
+}

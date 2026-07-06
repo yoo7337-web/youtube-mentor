@@ -1,0 +1,21 @@
+# secrets — 절대 커밋 금지
+.env
+*.key
+# 로컬 Gemini 키 주입(사이트) ※ gitignore는 같은 줄 주석 미지원 — 패턴 단독 줄 필수
+config.local.js
+
+# 원본 자막·문서 (재수집 가능 / 저작권) — 지식팩(knowledge-packs)은 커밋 대상이므로 제외하지 않음
+data/transcripts/
+data/collect.log
+
+# 수동 소스 원문 붙여넣기(Threads·X 등, 저작권/개인) — 파생 인사이트만 지식팩으로 커밋
+data/manual/
+
+# 상담 일지 (개인 기록)
+data/consultations/*.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/

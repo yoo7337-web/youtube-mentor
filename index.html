@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>거인의 어깨 — 나의 투자 상담가들</title>
+<style>
+  /* ===== 다크(기본) 팔레트 ===== */
+  :root{
+    --bg:#0d0f14; --bg2:#12151c; --panel:#171a22; --panel2:#1f232d; --line:#2a2f3a;
+    --txt:#e8eaf0; --sub:#9aa3b2; --acc:#5b8cff; --acc-soft:#1a2233;
+    --pos:#2ecc71; --neg:#e74c3c; --neu:#f1c40f;
+    --notice-bg:#26210f; --notice-line:#5c4a12; --notice-txt:#e3c96a;
+    --shadow:0 8px 24px rgba(0,0,0,.35); --glow:0 0 0 1px var(--acc), 0 8px 30px rgba(91,140,255,.25);
+    --link:#7ea3ff;
+  }
+  /* ===== 라이트 팔레트 ===== */
+  :root.light{
+    --bg:#f4f6fb; --bg2:#eef1f7; --panel:#ffffff; --panel2:#f1f3f8; --line:#e1e5ee;
+    --txt:#1a1d26; --sub:#5c6474; --acc:#3b6cf6; --acc-soft:#eef3ff;
+    --notice-bg:#fff7e6; --notice-line:#f0d494; --notice-txt:#8a6d16;
+    --shadow:0 6px 20px rgba(30,40,80,.08); --glow:0 0 0 1px var(--acc), 0 8px 26px rgba(59,108,246,.18);
+    --link:#2b57d6;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:
+      radial-gradient(1100px 600px at 15% -10%, color-mix(in srgb, var(--acc) 12%, transparent), transparent 60%),
+      var(--bg);
+    color:var(--txt); font-family:'Segoe UI','Malgun Gothic',sans-serif; line-height:1.6;
+    min-height:100vh; transition:background .25s, color .25s;}
+  .wrap{max-width:1200px; margin:0 auto; padding:26px 18px 90px;}
+
+  /* ===== 헤더 ===== */
+  header{display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:14px; margin-bottom:6px;}
+  .brand{display:flex; gap:12px; align-items:center;}
+  .logo{width:44px; height:44px; border-radius:13px; display:grid; place-items:center; font-size:1.4rem;
+    background:linear-gradient(135deg, var(--acc), color-mix(in srgb, var(--acc) 55%, #a78bfa));
+    box-shadow:var(--shadow); flex-shrink:0;}
+  h1{font-size:1.4rem; letter-spacing:-.01em;}
+  h1 .sub{color:var(--sub); font-size:.83rem; font-weight:400; display:block; margin-top:2px;}
+  .head-right{display:flex; gap:8px; align-items:center;}
+  .keybox{display:flex; gap:6px; align-items:center;}
+  .keybox input{background:var(--panel2); border:1px solid var(--line); color:var(--txt);
+    border-radius:9px; padding:8px 11px; width:230px; font-size:.85rem;}
+  .btn{background:var(--acc); border:none; color:#fff; border-radius:9px; padding:8px 14px;
+    font-size:.9rem; cursor:pointer; transition:filter .15s, transform .05s;}
+  .btn:hover{filter:brightness(1.08);}
+  .btn:active{transform:translateY(1px);}
+  .btn.gray{background:var(--panel2); border:1px solid var(--line); color:var(--sub);}
+  .btn:disabled{opacity:.5; cursor:not-allowed;}
+  .icon-btn{width:40px; height:40px; border-radius:11px; border:1px solid var(--line); background:var(--panel);
+    color:var(--txt); cursor:pointer; font-size:1.05rem; display:grid; place-items:center; transition:background .15s, border-color .15s;}
+  .icon-btn:hover{border-color:var(--acc); background:var(--panel2);}
+
+  .notice{background:var(--notice-bg); border:1px solid var(--notice-line); color:var(--notice-txt); border-radius:12px;
+    padding:11px 15px; font-size:.85rem; margin:14px 0 4px;}
+  section{margin-top:26px;}
+  h2{font-size:1.06rem; margin-bottom:12px; color:var(--txt); display:flex; align-items:center; gap:8px;}
+  h2 .muted{color:var(--sub); font-size:.8rem; font-weight:400;}
+
+  /* ===== 전문가 카드 ===== */
+  .experts{display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:12px;}
+  .exp{position:relative; background:var(--panel); border:1px solid var(--line); border-radius:15px;
+    padding:15px 16px; cursor:pointer; box-shadow:var(--shadow);
+    transition:transform .14s, box-shadow .14s, border-color .14s;}
+  .exp:hover{transform:translateY(-3px); border-color:color-mix(in srgb, var(--acc) 45%, var(--line));}
+  .exp.sel{border-color:var(--acc); background:var(--acc-soft); box-shadow:var(--glow);}
+  .exp-head{display:flex; gap:12px; align-items:center;}
+  .avatar{position:relative; width:46px; height:46px; border-radius:50%; flex-shrink:0; overflow:hidden;
+    display:grid; place-items:center; color:#fff; font-weight:700; font-size:1.05rem; letter-spacing:-.02em;}
+  .avatar::after{content:""; position:absolute; inset:0; border-radius:50%; pointer-events:none;
+    box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.22);}
+  .avatar img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 22%; background:inherit;}
+  .exp .nm{font-weight:700; font-size:1.02rem; letter-spacing:-.01em;}
+  .exp .dm{color:var(--sub); font-size:.79rem; margin-top:1px;}
+  .cat-tag{display:inline-block; font-size:.7rem; font-weight:600; padding:3px 9px; border-radius:99px; margin-top:11px;}
+  .exp .intro{color:var(--txt); opacity:.86; font-size:.82rem; line-height:1.5; margin-top:11px;
+    padding-top:11px; border-top:1px solid var(--line);}
+  .exp .meta{color:var(--sub); font-size:.75rem; margin-top:9px;}
+  .exp .vids-toggle{color:var(--acc); font-size:.78rem; margin-top:8px; display:inline-block; font-weight:500;}
+  .vids{display:none; margin-top:9px; border-top:1px dashed var(--line); padding-top:9px; max-height:220px; overflow-y:auto;}
+  .vids.open{display:block;}
+  .vids a{color:var(--link); text-decoration:none; font-size:.78rem; display:block; padding:2px 0;}
+  .vids a:hover{text-decoration:underline;}
+  .vids .d{color:var(--sub); margin-right:6px;}
+  /* 선택 체크 배지 */
+  .check{position:absolute; top:12px; right:12px; width:24px; height:24px; border-radius:50%;
+    background:var(--acc); color:#fff; display:none; place-items:center; font-size:.8rem; font-weight:700;
+    box-shadow:0 2px 8px rgba(0,0,0,.25);}
+  .exp.sel .check{display:grid;}
+
+  /* ===== 질문 ===== */
+  .qbox{display:flex; gap:10px; margin-top:12px;}
+  textarea{flex:1; background:var(--panel); border:1px solid var(--line); color:var(--txt);
+    border-radius:13px; padding:13px 15px; font-size:.95rem; min-height:74px; resize:vertical; font-family:inherit;
+    box-shadow:var(--shadow); transition:border-color .15s;}
+  textarea:focus{outline:none; border-color:var(--acc);}
+  .qbox .btn{align-self:stretch; padding:0 22px; font-weight:600;}
+
+  /* ===== 답변 카드 ===== */
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(330px,1fr)); gap:15px; margin-top:18px;}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:17px; min-height:120px;
+    box-shadow:var(--shadow);}
+  .card h3{font-size:1rem; display:flex; align-items:center; gap:9px; flex-wrap:wrap;}
+  .card h3 .avatar{width:34px; height:34px; font-size:.9rem;}
+  .card h3 .dm{color:var(--sub); font-size:.72rem; font-weight:400;}
+  .card .body{margin-top:12px; font-size:.9rem; white-space:pre-wrap; word-break:break-word;}
+  .card .body a{color:var(--link);}
+  .ans-summary{white-space:pre-wrap; background:var(--acc-soft); border:1px solid color-mix(in srgb, var(--acc) 40%, var(--line));
+    border-left:3px solid var(--acc); border-radius:9px; padding:11px 13px; font-size:.92rem; line-height:1.6;
+    font-weight:600; color:var(--txt);}
+  .ans-summary .lab{display:block; font-size:.68rem; font-weight:700; letter-spacing:.03em; color:var(--acc);
+    margin-bottom:4px; opacity:.9;}
+  .ans-detail{white-space:pre-wrap; margin-top:11px; font-size:.88rem; line-height:1.72; opacity:.96;}
+  .card .status{color:var(--sub); font-size:.85rem; margin-top:12px;}
+  .spin{display:inline-block; width:14px; height:14px; border:2px solid var(--sub); border-top-color:transparent;
+    border-radius:50%; animation:sp 0.8s linear infinite; vertical-align:-2px; margin-right:6px;}
+  @keyframes sp{to{transform:rotate(360deg);}}
+  footer{margin-top:44px; color:var(--sub); font-size:.75rem; border-top:1px solid var(--line); padding-top:16px;}
+  .tag{display:inline-block; font-size:.68rem; padding:2px 8px; border-radius:99px; margin-left:6px; vertical-align:middle;}
+  .tag.ai{background:var(--panel2); color:var(--sub); border:1px solid var(--line);}
+
+  /* ===== 탭 내비게이션 ===== */
+  .tabs{display:flex; gap:4px; margin-top:16px; border-bottom:1px solid var(--line);}
+  .tab-btn{background:none; border:none; color:var(--sub); font-size:.95rem; font-weight:600; padding:10px 16px;
+    cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-1px; font-family:inherit; transition:color .15s;}
+  .tab-btn:hover{color:var(--txt);}
+  .tab-btn.on{color:var(--txt); border-bottom-color:var(--acc);}
+
+  /* ===== 인사이트 라이브러리 ===== */
+  .lib-modes{display:flex; gap:8px; margin:18px 0 14px;}
+  .mode-btn{background:var(--panel); border:1px solid var(--line); color:var(--sub); border-radius:10px;
+    padding:8px 15px; font-size:.87rem; cursor:pointer; font-family:inherit; transition:border-color .15s;}
+  .mode-btn.on{background:var(--acc-soft); border-color:var(--acc); color:var(--txt); font-weight:600;}
+  .lib-chips{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px;}
+  .lchip{display:flex; align-items:center; gap:7px; background:var(--panel); border:1px solid var(--line);
+    border-radius:99px; padding:4px 13px 4px 4px; cursor:pointer; font-size:.85rem; color:var(--txt);
+    font-family:inherit; transition:border-color .15s;}
+  .lchip .avatar{width:27px; height:27px; font-size:.72rem;}
+  .lchip:hover{border-color:color-mix(in srgb, var(--acc) 45%, var(--line));}
+  .lchip.on{border-color:var(--acc); background:var(--acc-soft); font-weight:600;}
+  .tchip{background:var(--panel); border:1px solid var(--line); color:var(--txt); border-radius:99px;
+    padding:6px 14px; font-size:.83rem; cursor:pointer; font-family:inherit; transition:border-color .15s;}
+  .tchip .cnt{color:var(--sub); font-size:.74rem; margin-left:5px;}
+  .tchip:hover{border-color:color-mix(in srgb, var(--acc) 45%, var(--line));}
+  .tchip.on{border-color:var(--acc); background:var(--acc-soft); font-weight:600;}
+  /* 헤더 카드 */
+  .lib-head{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:18px;
+    box-shadow:var(--shadow); margin-bottom:6px;}
+  .lib-head .top{display:flex; gap:14px; align-items:center; flex-wrap:wrap;}
+  .lib-head .avatar{width:54px; height:54px; font-size:1.15rem;}
+  .lib-head .nm{font-weight:700; font-size:1.15rem;}
+  .lib-head .dm{color:var(--sub); font-size:.82rem; margin-top:1px;}
+  .lib-head .stats{color:var(--sub); font-size:.78rem; margin-top:3px;}
+  .lib-head .intro2{color:var(--txt); opacity:.87; font-size:.86rem; margin-top:13px; line-height:1.65;
+    border-top:1px solid var(--line); padding-top:12px;}
+  .stackbar{display:flex; height:8px; border-radius:99px; overflow:hidden; margin-top:13px; background:var(--panel2);}
+  .stackbar div{height:100%;}
+  .sb-legend{display:flex; gap:14px; color:var(--sub); font-size:.75rem; margin-top:7px;}
+  .dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px;}
+  /* 툴바 */
+  .lib-toolbar{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:14px 0 4px;}
+  .lib-toolbar .sep{color:var(--line); margin:0 2px;}
+  .fchip{background:var(--panel); border:1px solid var(--line); color:var(--sub); border-radius:99px;
+    padding:5px 12px; font-size:.8rem; cursor:pointer; font-family:inherit; transition:border-color .15s;}
+  .fchip.on{border-color:var(--acc); color:var(--txt); background:var(--acc-soft); font-weight:600;}
+  .lib-toolbar input{background:var(--panel); border:1px solid var(--line); color:var(--txt);
+    border-radius:99px; padding:6px 14px; font-size:.82rem; width:200px; font-family:inherit;}
+  .lib-toolbar input:focus{outline:none; border-color:var(--acc);}
+  .tickchip{background:var(--panel2); border:1px solid var(--line); color:var(--sub); border-radius:7px;
+    padding:2px 8px; font-size:.73rem; cursor:pointer; font-family:inherit;}
+  .tickchip.on{border-color:var(--acc); color:var(--acc); font-weight:600;}
+  /* 인사이트 카드 */
+  .topic-group{margin-top:20px;}
+  .topic-group > h4{font-size:.93rem; margin-bottom:9px; display:flex; align-items:center; gap:8px;}
+  .topic-group > h4 .cnt{color:var(--sub); font-weight:400; font-size:.78rem;}
+  .ins{background:var(--panel); border:1px solid var(--line); border-radius:13px; padding:13px 16px;
+    margin-bottom:9px; box-shadow:var(--shadow);}
+  .ins .row{display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:.75rem; color:var(--sub);}
+  .dirb{font-weight:700; font-size:.72rem; padding:2px 9px; border-radius:99px;}
+  .kindb{font-size:.68rem; font-weight:600; padding:1px 7px; border-radius:99px; color:var(--sub); border:1px solid var(--line);}
+  .ins .th{margin-top:9px; font-size:.87rem; line-height:1.68;}
+  .ins .src{margin-top:9px; font-size:.76rem;}
+  .ins .src a{color:var(--link); text-decoration:none;}
+  .ins .src a:hover{text-decoration:underline;}
+  .instick{background:var(--panel2); border:1px solid var(--line); color:var(--sub); border-radius:6px;
+    padding:1px 7px; font-size:.7rem;}
+  /* 인용 말풍선 */
+  .qt{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--acc);
+    border-radius:4px 13px 13px 4px; padding:12px 16px; margin-bottom:9px; font-size:.87rem;
+    font-style:italic; line-height:1.65; box-shadow:var(--shadow);}
+  .qt .src{font-style:normal; color:var(--sub); font-size:.75rem; margin-top:7px;}
+  .qt .src a{color:var(--link); text-decoration:none;}
+  /* 주제별 비교 */
+  .compare-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:14px; margin-top:16px;}
+  .cmp-col{background:var(--panel); border:1px solid var(--line); border-radius:15px; padding:15px; box-shadow:var(--shadow);}
+  .cmp-col .who{display:flex; gap:9px; align-items:center; margin-bottom:11px;}
+  .cmp-col .who .avatar{width:32px; height:32px; font-size:.8rem;}
+  .cmp-col .who .nm{font-weight:700; font-size:.93rem;}
+  .cmp-col .ins{box-shadow:none; background:var(--panel2); border-color:transparent; padding:11px 13px;}
+  .lib-empty{color:var(--sub); font-size:.86rem; padding:26px 0; text-align:center;}
+
+  /* ===== 분류 탭(드래그&드롭) ===== */
+  .cls-toolbar{display:flex; align-items:center; gap:10px; margin:14px 0 16px; flex-wrap:wrap;}
+  .cls-toolbar .muted{color:var(--sub); font-size:.8rem;}
+  .cls-zone-label{font-weight:700; font-size:.95rem; margin-bottom:8px; display:flex; align-items:center; gap:7px;}
+  .cls-zone-label .muted{color:var(--sub); font-weight:400; font-size:.78rem;}
+  .cls-pool-wrap{margin-bottom:18px;}
+  .cls-zones{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px;}
+  .dropzone{display:flex; flex-wrap:wrap; gap:9px; align-content:flex-start;
+    background:var(--panel); border:2px dashed var(--line); border-radius:14px; padding:14px;
+    min-height:120px; transition:border-color .15s, background .15s;}
+  .cls-pool.dropzone{min-height:70px;}
+  .dropzone.over{border-color:var(--acc); background:var(--acc-soft);}
+  .dropzone .zone-empty{color:var(--sub); font-size:.82rem; opacity:.7; align-self:center; margin:auto;}
+  .cls-chip{display:flex; align-items:center; gap:8px; background:var(--panel2); border:1px solid var(--line);
+    border-radius:99px; padding:5px 14px 5px 5px; cursor:grab; font-size:.87rem; color:var(--txt);
+    user-select:none; transition:box-shadow .12s, border-color .12s;}
+  .cls-chip:hover{border-color:color-mix(in srgb, var(--acc) 45%, var(--line));}
+  .cls-chip:active{cursor:grabbing;}
+  .cls-chip.dragging{opacity:.45; box-shadow:var(--glow);}
+  .cls-chip .avatar{width:30px; height:30px; font-size:.75rem;}
+  .zone-count{color:var(--sub); font-weight:400; font-size:.78rem;}
+
+  /* ===== 상담 탭: 분류 그룹(다이어그램형 배치) ===== */
+  .exp-groups{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
+  @media(max-width:820px){ .exp-groups{grid-template-columns:1fr;} }
+  .exp-group{border-radius:18px; padding:14px 14px 15px; position:relative;
+    border:1.5px solid color-mix(in srgb, var(--gc) 32%, var(--line));
+    background:
+      radial-gradient(460px 150px at 10% -14%, color-mix(in srgb, var(--gc) 11%, transparent), transparent 70%),
+      color-mix(in srgb, var(--gc) 5%, var(--panel));}
+  .exp-group.wide{grid-column:1 / -1;}
+  .exp-group .gh{display:flex; align-items:center; gap:9px; margin-bottom:12px;}
+  .gicon{width:34px; height:34px; border-radius:10px; display:grid; place-items:center; font-size:1.05rem;
+    background:color-mix(in srgb, var(--gc) 16%, transparent);
+    border:1px solid color-mix(in srgb, var(--gc) 30%, transparent);}
+  .gname{font-weight:800; letter-spacing:-.01em; font-size:1rem;
+    color:color-mix(in srgb, var(--gc) 55%, var(--txt));}
+  .gcount{color:var(--sub); font-size:.78rem;}
+  .gsel{margin-left:auto; background:transparent;
+    border:1px solid color-mix(in srgb, var(--gc) 40%, var(--line));
+    color:color-mix(in srgb, var(--gc) 65%, var(--txt)); border-radius:99px; padding:4px 12px;
+    font-size:.76rem; cursor:pointer; font-family:inherit; transition:background .15s;}
+  .gsel:hover{background:color-mix(in srgb, var(--gc) 14%, transparent);}
+  .exp-group .experts{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));}
+  .gempty{color:var(--sub); font-size:.82rem; opacity:.75; padding:12px 4px;}
+
+  /* ===== 인사이트: 시장별 보기 ===== */
+  .mkt-strip{display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 4px;}
+  .avatar.mini{width:22px; height:22px; font-size:.6rem;}
+  .mkt-who{cursor:pointer;}
+  .mkt-who b{font-size:.83rem; color:var(--txt);}
+  .mkt-who:hover b{text-decoration:underline;}
+
+  /* ===== 오늘의 대립 위젯 ===== */
+  .conflict-wrap{margin:4px 0 8px;}
+  .conflict-head{display:flex; align-items:center; gap:8px; margin-bottom:11px;}
+  .conflict-head .t{font-weight:800; font-size:1.02rem; letter-spacing:-.01em;}
+  .conflict-head .s{color:var(--sub); font-size:.8rem;}
+  .conflict-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px;}
+  .conf{border:1px solid var(--line); border-radius:15px; padding:14px 15px; box-shadow:var(--shadow);
+    background:
+      linear-gradient(105deg, color-mix(in srgb, var(--pos) 8%, transparent), transparent 42%),
+      linear-gradient(285deg, color-mix(in srgb, var(--neg) 9%, transparent), transparent 42%),
+      var(--panel);}
+  .conf .ct{font-weight:800; font-size:1rem; display:flex; align-items:center; gap:7px; margin-bottom:11px;}
+  .conf .ct .vs{margin-left:auto; font-size:.72rem; color:var(--sub); font-weight:500;}
+  .conf .side{display:flex; align-items:flex-start; gap:8px; padding:7px 0; font-size:.82rem;}
+  .conf .side + .side{border-top:1px dashed var(--line);}
+  .conf .slab{font-weight:700; white-space:nowrap; padding-top:3px;}
+  .conf .slab.pos{color:var(--pos);} .conf .slab.neg{color:var(--neg);}
+  .conf .people{display:flex; flex-wrap:wrap; gap:6px;}
+  .conf .person{display:flex; align-items:center; gap:5px; background:var(--panel2); border:1px solid var(--line);
+    border-radius:99px; padding:2px 9px 2px 2px; font-size:.78rem; cursor:pointer;}
+  .conf .person:hover{border-color:var(--acc);}
+  .conf .person .avatar{width:20px; height:20px; font-size:.56rem;}
+  .conf .cta{margin-top:12px; width:100%; background:var(--acc); color:#fff; border:none; border-radius:9px;
+    padding:8px; font-size:.83rem; font-weight:600; cursor:pointer; font-family:inherit; transition:filter .15s;}
+  .conf .cta:hover{filter:brightness(1.08);}
+
+  /* ===== 심층 모드 토글 ===== */
+  .deep-toggle{display:flex; align-items:center; gap:8px; margin:10px 2px 0; font-size:.83rem; color:var(--txt); cursor:pointer;}
+  .deep-toggle input{width:15px; height:15px; accent-color:var(--acc); cursor:pointer;}
+  .deep-toggle span{color:var(--sub); font-size:.78rem;}
+  .deep-note{display:inline-block; font-size:.73rem; color:var(--acc); background:var(--acc-soft);
+    border:1px solid color-mix(in srgb, var(--acc) 35%, transparent); border-radius:99px; padding:2px 9px; margin-bottom:9px;}
+
+  /* ===== 추천 질문 칩 ===== */
+  .suggest-wrap{display:flex; flex-wrap:wrap; gap:7px; align-items:center; margin:11px 0 2px;}
+  .suggest-wrap .lbl{color:var(--sub); font-size:.78rem; margin-right:2px;}
+  .sug{background:var(--panel); border:1px solid var(--line); color:var(--txt); border-radius:99px;
+    padding:6px 13px; font-size:.8rem; cursor:pointer; font-family:inherit; transition:border-color .15s, background .15s;}
+  .sug:hover{border-color:var(--acc); background:var(--acc-soft);}
+  .sug b{color:var(--acc); font-weight:600;}
+
+  /* ===== 상담 일지 ===== */
+  .history-wrap{margin-top:30px;}
+  .history-head{display:flex; align-items:center; gap:10px; border-top:1px solid var(--line); padding-top:16px;}
+  .history-head .t{font-weight:700; font-size:.98rem;}
+  .history-head .clear{margin-left:auto; background:none; border:1px solid var(--line); color:var(--sub);
+    border-radius:8px; padding:5px 11px; font-size:.76rem; cursor:pointer; font-family:inherit;}
+  .history-head .clear:hover{border-color:var(--neg); color:var(--neg);}
+  .hist-item{display:flex; align-items:center; gap:11px; background:var(--panel); border:1px solid var(--line);
+    border-radius:12px; padding:11px 14px; margin-top:9px; cursor:pointer; transition:border-color .15s;}
+  .hist-item:hover{border-color:var(--acc);}
+  .hist-item .when{color:var(--sub); font-size:.74rem; white-space:nowrap;}
+  .hist-item .hq{flex:1; font-size:.87rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .hist-item .who{display:flex; gap:-4px;}
+  .hist-item .who .avatar{width:24px; height:24px; font-size:.62rem; margin-left:-6px; box-shadow:0 0 0 2px var(--panel);}
+  .hist-item .who .avatar:first-child{margin-left:0;}
+  .saved-banner{background:var(--acc-soft); border:1px solid var(--acc); border-radius:10px; padding:9px 13px;
+    font-size:.82rem; color:var(--txt); margin-bottom:12px; display:flex; align-items:center; gap:8px;}
+  .saved-banner .x{margin-left:auto; cursor:pointer; color:var(--sub); font-weight:700;}
+  .cards .saved-banner{grid-column:1 / -1;}
+
+  /* ===== 개발일지 모달 ===== */
+  .modal-back{position:fixed; inset:0; z-index:100; display:none; align-items:flex-start; justify-content:center;
+    background:rgba(0,0,0,.55); backdrop-filter:blur(3px); padding:5vh 16px;}
+  .modal-back.open{display:flex;}
+  .modal{background:var(--bg2); border:1px solid var(--line); border-radius:18px; width:100%; max-width:760px;
+    max-height:88vh; display:flex; flex-direction:column; box-shadow:0 24px 70px rgba(0,0,0,.5); overflow:hidden;}
+  .modal-head{display:flex; align-items:center; gap:10px; padding:16px 20px; border-bottom:1px solid var(--line);
+    background:linear-gradient(120deg, color-mix(in srgb, var(--acc) 12%, var(--panel)), var(--panel));}
+  .modal-head .mt{font-weight:800; font-size:1.1rem; letter-spacing:-.01em;}
+  .modal-head .ms{color:var(--sub); font-size:.78rem;}
+  .modal-x{margin-left:auto; background:none; border:1px solid var(--line); color:var(--sub); border-radius:9px;
+    width:32px; height:32px; cursor:pointer; font-size:.9rem; transition:border-color .15s, color .15s;}
+  .modal-x:hover{border-color:var(--neg); color:var(--neg);}
+  .modal-body{padding:18px 20px 24px; overflow-y:auto;}
+  .dl-intro{color:var(--txt); opacity:.9; font-size:.87rem; line-height:1.65; background:var(--panel);
+    border:1px solid var(--line); border-radius:12px; padding:13px 15px;}
+  .dl-h{font-size:1rem; margin:22px 0 10px; display:flex; align-items:center; gap:8px;}
+  .dl-sub{color:var(--sub); font-size:.78rem; margin:-4px 0 8px;}
+  /* 타임라인 */
+  .dl-timeline{position:relative; padding-left:20px;}
+  .dl-timeline::before{content:""; position:absolute; left:5px; top:6px; bottom:6px; width:2px; background:var(--line);}
+  .dl-step{position:relative; padding:0 0 15px 4px;}
+  .dl-step::before{content:""; position:absolute; left:-19px; top:5px; width:11px; height:11px; border-radius:50%;
+    background:var(--acc); box-shadow:0 0 0 3px var(--bg2);}
+  .dl-step.done::before{background:var(--pos);}
+  .dl-step.wip::before{background:var(--neu);}
+  .dl-step .st{font-weight:700; font-size:.9rem; display:flex; align-items:center; gap:8px; flex-wrap:wrap;}
+  .dl-step .badge{font-size:.66rem; font-weight:700; padding:1px 7px; border-radius:99px;}
+  .dl-step .badge.done{color:var(--pos); background:color-mix(in srgb,var(--pos) 14%,transparent); border:1px solid color-mix(in srgb,var(--pos) 35%,transparent);}
+  .dl-step .badge.wip{color:var(--neu); background:color-mix(in srgb,var(--neu) 16%,transparent); border:1px solid color-mix(in srgb,var(--neu) 38%,transparent);}
+  .dl-step .sd{color:var(--sub); font-size:.81rem; line-height:1.6; margin-top:3px;}
+  .dl-status{display:flex; flex-direction:column; gap:8px;}
+  .dl-srow{display:flex; gap:9px; align-items:baseline; font-size:.84rem; background:var(--panel);
+    border:1px solid var(--line); border-radius:10px; padding:9px 13px;}
+  .dl-srow .k{font-weight:700; white-space:nowrap;}
+  .dl-srow .v{color:var(--sub);}
+  .dl-save{font-size:.7rem; color:var(--pos); font-weight:600; margin-left:4px; opacity:0; transition:opacity .2s;}
+  .dl-save.show{opacity:1;}
+  .dl-notes{width:100%; min-height:150px; resize:vertical; background:var(--panel); border:1px solid var(--line);
+    color:var(--txt); border-radius:12px; padding:13px 15px; font-size:.88rem; line-height:1.6; font-family:inherit;}
+  .dl-notes:focus{outline:none; border-color:var(--acc);}
+</style>
+</head>
+<!-- 로컬 전용 키 주입(있으면). git 제외되는 config.local.js 가 window.GEMINI_API_KEY 를 설정.
+     Pages 배포본엔 이 파일이 없어 무시되고, 사용자는 우상단에 직접 키를 입력한다. -->
+<script src="config.local.js" onerror="void 0"></script>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">🎙</div>
+      <h1>거인의 어깨
+        <span class="sub">유튜브 명사들의 발언(지식팩)으로 답하는 나의 투자 상담가 · 각 답변은 전문가별로 <b>격리·개별 생성</b>됩니다</span>
+      </h1>
+    </div>
+    <div class="head-right">
+      <div class="keybox" id="keybox" style="display:none">
+        <input id="apikey" type="password" placeholder="Gemini API 키 (브라우저에만 저장)">
+        <button class="btn gray" onclick="saveKey()">키 저장</button>
+      </div>
+      <div class="keyok" id="keyok" style="display:none; color:var(--sub); font-size:.8rem;">
+        🔑 Gemini 키 로드됨 · <a href="#" onclick="clearKey();return false;" style="color:var(--acc)">변경</a>
+      </div>
+      <button class="icon-btn" id="devlogBtn" onclick="openDevlog()" title="개발일지">📓</button>
+      <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="라이트/다크 전환">🌙</button>
+    </div>
+  </header>
+
+  <div class="notice">⚠️ 이 서비스의 "전문가"는 실제 인물이 아니라 <b>유튜브 발언을 학습한 AI 재현</b>입니다.
+    답변은 투자 조언이 아니며, 매매 판단과 책임은 본인에게 있습니다. 모든 답변에는 근거 영상·날짜가 표기됩니다.</div>
+
+  <nav class="tabs">
+    <button class="tab-btn" id="tabCatBtn" onclick="location.hash='#classify'">🗂 분류</button>
+    <button class="tab-btn on" id="tabAskBtn" onclick="location.hash='#ask'">💬 상담</button>
+    <button class="tab-btn" id="tabInsBtn" onclick="location.hash='#insights'">📚 인사이트</button>
+  </nav>
+
+  <div id="tab-ask">
+  <div id="conflictBox" class="conflict-wrap" style="display:none"></div>
+
+  <section>
+    <h2>1. 상담할 전문가 선택 <span id="expCount" style="color:var(--sub);font-size:.8rem;"></span></h2>
+    <div id="experts"></div>
+  </section>
+
+  <section>
+    <h2>2. 질문하기 <span style="color:var(--sub);font-size:.8rem;">— 선택한 전문가들이 각자 따로 답합니다 (합성 없음)</span></h2>
+    <div class="qbox">
+      <textarea id="question" placeholder="예) 지금 반도체 업황 어떻게 보세요? / 요즘 유망한 산업이 뭐라고 보세요?"></textarea>
+      <button class="btn" id="askBtn" onclick="ask()">질문</button>
+    </div>
+    <label class="deep-toggle"><input type="checkbox" id="deepMode">
+      🔬 심층 모드 <span>— 질문과 관련된 원문(자막·문서) 발췌를 추가 투입해 더 깊게 답합니다 (로컬 전용)</span></label>
+    <div id="suggestBox" class="suggest-wrap"></div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <div id="historyBox" class="history-wrap"></div>
+  </div><!-- /tab-ask -->
+
+  <div id="tab-insights" style="display:none">
+    <section>
+      <h2>인사이트 라이브러리 <span style="color:var(--sub);font-size:.8rem;font-weight:400">— 큐레이션된 투자 뷰를 근거 영상과 함께 학습</span></h2>
+      <div class="lib-modes">
+        <button class="mode-btn on" id="modeExpert" onclick="location.hash='#insights'">👤 전문가별 보기</button>
+        <button class="mode-btn" id="modeCompare" onclick="location.hash='#insights/compare'">⚖️ 주제별 비교</button>
+        <button class="mode-btn" id="modeMarket" onclick="location.hash='#insights/market'">🌏 시장별 보기</button>
+      </div>
+      <div id="libExpertMode">
+        <div class="lib-chips" id="libChips"></div>
+        <div id="libBody"></div>
+      </div>
+      <div id="libCompareMode" style="display:none">
+        <div class="lib-chips" id="topicChips"></div>
+        <div id="compareBody"></div>
+      </div>
+      <div id="libMarketMode" style="display:none">
+        <div class="lib-chips" id="marketChips"></div>
+        <div id="marketBody"></div>
+      </div>
+    </section>
+  </div><!-- /tab-insights -->
+
+  <div id="tab-classify" style="display:none">
+    <section>
+      <h2>전문가 분류 <span style="color:var(--sub);font-size:.8rem;font-weight:400">— 전문가를 드래그해 구역에 배치하세요 (이 브라우저에 자동 저장)</span></h2>
+      <div class="cls-toolbar">
+        <button class="btn gray" onclick="resetClassify()">↺ 초기화</button>
+        <button class="btn" onclick="exportClassify()">📋 JSON 복사 (영구 반영용)</button>
+        <span class="muted" id="clsMsg"></span>
+      </div>
+      <div class="cls-pool-wrap">
+        <div class="cls-zone-label">📥 미분류 <span class="zone-count" id="poolCount"></span></div>
+        <div class="cls-pool dropzone" id="clsPool" data-cat=""
+             ondragover="clsDragOver(event)" ondragleave="clsDragLeave(event)" ondrop="clsDrop(event)"></div>
+      </div>
+      <div class="cls-zones" id="clsZones"></div>
+    </section>
+  </div><!-- /tab-classify -->
+
+  <footer>
+    youtube-mentor · 지식팩 인덱싱: Claude Code(터미널) · 답변 생성: Gemini(무료 API, 브라우저 직접 호출) ·
+    자막 데이터는 개인 분석 용도로만 사용 · <span class="tag ai">AI 재현</span>
+  </footer>
+</div>
+
+<div class="modal-back" id="devlogBack" onclick="if(event.target===this)closeDevlog()">
+  <div class="modal" role="dialog" aria-label="개발일지">
+    <div class="modal-head">
+      <span class="mt">📓 개발일지</span>
+      <span class="ms" id="devlogVer"></span>
+      <button class="modal-x" onclick="closeDevlog()" title="닫기">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="dl-intro">
+        유튜브 투자·경제 명사들의 발언(지식팩)으로 답하는 개인 AI 상담가.
+        인덱싱은 Claude Code 터미널, 답변은 Gemini 무료 API(브라우저 직접 호출) · 추가 비용 0원.
+      </div>
+
+      <h4 class="dl-h">🧭 개발 단계</h4>
+      <div class="dl-timeline" id="dlTimeline"></div>
+
+      <h4 class="dl-h">📊 현재 상태</h4>
+      <div class="dl-status" id="dlStatus"></div>
+
+      <h4 class="dl-h">💡 아이디어 &amp; 개발 예정 <span class="dl-save" id="notesSaved"></span></h4>
+      <p class="dl-sub">자유롭게 적어두세요. 이 브라우저에 자동 저장됩니다.</p>
+      <textarea id="devNotes" class="dl-notes" placeholder="새 아이디어, 개발할 기능, 버그, 메모…" oninput="saveNotes()"></textarea>
+    </div>
+  </div>
+</div>
+
+<script>
+const PACK_BASE = 'data/knowledge-packs/';
+const GEMINI_MODEL = 'gemini-2.5-flash';
+const MAX_CONCURRENT = 2;   // 무료 티어 분당 한도(RPM) 초과 방지: 동시 호출 수 제한
+let manifest = [], packs = {}, selected = new Set();
+
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// 동시 실행 수를 limit 개로 제한하며 items를 처리(순서 보존). 카드는 미리 다 그려두고 호출만 조율.
+async function runPooled(items, limit, worker){
+  let i = 0;
+  const runNext = async () => {
+    while(i < items.length){
+      const idx = i++;
+      await worker(items[idx], idx);
+    }
+  };
+  await Promise.all(Array.from({length: Math.min(limit, items.length)}, runNext));
+}
+
+// Gemini 429 응답에서 일일한도 여부·재시도 지연(retryDelay)을 파싱
+function parseQuota(errText){
+  let daily = false, retryMs = 0;
+  try{
+    const details = (JSON.parse(errText).error?.details) || [];
+    for(const d of details){
+      const t = d['@type'] || '';
+      if(t.includes('QuotaFailure')){
+        for(const v of (d.violations || [])){
+          if(/PerDay/i.test(v.quotaId || '')) daily = true;
+        }
+      }
+      if(t.includes('RetryInfo') && d.retryDelay){
+        const m = /([\d.]+)s/.exec(d.retryDelay);
+        if(m) retryMs = Math.ceil(parseFloat(m[1]) * 1000);
+      }
+    }
+  }catch(e){}
+  return { daily, retryMs };
+}
+
+/* ===== 테마(라이트/다크) 토글 ===== */
+function applyTheme(t){
+  document.documentElement.classList.toggle('light', t === 'light');
+  const btn = document.getElementById('themeBtn');
+  if(btn) btn.textContent = (t === 'light') ? '☀️' : '🌙';
+}
+function toggleTheme(){
+  const next = document.documentElement.classList.contains('light') ? 'dark' : 'light';
+  localStorage.setItem('ym_theme', next);
+  applyTheme(next);
+}
+applyTheme(localStorage.getItem('ym_theme') || 'dark');
+
+/* ===== 도메인 → 분야 라벨·색상 ===== */
+const DOMAIN_CATS = [
+  {kw:['자산배분','올웨더','포트폴리오','자산 배분'], label:'자산배분', color:'#6c8cff'},
+  {kw:['가치투자','기업분석','가치 투자'],           label:'가치투자', color:'#34d399'},
+  {kw:['리스크','크레딧','사이클','부채'],           label:'사이클·리스크', color:'#f59e0b'},
+  {kw:['해외','미국','개별종목','성장주','혁신','ETF'], label:'해외·성장주', color:'#a78bfa'},
+  {kw:['시황','투자전략','마켓타이밍','전략'],        label:'시황·전략', color:'#f472b6'},
+  {kw:['거시','환율','부동산','글로벌','매트릭스','정치경제'], label:'거시경제', color:'#38bdf8'},
+];
+function catFor(domain){
+  const d = domain || '';
+  for(const c of DOMAIN_CATS){ if(c.kw.some(k => d.includes(k))) return c; }
+  return {label:'투자', color:'#94a3b8'};
+}
+/* 색상 배지: 배경은 옅게, 글자는 진하게 */
+function tagStyle(color){
+  return `color:${color}; background:color-mix(in srgb, ${color} 16%, transparent); border:1px solid color-mix(in srgb, ${color} 35%, transparent);`;
+}
+/* 아바타 이니셜: 괄호 앞 한글/영문 첫 글자(숫자면 앞 2자리) */
+function initials(name){
+  const base = (name || '').replace(/\(.*?\)/g, '').trim();
+  if(/^\d/.test(base)) return base.slice(0, 2);
+  return base.slice(0, 1) || '·';
+}
+const AVATAR_BASE = 'assets/avatars/';
+function avatarHtml(name, color, slug, cls){
+  // 채널 프로필/인물 사진 → 실패 시 이니셜 배지로 자동 폴백(onerror로 img 제거)
+  const bg = `linear-gradient(135deg, ${color}, color-mix(in srgb, ${color} 60%, #000))`;
+  const img = slug ? `<img src="${AVATAR_BASE}${slug}.jpg" alt="${escapeHtml(name)}" loading="lazy" onerror="this.remove()">` : '';
+  return `<div class="avatar${cls ? ' ' + cls : ''}" style="background:${bg};">${escapeHtml(initials(name))}${img}</div>`;
+}
+
+function saveKey(){
+  const v = document.getElementById('apikey').value.trim();
+  if(v){ localStorage.setItem('gemini_key', v); refreshKeyUI(); }
+}
+function clearKey(){
+  localStorage.removeItem('gemini_key');
+  document.getElementById('apikey').value = '';
+  refreshKeyUI();
+}
+function loadKey(){
+  // 우선순위: localStorage → config.local.js(window.GEMINI_API_KEY)
+  let k = localStorage.getItem('gemini_key') || '';
+  if(!k && window.GEMINI_API_KEY){
+    k = window.GEMINI_API_KEY.trim();
+    localStorage.setItem('gemini_key', k);  // 이후엔 localStorage에서 바로 사용
+  }
+  return k;
+}
+// 키가 있으면 입력 UI 숨김(로드됨 표시), 없으면 입력창 노출(배포본 대비)
+function refreshKeyUI(){
+  const has = !!loadKey();
+  document.getElementById('keybox').style.display = has ? 'none' : 'flex';
+  document.getElementById('keyok').style.display = has ? 'block' : 'none';
+}
+
+/* ===== 전문가 분류(국내/해외/일반) — 모든 탭이 공유 =====
+   seed: data/categories.json → 사용자가 분류 탭에서 드래그한 배정은 localStorage 우선 */
+let clsCats = [], clsAssign = {}, catsReady = false;
+const CLS_LS = 'ym_categories';
+const CAT_META = {
+  domestic: { icon:'🇰🇷', color:'#4f8df9' },
+  overseas: { icon:'🌏', color:'#a78bfa' },
+  general:  { icon:'🧭', color:'#34d399' },
+  '':       { icon:'📥', color:'#94a3b8' },
+};
+function catMeta(id){
+  const c = clsCats.find(x => x.id === id);
+  return { id, label: c ? c.label : (id === '' ? '미분류' : id), ...(CAT_META[id] || CAT_META['']) };
+}
+async function loadCategories(){
+  try{
+    const res = await fetch('data/categories.json?t=' + Date.now());
+    const data = await res.json();
+    clsCats = data.categories || [];
+    clsAssign = data.assignments || {};
+  }catch(e){
+    clsCats = [{id:'domestic',label:'국내투자'},{id:'overseas',label:'해외투자'},{id:'general',label:'일반'}];
+    clsAssign = {};
+  }
+  const local = localStorage.getItem(CLS_LS);   // 브라우저 저장분(드래그 최신 상태) 우선
+  if(local){ try{ clsAssign = JSON.parse(local); }catch(e){} }
+  catsReady = true;
+}
+
+/* ===== 상담 탭: 분류 그룹(다이어그램형) 렌더 ===== */
+function expCardHtml(m){
+  const c = catFor(m.domain);
+  return `
+    <div class="exp${selected.has(m.slug) ? ' sel' : ''}" id="exp-${m.slug}" onclick="toggleSel('${m.slug}', event)">
+      <div class="check">✓</div>
+      <div class="exp-head">
+        ${avatarHtml(m.name, c.color, m.slug)}
+        <div>
+          <div class="nm">${escapeHtml(m.name)}</div>
+          <div class="dm">${escapeHtml(m.domain)}</div>
+        </div>
+      </div>
+      <span class="cat-tag" style="${tagStyle(c.color)}">${c.label}</span>
+      ${m.intro ? `<div class="intro">${escapeHtml(m.intro)}</div>` : ''}
+      <div class="meta">영상 ${m.video_count}개 · 인사이트 ${m.insight_count}개 · 최근 ${m.last_indexed}</div>
+      <span class="vids-toggle" onclick="toggleVids('${m.slug}', event)">📚 학습된 자료 ${m.video_count}개 보기 ▾</span>
+      <div class="vids" id="vids-${m.slug}"></div>
+    </div>`;
+}
+function groupPanel(g, members, wide){
+  return `<div class="exp-group${wide ? ' wide' : ''}" style="--gc:${g.color}">
+    <div class="gh">
+      <span class="gicon">${g.icon}</span>
+      <span class="gname">${escapeHtml(g.label)}</span>
+      <span class="gcount">${members.length}명</span>
+      ${members.length ? `<button class="gsel" onclick="toggleGroupSel('${g.id}')">그룹 전체선택</button>` : ''}
+    </div>
+    ${members.length
+      ? `<div class="experts">${members.map(expCardHtml).join('')}</div>`
+      : `<div class="gempty">아직 배치된 전문가가 없습니다 — 🗂 분류 탭에서 드래그로 배치하세요</div>`}
+  </div>`;
+}
+function renderAskExperts(){
+  const box = document.getElementById('experts');
+  let html = '<div class="exp-groups">';
+  clsCats.forEach(cat => {
+    const members = manifest.filter(m => clsAssign[m.slug] === cat.id);
+    html += groupPanel(catMeta(cat.id), members, cat.id === 'general');  // 일반은 전체 폭
+  });
+  const unassigned = manifest.filter(m => !clsAssign[m.slug]);
+  if(unassigned.length) html += groupPanel(catMeta(''), unassigned, true);
+  box.innerHTML = html + '</div>';
+}
+function toggleGroupSel(catId){
+  const members = manifest.filter(m => (clsAssign[m.slug] || '') === catId);
+  const allSel = members.length && members.every(m => selected.has(m.slug));
+  members.forEach(m => {
+    if(allSel) selected.delete(m.slug); else selected.add(m.slug);
+    document.getElementById('exp-' + m.slug)?.classList.toggle('sel', !allSel);
+  });
+  renderSuggestions();
+}
+
+async function init(){
+  refreshKeyUI();
+  // 캐시버스터: 재인덱싱으로 manifest가 갱신돼도 항상 최신을 읽는다
+  const [res] = await Promise.all([
+    fetch(PACK_BASE + 'manifest.json?t=' + Date.now()),
+    loadCategories(),
+  ]);
+  manifest = await res.json();
+  document.getElementById('expCount').textContent = `(${manifest.length}명 인덱싱됨)`;
+  renderAskExperts();
+  // 해시에 따라 초기 탭 결정(#insights·#classify 직접 진입·북마크 지원) — manifest 로드 후 호출
+  // 해시가 없으면 직전 세션 라우트 복원(새로고침해도 보던 탭 유지)
+  const saved = sessionStorage.getItem('ym_route');
+  if(!location.hash && saved && saved !== '#ask') location.hash = saved;
+  switchTab(routeOf());
+}
+
+function toggleSel(slug, ev){
+  if(ev.target.closest('.vids') || ev.target.classList.contains('vids-toggle')) return;
+  const el = document.getElementById('exp-' + slug);
+  if(selected.has(slug)){ selected.delete(slug); el.classList.remove('sel'); }
+  else { selected.add(slug); el.classList.add('sel'); }
+  renderSuggestions();
+}
+
+async function loadPack(slug){
+  if(packs[slug]) return packs[slug];
+  const res = await fetch(PACK_BASE + slug + '.json');
+  packs[slug] = await res.json();
+  return packs[slug];
+}
+
+// 심층 모드(RAG-lite): 질문 키워드와 겹치는 자료 top2의 원문 발췌를 뽑는다.
+// 로컬 전용 — transcripts는 배포본(Pages)에 없어 fetch 실패 시 null(일반 모드 폴백).
+const TRANSCRIPT_BASE = 'data/transcripts/';
+async function deepExcerpts(pack, question){
+  const kws = [...new Set((question.toLowerCase().match(/[가-힣a-z0-9]{2,}/g) || []))];
+  if(!kws.length) return null;
+  const insByVid = {};
+  (pack.insights || []).forEach(i => { (insByVid[i.video] = insByVid[i.video] || []).push(i); });
+  const scored = (pack.videos || []).map(v => {
+    const ins = insByVid[v.url] || [];
+    const hay = (v.title + ' ' + ins.map(i => i.topic + ' ' + i.thesis).join(' ')).toLowerCase();
+    return { v, score: kws.reduce((s, k) => s + (hay.includes(k) ? 1 : 0), 0) };
+  }).filter(x => x.score > 0).sort((a, b) => b.score - a.score).slice(0, 2);
+  if(!scored.length) return null;
+  const out = [], sources = []; let total = 0;
+  for(const { v } of scored){
+    try{
+      const res = await fetch(TRANSCRIPT_BASE + pack.slug + '/' + v.id + '.json');
+      if(!res.ok) continue;
+      const text = (await res.json()).text || '';
+      const low = text.toLowerCase();
+      let pos = -1;
+      for(const k of kws){ const p = low.indexOf(k); if(p >= 0){ pos = p; break; } }
+      if(pos < 0) pos = 0;
+      let win = text.slice(Math.max(0, pos - 1500), pos + 1500).trim();
+      if(total + win.length > 12000) win = win.slice(0, 12000 - total);
+      if(win){ out.push(`[${v.date} ${escapeHtml(v.title)}]\n${win}`); sources.push(v.title); total += win.length; }
+      if(total >= 12000) break;
+    }catch(e){}
+  }
+  return out.length ? { text: out.join('\n\n---\n\n'), sources } : null;
+}
+
+// 사용자 요청: 각 전문가 카드에 인덱싱된 유튜브 영상 링크 전체 표시
+async function toggleVids(slug, ev){
+  ev.stopPropagation();
+  const box = document.getElementById('vids-' + slug);
+  if(box.classList.contains('open')){ box.classList.remove('open'); return; }
+  const p = await loadPack(slug);
+  box.innerHTML = p.videos.map(v =>
+    `<a href="${v.url}" target="_blank" rel="noopener"><span class="d">${srcIcon(v.source)} ${v.date}</span>${escapeHtml(v.title)}</a>`
+  ).join('');
+  box.classList.add('open');
+}
+
+function escapeHtml(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function srcIcon(source){ return source === 'memo' ? '📝' : source === 'letter' ? '✉️' : source === 'threads' ? '🧵' : source === 'x' ? '𝕏' : source === 'web' ? '🔗' : '📺'; }
+
+function buildPrompt(pack, question, excerpts){
+  const p = pack.persona;
+  const insLine = i =>
+    `- [${i.date}][${i.direction}][${i.topic}]${i.tickers && i.tickers.length ? '('+i.tickers.join(',')+')' : ''} ${i.thesis} (근거: ${i.video})`;
+  // 시점 정책(가이드 §3.6): 최근 90일 견해는 우선 반영, 그 이전은 논리·사고방식 참고로 분리
+  const cutoff = new Date(Date.now() - 90 * 86400e3).toISOString().slice(0, 10);
+  const recent = pack.insights.filter(i => (i.date || '') >= cutoff);
+  const older  = pack.insights.filter(i => (i.date || '') < cutoff);
+  const recentTxt = recent.length ? recent.map(insLine).join('\n')
+    : '(최근 3개월 내 발언 없음 — 아래 과거 발언·사고방식만 참고하고, 이 사실을 답변 서두에 명시할 것)';
+  const olderTxt = older.length ? older.map(insLine).join('\n') : '(없음)';
+  const quotes = pack.quotes.map(q => `- "${q.text}" (${q.date}, ${q.video})`).join('\n');
+  const videos = pack.videos.map(v => `- [${v.source || 'youtube'}] ${v.date} ${v.title} ${v.url}`).join('\n');
+  return `너는 유튜브 발언을 학습해 '${pack.name}'의 관점과 말투를 재현하는 AI 상담가다.
+
+## 페르소나
+- 전문 영역: ${p.domain}
+- 말투·관점: ${p.tone}
+- 금지사항: ${p.guardrails}
+
+## 절대 규칙
+1. 아래 '지식베이스'에 있는 발언·인사이트에만 근거해서 답한다. 없는 내용은 "그 주제는 최근 영상에서 다루지 않았다"고 솔직히 말한다.
+2. 답변 속 주장마다 근거 영상의 날짜를 표기한다. 예: (2026-06-24 영상 기준)
+3. 구체적 매수/매도 지시는 하지 않는다. 판단 근거와 사고방식을 제시한다.
+4. 다른 전문가의 견해는 모른다. 오직 ${pack.name}의 발언에만 근거한다.
+5. ${pack.name}의 실제 말투(존댓말/어투)를 살려 한국어로 답한다.
+6. **시점 가중치**: 현재 시장·시황 질문에는 '최근 3개월 견해'를 우선 근거로 답한다. '과거 발언·사고방식'은 그 사람의 논리·원칙·프레임워크의 근거로 활용하되, 과거의 시황 전망을 인용할 때는 당시 시점(날짜)임을 반드시 밝힌다. 최근 3개월 발언이 없으면 그 사실을 💡 요약에 명시하고 사고방식 중심으로 답한다.
+
+## 답변 형식 (반드시 이 구조·순서를 지킬 것)
+첫 줄에 결론부터 직관적으로 요약하고, 그 다음 근거를 상세히 설명한다.
+
+💡 요약: (질문에 대한 결론을 1~2문장으로. 방향/핵심을 명확하고 쉽게. 장황하지 않게.)
+
+📝 자세히:
+(요약의 근거·논리를 문단으로 풀어서 설명. 주장마다 (YYYY-MM-DD 영상 기준) 표기.)
+
+📎 근거 영상:
+- 영상 제목 — URL
+
+규칙: 반드시 '💡 요약:'으로 시작하고, 요약과 '📝 자세히:' 사이에는 빈 줄을 한 줄 넣는다.
+
+## 지식베이스 (${pack.name}의 유튜브 발언, 최근 인덱싱 ${pack.last_indexed})
+### 최근 3개월 견해 (현재 시황 판단의 근거 — 우선 반영)
+${recentTxt}
+### 과거 발언·사고방식 (논리·원칙 참고 — 시황 전망 인용 시 당시 시점임을 명시)
+${olderTxt}
+### 직접 인용
+${quotes}
+### 인덱싱된 자료 목록 (영상·기타 소스)
+${videos}
+${excerpts ? `### 원문 발췌 (심층 모드 — 질문 관련 구간 자동 추출, 문맥이 잘렸을 수 있음. 인용 시 반드시 영상·날짜 명시)\n${excerpts.text}\n` : ''}
+## 사용자 질문
+${question}`;
+}
+
+// 무료 티어 대응: 429(분당한도)·503(과부하)은 서버가 준 지연만큼 기다렸다 자동 재시도.
+// 일일한도(PerDay) 소진이면 재시도 무의미 → 명확히 안내. onRetry(초, 시도번호)로 상태 표시.
+async function callGemini(prompt, key, onRetry){
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${key}`;
+  const MAX_RETRY = 4;
+  for(let attempt = 0; attempt <= MAX_RETRY; attempt++){
+    const res = await fetch(url, {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ contents:[{parts:[{text:prompt}]}],
+        // gemini-2.5-flash는 thinking 토큰이 출력한도를 잠식 → 답변이 MAX_TOKENS로 잘림.
+        // thinkingBudget:0 으로 사고를 끄고 출력한도를 넉넉히(8192) 준다.
+        generationConfig:{ temperature:0.7, maxOutputTokens:8192, thinkingConfig:{ thinkingBudget:0 } } })
+    });
+    if(res.ok){
+      const data = await res.json();
+      const cand = data.candidates?.[0];
+      let txt = cand?.content?.parts?.map(p=>p.text).join('') || '';
+      if(!txt) return '(응답 없음 — finishReason: ' + (cand?.finishReason||'?') + ')';
+      if(cand?.finishReason === 'MAX_TOKENS') txt += '\n\n…(답변이 길어 여기서 잘렸습니다. 더 짧게 물어보시면 완결됩니다)';
+      return txt;
+    }
+    const errText = await res.text();
+    if((res.status === 429 || res.status === 503) && attempt < MAX_RETRY){
+      const { daily, retryMs } = parseQuota(errText);
+      if(daily) throw new Error('오늘 무료 일일 할당량을 모두 사용했습니다. 자정(태평양시) 리셋 후 다시 쓰거나, Google AI Studio에서 유료 등록 시 즉시 해제됩니다.');
+      const wait = Math.min(retryMs || 2000 * (attempt + 1), 30000);
+      if(onRetry) onRetry(Math.ceil(wait / 1000), attempt + 1);
+      await sleep(wait);
+      continue;
+    }
+    if(res.status === 429){
+      const { daily } = parseQuota(errText);
+      throw new Error(daily
+        ? '오늘 무료 일일 할당량을 모두 사용했습니다. 자정(태평양시) 리셋 후 다시 시도하세요.'
+        : '분당 요청 한도(무료 티어)를 초과했습니다. 잠시 후 다시 시도하거나 한 번에 선택하는 전문가 수를 줄여보세요.');
+    }
+    throw new Error(`API ${res.status}: ${errText.slice(0,160)}`);
+  }
+}
+
+function linkify(text){
+  return escapeHtml(text).replace(/(https?:\/\/[^\s<)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+}
+
+// 답변 렌더: '💡 요약:' 서두를 강조 박스로 분리하고 나머지는 본문으로.
+function renderAnswer(text){
+  const t = (text || '').trim();
+  const marker = /^💡\s*요약\s*[:：]?\s*/;
+  const blankIdx = t.search(/\n\s*\n/);
+  if(marker.test(t) && blankIdx > 0){
+    const summary = t.slice(0, blankIdx).replace(marker, '').trim();
+    const rest = t.slice(blankIdx).trim();
+    return `<div class="ans-summary"><span class="lab">💡 요약</span>${linkify(summary)}</div>`
+         + `<div class="ans-detail">${linkify(rest)}</div>`;
+  }
+  return linkify(t);
+}
+
+async function ask(){
+  const q = document.getElementById('question').value.trim();
+  const key = loadKey();
+  if(!q){ alert('질문을 입력하세요.'); return; }
+  if(!key){ alert('Gemini API 키를 먼저 저장하세요. (aistudio.google.com에서 무료 발급)'); return; }
+  if(selected.size === 0){ alert('전문가를 1명 이상 선택하세요.'); return; }
+
+  const btn = document.getElementById('askBtn'); btn.disabled = true;
+  const cardsEl = document.getElementById('cards');
+  cardsEl.innerHTML = '';
+  const slugs = [...selected];
+  const answers = [];   // 상담 일지 저장용(성공한 답변만)
+  const deepOn = document.getElementById('deepMode')?.checked;   // 심층 모드(로컬 원문 발췌 추가 투입)
+
+  // 1) 카드는 먼저 모두 그려둔다(선택 즉시 시각 피드백). 절대 합성하지 않음.
+  const items = slugs.map(slug => {
+    const m = manifest.find(x => x.slug === slug);
+    const c = catFor(m.domain);
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `<h3>${avatarHtml(m.name, c.color, m.slug)}${escapeHtml(m.name)} <span class="dm">${escapeHtml(m.domain)}</span><span class="tag ai">AI 재현</span></h3>
+      <div class="status"><span class="spin"></span>대기 중…</div>
+      <div class="body"></div>`;
+    cardsEl.appendChild(card);
+    return { slug, m, card };
+  });
+
+  // 2) 실제 호출은 동시 MAX_CONCURRENT개로 제한(무료 티어 분당 한도 보호), 429는 자동 재시도.
+  await runPooled(items, MAX_CONCURRENT, async ({ slug, m, card }) => {
+    const statusEl = card.querySelector('.status');
+    const setStatus = html => { if(statusEl) statusEl.innerHTML = html; };
+    setStatus(`<span class="spin"></span>${escapeHtml(m.name)}의 발언 기록으로 답변 생성 중…`);
+    try{
+      const pack = await loadPack(slug);
+      let excerpts = null;
+      if(deepOn){
+        setStatus(`<span class="spin"></span>${escapeHtml(m.name)} 원문에서 관련 구간 찾는 중…`);
+        excerpts = await deepExcerpts(pack, q);
+      }
+      const onRetry = (sec, n) => setStatus(`<span class="spin"></span>무료 한도로 잠시 대기 중… (${sec}s 후 재시도 ${n})`);
+      const answer = await callGemini(buildPrompt(pack, q, excerpts), key, onRetry);
+      statusEl && statusEl.remove();
+      const deepTag = excerpts ? `<div class="deep-note">🔬 심층: 원문 ${excerpts.sources.length}편 발췌 반영</div>` : '';
+      card.querySelector('.body').innerHTML = deepTag + renderAnswer(answer);
+      answers.push({ slug, name: m.name, domain: m.domain, text: answer });
+    }catch(e){
+      setStatus(`⚠️ ${escapeHtml(e.message)}`);
+    }
+  });
+  btn.disabled = false;
+  saveConsultation(q, answers);   // 성공한 답변을 상담 일지에 저장
+}
+
+/* ============================================================
+   인사이트 라이브러리 탭 — 전문가별 학습 뷰 + 주제별 비교(대립 보드)
+   원칙: 원자료(인사이트·인용)를 출처와 함께 그대로 보여줄 뿐, 합성하지 않는다.
+   ============================================================ */
+let libInited = false, libSlug = null, libMode = 'expert', compareInited = false, curTopic = null;
+const libState = { dir:'전체', sort:'topic', query:'', ticker:null, kind:'전체' };
+const DIR_COLOR = { '긍정':'var(--pos)', '부정':'var(--neg)', '중립':'var(--neu)' };
+
+function routeOf(){
+  const h = location.hash;
+  if(h.startsWith('#insights')) return 'insights';
+  if(h.startsWith('#classify')) return 'classify';
+  return 'ask';
+}
+function switchTab(tab){
+  ['ask','insights','classify'].forEach(t => {
+    document.getElementById('tab-' + t).style.display = (t === tab) ? '' : 'none';
+  });
+  document.getElementById('tabAskBtn').classList.toggle('on', tab === 'ask');
+  document.getElementById('tabInsBtn').classList.toggle('on', tab === 'insights');
+  document.getElementById('tabCatBtn').classList.toggle('on', tab === 'classify');
+  sessionStorage.setItem('ym_route', location.hash || '#ask');   // 새로고침 시 보던 화면 복원용
+  if(tab === 'ask'){ renderSuggestions(); renderHistory(); renderConflicts(); }
+  if(tab === 'insights'){
+    initLibrary();
+    // 서브라우트: #insights/compare·#insights/market → 해당 모드로 직접 진입(북마크 가능)
+    setLibMode(location.hash.includes('/compare') ? 'compare'
+             : location.hash.includes('/market') ? 'market' : 'expert');
+  }
+  if(tab === 'classify') initClassify();
+}
+window.addEventListener('hashchange', () => switchTab(routeOf()));
+
+function dirBadge(d){
+  const c = DIR_COLOR[d] || 'var(--sub)';
+  return `<span class="dirb" style="color:${c}; background:color-mix(in srgb, ${c} 14%, transparent); border:1px solid color-mix(in srgb, ${c} 35%, transparent);">${escapeHtml(d || '?')}</span>`;
+}
+const topicPrefix = t => (t || '기타').split('/')[0].trim();
+const byDateDesc = (a, b) => (b.date || '').localeCompare(a.date || '');
+
+function initLibrary(){
+  if(libInited || !manifest.length) return;
+  libInited = true;
+  document.getElementById('libChips').innerHTML = manifest.map(m => {
+    const c = catFor(m.domain);
+    return `<button class="lchip" data-slug="${m.slug}" onclick="selectLibExpert('${m.slug}')">
+      ${avatarHtml(m.name, c.color, m.slug)}<span>${escapeHtml(m.name)}</span></button>`;
+  }).join('');
+  selectLibExpert(manifest[0].slug);
+}
+
+async function selectLibExpert(slug){
+  libSlug = slug;
+  Object.assign(libState, { dir:'전체', query:'', ticker:null, kind:'전체' });   // 전문가 전환 시 필터 초기화(정렬은 유지)
+  document.querySelectorAll('#libChips .lchip').forEach(el =>
+    el.classList.toggle('on', el.dataset.slug === slug));
+  const body = document.getElementById('libBody');
+  body.innerHTML = '<div class="status" style="margin:18px 0"><span class="spin"></span>지식팩 로드 중…</div>';
+  try{
+    const p = await loadPack(slug);
+    renderLibBody(p);
+  }catch(e){
+    body.innerHTML = `<div class="lib-empty">⚠️ 지식팩 로드 실패: ${escapeHtml(e.message)}</div>`;
+  }
+}
+
+function renderLibBody(p){
+  const c = catFor(p.persona.domain);
+  const ins = p.insights || [], qts = p.quotes || [];
+  const cnt = d => ins.filter(i => i.direction === d).length;
+  const pos = cnt('긍정'), neg = cnt('부정'), neu = cnt('중립'), tot = ins.length || 1;
+  // 티커 집계(언급 횟수순)
+  const tickMap = {};
+  ins.forEach(i => (i.tickers || []).forEach(t => tickMap[t] = (tickMap[t] || 0) + 1));
+  const ticks = Object.entries(tickMap).sort((a, b) => b[1] - a[1]);
+
+  document.getElementById('libBody').innerHTML = `
+    <div class="lib-head">
+      <div class="top">
+        ${avatarHtml(p.name, c.color, p.slug)}
+        <div>
+          <div class="nm">${escapeHtml(p.name)}</div>
+          <div class="dm">${escapeHtml(p.persona.domain)}</div>
+          <div class="stats">인사이트 ${ins.length}개 · 인용 ${qts.length}개 · 영상 ${p.video_count}개 · 최근 인덱싱 ${p.last_indexed}</div>
+        </div>
+      </div>
+      ${p.intro ? `<div class="intro2">${escapeHtml(p.intro)}</div>` : ''}
+      <div class="stackbar">
+        <div style="width:${pos/tot*100}%; background:var(--pos)"></div>
+        <div style="width:${neu/tot*100}%; background:var(--neu)"></div>
+        <div style="width:${neg/tot*100}%; background:var(--neg)"></div>
+      </div>
+      <div class="sb-legend">
+        <span><span class="dot" style="background:var(--pos)"></span>긍정 ${pos}</span>
+        <span><span class="dot" style="background:var(--neu)"></span>중립 ${neu}</span>
+        <span><span class="dot" style="background:var(--neg)"></span>부정 ${neg}</span>
+      </div>
+    </div>
+    <div class="lib-toolbar">
+      ${['전체','긍정','중립','부정'].map(d =>
+        `<button class="fchip${libState.dir===d?' on':''}" data-f="dir" data-v="${d}"
+          onclick="setLibFilter('dir','${d}')">${d}${d==='전체' ? ' '+ins.length : ' '+cnt(d)}</button>`).join('')}
+      <span class="sep">|</span>
+      <button class="fchip${libState.sort==='topic'?' on':''}" onclick="setLibFilter('sort','topic')">주제별</button>
+      <button class="fchip${libState.sort==='time'?' on':''}" onclick="setLibFilter('sort','time')">시간순</button>
+      ${ins.some(i => i.kind) ? `<span class="sep">|</span>` + ['전체','원칙','시황'].map(kd =>
+        `<button class="fchip${libState.kind===kd?' on':''}" data-f="kind" data-v="${kd}" onclick="setLibFilter('kind','${kd}')">${kd==='원칙'?'🧭 원칙':kd==='시황'?'📈 시황':kd}${kd!=='전체'?' '+ins.filter(i=>i.kind===kd).length:''}</button>`).join('') : ''}
+      <span class="sep">|</span>
+      <input id="libSearch" placeholder="🔍 키워드 검색 (예: 마이크론)" value="${escapeHtml(libState.query)}"
+        oninput="libState.query=this.value; fillLibList()">
+      ${ticks.length ? `<span class="sep">|</span>` + ticks.map(([t, n]) =>
+        `<button class="tickchip${libState.ticker===t?' on':''}" onclick="setLibFilter('ticker','${escapeHtml(t)}')">${escapeHtml(t)}·${n}</button>`).join('') : ''}
+    </div>
+    <div id="libList"></div>
+    <div id="libQuotes"></div>`;
+  fillLibList();
+}
+
+function setLibFilter(k, v){
+  if(k === 'ticker') libState.ticker = (libState.ticker === v) ? null : v;   // 재클릭 시 해제
+  else libState[k] = v;
+  const p = packs[libSlug];
+  if(!p) return;
+  // 툴바 on 상태만 갱신하고 목록 재렌더(검색 input 포커스 보존을 위해 툴바는 재생성하지 않음)
+  document.querySelectorAll('#libBody .fchip[data-f="dir"]').forEach(el =>
+    el.classList.toggle('on', el.dataset.v === libState.dir));
+  document.querySelectorAll('#libBody .fchip:not([data-f])').forEach(el =>
+    el.classList.toggle('on', el.textContent === (libState.sort === 'topic' ? '주제별' : '시간순')));
+  document.querySelectorAll('#libBody .fchip[data-f="kind"]').forEach(el =>
+    el.classList.toggle('on', el.dataset.v === libState.kind));
+  document.querySelectorAll('#libBody .tickchip').forEach(el =>
+    el.classList.toggle('on', el.textContent.split('·')[0] === libState.ticker));
+  fillLibList();
+}
+
+function insCard(i, showTopic){
+  return `<div class="ins">
+    <div class="row">
+      ${dirBadge(i.direction)}
+      ${i.kind ? `<span class="kindb">${i.kind==='원칙'?'🧭 원칙':'📈 시황'}</span>` : ''}
+      ${showTopic ? `<span class="instick">${escapeHtml(i.topic || '기타')}</span>` : ''}
+      <span>${escapeHtml(i.date || '')}</span>
+      ${(i.tickers || []).map(t => `<span class="instick">${escapeHtml(t)}</span>`).join('')}
+    </div>
+    <div class="th">${escapeHtml(i.thesis || '')}</div>
+    <div class="src">📺 <a href="${i.video}" target="_blank" rel="noopener">근거 영상 보기</a></div>
+  </div>`;
+}
+
+function fillLibList(){
+  const p = packs[libSlug];
+  if(!p) return;
+  const q = libState.query.trim().toLowerCase();
+  let list = (p.insights || []).filter(i =>
+    (libState.dir === '전체' || i.direction === libState.dir) &&
+    (libState.kind === '전체' || i.kind === libState.kind) &&
+    (!libState.ticker || (i.tickers || []).includes(libState.ticker)) &&
+    (!q || [i.thesis, i.topic, (i.tickers || []).join(' ')].join(' ').toLowerCase().includes(q))
+  ).sort(byDateDesc);
+
+  const listEl = document.getElementById('libList');
+  if(!list.length){
+    listEl.innerHTML = '<div class="lib-empty">조건에 맞는 인사이트가 없습니다.</div>';
+  }else if(libState.sort === 'time'){
+    listEl.innerHTML = `<div class="topic-group"><h4>🕒 시간순 타임라인 <span class="cnt">${list.length}개 · 견해 변화 추적</span></h4>
+      ${list.map(i => insCard(i, true)).join('')}</div>`;
+  }else{
+    const groups = {};
+    list.forEach(i => { const t = i.topic || '기타'; (groups[t] = groups[t] || []).push(i); });
+    listEl.innerHTML = Object.entries(groups)
+      .sort((a, b) => b[1].length - a[1].length)
+      .map(([t, arr]) => `<div class="topic-group"><h4>📌 ${escapeHtml(t)} <span class="cnt">${arr.length}개</span></h4>
+        ${arr.map(i => insCard(i, false)).join('')}</div>`).join('');
+  }
+
+  // 직접 인용(버바팀) — 검색어만 적용(방향·티커는 인사이트 전용 축)
+  const qts = (p.quotes || []).filter(x => !q || (x.text || '').toLowerCase().includes(q));
+  document.getElementById('libQuotes').innerHTML = qts.length ? `
+    <div class="topic-group"><h4>💬 직접 인용 <span class="cnt">${qts.length}개 · 자막 원문 그대로</span></h4>
+      ${qts.map(x => `<div class="qt">“${escapeHtml(x.text || '')}”
+        <div class="src">${escapeHtml(x.date || '')} · 📺 <a href="${x.video}" target="_blank" rel="noopener">영상</a></div>
+      </div>`).join('')}</div>` : '';
+}
+
+/* ===== 모드 B: 주제별 비교(대립 보드) — 원자료 병렬 표시, 합성 없음 ===== */
+async function setLibMode(m){
+  libMode = m;
+  document.getElementById('modeExpert').classList.toggle('on', m === 'expert');
+  document.getElementById('modeCompare').classList.toggle('on', m === 'compare');
+  document.getElementById('modeMarket').classList.toggle('on', m === 'market');
+  document.getElementById('libExpertMode').style.display = m === 'expert' ? '' : 'none';
+  document.getElementById('libCompareMode').style.display = m === 'compare' ? '' : 'none';
+  document.getElementById('libMarketMode').style.display = m === 'market' ? '' : 'none';
+  if(m === 'compare') await initCompare();
+  if(m === 'market') await initMarket();
+}
+
+let allPacksReady = null;
+function ensureAllPacks(){
+  if(!allPacksReady) allPacksReady = Promise.all(manifest.map(m => loadPack(m.slug).catch(() => null)));
+  return allPacksReady;
+}
+
+async function initCompare(){
+  if(compareInited) return;
+  const body = document.getElementById('compareBody');
+  body.innerHTML = '<div class="status" style="margin:14px 0"><span class="spin"></span>전체 지식팩 로드 중…</div>';
+  await ensureAllPacks();
+  compareInited = true;
+  // 대분류(topic 슬래시 앞) → {전문가 수, 인사이트 수} 집계
+  const agg = {};
+  manifest.forEach(m => {
+    const p = packs[m.slug]; if(!p) return;
+    (p.insights || []).forEach(i => {
+      const pre = topicPrefix(i.topic);
+      agg[pre] = agg[pre] || { experts:new Set(), n:0 };
+      agg[pre].experts.add(m.slug); agg[pre].n++;
+    });
+  });
+  const topics = Object.entries(agg)
+    .sort((a, b) => b[1].experts.size - a[1].experts.size || b[1].n - a[1].n);
+  document.getElementById('topicChips').innerHTML = topics.map(([t, v]) =>
+    `<button class="tchip" data-t="${escapeHtml(t)}" onclick="selectTopic(this.dataset.t)">
+      ${escapeHtml(t)}<span class="cnt">${v.experts.size}명·${v.n}개</span></button>`).join('');
+  if(topics.length) selectTopic(topics[0][0]);
+}
+
+function selectTopic(prefix){
+  curTopic = prefix;
+  document.querySelectorAll('#topicChips .tchip').forEach(el =>
+    el.classList.toggle('on', el.dataset.t === prefix));
+  const cols = manifest.map(m => {
+    const p = packs[m.slug]; if(!p) return '';
+    const mine = (p.insights || []).filter(i => topicPrefix(i.topic) === prefix).sort(byDateDesc);
+    if(!mine.length) return '';
+    const c = catFor(m.domain);
+    return `<div class="cmp-col">
+      <div class="who">${avatarHtml(m.name, c.color, m.slug)}<span class="nm">${escapeHtml(m.name)}</span></div>
+      ${mine.map(i => insCard(i, true)).join('')}
+    </div>`;
+  }).filter(Boolean);
+  document.getElementById('compareBody').innerHTML = cols.length
+    ? `<div class="compare-grid">${cols.join('')}</div>`
+    : '<div class="lib-empty">이 주제를 다룬 전문가가 없습니다.</div>';
+}
+
+/* ===== 모드 C: 시장별 보기 — 분류(국내/해외/일반)별 전문가 통합 타임라인 ===== */
+const marketState = { cat:null, dir:'전체', loaded:false };
+
+function marketMembers(catId){
+  return manifest.filter(m => (clsAssign[m.slug] || '') === catId && packs[m.slug]);
+}
+
+async function initMarket(){
+  if(!marketState.loaded){
+    document.getElementById('marketBody').innerHTML =
+      '<div class="status" style="margin:14px 0"><span class="spin"></span>전체 지식팩 로드 중…</div>';
+    await ensureAllPacks();
+    marketState.loaded = true;
+  }
+  renderMarketChips();   // 분류 배정이 바뀔 수 있으므로 진입할 때마다 재계산
+  const first = clsCats[0]?.id ?? null;
+  selectMarket(marketState.cat !== null ? marketState.cat : first);
+}
+
+function renderMarketChips(){
+  const ids = clsCats.map(c => c.id);
+  if(manifest.some(m => !clsAssign[m.slug])) ids.push('');   // 미분류가 있으면 노출
+  document.getElementById('marketChips').innerHTML = ids.map(id => {
+    const g = catMeta(id), mem = marketMembers(id);
+    const n = mem.reduce((s, m) => s + ((packs[m.slug]?.insights || []).length), 0);
+    return `<button class="tchip${marketState.cat === id ? ' on' : ''}" data-cat="${id}"
+      onclick="selectMarket(this.dataset.cat)" style="border-left:3px solid ${g.color}">
+      ${g.icon} ${escapeHtml(g.label)}<span class="cnt">${mem.length}명·${n}개</span></button>`;
+  }).join('');
+}
+
+function mktCard(m, i){
+  const c = catFor(m.domain);
+  return `<div class="ins">
+    <div class="row mkt-who" onclick="gotoExpert('${m.slug}')" title="${escapeHtml(m.name)} 전문가별 보기로 이동">
+      ${avatarHtml(m.name, c.color, m.slug, 'mini')}<b>${escapeHtml(m.name)}</b>
+      ${dirBadge(i.direction)}
+      <span class="instick">${escapeHtml(i.topic || '기타')}</span>
+      <span>${escapeHtml(i.date || '')}</span>
+    </div>
+    <div class="th">${escapeHtml(i.thesis || '')}</div>
+    <div class="src">📺 <a href="${i.video}" target="_blank" rel="noopener">근거 영상 보기</a></div>
+  </div>`;
+}
+
+function selectMarket(catId){
+  marketState.cat = catId;
+  document.querySelectorAll('#marketChips .tchip').forEach(el =>
+    el.classList.toggle('on', el.dataset.cat === catId));
+  const g = catMeta(catId), mem = marketMembers(catId);
+  const items = [];
+  mem.forEach(m => (packs[m.slug].insights || []).forEach(i => items.push({ m, i })));
+  const list = items
+    .filter(x => marketState.dir === '전체' || x.i.direction === marketState.dir)
+    .sort((a, b) => byDateDesc(a.i, b.i));
+  document.getElementById('marketBody').innerHTML = `
+    <div class="mkt-strip">${mem.length
+      ? mem.map(m => { const c = catFor(m.domain);
+          return `<button class="lchip" onclick="gotoExpert('${m.slug}')" title="전문가별 보기로 이동">
+            ${avatarHtml(m.name, c.color, m.slug)}<span>${escapeHtml(m.name)}</span></button>`; }).join('')
+      : '<span class="zone-empty">이 구분에 배치된 전문가가 없습니다 — 🗂 분류 탭에서 드래그로 배치하세요</span>'}</div>
+    ${mem.length ? `<div class="lib-toolbar">${['전체','긍정','중립','부정'].map(d =>
+      `<button class="fchip${marketState.dir === d ? ' on' : ''}" onclick="setMarketDir('${d}')">${d}</button>`).join('')}</div>` : ''}
+    ${list.length ? `<div class="topic-group">
+      <h4>${g.icon} ${escapeHtml(g.label)} 인사이트 타임라인 <span class="cnt">${list.length}개 · 전문가 통합 · 시간순</span></h4>
+      ${list.map(x => mktCard(x.m, x.i)).join('')}</div>`
+      : (mem.length ? '<div class="lib-empty">조건에 맞는 인사이트가 없습니다.</div>' : '')}`;
+}
+function setMarketDir(d){ marketState.dir = d; selectMarket(marketState.cat); }
+function gotoExpert(slug){ location.hash = '#insights'; setTimeout(() => selectLibExpert(slug), 80); }
+
+/* ============================================================
+   분류 탭 — 전문가를 드래그해 구역(국내투자/해외투자)에 배정.
+   seed: data/categories.json → 배정은 localStorage(ym_categories)에 저장.
+   정적 사이트라 파일 직접 저장 불가 → "JSON 복사"로 categories.json에 영구 반영.
+   ============================================================ */
+function initClassify(){
+  if(!catsReady) return;   // init()이 loadCategories를 끝낸 뒤 switchTab을 다시 부른다
+  renderClassify();
+}
+
+function clsSave(){ localStorage.setItem(CLS_LS, JSON.stringify(clsAssign)); }
+
+function clsChip(m){
+  const c = catFor(m.domain);
+  return `<div class="cls-chip" draggable="true" data-slug="${m.slug}" ondragstart="clsDragStart(event)" ondragend="clsDragEnd(event)">
+    ${avatarHtml(m.name, c.color, m.slug)}<span>${escapeHtml(m.name)}</span></div>`;
+}
+
+function renderClassify(){
+  // 유효 slug만 유지(맨ifest에 없는 배정은 정리)
+  const valid = new Set(manifest.map(m => m.slug));
+  Object.keys(clsAssign).forEach(s => { if(!valid.has(s)) delete clsAssign[s]; });
+
+  const pool = manifest.filter(m => !clsAssign[m.slug]);
+  const poolEl = document.getElementById('clsPool');
+  poolEl.innerHTML = pool.length ? pool.map(clsChip).join('')
+    : '<span class="zone-empty">모든 전문가가 배치되었습니다 🎉</span>';
+  document.getElementById('poolCount').textContent = `${pool.length}명`;
+
+  document.getElementById('clsZones').innerHTML = clsCats.map(cat => {
+    const members = manifest.filter(m => clsAssign[m.slug] === cat.id);
+    return `<div>
+      <div class="cls-zone-label">${escapeHtml(cat.label)} <span class="zone-count">${members.length}명</span></div>
+      <div class="dropzone" data-cat="${cat.id}"
+           ondragover="clsDragOver(event)" ondragleave="clsDragLeave(event)" ondrop="clsDrop(event)">
+        ${members.length ? members.map(clsChip).join('') : '<span class="zone-empty">여기로 드래그</span>'}
+      </div></div>`;
+  }).join('');
+}
+
+/* 드래그&드롭 핸들러 */
+let clsDragSlug = null;
+function clsDragStart(ev){
+  clsDragSlug = ev.currentTarget.dataset.slug;
+  ev.dataTransfer.setData('text/plain', clsDragSlug);
+  ev.dataTransfer.effectAllowed = 'move';
+  ev.currentTarget.classList.add('dragging');
+}
+function clsDragEnd(ev){ ev.currentTarget.classList.remove('dragging'); }
+function clsDragOver(ev){ ev.preventDefault(); ev.dataTransfer.dropEffect = 'move'; ev.currentTarget.classList.add('over'); }
+function clsDragLeave(ev){ ev.currentTarget.classList.remove('over'); }
+function clsDrop(ev){
+  ev.preventDefault();
+  ev.currentTarget.classList.remove('over');
+  const slug = ev.dataTransfer.getData('text/plain') || clsDragSlug;
+  if(!slug) return;
+  const cat = ev.currentTarget.dataset.cat;    // '' = 미분류 풀로
+  if(cat) clsAssign[slug] = cat; else delete clsAssign[slug];
+  clsSave();
+  renderClassify();
+  renderAskExperts();   // 상담 탭 그룹도 즉시 반영(시장별 보기는 진입 시 재계산)
+}
+
+function resetClassify(){
+  if(!confirm('모든 배치를 초기화할까요? (이 브라우저 저장분만 지워집니다)')) return;
+  clsAssign = {};
+  clsSave();
+  renderClassify();
+  renderAskExperts();
+  clsMsgFlash('초기화했습니다.');
+}
+
+function exportClassify(){
+  const out = JSON.stringify({ categories: clsCats, assignments: clsAssign }, null, 2);
+  navigator.clipboard.writeText(out)
+    .then(() => clsMsgFlash('JSON을 복사했습니다 — data/categories.json에 붙여넣으면 영구 반영됩니다.'))
+    .catch(() => clsMsgFlash('복사 실패 — 콘솔에 출력했습니다.') || console.log(out));
+}
+function clsMsgFlash(t){
+  const el = document.getElementById('clsMsg');
+  el.textContent = t;
+  clearTimeout(clsMsgFlash._t);
+  clsMsgFlash._t = setTimeout(() => { el.textContent = ''; }, 6000);
+}
+
+/* ============================================================
+   상담 탭 부가기능 — ① 오늘의 대립  ④ 추천 질문 칩  ② 상담 일지
+   ============================================================ */
+const byslug = s => manifest.find(m => m.slug === s);
+
+/* ---- ① 오늘의 대립 (같은 주제에 긍정 vs 부정) ---- */
+function computeConflicts(){
+  const map = {};   // topicPrefix → {pos:Set, neg:Set}
+  manifest.forEach(m => {
+    const p = packs[m.slug]; if(!p) return;
+    (p.insights || []).forEach(i => {
+      const pre = topicPrefix(i.topic);
+      const e = map[pre] || (map[pre] = { pos:new Set(), neg:new Set() });
+      if(i.direction === '긍정') e.pos.add(m.slug);
+      else if(i.direction === '부정') e.neg.add(m.slug);
+    });
+  });
+  return Object.entries(map)
+    .filter(([_, e]) => e.pos.size && e.neg.size && new Set([...e.pos, ...e.neg]).size >= 2)
+    .map(([pre, e]) => ({ pre, pos:[...e.pos], neg:[...e.neg], span:e.pos.size + e.neg.size }))
+    .sort((a, b) => b.span - a.span);
+}
+function confPerson(slug){
+  const m = byslug(slug); if(!m) return '';
+  return `<span class="person" onclick="gotoExpert('${slug}')" title="${escapeHtml(m.name)} 인사이트 보기">
+    ${avatarHtml(m.name, catFor(m.domain).color, slug, '')}${escapeHtml(m.name.split(' (')[0])}</span>`;
+}
+function confCard(c){
+  const involved = [...new Set([...c.pos, ...c.neg])].slice(0, 6);
+  return `<div class="conf">
+    <div class="ct">⚔️ ${escapeHtml(c.pre)} <span class="vs">긍정 ${c.pos.length} : 부정 ${c.neg.length}</span></div>
+    <div class="side"><span class="slab pos">🟢 긍정</span><span class="people">${c.pos.map(confPerson).join('')}</span></div>
+    <div class="side"><span class="slab neg">🔴 부정</span><span class="people">${c.neg.map(confPerson).join('')}</span></div>
+    <button class="cta" data-pre="${escapeHtml(c.pre)}" data-slugs="${involved.join(',')}" onclick="startConflictEl(this)">이 대립, 양쪽에 물어보기 →</button>
+  </div>`;
+}
+async function renderConflicts(){
+  const box = document.getElementById('conflictBox');
+  await ensureAllPacks();
+  const conflicts = computeConflicts();
+  if(!conflicts.length){ box.style.display = 'none'; return; }
+  box.style.display = '';
+  box.innerHTML = `<div class="conflict-head"><span class="t">⚔️ 오늘의 대립</span>
+      <span class="s">— 같은 주제에 견해가 갈리는 지점. 양쪽을 함께 물어보세요.</span></div>
+    <div class="conflict-grid">${conflicts.slice(0, 4).map(confCard).join('')}</div>`;
+}
+function startConflictEl(el){
+  const pre = el.dataset.pre;
+  const slugs = el.dataset.slugs.split(',').filter(Boolean);
+  selected.clear();
+  slugs.forEach(s => selected.add(s));
+  renderAskExperts();
+  renderSuggestions();
+  const qbox = document.getElementById('question');
+  qbox.value = `지금 ${pre} 어떻게 보세요? 각자의 근거와 함께 설명해 주세요.`;
+  document.getElementById('askBtn').scrollIntoView({ behavior:'smooth', block:'center' });
+  qbox.focus();
+}
+
+/* ---- ④ 추천 질문 칩 ---- */
+const Q_TEMPLATES = [
+  { kw:['반도체'],                q:'지금 반도체 업황 어떻게 보세요?' },
+  { kw:['환율'],                  q:'환율 흐름 어떻게 전망하세요?' },
+  { kw:['금리'],                  q:'앞으로 금리 방향 어떻게 보세요?' },
+  { kw:['연준','거시','유동성'],   q:'지금 매크로 환경 어떻게 진단하세요?' },
+  { kw:['부동산'],                q:'부동산 시장 지금 어떻게 보세요?' },
+  { kw:['자산배분','올웨더'],      q:'지금 어떻게 자산을 배분하는 게 좋을까요?' },
+  { kw:['AI','빅테크'],           q:'AI·빅테크, 지금 들어가도 될까요?' },
+  { kw:['미국','해외'],           q:'지금 미국 증시 어떻게 보세요?' },
+  { kw:['한국','코스피','국내'],   q:'지금 코스피 어떻게 보세요?' },
+  { kw:['채권','크레딧'],          q:'채권, 지금 매력적인가요?' },
+  { kw:['사이클','리스크','세계질서'], q:'지금 시장 사이클, 어디쯤이라고 보세요?' },
+  { kw:['비트코인','크립토'],      q:'크립토 시장 어떻게 보세요?' },
+  { kw:['성장주','혁신','로보','우주'], q:'성장주, 지금 담아도 될까요?' },
+  { kw:['가치','기업','투자원칙','투자심리'], q:'요즘 종목 볼 때 가장 중요하게 보는 기준이 뭐예요?' },
+];
+function templateFor(topicText){
+  const t = topicText || '';
+  for(const x of Q_TEMPLATES){ if(x.kw.some(k => t.includes(k))) return x.q; }
+  return null;
+}
+function topTopic(pack){
+  const cnt = {};
+  (pack.insights || []).forEach(i => { const p = topicPrefix(i.topic); cnt[p] = (cnt[p] || 0) + 1; });
+  let best = null, bn = 0;
+  for(const [k, v] of Object.entries(cnt)){ if(v > bn){ bn = v; best = k; } }
+  return best;
+}
+async function renderSuggestions(){
+  const box = document.getElementById('suggestBox'); if(!box) return;
+  const sel = [...selected];
+  if(!sel.length){
+    const starters = ['지금 반도체 업황 어떻게 보세요?', '요즘 가장 유망한 산업이 뭐예요?', '지금 현금 비중 어떻게 가져가야 할까요?'];
+    box.innerHTML = `<span class="lbl">💡 이런 걸 물어보세요</span>` +
+      starters.map(q => `<button class="sug" data-q="${escapeHtml(q)}" onclick="useSuggestion(this)">${escapeHtml(q)}</button>`).join('');
+    return;
+  }
+  await Promise.all(sel.map(s => loadPack(s).catch(() => null)));
+  const seen = new Set(), chips = [];
+  for(const s of sel.slice(0, 6)){
+    const m = byslug(s), p = packs[s]; if(!m || !p) continue;
+    const q = templateFor(topTopic(p)) || '요즘 가장 주목하는 게 뭐예요?';
+    const key = m.name + q; if(seen.has(key)) continue; seen.add(key);
+    chips.push(`<button class="sug" data-q="${escapeHtml(q)}" onclick="useSuggestion(this)"><b>${escapeHtml(m.name.split(' (')[0])}</b> · ${escapeHtml(q)}</button>`);
+  }
+  box.innerHTML = `<span class="lbl">💡 추천 질문</span>` + chips.join('');
+}
+function useSuggestion(el){
+  const box = document.getElementById('question');
+  box.value = el.dataset.q;
+  box.focus();
+}
+
+/* ---- ② 상담 일지 (localStorage) ---- */
+const HIST_LS = 'ym_consultations';
+function loadHistory(){ try{ return JSON.parse(localStorage.getItem(HIST_LS) || '[]'); }catch(e){ return []; } }
+function saveConsultation(q, items){
+  if(!items || !items.length) return;
+  const h = loadHistory();
+  h.unshift({ ts: Date.now(), q, items });
+  try{ localStorage.setItem(HIST_LS, JSON.stringify(h.slice(0, 50))); }catch(e){}
+  renderHistory();
+}
+function fmtWhen(ts){
+  const d = new Date(ts), p = n => String(n).padStart(2, '0');
+  return `${p(d.getMonth() + 1)}/${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+function renderHistory(){
+  const box = document.getElementById('historyBox'); if(!box) return;
+  const h = loadHistory();
+  if(!h.length){ box.innerHTML = ''; return; }
+  box.innerHTML = `<div class="history-head"><span class="t">🕘 지난 상담</span>
+      <span style="color:var(--sub);font-size:.78rem">${h.length}건</span>
+      <button class="clear" onclick="clearHistory()">전체 삭제</button></div>` +
+    h.map((e, idx) => {
+      const avatars = e.items.slice(0, 6).map(it => {
+        const m = byslug(it.slug);
+        return avatarHtml(it.name, m ? catFor(m.domain).color : '#888', it.slug, '');
+      }).join('');
+      return `<div class="hist-item" onclick="viewConsultation(${idx})">
+        <span class="when">${fmtWhen(e.ts)}</span>
+        <span class="hq">${escapeHtml(e.q)}</span>
+        <span class="who">${avatars}</span></div>`;
+    }).join('');
+}
+function clearHistory(){
+  if(!confirm('상담 일지를 모두 삭제할까요?')) return;
+  localStorage.removeItem(HIST_LS);
+  renderHistory();
+}
+function closeSaved(){ document.getElementById('cards').innerHTML = ''; }
+function viewConsultation(idx){
+  const e = loadHistory()[idx]; if(!e) return;
+  document.getElementById('question').value = e.q;
+  document.getElementById('cards').innerHTML =
+    `<div class="saved-banner">🕘 저장된 상담 다시보기 · ${fmtWhen(e.ts)}<span class="x" onclick="closeSaved()">✕ 닫기</span></div>` +
+    e.items.map(it => {
+      const m = byslug(it.slug);
+      return `<div class="card"><h3>${avatarHtml(it.name, m ? catFor(m.domain).color : '#888', it.slug)}${escapeHtml(it.name)} <span class="dm">${escapeHtml(it.domain || '')}</span><span class="tag ai">AI 재현</span></h3>
+        <div class="body">${renderAnswer(it.text)}</div></div>`;
+    }).join('');
+  document.getElementById('cards').scrollIntoView({ behavior:'smooth', block:'start' });
+}
+
+/* ============================================================
+   개발일지 (우측 상단 📓) — 개발 단계 타임라인 + 현재 상태 + 아이디어 메모(localStorage)
+   ============================================================ */
+const DEVLOG_VERSION = 'v1.4 · 2026-07-05';
+const DEV_STEPS = [
+  { d:'2026-07-04~05', t:'v1.0 코어 파이프라인', s:'done',
+    x:'수집(collect_transcripts)→큐레이션→조립(build_knowledge_pack) 3단계. 전문가 10명 지식팩 + 정적 단일 파일 사이트(전문가 선택→Gemini 개별 격리 호출→답변 카드 나란히).' },
+  { d:'2026-07-05', t:'디자인 개편', s:'done',
+    x:'라이트/다크 토글, 이니셜→실제 프로필 사진(유튜브 채널·위키), 도메인 색상 태그, 선택 강조, 큐레이션 소개문구(intro) 카드 표시.' },
+  { d:'2026-07-05', t:'Gemini 429 안정화', s:'done',
+    x:'무료 티어 대응 — 동시 호출 2개 제한, retryDelay 기반 자동 재시도, 일일/분당 한도 구분 안내.' },
+  { d:'2026-07-05', t:'인사이트 라이브러리 탭', s:'done',
+    x:'전문가별 보기(방향 분포바·필터·주제별↔시간순·검색·티커·인용) + 주제별 비교(대립 보드, 합성 없음).' },
+  { d:'2026-07-05', t:'백필 수집 모드', s:'done',
+    x:'유튜브 RSS 15개 캡을 yt-dlp flat-playlist로 돌파(목표 50). 업로드일 캡처, --max-new로 야간 분산 수집.' },
+  { d:'2026-07-05', t:'전문가 분류 시스템', s:'done',
+    x:'wave 폐지 → 드래그&드롭 분류 탭(국내/해외/일반, categories.json+localStorage). 상담 탭 분류 그룹 다이어그램, 인사이트 시장별 보기 추가.' },
+  { d:'2026-07-05', t:'상담 부가기능', s:'done',
+    x:'⚔️ 오늘의 대립(같은 주제 긍정vs부정 자동 감지→양쪽 일괄 질문), 💡 추천 질문 칩, 🕘 상담 일지(localStorage 저장·다시보기).' },
+  { d:'2026-07-05', t:'답변 형식 개선', s:'done',
+    x:'답변 서두에 💡 요약(직관적 결론) 강조 박스 + 📝 자세히(근거) 구조로 분리 렌더.' },
+  { d:'2026-07-05', t:'시점 정책 수립 (누적+최근 3개월 우선)', s:'done',
+    x:'인덱싱은 전부 누적(삭제 금지), 신규 큐레이션은 최근 3개월 영상 우선·원칙/사고방식은 시효 없음(가이드 §3.6). 답변 프롬프트가 90일 기준으로 최근 견해(우선)/과거 사고방식(참고)을 자동 분리 투입.' },
+  { d:'2026-07-05', t:'다중 소스 인덱싱 (X·뉴스레터 등)', s:'done',
+    x:'유튜브 외 텍스트 소스(X·뉴스레터·블로그)를 data/manual/<slug>.md에 붙여넣어 add_source.py로 인제스트 → 유튜브와 같은 스키마+source 태그로 지식팩에 누적. Threads는 로그인 벽으로 전체 수집 불가라 후보 제외(2026-07-05).' },
+  { d:'2026-07-06', t:'미수집 4명 + 임형록 라이브 수집', s:'done',
+    x:'IP 변경 + 폴백 엔진(youtube-transcript-api) 우선 로직으로 차단 우회. 버핏·린치·오건영·와조스키 수집, 임형록 라이브(streams 탭) 지원 추가. 수집기에 채널 탭(tab:streams) 옵션.' },
+  { d:'2026-07-06', t:'설계 보완 4종 (거인의 정수 확보)', s:'done',
+    x:'①문서 소스: 하워드 막스 Oaktree 메모 10편·버핏 주주서한 5년(fetch_documents.py, 유튜브 밖의 정수). ②심층 모드: 질문 관련 원문 발췌를 프롬프트에 추가(로컬 전용 RAG-lite). ④검증기 verify_pack.py(인용 원문 대조 — 첫 감사서 기존 인용 28% 불일치 적발). ⑤원칙/시황 kind 태그+필터. ③주1회 자동수집 스케줄(토 03:00).' },
+];
+function renderDevlog(){
+  document.getElementById('devlogVer').textContent = DEVLOG_VERSION;
+  document.getElementById('dlTimeline').innerHTML = DEV_STEPS.map(s => `
+    <div class="dl-step ${s.s}">
+      <div class="st">${escapeHtml(s.t)}
+        <span class="badge ${s.s}">${s.s === 'done' ? '완료' : '진행/대기'}</span>
+        <span style="color:var(--sub);font-weight:400;font-size:.74rem">${escapeHtml(s.d)}</span>
+      </div>
+      <div class="sd">${escapeHtml(s.x)}</div>
+    </div>`).join('');
+  const done = DEV_STEPS.filter(s => s.s === 'done').length;
+  const rows = [
+    ['인덱싱 완료', `${manifest.length}명 (국내 다수 + 해외 거장)`],
+    ['미수집', '버핏·린치·오건영·와조스키 4명 — 유튜브 IP 차단으로 야간 재시도 대기'],
+    ['탭 구성', '🗂 분류 · 💬 상담 · 📚 인사이트(전문가별·주제별·시장별)'],
+    ['개발 단계', `${done}/${DEV_STEPS.length} 완료`],
+    ['비용', '0원 (Gemini 무료 API + 구독 인덱싱, 벡터DB·RAG 없음)'],
+    ['배포', 'GitHub Pages (예정)'],
+  ];
+  document.getElementById('dlStatus').innerHTML = rows.map(([k, v]) =>
+    `<div class="dl-srow"><span class="k">${escapeHtml(k)}</span><span class="v">${escapeHtml(v)}</span></div>`).join('');
+}
+function openDevlog(){
+  renderDevlog();
+  document.getElementById('devNotes').value = loadNotes();
+  document.getElementById('devlogBack').classList.add('open');
+}
+function closeDevlog(){ document.getElementById('devlogBack').classList.remove('open'); }
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeDevlog(); });
+
+const NOTES_LS = 'ym_devnotes';
+const DEFAULT_NOTES =
+`[개발 예정]
+- 🎯 적중률 스코어카드: 과거 방향(긍정/부정)이 실제 시장과 맞았는지 채점 → 전문가별 신뢰도
+- 🔎 대립 위젯 정밀도: 대분류 대신 정확한 topic 단위 대립 감지 옵션
+- 🧩 상담/인사이트에 국내·해외·일반 필터 연동
+- ☁️ GitHub Pages 배포
+
+[아이디어]
+- `;
+function loadNotes(){ const v = localStorage.getItem(NOTES_LS); return v !== null ? v : DEFAULT_NOTES; }
+let notesTimer = null;
+function saveNotes(){
+  localStorage.setItem(NOTES_LS, document.getElementById('devNotes').value);
+  const el = document.getElementById('notesSaved');
+  el.textContent = '✓ 저장됨'; el.classList.add('show');
+  clearTimeout(notesTimer);
+  notesTimer = setTimeout(() => el.classList.remove('show'), 1500);
+}
+
+init();
+</script>
+</body>
+</html>
