@@ -166,18 +166,49 @@ def fetch_buffett(limit: int) -> dict:
     return stats
 
 
+def fetch_damodaran(limit: int) -> dict:
+    """Aswath Damodaran 블로그: RSS에 본문 전체가 담겨 페이지별 요청 불필요."""
+    import feedparser
+    print(f"\n== 애스워스 다모다란 — Valuation 블로그 (최근 {limit}편) ==")
+    stats = {"new": 0, "skip": 0, "fail": 0}
+    feed = feedparser.parse(
+        f"https://aswathdamodaran.blogspot.com/feeds/posts/default?alt=rss&max-results={limit}")
+    for e in feed.entries[:limit]:
+        link = e.get("link", "")
+        slug_id = "doc_blog_" + re.sub(r"[^\w-]", "", link.rstrip("/").split("/")[-1].replace(".html", ""))[:50]
+        if (TRANSCRIPT_DIR / "damodaran" / f"{slug_id}.json").exists():
+            stats["skip"] += 1
+            continue
+        raw_html = (e.content[0].value if e.get("content") else e.get("summary", "")) or ""
+        text = html_text(raw_html)
+        pp = e.get("published_parsed")
+        date = f"{pp.tm_year}-{pp.tm_mon:02d}-{pp.tm_mday:02d}" if pp else ""
+        if len(text) < 2500:
+            print(f"      ! 본문 짧음(스킵): {link}")
+            stats["fail"] += 1
+            continue
+        save_record("damodaran", slug_id, (e.get("title", "") or "")[:80], date, link, text, "blog")
+        stats["new"] += 1
+        print(f"      ✓ [blog] {date or '날짜?'} {len(text):>6}자  {e.get('title','')[:44]}")
+    print(f"   → 신규 {stats['new']} / 기존 {stats['skip']} / 실패 {stats['fail']}")
+    return stats
+
+
 def main():
-    ap = argparse.ArgumentParser(description="1차 문서 수집기 (메모·주주서한)")
-    ap.add_argument("targets", nargs="*", choices=["marks", "buffett"], help="marks | buffett")
+    ap = argparse.ArgumentParser(description="문서 수집기 (메모·주주서한·블로그)")
+    ap.add_argument("targets", nargs="*", choices=["marks", "buffett", "damodaran"],
+                    help="marks | buffett | damodaran")
     ap.add_argument("--all", action="store_true")
-    ap.add_argument("--limit", type=int, default=None, help="marks=메모 수(기본10) / buffett=연도 수(기본5)")
+    ap.add_argument("--limit", type=int, default=None, help="수집 개수(marks=10 / buffett=5 / damodaran=12 기본)")
     args = ap.parse_args()
-    targets = ["marks", "buffett"] if args.all or not args.targets else args.targets
+    targets = ["marks", "buffett", "damodaran"] if args.all or not args.targets else args.targets
     for t in targets:
         if t == "marks":
             fetch_marks(args.limit or 10)
         elif t == "buffett":
             fetch_buffett(args.limit or 5)
+        elif t == "damodaran":
+            fetch_damodaran(args.limit or 12)
     print("\n다음: 큐레이션(§3.6 — 문서는 대부분 kind:원칙) → build_knowledge_pack → verify_pack")
 
 

@@ -1,0 +1,150 @@
+{
+  "_note": "Claude가 Musings on Markets 블로그 원문(data/transcripts/damodaran/doc_blog_*.json)에서 추출. thesis 한국어, quote 영어 원문 버바팀. 다모다란 밸류에이션 프레임워크 중심.",
+  "insights": [
+    {
+      "topic": "밸류에이션/가치vs가격",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "가치(value)와 가격(price)은 다르다. 가치는 사업모델을 이해하고 스토리를 밸류에이션 입력값(현금흐름·성장·위험)으로 번역해 추정하는 것이고, 가격은 수요와 공급이 결정한다. 실무에서 밸류에이션이라 불리는 것의 상당수는 사실 PER·EV/EBITDA 같은 배수로 판단하는 '프라이싱(pricing)'에 불과하다. 투자자는 가치를 추정해 가격이 그보다 낮으면 사고 높으면 팔며 격차가 좁혀지기를 기다리는 반면, 트레이더는 시장 무드와 모멘텀을 읽어 가격 방향에 베팅한다 — 둘은 다른 게임이며 어느 쪽이 옳고 그른 것이 아니다.",
+      "date": "2026-03-24",
+      "video": "https://aswathdamodaran.blogspot.com/2026/03/finding-your-investing-lodestar-in.html"
+    },
+    {
+      "topic": "밸류에이션/스토리와숫자",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "밸류에이션은 예술도 과학도 아닌 '기법(craft)'이며, 기업을 평가하면서 배우고 더 나은 방법을 찾아가는 과정이다. 좋은 밸류에이션은 스토리(내러티브)와 숫자를 잇는다 — 재무모델링만으로는 기업가치를 제대로 평가할 수 없고, 이야기가 숫자로 번역되지 않으면 공허하다. 그래서 다모다란은 좌뇌(논리·숫자)와 우뇌(상상·스토리)를 함께 쓰는 것이 AI 봇조차 흉내 내기 어려운 인간 밸류에이터의 해자라고 본다.",
+      "date": "2026-03-04",
+      "video": "https://aswathdamodaran.blogspot.com/2026/03/ai-scenarios-from-economic-doomsday-to.html"
+    },
+    {
+      "topic": "리스크/ERP(주식위험프리미엄)",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "표준 관행인 '과거(historical) 주식위험프리미엄'은 미국 데이터에 의존하고 노이즈가 크며 편향이 스며들기 쉽고, 위기 때 오히려 떨어지고 호황 때 오르는 '방향이 반대인' 결함을 가진다. 다모다란은 대안으로 주가와 예상 현금흐름에서 시장이 내재화한 기대수익률을 역산하는 '내재(implied) ERP'를 쓴다. 이것이 모델 독립적이고 시장의 공포·탐욕을 실시간 반영하기에 훨씬 직관적이다 — 2008년 위기 때 4.2%에서 두 달 만에 거의 두 배로 뛰었던 것이 그 증거. 2026년 초 미국 ERP는 4.23%였다.",
+      "date": "2026-03-15",
+      "video": "https://aswathdamodaran.blogspot.com/2026/03/the-price-of-risk-equity-risk-premium.html"
+    },
+    {
+      "topic": "리스크/ERP(주식위험프리미엄)",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "내재 ERP는 시장 가격을 압축한 통합 지표라, '시장이 고평가/저평가인가'라는 논쟁은 곧 '내재 ERP가 너무 낮은가(고평가)/적정한가/너무 높은가(저평가)'라는 질문으로 재구성할 수 있다. 밸류에이션에 현재 시점의 내재 ERP를 쓰지 않으면, 모든 기업 평가가 '이 기업에 대한 판단'과 '시장 전체에 대한 판단'이 뒤섞인 혼합 판단이 된다. 예컨대 ERP가 6%로 치솟은 위기 때 여전히 4%를 고집하면, 기업이 아니라 시장이 싸다고 믿기 때문에 거의 모든 기업이 저평가로 보인다. 좋은 기업 밸류에이션은 시장 중립적이어야 한다.",
+      "date": "2026-03-15",
+      "video": "https://aswathdamodaran.blogspot.com/2026/03/the-price-of-risk-equity-risk-premium.html"
+    },
+    {
+      "topic": "밸류에이션/할인율",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "할인율(자본비용)은 배짱이나 개인적 위험회피가 아니라 '기회비용' — 동일 위험의 투자에서 시장에서 벌 수 있는 수익률이다. 그래서 베타는 투자를 하는 '주체'가 아니라 '투자 대상'의 위험을 반영해야 한다. 2026년 초 미국 상장사 80%의 달러 자본비용은 5.26%~9.88% 사이에 몰려 있어, 자본비용 산정에 시간을 대부분 쓰는 분석은 잘못된 시간 배분이다. 리스크 자체가 목적이 아니라 할인율을 얻기 위한 수단이며, 14% 같은 값은 90 백분위를 넘어 '의심 목록'에 오른다.",
+      "date": "2026-02-05",
+      "video": "https://aswathdamodaran.blogspot.com/2026/02/data-update-5-for-2026-risk-and-hurdle.html"
+    },
+    {
+      "topic": "밸류에이션/DCF",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "내재가치를 '미래 현금흐름 창출력'으로 정의하면, 과거 데이터나 동종기업(peer)이 없어도 기업을 평가할 수 있다 — 불확실성이나 정보 부족은 추정이 불가능하다는 뜻이 아니라 추정이 더 노이즈가 크다는 뜻일 뿐이다. 젊은 기업일수록 회계 재무제표의 '바텀라인(매출·이익)'이 아니라 총시장규모(TAM)와 단위경제(unit economics)가 가치를 좌우하며, 이 정보는 재무제표 본문이 아니라 주석에 있다. 적자·마이너스 현금흐름은 젊은 기업에겐 결함이 아니라 기능(feature)이며, '적자라서·고배수라서' 투자를 거부하는 것은 게으르고 설득력이 없다.",
+      "date": "2026-06-04",
+      "video": "https://aswathdamodaran.blogspot.com/2026/06/a-weeks-ago-i-assessed-value-of-spacex.html"
+    },
+    {
+      "topic": "밸류에이션/가치vs가격",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "IPO에서 뱅커의 임무는 기업을 '평가(value)'하는 것이 아니라 공모를 위해 '가격을 매기는(price)' 것이며, 대개 직전 사모 거래(VC 라운드)와 배수·동종기업에 기대어 값을 정한다. 뱅커는 시장 타이밍을 못 맞추고, 공모가를 시장 예상보다 15~20% 낮게 설정하며, 마케팅·애프터마켓 지원의 부가가치도 소셜미디어 시대엔 미미하다. 프라이싱이 밸류에이션의 수많은 가정을 피하게 해주는 것도 아니다 — 차이는 밸류에이션은 불확실성을 직시해 명시적 판단을 내리는 반면, 프라이싱은 그 가정을 암묵적으로 숨긴다는 것뿐이다. 편향이 최대 적이라면 프라이싱은 편향을 반영할 배수·동종기업을 손쉽게 골라내게 한다.",
+      "date": "2026-04-23",
+      "video": "https://aswathdamodaran.blogspot.com/2026/04/to-trillion-dollars-and-beyond-spacex.html"
+    },
+    {
+      "topic": "밸류에이션/DCF",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "다모다란은 SpaceX를 세 사업(발사·스타링크 연결·xAI)을 각각 평가하고 확장옵션을 더해 2026년 4월 사전 프로스펙터스 기준 기업가치 약 1.22조 달러(사모시장 가격보다 10% 낮음)로 추정했다. 5월 프로스펙터스(277쪽) 공개 후 우주 발사 마진 목표를 40→45%로 올리고 AI 목표매출은 두 배(800→1600억 달러)로 늘렸으나 AI 마진 목표는 45→25%로 낮췄고, 국채금리 상승(4.20→4.56%)을 반영해 자본비용을 8.02→8.37%로 올렸다. 결과 기업가치는 1.22조로 거의 불변, 지분가치는 IPO 유입현금 750억을 더해 1.3조. 프로스펙터스는 '스토리를 더 크게, 그러나 더 변동성 있게' 만들었을 뿐 놀랄 내용은 없었다.",
+      "date": "2026-06-04",
+      "video": "https://aswathdamodaran.blogspot.com/2026/06/a-weeks-ago-i-assessed-value-of-spacex.html"
+    },
+    {
+      "topic": "밸류에이션/가치vs가격",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "다모다란은 SpaceX 지분가치를 약 1.25~1.35조 달러로 평가했기에, 소문난 IPO 프라이싱 1.8조 달러(주당 135달러)는 그의 취향엔 너무 비싸 매수하지 않는다는 입장이다. 다만 이는 방향성 있는 '숏' 신호가 아니다 — 무드와 모멘텀은 예측 불가하고, 페이스북·우버가 상장 후 반토막 났듯 시장은 마음을 바꾸므로, 가치평가상 고평가여도 공매도는 하지 않고 큰 조정이 오면 매수자가 되겠다고 한다. Musk 지배구조(클래스B 10표·의결권 85%)와 AI 시장 과대추정(TAM 28조는 '판타지에 가깝다')이 핵심 리스크.",
+      "date": "2026-06-04",
+      "video": "https://aswathdamodaran.blogspot.com/2026/06/a-weeks-ago-i-assessed-value-of-spacex.html"
+    },
+    {
+      "topic": "AI/버블",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "Citrini의 'AI 파멸' 시나리오(2028년 실업률 10%·시장 40% 하락)를 소재로, 다모다란은 시나리오는 확률 판단이 붙지 않으면 무용하다고 본다. 그의 3P 테스트(possible→plausible→probable)로 보면, AI가 대부분 업종에서 노동을 빠르게 대체하는 것은 '가능하나 개연성 없음', AI 도구가 미미한 효과에 그치는 것도 개연성 없음이고, '개연성 높은(probable)' 시나리오는 소프트웨어·일부 금융중개 등 일부 업종에서 인력을 줄이되 수익화까지는 옹호자들 예상보다 오래 걸린다는 것. 과거 어떤 파괴적 혁신도 지연·굴곡 없이 전개된 적이 없다.",
+      "date": "2026-03-04",
+      "video": "https://aswathdamodaran.blogspot.com/2026/03/ai-scenarios-from-economic-doomsday-to.html"
+    },
+    {
+      "topic": "기업/성장과수익성",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "돈을 버는 것이 사업의 본질이지만, 자본은 다른 곳에서 수익을 낼 수 있으므로 '이익 창출'은 낮은 기준이고 진짜 기준은 자본비용을 초과하는 초과수익(해자)이다. 실제로 전 세계 기업의 29%(자기자본)·28%(투하자본)만이 자본비용을 넘는다. 지난 40년간 글로벌 경쟁과 파괴로 해자가 무너지며 시장은 승자독식으로 기울었고, 이 맥락에서 다모다란은 AI가 대부분 기업의 마진을 끌어내리고 대형사 우위를 키우는 '슬로모션 자동차 사고'가 될 것으로 본다. AI 도구가 경쟁사도 살 수 있는 것이라면 비용 절감은 경쟁을 통해 가격으로 흘러 결국 수익성을 낮춘다 — 온라인 소매가 오프라인을 파괴했듯.",
+      "date": "2026-02-16",
+      "video": "https://aswathdamodaran.blogspot.com/2026/02/data-update-6-for-2026-in-search-of.html"
+    },
+    {
+      "topic": "투자원칙/내러티브",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "모든 투자자는 자신의 시장관(市場觀)과 성향에 맞는 '맞춤형 투자철학'이 필요하며, 만인에게 최선인 단 하나의 지배적 철학은 없다. 철학이 없으면 작년의 승자를 쫓고(휘플래시), 사기의 표적이 되며, 통하던 전략이 소진되면 빈 곳간만 남는다. 다모다란 본인의 철학은 세 원칙 — ① 내재가치는 존재하며 추정 가능하다 ② 시장은 대개 옳으나 불확실성·전환기에 실수한다 ③ '해를 끼치지 말라(do no harm)': 가장 큰 실수는 과욕·과잉행동에서 나오므로 3다스 종목으로 분산하고(단일종목 15% 상한), 드물게 매매하며, 시장타이밍 같은 약점을 피한다. 목표는 '수익'이 아니라 밤에 잘 자는 '투자의 평정심(serenity)'.",
+      "date": "2026-03-24",
+      "video": "https://aswathdamodaran.blogspot.com/2026/03/finding-your-investing-lodestar-in.html"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "a good valuation requires understanding business models, telling stories and converting these stories into valuation inputs and value estimates.",
+      "date": "2026-03-24",
+      "video": "https://aswathdamodaran.blogspot.com/2026/03/finding-your-investing-lodestar-in.html"
+    },
+    {
+      "text": "In my view, a company valuation should be market-neutral, and the only way you can get there is by using a current implied equity premium.",
+      "date": "2026-03-15",
+      "video": "https://aswathdamodaran.blogspot.com/2026/03/the-price-of-risk-equity-risk-premium.html"
+    },
+    {
+      "text": "the fact that you face uncertainty or that you are missing information does not imply that you cannot make estimates, just that the estimates will be noisier",
+      "date": "2026-04-23",
+      "video": "https://aswathdamodaran.blogspot.com/2026/04/to-trillion-dollars-and-beyond-spacex.html"
+    },
+    {
+      "text": "In an IPO, the bankers' mission is to price companies for their offering, not value them",
+      "date": "2026-06-04",
+      "video": "https://aswathdamodaran.blogspot.com/2026/06/a-weeks-ago-i-assessed-value-of-spacex.html"
+    },
+    {
+      "text": "At the right price, a money-losing company can be a good investment and at the wrong price, a company with solid and stable profits can be a bad investment.",
+      "date": "2026-06-18",
+      "video": "https://aswathdamodaran.blogspot.com/2026/06/indexology-index-mechanics-and.html"
+    },
+    {
+      "text": "You live by the sword (expectations of growth and high margins), you die by it (expectations that growth rates will hit a cliff and margins will decline)!",
+      "date": "2026-02-16",
+      "video": "https://aswathdamodaran.blogspot.com/2026/02/data-update-6-for-2026-in-search-of.html"
+    },
+    {
+      "text": "I believe that investors lose more money from companies trying to do too much rather than from them doing too little, and from overreaching than from underachieving.",
+      "date": "2026-05-06",
+      "video": "https://aswathdamodaran.blogspot.com/2026/05/an-ode-to-restraint-lessons-from-tim.html"
+    }
+  ]
+}

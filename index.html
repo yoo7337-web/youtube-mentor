@@ -767,7 +767,7 @@ async function toggleVids(slug, ev){
 }
 
 function escapeHtml(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-function srcIcon(source){ return source === 'memo' ? '📝' : source === 'letter' ? '✉️' : source === 'threads' ? '🧵' : source === 'x' ? '𝕏' : source === 'web' ? '🔗' : '📺'; }
+function srcIcon(source){ return source === 'memo' ? '📝' : source === 'letter' ? '✉️' : source === 'blog' ? '📰' : source === 'threads' ? '🧵' : source === 'x' ? '𝕏' : source === 'web' ? '🔗' : '📺'; }
 
 function buildPrompt(pack, question, excerpts){
   const p = pack.persona;
