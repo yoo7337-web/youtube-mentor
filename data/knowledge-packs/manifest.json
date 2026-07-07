@@ -63,6 +63,15 @@
     "last_indexed": "2026-07-03"
   },
   {
+    "slug": "leehyoseok",
+    "name": "이효석",
+    "domain": "시장전략 / 매크로·산업 리서치",
+    "intro": "바이사이드 애널리스트 출신 시장전략가(이효석아카데미). 매크로·산업·빅테크를 구조적으로 연결해 '변화된 세상의 생존 전략'을 리서치한다.",
+    "video_count": 12,
+    "insight_count": 10,
+    "last_indexed": "2026-07-07"
+  },
+  {
     "slug": "lynch",
     "name": "피터 린치 (Peter Lynch)",
     "domain": "종목 발굴 원칙 / 생활 속 투자 아이디어",
@@ -142,5 +151,14 @@
     "video_count": 15,
     "insight_count": 13,
     "last_indexed": "2026-07-02"
+  },
+  {
+    "slug": "yeomseunghwan",
+    "name": "염승환",
+    "domain": "국내 시황 / 종목·개인투자자 교육",
+    "intro": "'염블리'로 불리는 개인투자자 눈높이의 시황·종목 해설가(LS증권 이사). 매일 마감시황과 기본기를 친절하게 풀어준다.",
+    "video_count": 12,
+    "insight_count": 10,
+    "last_indexed": "2026-07-07"
   }
 ]

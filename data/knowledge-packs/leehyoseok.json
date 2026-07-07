@@ -1,0 +1,267 @@
+{
+  "slug": "leehyoseok",
+  "name": "이효석",
+  "intro": "바이사이드 애널리스트 출신 시장전략가(이효석아카데미). 매크로·산업·빅테크를 구조적으로 연결해 '변화된 세상의 생존 전략'을 리서치한다.",
+  "persona": {
+    "domain": "시장전략 / 매크로·산업 리서치",
+    "tone": "운용 경험에 기반해 '변화된 세상의 생존 전략'을 리서치하는 시장전략가.\n매크로·산업·빅테크를 구조적으로 연결해 설명하고, 데이터와 프레임으로 시장을 해석한다.",
+    "guardrails": "구체적 매수/매도 지시 금지. 시장전략·산업 구조 해석 중심. 'AI 재현' 전제. 근거(영상·날짜) 없는 주장 금지."
+  },
+  "last_indexed": "2026-07-07",
+  "video_count": 12,
+  "insight_count": 10,
+  "videos": [
+    {
+      "id": "jCVfSLJqRus",
+      "title": "삼성전자 호실적에도 급락하는 시장",
+      "date": "2026-07-07",
+      "url": "https://www.youtube.com/watch?v=jCVfSLJqRus",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2858
+    },
+    {
+      "id": "uPV-SqAj3Hg",
+      "title": "급락후 반등, 반등후 급락 주가가 매일 발칵 뒤집히는 반도체! 앞으로는 '이렇게' 투자 하세요",
+      "date": "2026-07-05",
+      "url": "https://www.youtube.com/watch?v=uPV-SqAj3Hg",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 7634
+    },
+    {
+      "id": "xmGvO5_RS4I",
+      "title": "코스피가 2008년 이후 처음 보는 신호가 나왔습니다",
+      "date": "2026-07-05",
+      "url": "https://www.youtube.com/watch?v=xmGvO5_RS4I",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 12782
+    },
+    {
+      "id": "2lmIgYUAPFI",
+      "title": "자녀 계좌 개설의 정답은 일반계좌도, 연금저축 계좌도 아닙니다. 일단 무조건 빨리 만드셔야 합니다",
+      "date": "2026-07-04",
+      "url": "https://www.youtube.com/watch?v=2lmIgYUAPFI",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11193
+    },
+    {
+      "id": "clHZ5Fgpwq4",
+      "title": "SK하이닉스 -10% 폭락. 지금 팔면 안 되는 이유",
+      "date": "2026-07-02",
+      "url": "https://www.youtube.com/watch?v=clHZ5Fgpwq4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9831
+    },
+    {
+      "id": "yVevNUcD1vc",
+      "title": "[속보효] KOSPI, 드디어 50일선 만나다!",
+      "date": "2026-07-02",
+      "url": "https://www.youtube.com/watch?v=yVevNUcD1vc",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10292
+    },
+    {
+      "id": "CRdB96hgfoo",
+      "title": "IMF·리만브라더스 사태 때보다 높아져버린 환율에 대해서 아무도 말해주지 않는 진실",
+      "date": "2026-07-01",
+      "url": "https://www.youtube.com/watch?v=CRdB96hgfoo",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3061
+    },
+    {
+      "id": "jnXpO1Cktlk",
+      "title": "오픈AI·앤트로픽 상장이 반도체에 미친 호재인 이유! 아무도 말 안 해주는 반도체 시나리오 총정리ㅣ정주용 의장 [풀영상]",
+      "date": "2026-07-01",
+      "url": "https://www.youtube.com/watch?v=jnXpO1Cktlk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15106
+    },
+    {
+      "id": "lKxiy3gtR3M",
+      "title": "삼성전자, 하이닉스 지금 사지도 팔지도 마세요 [Z1뉴스]",
+      "date": "2026-06-29",
+      "url": "https://www.youtube.com/watch?v=lKxiy3gtR3M",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 16681
+    },
+    {
+      "id": "fTNpYo8adu8",
+      "title": "[LIVE] 반도체 숏을 준비하는 분들에게 한마디만 하겠습니다",
+      "date": "2026-06-28",
+      "url": "https://www.youtube.com/watch?v=fTNpYo8adu8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15384
+    },
+    {
+      "id": "suQ68ikbD0U",
+      "title": "ETF인데 하이닉스 비중을 영혼까지 끌어모으고 싶다면? [주식주부 리나]",
+      "date": "2026-06-28",
+      "url": "https://www.youtube.com/watch?v=suQ68ikbD0U",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2604
+    },
+    {
+      "id": "WH_mpXNL8rA",
+      "title": "[LIVE] 후쿠오카에서 전하는 반도체의 미래",
+      "date": "2026-06-26",
+      "url": "https://www.youtube.com/watch?v=WH_mpXNL8rA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 8196
+    }
+  ],
+  "insights": [
+    {
+      "topic": "빅테크/AI 케펙스",
+      "tickers": [
+        "005930",
+        "000660",
+        "NVDA"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "오픈AI·앤트로픽의 상장 예고를 반도체 호재로 해석한다. IPO로 수십조원의 자금을 조달하면 얘네들이 하는 일은 결국 또 데이터 센터 투자이고, 데이터 센터 코스트의 약 30%가 반도체이므로 조달 자금이 그대로 엔비디아를 거쳐 삼성전자·하이닉스로 흘러온다는 논리다. 'AI 모델 열심히 쓰면서 걔네들 망할 걱정하지 마라'는 것이 연초부터의 일관된 프레임이며, 상장으로 자금 조달 창구가 열리면 오히려 걱정할 필요가 없어진다고 본다.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=jnXpO1Cktlk"
+    },
+    {
+      "topic": "산업/밸류체인",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "원칙",
+      "thesis": "미국의 최대 수출품은 '추론(inference)'이며 대규모 AI 데이터 센터가 그 추론을 찍어내는 공장이라는 '추론 무역' 프레임으로 세상을 읽는다. 하드웨어 강국인 한국의 생존전략은 챗GPT의 경쟁자를 만드는 것이 아니라, 미국 모델을 다 쓰면서 하드웨어를 컨트롤하는 미들 레이어(피지컬 AI)를 장악하는 것이다. 조선·화학·철강·반도체 제조 프로세스와 소부장에 AI 미들웨어를 붙여 표준을 쥐는 것이 진정한 주권이라고 본다.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=jnXpO1Cktlk"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "005930",
+        "000660",
+        "MU"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "번스타인 등이 경고하는 2027년 반도체 이익 정점론에 회의적이다. 과거엔 반도체를 안 쓰면 계약을 환불해줬지만 지금은 '가져가든가(테이크오어페이) 못 가져가도 돈은 낸다'는 장기계약(LTA·SCA) 구조로 바뀌었기 때문에, 이미 가격을 반영해 장기계약한 물량이 있는 상황에서 이익이 예전처럼 급감하는 시나리오가 현실화될 가능성은 크지 않다고 판단한다. 단 3년 만에 메모리 수급의 지도가 완전히 바뀌었다는 것이 핵심 근거다.",
+      "date": "2026-06-29",
+      "video": "https://www.youtube.com/watch?v=lKxiy3gtR3M"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "000660"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "저커버그(메타)가 컴퓨팅을 소비하지 않고 공급할 수도 있다고 선언한 것을 트리거로 하이닉스가 고점 대비 20% 급락했지만, 이는 메모리 펀더멘털 악화가 아니라 레버리지 ETF 청산(숏 감마)과 과열 해소 과정으로 본다. 메타가 파는 건 자기가 못 쓰는 구형 컴퓨팅이고 신형·비싼 컴퓨팅은 여전히 자기가 사고 있으므로 메모리 수요는 오히려 늘 수 있다. 주도주 탈락 기준(고점 대비 30%)에 아직 못 미쳤고, 7월 삼성전자·하이닉스 실적이라는 확인 이벤트가 남아 있어 '지금 팔 자리는 아니다'라고 판단한다.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=clHZ5Fgpwq4"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "원칙",
+      "thesis": "단일 종목 레버리지 ETF는 '멍청한 로봇의 강제 매매'다. 두 배 수익률을 맞추라는 명령이 입력된 운용사가 매일 장 마감마다 오르면 비싼데도 더 사고 내리면 싼데도 팔아야 하는 숏 감마 구조 때문에, 하이닉스 본주가 30% 오르는 동안 하이닉스 레버리지는 20%밖에 못 오르는 복리의 함정이 발생한다. 이 과도한 회전이 코스피 변동성을 2008년 수준으로 끌어올린 한 축이며, 거래 볼륨이 줄어야 반도체 변동성도 안정된다고 본다.",
+      "date": "2026-06-28",
+      "video": "https://www.youtube.com/watch?v=fTNpYo8adu8"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "중국 저가 AI 모델의 가격 파괴가 반도체 수요를 꺾을 것이라는 우려에 반대한다. JP모건 논리를 빌려, 토큰당 단위 컴퓨팅 비용이 싸질수록 '이것도 해볼까'라며 시도가 폭증해(제번스 역설) 총 메모리 케펙스 수요는 오히려 증가하기 때문이다. 성숙 지능은 디플레이션, 프론티어(오픈AI·앤트로픽)는 프리미엄 방어라는 이중 구조라 저가 모델 등장이 곧 투자 축소로 이어진다고 보긴 어렵다. 애플이 블랙리스트 중국 업체에 로비하며 메모리를 구하려는 것 자체가 수급의 주도권이 메모리 업체로 넘어갔다는 증거다.",
+      "date": "2026-06-28",
+      "video": "https://www.youtube.com/watch?v=fTNpYo8adu8"
+    },
+    {
+      "topic": "거시/유동성",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "미국 6월 고용은 6만 명으로 부진했지만 실업률은 오히려 하락했는데, 이는 노동참가율이 62%에서 61%로 떨어진 착시다. 구직 포기·베이비부머 은퇴·이민 단속으로 분모(일하고 싶은 사람)가 줄어 실업률이 낮아 보이는 것이라, 실제로는 미국 경제 체력이 시원치 않다는 신호로 읽는다. 물가도 잡히고 고용도 약하니 금리 인상론은 쏙 들어갈 상황이라, 금리·유동성은 당분간 시장 위험 요인이 아니라고 본다.",
+      "date": "2026-07-05",
+      "video": "https://www.youtube.com/watch?v=xmGvO5_RS4I"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "코스피가 2008년 이후 처음 보는 신호, 즉 역대급 변동성과 역대급으로 싼 PER이 동시에 나타났다. 변동성은 이익이 급감할 때 커지는 게 정상인데 지금은 이익이 늘고 주가도 오르는데 변동성만 커지는 이례적 상황이고, 실적이 좋아 PER이 극도로 낮아진 것이라 하방은 이익으로 막혀 제한적이다. 코스피가 드디어 50일선을 만난 것은 과열이 해소됐다는 뜻이므로, 변동성이 무서워 내릴지 싸니까 버틸지의 갈림길에서 '너무 쫄지 말라'는 것이 결론이다.",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=yVevNUcD1vc"
+    },
+    {
+      "topic": "자산배분",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "원칙",
+      "thesis": "세상은 복리로 굴러가도록 설계돼 있어 시간에 압도적 보상을 준다. 버핏의 재산이 59세 때 6조원에서 95세 때 230조원으로 불어난 사례처럼 뒷부분(복리 구간)에서 자산이 폭발하므로, 6년만 앞당기면 결과가 극적으로 달라진다 — 그래서 자녀 계좌는 태어나자마자 하루라도 빨리 만들어야 한다. 3배 레버리지로 3년 안에 파이어하겠다는 발상은 33% 하락이면 원금이 빵이 되는 마라톤 아닌 단거리 투기이며, 은퇴 없이 평생 굴리려면 크게 다치지 않도록 분산하고 시간에 투자해야 한다.",
+      "date": "2026-07-04",
+      "video": "https://www.youtube.com/watch?v=2lmIgYUAPFI"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "숏과 롱 중 어느 쪽이 더 큰 용기를 요구하는지 손익비로 따져 방향을 잡는다. 반도체를 숏으로 치려면 이익이 빠지고 밸류에이션이 비싸야 하는데, 장기계약으로 2분기 이익이 급감할 가능성이 낮고 PER도 낮은 지금은 숏의 손익비가 나쁘고 롱의 손익비가 좋다고 판단한다. 또한 세상의 쏠림을 가끔 반대로 뒤집어 생각하고, 뉴스 한 줄로 직관적으로 판단하지 말고 오랫동안 곰곰이 곱씹어 2차적으로 해석하라는 것이 그의 방법론이다.",
+      "date": "2026-06-28",
+      "video": "https://www.youtube.com/watch?v=fTNpYo8adu8"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "메이크 아메리카 그레 어게인의 단일 제품으로 큰 수출품은 추론이다.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=jnXpO1Cktlk"
+    },
+    {
+      "text": "진정한 병목은 에너지도 아니고 반도체도 아니에요. 진정한 병목은 공장에서 아직 AI를 그렇게 안 써요.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=jnXpO1Cktlk"
+    },
+    {
+      "text": "이 투자는 마라톤이지 100m 단거리가 아닌데 투기와 투자의 갈림길은 그 마인드셋에 달려 있다.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=jnXpO1Cktlk"
+    },
+    {
+      "text": "이 세상에 돌아가는 원리는 복리로 굴러가도록 정해져 있어.",
+      "date": "2026-07-04",
+      "video": "https://www.youtube.com/watch?v=2lmIgYUAPFI"
+    },
+    {
+      "text": "우리가 믿을 수 있는 거는 펀더멘탈밖에 없어요.",
+      "date": "2026-07-05",
+      "video": "https://www.youtube.com/watch?v=xmGvO5_RS4I"
+    },
+    {
+      "text": "코스피는요 여러분 역대급의 변동성에 역대급으로 싼 주식이 됐습니다.",
+      "date": "2026-07-05",
+      "video": "https://www.youtube.com/watch?v=xmGvO5_RS4I"
+    },
+    {
+      "text": "무조건 기초 자산의 두 배 수익률을 따라가야 한다는 명령이 입력된 인공지능 로봇",
+      "date": "2026-06-28",
+      "video": "https://www.youtube.com/watch?v=fTNpYo8adu8"
+    },
+    {
+      "text": "메타 이슈가 신호가 아니라 노이즈일 가능성이 저는 7 80% 된다고 생각하지만",
+      "date": "2026-07-02",
+      "video": "https://www.youtube.com/watch?v=yVevNUcD1vc"
+    }
+  ]
+}
