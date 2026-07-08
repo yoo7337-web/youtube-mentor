@@ -1,0 +1,168 @@
+{
+  "_note": "Claude가 찰리 멍거의 1995년 하버드 강연 'The Psychology of Human Misjudgment'(2005년 개정본, fs.blog 전사)에서 추출. 멍거는 2023년 11월 타계했으며 이 강연은 특정 시황이 아니라 인간 오판 심리의 25가지 표준 원인을 정리한 '시효 없는 사고방식 프레임워크'다(가이드 §3.4 시대 명시). 따라서 거의 모든 항목이 kind:'원칙'·direction:'중립'. thesis 한국어, quote 영어 원문 버바팀.",
+  "insights": [
+    {
+      "topic": "심리/인센티브편향",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "멍거가 25개 오판 원인 중 첫째로 꼽는 것이 '보상·처벌 초과반응(인센티브의 초능력)'이다. 그는 자신이 평생 인센티브의 힘을 상위 5% 수준으로 이해했다고 자부했지만 매년 그 위력을 과소평가했다고 고백한다. 페덱스는 야간조를 시급이 아니라 '비행기 다 실으면 퇴근'으로 바꾸자 문제가 풀렸고, 제록스는 판매수당 구조 탓에 영업사원이 열등한 구형 기계를 밀었다. 핵심 파생물이 '인센티브로 인한 편향(incentive-caused bias)' — 담낭이 만병의 근원이라 스스로 믿게 된 외과의처럼 사람은 원하는 것을 얻기 위해 무의식적으로 자기 행동을 합리화한다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/사회적증거",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "사람은 주변 사람들이 생각하고 행동하는 대로 자동으로 따라 하며, 그 '사회적 증거(Social-Proof)'는 흔히 잘 작동하지만 종종 우스꽝스러운 오류를 낳는다. 실험에서 엘리베이터 안 열 명이 뒤를 보고 서 있으면 낯선 이도 따라 돌아서고, 한 석유회사가 광산을 사면 다른 석유회사들도 우르르 광산을 산다. 이 성향은 특히 '당혹감(puzzlement)'과 '스트레스'가 함께 있을 때 가장 쉽게 촉발되며, 사기꾼들은 표적을 고립·피로 상태로 몰아 이를 악용한다. 멍거의 결론은 '남들이 틀렸을 때 그 예시를 무시하는 법을 배우라'는 것 — 이보다 가치 있는 기술은 드물다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/권위",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "지배 위계 속에 사는 인간은 대부분 지도자를 따르도록 태어났고, 그래서 리더가 틀리거나 지시가 잘못 전달될 때 크게 고통받는다. 밀그램 실험은 권위자(교수) 앞에서 평범한 사람들이 무고한 타인에게 극심한 전기충격을 가하도록 유도됐음을 보여줬다. 멍거가 든 생생한 사례는 코스타리카 낚시 가이드가 영어로 'Give him the rod(낚싯대를 세게 당기라)'고 외치자 초보 낚시꾼이 값비싼 낚싯대를 물고기에게 던져버린 일 — 권위에 대한 복종이 사람의 뇌를 죽처럼 만들 수 있다. 부기장이 시뮬레이터에서도 기장의 명백한 오류에 비행기를 추락시키는 이유가 이것이다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/확증편향",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "인간의 뇌는 프로그래밍 공간을 아끼려 변화를 꺼리는데(일관성 회피 성향), 이것이 '의심 회피'와 결합하면 성급히 내린 결론을 무덤까지 끌고 가는 확증편향이 된다. 멍거는 이를 정자가 하나 들어오면 다른 정자를 막는 난자에 비유한다 — 사람은 명백한 반증이 있어도 기존 결론을 좀처럼 재검토하지 않는다. 다윈은 이에 맞서 자기 가설, 특히 아끼는 가설일수록 반증 증거를 더 강하게 파고들도록 스스로를 훈련했고, 멍거는 이를 가장 성공적인 해독제로 꼽는다. 플랑크의 말처럼 급진적 신아이디어는 구세대가 받아들이지 못하고 덜 세뇌된 새 세대에 의해 수용된다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/회피성부인",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "현실이 너무 고통스러우면 사람은 견딜 만해질 때까지 사실 자체를 왜곡한다 — 단순한 통증 회피성 심리적 부인(Psychological Denial)이다. 멍거는 2차대전 때 대서양 상공에서 실종된 친구 아들의 어머니(지극히 온전한 사람)가 아들의 죽음을 끝내 믿지 않으려 한 사례로 이를 설명한다. 이 성향의 가장 극단적 형태는 사랑·죽음·화학적 의존(중독)과 얽혀 나타나며, 중독자는 나락으로 떨어지면서도 자신은 멀쩡하다고 비현실적으로 부인한다. 그래서 멍거는 의존으로 흘러갈 가능성이 조금이라도 있는 행동은 아예 멀리하라고 조언한다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/질투",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "종종 부족한 먹이를 향한 진화적 충동에서 비롯된 질투·시기는 인간 본성 깊숙이 자리한다. 멍거는 버핏의 말 '세상을 움직이는 것은 탐욕이 아니라 질투'를 여러 번 인용하며, 대학 사회가 특정 직원·교수의 급여가 표준 교수 봉급의 몇 배가 되면 '난리(go bananas)'가 나고 투자은행·로펌에서는 더 극단적이라고 지적한다. 모세의 율법이 구절마다 이웃의 나귀조차 탐하지 말라며 질투를 금한 것도 그만큼 파괴적이기 때문이다. 그런데도 심리학 교과서는 색인에서조차 '질투'를 빠뜨렸는데, 멍거는 위선적 금기 때문에 정작 중요한 원인이 논의되지 않는다고 본다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/롤라팔루자",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "멍거가 가장 강조하는 25번째 성향은 여러 심리 경향이 한 방향으로 동시에 작용해 극단적 결과를 내는 '롤라팔루자(Lollapalooza) 효과'다. 심리학 교과서엔 없지만 삶을 지배한다. 대표 사례가 맥도넬더글러스 여객기 비상탈출 시험 — 보상초과반응·의심회피·권위오판·일관성회피·사회적증거·박탈과잉반응이 겹쳐, 아침 시험에서 20명이 크게 다치고도 오후에 다시 강행해 영구 마비자까지 냈다. 밀그램 실험의 극단적 결과 역시 6가지 심리 성향이 합류한 것으로, 학계는 논문 천 편을 쓰고도 겨우 90%밖에 이해하지 못했다. 그래서 그는 하나씩이 아니라 '경향들의 조합'을 체크리스트로 봐야 한다고 역설한다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "투자원칙/격자틀사고",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "멍거의 사고 도구 핵심은 여러 학문의 원리를 하나로 엮는 '이론의 격자틀(latticework of theory)'이다. 그는 인생의 경험을 '왜?'라는 질문에 답하는 이론 격자틀에 걸어둘 때 학습이 가장 잘 흡수·활용된다고 말한다. 반대 극단이 '망치를 든 사람' 성향 — '망치만 가진 사람에겐 모든 문제가 못으로 보인다'. 인센티브의 초능력을 옳게 봤음에도 그것 하나로 모든 것을 설명하려다 명성을 잃은 스키너가 그 예다. 또 쓰지 않는 기술은 쇠퇴하므로(Use-It-or-Lose-It), 지혜로운 사람은 자기 분야 밖의 드물게 쓰는 기술까지 조종사 시뮬레이터처럼 꾸준히 연습해 격자틀의 빈틈을 막는다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/박탈과잉반응",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "10달러를 얻는 기쁨보다 10달러를 잃는 고통이 훨씬 크고, 거의 손에 넣을 뻔한 것을 마지막 순간에 빼앗겨도 오래 소유했다 뺏긴 것처럼 반응한다 — 박탈 과잉반응(Deprival-Superreaction). 입에 문 먹이를 뺏으려 할 때만 무는 멍거네 순한 개처럼, 인간도 작은 손실·손실 위협에 비이성적으로 격렬히 반응한다. 멍거 자신도 벨리지오일 주식을 주당 115달러에 300주 산 다음 날 1,500주 추가 제의를 (돈을 빌려야 한다는 이유로) 거절했는데, 2년 뒤 셸이 주당 약 3,700달러에 인수해 약 540만 달러를 놓쳤다. 슬롯머신의 '아슬아슬한 실패(near miss)'가 도박 중독을 키우는 것도, 공개 경매에서 값을 올려 부르게 만드는 것도 이 성향이다(버핏의 해독제: 경매에 가지 마라).",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/과잉자기존중",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "사람은 자신을 대체로 실제보다 높게 평가한다 — 스웨덴 운전자의 90%가 스스로를 평균 이상이라 여기는 식이다(과잉 자기존중, Excessive Self-Regard). 이는 소유물에도 번져, 한번 가진 것은 팔 때 받을 값보다 더 값지게 여기는 '보유효과(endowment effect)'를 낳는다. 이 성향은 직접 대면 인상을 과대평가해 채용 실패를 부르므로, 해독제는 대면 인상을 낮춰 잡고 지원자의 '과거 실적'을 더 무겁게 보는 것이다. 멍거는 HP가 언변 좋은 칼리 피오리나를 뽑은 것을 이런 위험의 예로 든다. 또 '고칠 수 있는 나쁜 성과를 변명으로 정당화하는' 톨스토이 효과는 개인·조직 모두에 해독제가 필요하다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/대비오판",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "인간의 신경계는 절대 단위가 아니라 '대비(contrast)'로 지각하고, 인지도 지각을 따라가 대비 오판(Contrast-Misreaction)을 일으킨다. 6만5천 달러 차를 사는 김에 1천 달러짜리 가죽 대시보드가 싸 보여 사고, 부동산 중개인은 터무니없이 비싼 흉가 셋을 먼저 보여준 뒤 '조금 비싼' 나쁜 집을 내밀어 쉽게 판다. 특히 재앙을 향한 걸음이 하나하나 아주 작으면 각 단계의 대비가 미미해 되돌리기 어려운 지경까지 가버린다 — 서서히 데워지는 물속 개구리처럼. 그래서 프랭클린의 '작은 새는 큰 배를 가라앉힌다'는 격언이 유용하다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/상호성",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "인간은 호의와 악의를 자동으로 되갚으며(상호성, Reciprocation), 이 성향은 잠재의식 수준에서 작동해 조종당하기 쉽다. 치알디니 실험에서 '2년간 비행청소년 지도'라는 터무니없는 부탁을 거절당한 뒤 '그럼 하루만 동물원에 데려가 달라'로 물러서자, 상대도 '양보에 양보로' 응해 수락률이 1/6에서 1/2로 세 배가 됐다 — 치알디니와 멍거는 이 무의식적 양보의 상호성이 워터게이트 승인의 한 원인이라 본다. 자동차 영업사원이 커피 한 잔을 대접하는 사소한 호의만으로 500달러를 더 쓰게 만드는 것도 같은 원리다. 그래서 샘 월튼은 구매담당자가 납품업체에서 핫도그 하나도 받지 못하게 했다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/단순연상",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "보상이 아니라 단순한 '연상'만으로도 조건반사가 생긴다(단순연상 영향, Influence-from-Mere-Association). 값이 비싸면 품질이 좋다고 학습한 구매자를 노려, 평범한 공산품의 가격을 올려 고급으로 오인시키는 상술이 그 예다. 가장 위험한 것은 나쁜 소식을 전한 사람을 그 소식과 연상해 미워하는 '페르시아 전령 증후군' — 고대 페르시아가 패전 소식을 전한 전령을 죽였듯, CBS의 페일리 회장은 나쁜 소식을 싫어해 비현실의 고치 속에서 잇단 악수를 뒀다. 해독제는 버크셔의 원칙처럼 '나쁜 소식은 즉시 전하라, 기다려도 되는 건 좋은 소식뿐'이라며 나쁜 소식을 환영하는 습관을 기르는 것이다. 나폴레옹·히틀러가 다른 곳의 성공에 도취해 러시아를 침공한 것처럼, 과거 성공과의 우연한 연상도 사람을 호구로 만든다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "topic": "심리/과잉낙관",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "고통이나 그 위협이 없고 이미 잘 되고 있을 때조차 인간은 과도하게 낙관한다(과잉낙관, Overoptimism). 멍거는 그리스 웅변가 데모스테네스의 말 '사람은 자기가 바라는 것을 그대로 믿는다'를 인용하며, 확률상 명백히 불리한데도 즐겁게 복권을 사는 사람들을 예로 든다. 진화가 물려준 위험 대응 어림셈은 골프 레슨 없이 본능대로 잡은 그립처럼 부실하다. 표준 해독제는 어린 시절 배운 페르마·파스칼의 단순 확률 수학을 습관적으로 훈련해 적용하는 것이다.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Never, ever, think about something else when you should be thinking about the power of incentives.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "text": "It is not greed that drives the world, but envy.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "text": "To a man with only a hammer every problem looks pretty much like a nail.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "text": "What a man wishes, that also will he believe.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "text": "Learn how to ignore the examples from others when they are wrong, because few skills are more worth having.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "text": "An idea or a fact is not worth more merely because it is easily available to you.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    },
+    {
+      "text": "Invert, always invert.",
+      "date": "1995-06-01",
+      "video": "https://fs.blog/great-talks/psychology-human-misjudgment/"
+    }
+  ]
+}
