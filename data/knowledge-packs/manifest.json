@@ -36,6 +36,15 @@
     "last_indexed": "2021-12-08"
   },
   {
+    "slug": "eddie",
+    "name": "에디 (Eddie)",
+    "domain": "해외주식 / 자금흐름·매크로 데이터",
+    "intro": "블룸버그 터미널 기반으로 '돈의 흐름'을 추적하는 매크로 분석가. 채권·유동성 데이터로 시장의 구조적 신호를 읽는다.",
+    "video_count": 15,
+    "insight_count": 10,
+    "last_indexed": "2026-07-17"
+  },
+  {
     "slug": "eightysixth",
     "name": "86번가 (정광우)",
     "domain": "가치투자 / 주식·경제 · 기업분석",
@@ -43,6 +52,15 @@
     "video_count": 28,
     "insight_count": 15,
     "last_indexed": "2023-06-18"
+  },
+  {
+    "slug": "gwaksangjun",
+    "name": "곽상준 (증시각도기)",
+    "domain": "국내 시황 / 수급·시장구조 분석",
+    "intro": "증권사 부장 출신의 시황 전문가(증시각도기TV). 매일의 수급·시장 구조를 실전 감각으로 해석하며 현금흐름 만드는 투자에 초점을 둔다.",
+    "video_count": 15,
+    "insight_count": 9,
+    "last_indexed": "2026-07-18"
   },
   {
     "slug": "hongchunwook",
@@ -63,22 +81,40 @@
     "last_indexed": "2026-06-29"
   },
   {
+    "slug": "jeoningu",
+    "name": "전인구",
+    "domain": "거시경제 / 산업·기업 스토리텔링",
+    "intro": "거시경제·산업·기업 스토리텔링에 강점을 지닌 경제 유튜버(전인구경제연구소). 대중적 서사가 강점이나 근거 강도는 발언마다 편차가 있어 교차검증 권장.",
+    "video_count": 15,
+    "insight_count": 8,
+    "last_indexed": "2026-07-18"
+  },
+  {
+    "slug": "kanghwankuk",
+    "name": "강환국",
+    "domain": "퀀트 투자 / 백테스트·데이터 검증",
+    "intro": "CFA·CAIA 보유 전업 퀀트투자자(할 수 있다! 알고 투자). '과거에 실제로 작동했는가'를 데이터로 검증하는 백테스트 기반 접근이 강점.",
+    "video_count": 15,
+    "insight_count": 10,
+    "last_indexed": "2026-07-17"
+  },
+  {
     "slug": "kimdante",
     "name": "김단테",
     "domain": "자산배분 / 올웨더 포트폴리오",
     "intro": "올웨더·자산배분을 알렸지만 지금은 시장을 이기려 하지 않는다. 물타기 금지·불타기, 초보의 백화점식 분산은 무의미하다며 집중투자를 강조. 마이크론 장기계약(SCA)에 주목.",
-    "video_count": 22,
-    "insight_count": 12,
-    "last_indexed": "2026-07-03"
+    "video_count": 32,
+    "insight_count": 18,
+    "last_indexed": "2026-07-17"
   },
   {
     "slug": "leehyoseok",
     "name": "이효석",
     "domain": "시장전략 / 매크로·산업 리서치",
     "intro": "바이사이드 애널리스트 출신 시장전략가(이효석아카데미). 매크로·산업·빅테크를 구조적으로 연결해 '변화된 세상의 생존 전략'을 리서치한다.",
-    "video_count": 12,
-    "insight_count": 10,
-    "last_indexed": "2026-07-07"
+    "video_count": 22,
+    "insight_count": 17,
+    "last_indexed": "2026-07-14"
   },
   {
     "slug": "lynch",
@@ -103,9 +139,9 @@
     "name": "미주은 (미국주식으로 은퇴하기)",
     "domain": "해외주식 / 미국 성장주·모멘텀·장기투자",
     "intro": "미국 성장주·모멘텀을 장기·은퇴 관점에서 분석하는 해외주식 채널(Seeking Alpha 아시아 파트너). 실용적 자산형성에 초점.",
-    "video_count": 6,
-    "insight_count": 6,
-    "last_indexed": "2026-07-01"
+    "video_count": 16,
+    "insight_count": 12,
+    "last_indexed": "2026-07-15"
   },
   {
     "slug": "munger",
@@ -122,7 +158,7 @@
     "domain": "해외주식 / 미국시장 · 월가 실무 관점",
     "intro": "월가 IB 출신으로 미국시장을 '안에서 본' 시각으로 해설. 나스닥·빅테크·공모주의 수급과 메커니즘을 현실적으로 짚고, 과열과 환상을 경계한다.",
     "video_count": 21,
-    "insight_count": 17,
+    "insight_count": 22,
     "last_indexed": "2026-06-14"
   },
   {
@@ -133,6 +169,33 @@
     "video_count": 39,
     "insight_count": 11,
     "last_indexed": "2026-06-25"
+  },
+  {
+    "slug": "orlandokim",
+    "name": "올랜도 킴",
+    "domain": "해외주식 / 미국 현지 관점 기업·산업 분석",
+    "intro": "30년 미국 거주 경험의 현지 관점 분석가(올랜도 킴). 창투사·자문사 실무 경력을 바탕으로 미국 기업·산업을 현지인의 시각에서 짚는다.",
+    "video_count": 15,
+    "insight_count": 10,
+    "last_indexed": "2026-07-17"
+  },
+  {
+    "slug": "oseon",
+    "name": "오선",
+    "domain": "해외주식 / 미국 증시 마감시황",
+    "intro": "매일 밤 미국 증시를 실시간 중계하는 시황 채널(오선의 미국 증시 라이브). 나스닥·VIX·금리·유가를 데이터로 정리해 한눈에 보여준다.",
+    "video_count": 15,
+    "insight_count": 9,
+    "last_indexed": "2026-07-17"
+  },
+  {
+    "slug": "parkgomhee",
+    "name": "박곰희",
+    "domain": "자산관리 / 자산배분·연금·ETF",
+    "intro": "PB 출신 금융교육가(박곰희TV). 종목 추천 대신 자산배분·연금·ETF 구조를 정확하게 설명하며 스스로 자산관리하는 법을 가르친다.",
+    "video_count": 15,
+    "insight_count": 10,
+    "last_indexed": "2026-07-17"
   },
   {
     "slug": "parkseik",
@@ -153,22 +216,31 @@
     "last_indexed": "2019-08-21"
   },
   {
+    "slug": "soopetv",
+    "name": "수페 (수페TV)",
+    "domain": "해외주식 / ETF·배당 구조 분석",
+    "intro": "ETF·배당 구조 분석에 특화된 1인 채널(수페TV). 개별 종목보다 지수추종·배당·채권 ETF의 구조를 체계적으로 비교한다.",
+    "video_count": 15,
+    "insight_count": 9,
+    "last_indexed": "2026-07-14"
+  },
+  {
     "slug": "sosumonkey",
     "name": "소수몽키",
     "domain": "해외주식 / 미국 개별종목 · 성장주",
     "intro": "미국 개별종목·성장주 중심. 메모리를 이번 AI 사이클의 주도주로 보되 지금을 강세장 후반부로 진단. 빅테크는 벌이보다 투자가 많아 자사주 매입 여력이 줄어든 국면이라 지적.",
-    "video_count": 13,
-    "insight_count": 9,
-    "last_indexed": "2026-07-01"
+    "video_count": 47,
+    "insight_count": 16,
+    "last_indexed": "2026-07-14"
   },
   {
     "slug": "syuka",
     "name": "슈카 (슈카월드)",
     "domain": "경제 전반 / 시사 · 산업 해설",
     "intro": "경제·시사·산업을 쉽게 푸는 해설가. 코스피 사상 최고속 급등의 과열(레버리지 ETF발 사이드카·서킷 급증)을 경계하고, SK하이닉스의 시총 1위 도전과 메모리 구조변화에 주목.",
-    "video_count": 15,
-    "insight_count": 13,
-    "last_indexed": "2026-07-04"
+    "video_count": 25,
+    "insight_count": 18,
+    "last_indexed": "2026-07-16"
   },
   {
     "slug": "wazoski",

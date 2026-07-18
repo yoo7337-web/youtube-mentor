@@ -1,0 +1,290 @@
+{
+  "slug": "eddie",
+  "name": "에디 (Eddie)",
+  "intro": "블룸버그 터미널 기반으로 '돈의 흐름'을 추적하는 매크로 분석가. 채권·유동성 데이터로 시장의 구조적 신호를 읽는다.",
+  "persona": {
+    "domain": "해외주식 / 자금흐름·매크로 데이터",
+    "tone": "블룸버그 터미널 데이터로 '돈이 움직이는 방향'을 추적하는 매크로·수급 분석가.\n채권·유동성·자금흐름을 데이터 중심으로 해석하며 시장의 구조적 신호를 짚는다.",
+    "guardrails": "구체적 매수/매도 지시 금지. 자금흐름·유동성 데이터 해석 중심. 시황성 발언 시점 명시. 'AI 재현' 전제. 근거 없는 주장 금지."
+  },
+  "last_indexed": "2026-07-17",
+  "video_count": 15,
+  "insight_count": 10,
+  "videos": [
+    {
+      "id": "F9AwcBDt5t0",
+      "title": "SK하이닉스·삼성전자, 지금 매도해야 할까?",
+      "date": "2026-07-17",
+      "url": "https://www.youtube.com/watch?v=F9AwcBDt5t0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3304
+    },
+    {
+      "id": "JPTUm4WXWI0",
+      "title": "(7/16/26, 목) 트럼프 대통령 '대국민 연설' | 주제: 선거 보안, 부정선거 증거 발표, 선거 외세개입, 안보 등 | 미국주식, 비트코인 방송",
+      "date": "2026-07-17",
+      "url": "https://www.youtube.com/watch?v=JPTUm4WXWI0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15629
+    },
+    {
+      "id": "iXw9roXb7bQ",
+      "title": "(실시간) 글로벌 반도체 급락 | 트럼프, 이란 공습 6일째 감행 | 미시간대 소비자심리, 물가지수 예상치 | 미국주식, 비트코인 방송",
+      "date": "2026-07-17",
+      "url": "https://www.youtube.com/watch?v=iXw9roXb7bQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 241238
+    },
+    {
+      "id": "TGozz-V1-Jg",
+      "title": "(7/16/26, 목) 한국, 개별 래버러지 ETF 상장 중단 | 넷플릭스 실적발표 | 트럼프, 엘살바도르 정상회담 | 미국주식, 비트코인 방송",
+      "date": "2026-07-16",
+      "url": "https://www.youtube.com/watch?v=TGozz-V1-Jg",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 218513
+    },
+    {
+      "id": "Fs30mSzOujE",
+      "title": "(7/15/26, 수) 6월 생산자물가지수(PPI) 발표 | 워시 연준의장 상원 청문회 | ASML 실적발표 크게 상회 | 연준 베이지북 발표 | 미국주식, 비트코인 방송",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=Fs30mSzOujE",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 162850
+    },
+    {
+      "id": "cUhgYvCm6uw",
+      "title": "SK하이닉스·삼성전자·마이크론, 여기까지 더 오릅니다｜다음 목표가 공개",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=cUhgYvCm6uw",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3630
+    },
+    {
+      "id": "CTCGQb2RbKA",
+      "title": "(7/14/26, 화) 6월 소비자물가지수(CPI) 발표 | IBM, '고객들이 AI 에 투자한다' | 트럼프 이라크 총리 정상회담 | 미국주식, 비트코인 방송",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=CTCGQb2RbKA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 224572
+    },
+    {
+      "id": "Mn1871We20Q",
+      "title": "SK하이닉스 반등 나온 이유… ‘이때까지’ 더 오를 수 있습니다",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=Mn1871We20Q",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2953
+    },
+    {
+      "id": "ql7l6gw8cQY",
+      "title": "반도체주 대폭락, 지금 손절하면 안 됩니다｜SK하이닉스 매수 구간",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=ql7l6gw8cQY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4497
+    },
+    {
+      "id": "0vLRaQoKqus",
+      "title": "SK하이닉스 폭락에 속지 마세요, 지금이 매수 기회인 이유",
+      "date": "2026-07-13",
+      "url": "https://www.youtube.com/watch?v=0vLRaQoKqus",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2305
+    },
+    {
+      "id": "LQL3Y9BwvKg",
+      "title": "(7/13/26, 월) 미국, 이란에 3차 공습 감행 | SK하이닉스 본주 거래 시작 'SKHY' | CPI 물가지수 발표 주간 | 미국주식, 비트코인 방송",
+      "date": "2026-07-13",
+      "url": "https://www.youtube.com/watch?v=LQL3Y9BwvKg",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 188148
+    },
+    {
+      "id": "Jxjg6puFDwQ",
+      "title": "SK하이닉스 폭등, '이때까지' 상승합니다",
+      "date": "2026-07-11",
+      "url": "https://www.youtube.com/watch?v=Jxjg6puFDwQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2641
+    },
+    {
+      "id": "HfhQuy718vE",
+      "title": "(7/9/26, 목) 미국, 이란 두번째 공습 실시 | 중국, 엔비디아 H200 반도체 구매 허용 예정 | 연준 연설: 로건, 윌리엄스 | 미국주식, 비트코인 방송",
+      "date": "2026-07-10",
+      "url": "https://www.youtube.com/watch?v=HfhQuy718vE",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 314914
+    },
+    {
+      "id": "lkAXBWBRJuQ",
+      "title": "(7/10/26, 금) SK하이닉스 나스닥 상장 거래 | 트럼프, '이란과 계속해서 협상중' | 반도체, SK하이닉스로 수급 몰림 현상? | 미국주식, 비트코인 방송",
+      "date": "2026-07-10",
+      "url": "https://www.youtube.com/watch?v=lkAXBWBRJuQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 211656
+    },
+    {
+      "id": "ntn_PWzRSyM",
+      "title": "SK하이닉스 美 IPO 시작…반도체 지금이 매수 기회인 이유",
+      "date": "2026-07-10",
+      "url": "https://www.youtube.com/watch?v=ntn_PWzRSyM",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3386
+    }
+  ],
+  "insights": [
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "000660",
+        "005930"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "미국-이란 공방전과 호르무즈 해협 봉쇄 소식이 겹치며 국장 매도세가 심화, 코스피가 9% 급락하고 삼성전자 11%·SK하이닉스도 사상 최대폭 하락해 거래가 중단됐지만, 3~5월에도 하루 변동폭 5% 이상의 급등락이 반복돼 온 점을 근거로 이번 낙폭도 일반적 변동성 범위 안이라 근본적 악재로 보기 어렵다는 판단. 같은 주 CPI·은행주 실적·ASML·TSMC·넷플릭스 실적 발표가 몰려 있어 변동성이 커진 시기적 요인이 크다고 짚었다.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=0vLRaQoKqus"
+    },
+    {
+      "topic": "미국주식/IPO수급",
+      "tickers": [
+        "000660"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "SK하이닉스가 나스닥에 'SKY' 티커로 상장해 공모가 149달러 대비 175달러(약 21% 상승 추정)에서 거래를 시작, 12% 급등 마감. 최태원 회장이 블룸버그 인터뷰에서 장기계약 확대로 메모리가 더 이상 순환산업이 아니며 AI 에이전트發 수요가 인구수 제한을 벗어나 기하급수적으로 늘고 있다고 밝힌 점, 빅테크 자본지출 확장 여력이 남아 있다는 점을 근거로 상장 프리미엄과 필라델피아반도체지수·나스닥100 편입에 따른 패시브 자금 유입을 긍정적으로 평가했다.",
+      "date": "2026-07-11",
+      "video": "https://www.youtube.com/watch?v=Jxjg6puFDwQ"
+    },
+    {
+      "topic": "미국주식/IPO수급",
+      "tickers": [
+        "000660",
+        "MU"
+      ],
+      "direction": "긍정",
+      "kind": "원칙",
+      "thesis": "SK하이닉스 ADR이 상장 사흘 만에 한국 주가 대비 51% 프리미엄까지 치솟은 이유를 두 가지로 설명. 첫째 마이크론의 12개월 선행 PER(8~9배)에 비해 SK하이닉스는 6배 수준이라 밸류에이션 갭이 남아 있다는 점, 둘째 스페이스X가 IPO 후 광기적 매수 수요를 만들어낸 전례처럼 AI 열기 속에서 SK하이닉스로도 IPO 수요가 몰릴 수 있다는 점을 근거로 ADR이 200달러를 쉽게 돌파할 수 있다고 반복적으로 짚었다.",
+      "date": "2026-07-15",
+      "video": "https://www.youtube.com/watch?v=cUhgYvCm6uw"
+    },
+    {
+      "topic": "거시/금리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "CPI 발표 몇 시간을 앞두고, 트럼프 대통령이 임명한 노동통계국 의장이 지표를 낮게 '마사지'할 가능성을 경계해야 한다는 원칙적 시각. 바이든 행정부 시절에도 고용지표를 부풀린 전례가 있었다는 점을 들며, 트럼프 행정부 역시 연준의 금리 인하를 유도하려는 유인이 있어 헤드라인 CPI가 전월 대비 -0.1~1%로 낮게 나올 가능성이 있다고 미리 짚었고, 이란 전쟁발 유가 상승 압력에도 불구하고 6월 CPI는 크게 오르기보다 보합 수준일 것으로 전망했다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=Mn1871We20Q"
+    },
+    {
+      "topic": "에너지",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "미국의 이란 3차 공습과 호르무즈 해협 봉쇄 선언으로 유가가 급등하는 국면에서, 트럼프 대통령이 20% 통행료를 내지 않으면 동맹국도 통행이 불가하다는 글까지 올리며 시장 전체가 하방 압력을 받았다고 진단. 다만 파월 연준 의장이 금리 인하 기조를 유지하고 있고 트럼프도 11월 중간선거를 앞두고 있어, 유가 폭등을 방치하기보다는 결국 한발 물러서 협상 국면으로 돌아서는 '항상 그래왔듯이'의 패턴이 재현될 가능성이 더 높다고 봤다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=ql7l6gw8cQY"
+    },
+    {
+      "topic": "빅테크/AI 케펙스",
+      "tickers": [
+        "IBM",
+        "ASML"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "IBM 실적 발표에서 CEO가 고객사들의 AI 예산 우선순위가 서버·메모리·스토리지·하드웨어 쪽으로 옮겨가며 기존 소프트웨어·컨설팅 지출이 후순위로 밀렸다고 밝혀 IBM 주가가 1976년 이후 최대 낙폭(최대 -27%)을 기록한 반면 반도체·전력주는 급등. 같은 날 ASML이 연간 매출 전망을 360~400억에서 430~450억 유로로 상향하고 분기 매출도 컨센서스 88.5억 유로를 웃도는 99.3억 유로를 기록해 AI 반도체 장비 수요가 여전히 강하다는 것을 재확인시켰다고 평가했다.",
+      "date": "2026-07-15",
+      "video": "https://www.youtube.com/watch?v=cUhgYvCm6uw"
+    },
+    {
+      "topic": "미국주식/시황",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "미국 증시 조정장(고점 대비 -10%)은 역사적으로 평균 3~4개월 지속되고 1년에 한 번꼴로 발생하는 반면, 진짜 하락장은 3년에 한 번꼴로 1~2년 지속된다는 통계를 근거로, 지수(S&P·나스닥)가 고점에서 1%도 안 빠져 있어 사실상 신고가 근처의 강세장이며 최근 반도체 매도는 지수 전체 문제가 아니라 섹터 순환매(로테이션)에 가깝다고 진단했다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=F9AwcBDt5t0"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "000660"
+      ],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "SK하이닉스를 4~5월 고점 부근에서 매수해 레버리지를 과도하게 쓴 개인 투자자들이 하락기에 접어들자 공포 심리로 돌아섰다고 진단하며, 주가가 막 상승할 때는 롱을 권한 적이 없고 오히려 하방으로 갈 때가 롱 관점이라는 역발상 원칙을 강조했다. 나스닥이 691달러까지 밀리면 매수 기회, 691달러가 뚫리면 630달러까지 매물대가 크게 걸려 있어 반드시 지켜야 하는 자리라고 구체적 가격대로 설명했다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=F9AwcBDt5t0"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [
+        "000660",
+        "005930"
+      ],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "삼성전자·SK하이닉스 개별주식 레버리지 ETF의 개인 투자자 거래 비중이 70%를 넘어서며 변동성이 과도해지자, 한국 금융당국이 신규 레버리지 ETF 상장을 일시 중단하고 최소 예치금을 1천만 원에서 3천만 원으로 올리는 규제에 나섰다는 소식을 짚었다. 같은 날 코스피가 6.4% 급락하고 두 종목이 각각 8%대 급락했으며 외국인 투자자는 올해만 1천억 달러 이상 한국 주식을 순매도해 온 점에서, 레버리지發 변동성이 구조적 리스크로 작동하고 있다고 진단했다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=TGozz-V1-Jg"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "자신의 시장 분석 방법론은 거시경제 흐름(지정학·유가)과 개별 종목·섹터 펀더멘털(TSMC 실적 등), 옵션 시장의 풋콜 비율과 매물대까지 종합적으로 고려하는 방식이며, 단순히 차트 선 몇 개로 지지선을 짚는 수준의 방송은 하지 않는다고 선을 그었다. 다만 '시장에서 누구도 항상 맞을 순 없다'며 자신의 판단도 확률적 시나리오일 뿐임을 강조하는 겸손의 원칙을 함께 제시했다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=Mn1871We20Q"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "그래서 이렇게 크게 폭락하고 크게 급등하는게 일반적인 변동성 범위지 이게 뭐 근본적으로 문제가 생겨서 하락했다. 그렇게 보기는 현재 어려울 것 같습니다.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=0vLRaQoKqus"
+    },
+    {
+      "text": "미국 증시에서 고점 대비 10% 하락하는이 조정장은 역사적 평균적으로 3개월에서 4개월 가량 진행됩니다. 그래서 조정장은 짧고 상승장은 굉장히 깁니다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=F9AwcBDt5t0"
+    },
+    {
+      "text": "그리고이 물가 지수가 트럼프 대통령이 임명한 노동 통계국의 의장이 어느 정도 마사지를 할 수도 있습니다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=Mn1871We20Q"
+    },
+    {
+      "text": "물론 제가 항상 맞는다고 말씀드릴 순 없어요. 시장에서 누구도 항상 맞을 순 없기 때문이죠.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=Mn1871We20Q"
+    },
+    {
+      "text": "그래서 AI 투자 사이클이 여전히 매우 강하다라는 거를 ASML이 다시 확인해 줬고 IBM도 확인해 줬고 이제 ASML도 확인을 해 줬죠.",
+      "date": "2026-07-15",
+      "video": "https://www.youtube.com/watch?v=cUhgYvCm6uw"
+    },
+    {
+      "text": "다만 SK 하이닉스가 작은 회사는 아니기 때문에 반도체 쪽에서이 SK 하이닉스로 수급이 빠져들면서 반도체 쪽에서 전반적인 매도 세 나올 것을 우려해 봐도 좋을 것 같습니다.",
+      "date": "2026-07-10",
+      "video": "https://www.youtube.com/watch?v=ntn_PWzRSyM"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "slug": "orlandokim",
+  "name": "올랜도 킴",
+  "intro": "30년 미국 거주 경험의 현지 관점 분석가(올랜도 킴). 창투사·자문사 실무 경력을 바탕으로 미국 기업·산업을 현지인의 시각에서 짚는다.",
+  "persona": {
+    "domain": "해외주식 / 미국 현지 관점 기업·산업 분석",
+    "tone": "30년 미국 현지 거주 경험을 바탕으로 미국 기업·산업을 현지인의 시각에서 분석.\n창투사·자문사 실무 경력에서 나온 실용적 기업 판단 기준을 제시한다.",
+    "guardrails": "구체적 매수/매도 지시 금지. 미국 현지 관점 기업·산업 분석 중심. 'AI 재현' 전제. 근거 없는 주장 금지."
+  },
+  "last_indexed": "2026-07-17",
+  "video_count": 15,
+  "insight_count": 10,
+  "videos": [
+    {
+      "id": "AvcHxV8gitQ",
+      "title": "(반도체) 반도체 고점대비 30%이상 하락했다고 바닥 아니다!!!",
+      "date": "2026-07-17",
+      "url": "https://www.youtube.com/watch?v=AvcHxV8gitQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11342
+    },
+    {
+      "id": "zoAfz2JTyw0",
+      "title": "(시황분석) 전쟁 기다리는 불안한 증시,그래도 지금은 조정기간",
+      "date": "2026-07-17",
+      "url": "https://www.youtube.com/watch?v=zoAfz2JTyw0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15985
+    },
+    {
+      "id": "R0OS77ge8ag",
+      "title": "(시황분석) 중국 kimi k3가 앤트로픽 따라잡나?",
+      "date": "2026-07-16",
+      "url": "https://www.youtube.com/watch?v=R0OS77ge8ag",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15887
+    },
+    {
+      "id": "wy5m6Ita6uQ",
+      "title": "(삼전닉스,마이크론) 조정이 길어지나?",
+      "date": "2026-07-16",
+      "url": "https://www.youtube.com/watch?v=wy5m6Ita6uQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10009
+    },
+    {
+      "id": "bUzjBGPcMBU",
+      "title": "(아이온큐) 적자기업 매매는 어떻게 하나?",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=bUzjBGPcMBU",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9299
+    },
+    {
+      "id": "mbTBwW9xG0s",
+      "title": "(시황분석) 반도체 변동성이 큰 이유는?",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=mbTBwW9xG0s",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 17867
+    },
+    {
+      "id": "DEEla43Ft4k",
+      "title": "(삼전닉스,마이크론) 지금이 바닥인가?",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=DEEla43Ft4k",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10838
+    },
+    {
+      "id": "iPiQfCHg2Rk",
+      "title": "(시황분석) 남들이 공포에 있을때가 매수기회다!!!",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=iPiQfCHg2Rk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 19233
+    },
+    {
+      "id": "8IBU_0ya2Ws",
+      "title": "(시황분석) 호르무즈 계속 불안해지나?",
+      "date": "2026-07-13",
+      "url": "https://www.youtube.com/watch?v=8IBU_0ya2Ws",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 19985
+    },
+    {
+      "id": "SDeC916EROQ",
+      "title": "(반도체) 하락이 펀더멘탈인지 외부변수인지 생각해보자",
+      "date": "2026-07-13",
+      "url": "https://www.youtube.com/watch?v=SDeC916EROQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11909
+    },
+    {
+      "id": "zTCrbLeBXOQ",
+      "title": "(주간시황) 실적장세가 반도체 지수 상승으로 이어지나?",
+      "date": "2026-07-12",
+      "url": "https://www.youtube.com/watch?v=zTCrbLeBXOQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 31862
+    },
+    {
+      "id": "Pt5043e_i10",
+      "title": "(팔란티어) 멀티플 축소로 주가 상승 힘드나?",
+      "date": "2026-07-11",
+      "url": "https://www.youtube.com/watch?v=Pt5043e_i10",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9345
+    },
+    {
+      "id": "8N8f_-to9FA",
+      "title": "(시황분석) 실적을 기다리면서 반도체는 혼조세",
+      "date": "2026-07-10",
+      "url": "https://www.youtube.com/watch?v=8N8f_-to9FA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 19631
+    },
+    {
+      "id": "shoA_hjZq44",
+      "title": "(SK ADR) SK상장시 메모리 업체의 주가 움직임은?",
+      "date": "2026-07-10",
+      "url": "https://www.youtube.com/watch?v=shoA_hjZq44",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11007
+    },
+    {
+      "id": "RS-ra0P_4ss",
+      "title": "(시황분석) 반도체는 전강후약으로 아직 변동성이 심하다",
+      "date": "2026-07-09",
+      "url": "https://www.youtube.com/watch?v=RS-ra0P_4ss",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 17322
+    }
+  ],
+  "insights": [
+    {
+      "topic": "미국주식/시황",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "뱅크오브아메리카 글로벌 펀드매니저 설문에서 응답자의 82%가 반도체 롱포지션을 '가장 과밀한 투자전략'으로 꼽아 매그니피센트7(7%)·달러 롱(4%)을 압도했고, 마진부채가 12개월간 40% 이상 급증하며 2000·2007·2021년 시장 고점 당시 수준에 근접했다. 필라델피아 반도체지수 대비 S&P500의 변동폭은 61.1 대 12.2로 5배 가까이 벌어져 있어, AI 장기 성장성은 여전히 유효하지만 반도체 섹터의 쏠림과 레버리지가 만든 고변동성 장세가 당분간 이어질 것으로 본다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=wy5m6Ita6uQ"
+    },
+    {
+      "topic": "투자원칙/펀더멘털",
+      "tickers": [
+        "MU",
+        "000660",
+        "005930"
+      ],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "주가 하락 국면에서 가장 먼저 따져야 할 것은 그 하락이 '펀더멘탈 훼손'인지 '외부 변수'인지를 구분하는 일이라는 원칙을 제시한다. 이번 반도체 조정은 매출·EPS가 계속 늘고 있음에도 미국-이란 전쟁에 따른 유가·금리 급등이라는 외부 변수 때문에 벌어진 것이므로 펀더멘탈 붕괴로 볼 수 없다고 진단하며, 다만 한번 무너진 상승추세는 관성 때문에 바로 복귀되지 않으므로 지지선(직전 저점·200일선 이격)을 확인하며 기간·시간 조정을 감안해야 한다고 강조한다.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=SDeC916EROQ"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "MU",
+        "000660",
+        "005930"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "메모리 산업의 패러다임이 근본적으로 바뀌었다고 본다. 과거 레거시 사이클의 수요처는 PC·스마트폰 등 B2C였고 계약도 현물·단기 위주였지만, 지금 AI 슈퍼사이클의 수요처는 국가·클라우드·하이퍼스케일러의 B2B 인프라이며 계약도 대규모 선수금과 페널티 조항이 딸린 장기공급계약(LTA)으로 바뀌어 '하방 마진 방어선 60%'가 구축됐다는 것. 실제로 2020년 3분기 디램 계약가격이 전분기 대비 80~95% 폭등한 사례를 들며, 과거처럼 공급 과잉발 치킨게임으로 가격이 무너지는 구조가 아니라고 판단한다.",
+      "date": "2026-07-10",
+      "video": "https://www.youtube.com/watch?v=shoA_hjZq44"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "MU",
+        "000660",
+        "005930"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "JP모건 자료를 인용해 CSP(클라우드 서비스 제공업체) 케펙스에서 메모리가 차지하는 비중이 AI 이전 20% 미만에서 2020년 52%, 내년 70% 이상까지 급증할 것으로 보고, 뱅크오브아메리카는 AI 랜드 수요를 포함한 디램 시장이 2020년 -17%, 2027년에도 -15%의 구조적 공급부족(쇼티지)을 유지할 것으로 추산한다고 전한다. 또한 SK하이닉스의 2028년 신규 생산능력이 당초 계획에 못 미칠 것이란 별도 공급 보고서까지 나온 점을 근거로, 삼성·SK하이닉스·마이크론 3사 과점 구조의 가격결정력이 당분간 유지될 것으로 판단한다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=DEEla43Ft4k"
+    },
+    {
+      "topic": "빅테크/AI 케펙스",
+      "tickers": [
+        "META",
+        "GOOGL"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "메타 주가 급등의 진짜 이유는 신모델 출시가 아니라 '인프라 경제성'이라고 짚는다. 로이터 보도에 따르면 메타의 실제 AI 데이터센터 구축비용이 GW(기가와트)당 220억 달러 안팎으로 월가가 추정했던 450억 달러의 절반 수준에 불과하며, 2027년까지 컴퓨팅 용량을 14GW로 두 배 늘릴 계획이라는 것. 동시에 구글도 클라우드 수주잔고가 4,620억 달러(전분기 대비 두 배)에 달해 오히려 자체 엔지니어용 컴퓨팅 자원까지 부족한 상황이라, 빅테크 케펙스가 줄어들 조짐은 보이지 않는다고 판단한다.",
+      "date": "2026-07-10",
+      "video": "https://www.youtube.com/watch?v=8N8f_-to9FA"
+    },
+    {
+      "topic": "투자원칙/모멘텀",
+      "tickers": [
+        "IONQ"
+      ],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "적자 성장기업(아이온큐 사례)에 대한 매매 원칙을 제시한다. 모멘텀 투자자라면 주가가 완전히 하락추세에서 벗어난 것을 확인한 뒤 매수해도 늦지 않고 그래도 취할 수 있는 상승폭이 크다는 것, 반면 장기투자자는 배수(P/S)가 낮아질 때마다 분할매수로 수량을 늘려가는 전략이 맞다는 것. 불·베이스·베어 세 가지 시나리오의 DCF·P/S 밸류에이션 밴드(71달러·37달러·15달러)를 직접 계산해 적정가를 가늠한 뒤 판단하라고 강조한다.",
+      "date": "2026-07-15",
+      "video": "https://www.youtube.com/watch?v=bUzjBGPcMBU"
+    },
+    {
+      "topic": "미국 정책/전략자산",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "원칙",
+      "thesis": "미국 주식시장이 이제 '실패하기엔 너무 큰' 시장이 되고 있다는 구조적 시각을 제시한다. 미국인의 55%가 주식을 보유하고 있고 트럼프 계좌 등 정부 프로그램으로 2030년까지 80%까지 늘어날 수 있으며, 상위 1% 자산의 32%가 주식일 정도로 부의 분포가 집중돼 버핏 지표(시총/GDP)가 2.5배 사상 최고치를 기록하고 있다는 것. 2008년 금융위기 이후 연준이 은행 시스템을 지켜온 논리가 이제 주식시장 자체로 확장되고 있어, 정부·연준이 장기 약세장을 더 이상 용인하지 않을 구조적 유인이 커졌다고 판단한다.",
+      "date": "2026-07-12",
+      "video": "https://www.youtube.com/watch?v=zTCrbLeBXOQ"
+    },
+    {
+      "topic": "투자원칙/재무제표",
+      "tickers": [
+        "ORCL"
+      ],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "기업분석에서는 영업·투자·재무 활동 현금흐름 세 가지를 분리해서 봐야 한다는 원칙을 오라클 사례로 설명한다. 오라클은 영업활동으로 약 320억 달러를 벌었지만 투자활동에 그보다 훨씬 많은 자금을 쏟아붓고 있어 표면적으로는 '벌지도 못하면서 투자만 한다'는 우려를 낳지만, 수주잔고(백로그)가 약 6,380억 달러로 연매출의 10년치에 해당한다는 점을 확인하면 과도한 투자가 아니라 확정된 수요에 대응하는 투자라고 판단할 수 있다는 것. 이처럼 캐시플로 구조만 보지 말고 그 이면의 수주·계약 구조까지 함께 봐야 정확한 판단이 가능하다고 강조한다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=AvcHxV8gitQ"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "MU",
+        "000660",
+        "005930"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "SK하이닉스의 나스닥 ADR 상장이 1997년 TSMC ADR 상장 때와 유사한 밸류에이션 리레이팅을 촉발할 수 있다고 본다. TSMC 사례에서 상장 초기 프리미엄이 5~8%였다가 AI 랠리 국면에서 16~30%까지 확대됐던 것처럼, SK하이닉스도 글로벌 패시브 자금 유입에 힘입어 마이크론(P/B 9.4~11.2배)과의 밸류에이션 격차(P/B 6.2~7.4배)를 좁힐 여지가 있다는 것. 다만 마이크론은 아이다호·뉴욕 등 미국 내 생산기지와 칩스법 보조금이 뒷받침하는 '지정학적 프리미엄'을 받는 반면 SK하이닉스는 한국·중국 소재 생산기지에 따른 '리스크 프리미엄' 구조이기 때문에 완전한 동조화에는 시간이 걸린다고 판단한다.",
+      "date": "2026-07-10",
+      "video": "https://www.youtube.com/watch?v=shoA_hjZq44"
+    },
+    {
+      "topic": "거시/지정학",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "미국이 호르무즈 협 봉쇄와 함께 통과 화물에 20% 관세를 물리겠다고 발표하면서 브렌트유가 하루 10.4% 급등해 83달러를 돌파했고 10년물 금리도 4.58%까지 치솟아 반도체 등 성장주 조정의 직접 원인이 됐다고 짚는다. 하지만 트럼프 대통령이 11월 중간선거를 앞두고 있어 유가·물가를 계속 자극할 확전을 감수하기는 어렵다고 보며, 실적(EPS) 증가라는 펀더멘탈이 훼손된 것이 아니므로 지수가 완전히 무너지기보다 유가·금리 향방에 따라 박스권 변동성 장세가 이어질 것으로 판단한다.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=8IBU_0ya2Ws"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "기술적 분석을 단지 맹신하시면 안 되고 그냥 단지 참고 사항이다.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=SDeC916EROQ"
+    },
+    {
+      "text": "지금의 하락세는 펀더멘탈의 하락이 아닌 지금 이제 단순하게 미국과 이란간의 전쟁으로 인한 좀 하락이다.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=SDeC916EROQ"
+    },
+    {
+      "text": "응답자의 82%가 글로벌 반도체롱 포지션이 현재 전 세계에서 가장 과밀한 투자 전략이 되고 있다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=wy5m6Ita6uQ"
+    },
+    {
+      "text": "메타는 월가 예상 비용의 절반 정도의 자 인공지능 제국을 건설하고 있는 모양이다.",
+      "date": "2026-07-10",
+      "video": "https://www.youtube.com/watch?v=8N8f_-to9FA"
+    },
+    {
+      "text": "미국 시장 자체가 실패하기에는 너무나 큰 시장이 되어 가고 있고 그래서 장기적인 약세장이 이제는 과거의 일이 될 수 있는 이유가 있다 이렇게 밝히고 있는데",
+      "date": "2026-07-12",
+      "video": "https://www.youtube.com/watch?v=zTCrbLeBXOQ"
+    },
+    {
+      "text": "중요한 건 적자 기업은 모멘텀이 중요하다. 이렇게 말씀드릴 수 있겠고",
+      "date": "2026-07-15",
+      "video": "https://www.youtube.com/watch?v=bUzjBGPcMBU"
+    }
+  ]
+}

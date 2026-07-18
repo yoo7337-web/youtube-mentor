@@ -1,0 +1,274 @@
+{
+  "slug": "gwaksangjun",
+  "name": "곽상준 (증시각도기)",
+  "intro": "증권사 부장 출신의 시황 전문가(증시각도기TV). 매일의 수급·시장 구조를 실전 감각으로 해석하며 현금흐름 만드는 투자에 초점을 둔다.",
+  "persona": {
+    "domain": "국내 시황 / 수급·시장구조 분석",
+    "tone": "증권사 지점장 출신의 실전 감각으로 매일의 수급과 시장 구조를 해석하는 시황 전문가.\n현금흐름 만드는 투자에 초점을 두고, 변곡점마다의 시장 심리·수급을 짚어낸다.",
+    "guardrails": "구체적 매수/매도 지시는 '판단 근거'로 환원. 시황성 발언 시점 명시. 'AI 재현' 전제. 근거 없는 주장 금지."
+  },
+  "last_indexed": "2026-07-18",
+  "video_count": 15,
+  "insight_count": 9,
+  "videos": [
+    {
+      "id": "GzkOznTIzzU",
+      "title": "[7월 18일 토요일 미국시황] 중국 AI 충격!한국 반도체에 의미하는것은?",
+      "date": "2026-07-18",
+      "url": "https://www.youtube.com/watch?v=GzkOznTIzzU",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15456
+    },
+    {
+      "id": "EKxl2fN6oz4",
+      "title": "[7월 17일 금요일 미국시황] 하이닉스ADR 13% 폭락! 제헌절이 살린 한국시장...",
+      "date": "2026-07-17",
+      "url": "https://www.youtube.com/watch?v=EKxl2fN6oz4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 12305
+    },
+    {
+      "id": "pwqZ4UCxSNk",
+      "title": "삼성전자 SK하이닉스 2000년 이후 처음 보는 쏠림! 이 가격부터는 정말 매력적인 구간입니다 | 증시각도기 곽상준 #2 [권순장의Bridge]",
+      "date": "2026-07-17",
+      "url": "https://www.youtube.com/watch?v=pwqZ4UCxSNk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 14037
+    },
+    {
+      "id": "0aK5hiRq8-s",
+      "title": "단일종목 레버리지 ETF로 인한 역대급 변동성 시장, '이렇게' 살아남을 수 있습니다  | 증시각도기 곽상준 #1 [권순장의Bridge]",
+      "date": "2026-07-16",
+      "url": "https://www.youtube.com/watch?v=0aK5hiRq8-s",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9464
+    },
+    {
+      "id": "XZiwXRznO48",
+      "title": "\"제가 사면 떨어져요\" 라는 사람들에게 #주린이 #나락장 #증시각도기",
+      "date": "2026-07-16",
+      "url": "https://www.youtube.com/watch?v=XZiwXRznO48",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 599
+    },
+    {
+      "id": "bXSvXb6VeZc",
+      "title": "[7월 16일 목요일 한국시황] 금융위기 때보다 많은 사이드카 | 레버리지ETF 규제안 발표! 에게? |",
+      "date": "2026-07-16",
+      "url": "https://www.youtube.com/watch?v=bXSvXb6VeZc",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 12046
+    },
+    {
+      "id": "nhNc8WfKtMQ",
+      "title": "[7월 16일 목요일 중국시황] CXMT IPO 과창판 역대 최대 금액인데 중국은 난리났다?!",
+      "date": "2026-07-16",
+      "url": "https://www.youtube.com/watch?v=nhNc8WfKtMQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11262
+    },
+    {
+      "id": "XQSomaLvYtY",
+      "title": "[7월 15일 수요일 한국시황] 돌아온 외국인? 다이내믹 코리아 | 칼 빼든 정부? | 삼성전자 ADR 검토설의 진실 | ASML ‘역대급’ 실적",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=XQSomaLvYtY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 12754
+    },
+    {
+      "id": "ksJPC-b5dME",
+      "title": "SK하이닉스 ADR 폭등! 미국애들 우리보다 IT 잘 몰라요 #sk하이닉스 #adr #하이닉스 #미국주식",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=ksJPC-b5dME",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 405
+    },
+    {
+      "id": "mAJEuLviMDE",
+      "title": "[LIVE 7월 16일 목요일 미국시황] 빅테크 vs 반도체! 하이닉스ADR 변동성 노출 시작!",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=mAJEuLviMDE",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 21728
+    },
+    {
+      "id": "xN-FXA2eXDU",
+      "title": "[7월 16일 목요일 미국시황] AI 동맹에 균열? 빅테크와 반도체 주가가 엇갈린 이유ㅣ하이닉스 ADR 변동성 확대, 진짜 위험은?",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=xN-FXA2eXDU",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 12318
+    },
+    {
+      "id": "5T0EYE5QjH4",
+      "title": "빚진 청년에게 접근하는 사기꾼 수법 총정리, 당신이 몰랐던 범죄의 덫 | 법무법인 한중 박기태 변호사 #2 [투자Insight]",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=5T0EYE5QjH4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10176
+    },
+    {
+      "id": "CD5UapWiC7g",
+      "title": "[LIVE 7월 15일 수요일 미국시황] SK하이닉스 대폭등의 이유!",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=CD5UapWiC7g",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 21163
+    },
+    {
+      "id": "W4VYrer1D_Y",
+      "title": "[7월 15일 수요일 미국시황] 하이닉스 27% 폭등 배경과 위험요소는?ㅣ6월 CPI 3.5%, 예상 하회ㅣ하이닉스·마이크론 목표가 동반 상향, 메모리 쇼티지 온다?!",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=W4VYrer1D_Y",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11990
+    },
+    {
+      "id": "mmRPw16RScI",
+      "title": "[7월 14일 화요일 한국시황] V자 반등 코스피! 이제 바닥일까? | 청산계좌 36만개?! | 외인 6월 47조 매도 | 손정의: AI 인프라 매년6900조원 투자해야함",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=mmRPw16RScI",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 17206
+    }
+  ],
+  "insights": [
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "000660",
+        "005930"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "하이닉스가 하루 만에 27% 폭등한 것은 레버리지 ETF·옵션 상장에 따른 개인 수급 쏠림과 증권사들의 잇단 목표주가 상향(바클레이스 330달러, 글로벌 애널리스트 37명 중 36명 매수 의견) 그리고 IBM CEO가 '고객들이 메모리 사느라 소프트웨어 지출을 줄였다'고 밝힐 정도의 실수요 증가가 겹친 결과다. 여기에 엔비디아가 H200의 중국 판매 가능성으로 4% 오르며 반도체 지수 전체를 견인했는데, 그는 미국 개인투자자들까지 레버리지로 반도체에 몰리기 시작하면서 앞으로 미국 시장도 한국 수준의 변동성을 겪게 될 것이라고 경고했다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=CD5UapWiC7g"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "000660",
+        "005930"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "하이닉스 ADR이 하루 만에 13.7% 폭락한 것은 반도체 업체들의 실적 전망 자체가 바뀐 게 아니라 AI 서사에 대한 투자자 심리가 흔들렸기 때문이며, 현금흐름 없이 2,500억 달러를 채권으로 조달해 신용등급이 BBB-로 강등된 오라클 사례가 AI 케펙스의 지속가능성 의구심을 키웠다고 본다. 레버리지 ETF를 쥔 개인들이 밸류에이션 계산 없이 가격만 보고 던지는 '피드백 루프'가 낙폭을 과도하게 키우고 있다고 진단하면서도, 포워드 PBR 기준으로는 지금 낙폭이 이미 본질가치 이하로 접어드는 재매수 구간이라고 판단했다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=EKxl2fN6oz4"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "중국 스타트업 문시앗의 K3 모델이 코딩 모델 경쟁에서 미국 업체를 제치고 1위에 오르며 미국 AI·소프트웨어주가 급락했지만, '한국은 AI 기업이 없고 거기에 장사하는 반도체만 있을 뿐'이라 타격의 성격이 다르다고 본다. K3의 추론 비용이 미국 최상위 모델과 비교해도 결코 싸지 않다는 점에서 중국 AI 저비용 서사는 과장돼 있고, 국가·기업 단위의 AI 경쟁이 지속되는 한 메모리 수요는 줄지 않아 2017~19년·2021~22년 사이클처럼 2028년 공급이 늘더라도 물량 증가가 마진 하락을 상쇄해 이익 총량은 유지될 가능성이 높다고 진단했다.",
+      "date": "2026-07-18",
+      "video": "https://www.youtube.com/watch?v=GzkOznTIzzU"
+    },
+    {
+      "topic": "투자전략/밸류에이션",
+      "tickers": [
+        "005930",
+        "000660"
+      ],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "반도체주는 PER이 아니라 PBR로 평가한다는 원칙 아래, 2024년 6만원대에 삼성전자를 PBR 1~1.3배 매력구간으로 판단해 매입했던 논리를 지금 장부가 기준으로 환산하면 15만원 부근이 같은 매력도의 가격대라고 계산했다. 이번 반도체 쏠림은 '2000년 이후 처음 볼 정도'로 2차전지 때보다 심했다며, 모두가 확신할 때 의심하고 모두가 아니라고 할 때 기회를 엿보는 역발상 원칙을 재확인했다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=pwqZ4UCxSNk"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "단일종목 레버리지 ETF의 하루 회전율이 20바퀴에 달할 정도로 개인 투기 수요가 몰리면서 코스피가 리먼 사태 때보다 잦은 사이드카(이틀에 한 번꼴)를 겪고 있다고 진단했다. 금융당국이 증거금을 1천만원에서 3천만원으로 올리고 대용 금지, 거래단위를 20주로 확대하는 규제안을 냈지만 그는 진입장벽을 더 높여야 한다고 봤다. 다만 주식은 담보대출 비중이 낮아 이 변동성이 실물경제 리스크로 전이될 가능성은 제한적이며, 진짜 위험한 레버리지는 남의 돈(부채) 비중이 큰 부동산이라고 구분했다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=bXSvXb6VeZc"
+    },
+    {
+      "topic": "투자원칙/현금흐름",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "투자에서 자기 책임의 원칙이 반드시 도입돼야 하며, 투기적으로 레버리지를 써서 깨진 손실까지 사회·제도가 물어주기 시작하면 금융이 선진화될 수 없다고 본다('돈 있는 사람이 욕심 부려서 깨졌는데 그건 자기 책임'). 다만 개인 피해를 최소화하려면 레버리지 상품의 거래 단위를 전주·천주 단위로 올려 진입장벽을 높이는 현실적 대안이 필요하다고 제안했다. 레버리지로 물린 투자자에게는 '손절은 안 해도 되지만 레버리지는 반드시 청산하고 레버리지 아닌 쪽에서 새로 시작하라'고 조언했다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=0aK5hiRq8-s"
+    },
+    {
+      "topic": "투자심리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "시장에서 깨진 경험은 학원비라 생각하고 왜 깨졌는지를 분석해야 투자 근력이 쌓이며, 자기 돈이 들어가지 않으면 전문 투자자조차 분석을 열심히 하지 않는다고 본다. 하락장에서 살아남는 세 가지 원칙으로 첫째 시장을 떠나지 말 것(떠나면 항상 고점에 들어와 저점에 나가는 패턴을 반복하게 됨), 둘째 남 탓하지 말 것(피드백 루프가 끊겨 발전이 없음), 셋째 자신의 포지션을 냉정히 분석할 것을 제시했다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=0aK5hiRq8-s"
+    },
+    {
+      "topic": "거시/금리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "한국은행이 기준금리를 2.50%에서 2.75%로 올렸음에도 신현성 총재가 '물가가 2%로 복귀한다는 확신이 들 때까지 대응하겠다'고 밝힌 점과 중립금리(3~3.5%대)를 상회해 운영할 수 있다는 발언을 근거로 연내 최소 한 차례, 내년에도 추가 인상이 명백하다고 판단했다(중립금리 상회 시 최대 3.75%까지 열려 있다고 계산). 따라서 레버리지를 쓴 투자자는 국내 대출금리가 지금보다 1%p 가까이 더 오를 수 있다는 점을 감안해야 한다고 반복해서 경고했다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=bXSvXb6VeZc"
+    },
+    {
+      "topic": "환율",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "과거와 달리 이번에는 주가가 떨어질수록 외국인 매도가 줄고, 한국은 금리를 올리는 반면 일본은 못 올려 1년 넘게 공고했던 엔·원 페깅이 깨지기 시작했다는 점에서 원화가 오히려 강세로 갈 가능성이 크다고 봤다. 수출 호조에 따른 달러 유입과 연이은 금리 인상이 원화 강세 요인으로 작용해, 엔화는 100엔당 800원대, 원달러도 1,400원대 초반까지 열려 있다고 전망했다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=pwqZ4UCxSNk"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "레버리지는 정리하시고 레버리지 아닌 쪽에서 새로 시작을 해라.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=0aK5hiRq8-s"
+    },
+    {
+      "text": "돈 있는 사람이 욕심 부려서 깨졌는데 그건 자기 책임이죠. 자기 책임이에요.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=0aK5hiRq8-s"
+    },
+    {
+      "text": "한국은 AI 기업이 없어요. 거기에 장사하는 반도체만 있을 뿐이에요.",
+      "date": "2026-07-18",
+      "video": "https://www.youtube.com/watch?v=GzkOznTIzzU"
+    },
+    {
+      "text": "기분대로 하지 마시고요. 가격보그 결정하지 마십시오.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=EKxl2fN6oz4"
+    },
+    {
+      "text": "안 깨지는게 중요하다는 말씀 다시 한번 드리고 싶습니다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=bXSvXb6VeZc"
+    },
+    {
+      "text": "모두가 아니라고 할 때 기회를 엿봐야 되고요. 저가 투자한 것 중에 굉장히 큰 성공을 했던 것은 모두가 아니라고 했던 걸 투자했을 때 굉장히 큰 성공을 거뒀던 적이 여러 번 있습니다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=pwqZ4UCxSNk"
+    }
+  ]
+}

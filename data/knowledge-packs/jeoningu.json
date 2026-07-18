@@ -1,0 +1,262 @@
+{
+  "slug": "jeoningu",
+  "name": "전인구",
+  "intro": "거시경제·산업·기업 스토리텔링에 강점을 지닌 경제 유튜버(전인구경제연구소). 대중적 서사가 강점이나 근거 강도는 발언마다 편차가 있어 교차검증 권장.",
+  "persona": {
+    "domain": "거시경제 / 산업·기업 스토리텔링",
+    "tone": "거시경제 전망과 산업·기업 스토리를 대중적으로 풀어내는 경제 유튜버.\n스토리텔링이 강점이나, 주장의 근거 강도는 발언마다 편차가 있다.",
+    "guardrails": "구체적 매수/매도 지시 금지. 발언은 가설적 소스로 취급 — 다른 전문가 견해와 교차검증 권장(_note에 명시).\n시황성 발언 시점 명시. 'AI 재현' 전제. 근거 없는 주장은 채택하지 않는다(§3.1 근거주의 엄격 적용)."
+  },
+  "last_indexed": "2026-07-18",
+  "video_count": 15,
+  "insight_count": 8,
+  "videos": [
+    {
+      "id": "rV9xWu5JQw4",
+      "title": "어쩌면 이 사건이 코스피 진짜하락 이유입니다",
+      "date": "2026-07-18",
+      "url": "https://www.youtube.com/watch?v=rV9xWu5JQw4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 7327
+    },
+    {
+      "id": "RkOlI_Wy1uU",
+      "title": "레버리지와 ADR가 코스피를 망쳤습니다",
+      "date": "2026-07-17",
+      "url": "https://www.youtube.com/watch?v=RkOlI_Wy1uU",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6218
+    },
+    {
+      "id": "5CPoIdjfqIY",
+      "title": "노후 준비 지금부터 준비해야 됩니다. 비트코인 모으세요(ft.박종한 작가 1부)",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=5CPoIdjfqIY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15985
+    },
+    {
+      "id": "Bdyule07-wQ",
+      "title": "한강 정모",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=Bdyule07-wQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4444
+    },
+    {
+      "id": "HSKip2xIWmw",
+      "title": "AI 기술이 절대 버블이 절대 아닌 이유(ft.이경전 교수 2부)",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=HSKip2xIWmw",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11842
+    },
+    {
+      "id": "fYvSScmHsY0",
+      "title": "코스피가 계속 반등에 실패하는 이유(ft.삼성전자, 하이닉스)",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=fYvSScmHsY0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 7773
+    },
+    {
+      "id": "gOFGaBOc7QQ",
+      "title": "대부분 손실이 나도 본전 생각하며 주식을 안 파는 이유",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=gOFGaBOc7QQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5008
+    },
+    {
+      "id": "yjNCMAGVfHY",
+      "title": "자려고 누웠더니 코스피 사이드카 (ft.하락이유)",
+      "date": "2026-07-13",
+      "url": "https://www.youtube.com/watch?v=yjNCMAGVfHY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1676
+    },
+    {
+      "id": "jUtfj3mOPKU",
+      "title": "지금이라도 집 사야 합니다(ft.김인만 소장 2부)",
+      "date": "2026-07-12",
+      "url": "https://www.youtube.com/watch?v=jUtfj3mOPKU",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 14856
+    },
+    {
+      "id": "pSzb-WD2oYM",
+      "title": "국민연금 임의가입 vs 개인연금, 전업주부에게 진짜 유리한 선택은? (ft.김봉옥 이사)",
+      "date": "2026-07-12",
+      "url": "https://www.youtube.com/watch?v=pSzb-WD2oYM",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 6723
+    },
+    {
+      "id": "7Dg7LRzCq3A",
+      "title": "서울 집값 계속 오를 수밖에 없습니다(ft.김인만 소장 1부)",
+      "date": "2026-07-11",
+      "url": "https://www.youtube.com/watch?v=7Dg7LRzCq3A",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 17262
+    },
+    {
+      "id": "sOFIy7uRVRY",
+      "title": "앞으로 수도권 전세 가격도 오를 겁니다. 이렇게 대비하세요(ft.김제경 박사 2부)",
+      "date": "2026-07-11",
+      "url": "https://www.youtube.com/watch?v=sOFIy7uRVRY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15004
+    },
+    {
+      "id": "KgNxBxKtgAY",
+      "title": "월 260만 원 배당 ETF의 정석 (ft.최영민 작가 2부)",
+      "date": "2026-07-10",
+      "url": "https://www.youtube.com/watch?v=KgNxBxKtgAY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11322
+    },
+    {
+      "id": "9h9oTWxkvSA",
+      "title": "AI, 앞으로는 여기가 돈이 됩니다(ft.이경전 교수 1부)",
+      "date": "2026-07-09",
+      "url": "https://www.youtube.com/watch?v=9h9oTWxkvSA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 18101
+    },
+    {
+      "id": "aOaUHc3bOls",
+      "title": "서울 집값이 떨어질 수 없는 이유(ft.김제경 박사 1부)",
+      "date": "2026-07-09",
+      "url": "https://www.youtube.com/watch?v=aOaUHc3bOls",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 17864
+    }
+  ],
+  "insights": [
+    {
+      "topic": "한국증시/수급",
+      "tickers": [
+        "005930",
+        "000660"
+      ],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "삼성전자와 SK하이닉스 두 종목이 코스피 시총의 60%를 차지해 이 두 종목만 흔들려도 지수 전체가 출렁이는 구조인데, 6월 두 종목 단일 레버리지 ETF 상장과 7월 SK하이닉스 40조원 규모 ADR 상장이 촉매제가 되면서 대중의 매수 관심이 두 종목·레버리지로만 좁혀져 트래픽이 집중되고 변동성이 증폭됐다. 실제로 올해 사이드카가 37회로 역대 최고치를 기록했고, 레버리지 ETF 상장 이후엔 20거래일 중 10회, ADR 상장 이후엔 12거래일 중 8회로 빈도가 급격히 늘었다. 이런 극단적 변동성 장세에서 파생시장을 활용하는 외국인이 가장 많은 돈을 버는 구조라고 본다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=RkOlI_Wy1uU"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [
+        "000660"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "ADR 가격이 국내 가격보다 비싸면 대중은 이를 기준점 삼아 '국내 주가가 더 올라야 한다'고 판단하게 되는데, 외국인이 전날 코스피 선물을 매수해 두고 밤사이 미국 ADR 가격을 끌어올리면 다음날 하이닉스 국내 주가가 급등하면서 선물로 큰 차익을 얻는 구조가 만들어질 수 있다고 본다. 물증은 없다고 인정하면서도, 외국인의 선물 매매 시점과 하이닉스 국내 주가 등락 시점 사이의 시차 패턴을 근거로 이런 플레이가 의심된다고 지적한다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=RkOlI_Wy1uU"
+    },
+    {
+      "topic": "거시/지정학",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "미국-이란 협상은 애초에 이스라엘의 불만과 이란의 핵포기 거부가 그대로였고 서로 월드컵·장례식 때문에 잠정 휴전했을 뿐이라 판이 깨질 수밖에 없었으며, 실제로 다시 미사일을 주고받는 상황이 됐다고 본다. 이란 리스크로 유가가 더 오르면 일시적이라 여겼던 물가 상승이 지속되면서 미 연준이 금리 인상을 여러 차례 더 단행하는 2022년식 국면이 재현될 수 있고, 유가에 민감한 일본도 금리 인상 압박을 받아 엔캐리 트레이드 청산까지 이어질 위험이 있다는 논리다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=gOFGaBOc7QQ"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [
+        "005930",
+        "000660"
+      ],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "기술적 반등이 나와야 할 자리에서 이틀 연속 반등이 실패한 이유는 외국인·기관이 아니라 개인이 겁에 질려 팔았기 때문이며, 삼성전자·하이닉스에 코스피 수급이 쏠려 있던 만큼 이 두 종목이 흔들리면 지수 전체 투자심리가 무너지는 구조라고 설명한다. 60일선(3개월 평균가) 붕괴는 손실 회피 심리상 초보 투자자들이 손절 대신 '자존심 때문에' 장기 보유를 결심하게 만드는 신호이며, 이는 확신이 아니라 자존심에 의한 장기투자라 가장 나쁜 선택이라고 지적한다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=gOFGaBOc7QQ"
+    },
+    {
+      "topic": "투자심리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "카너먼의 전망이론(손실회피: 같은 금액이라도 손실의 고통이 이익의 기쁨보다 약 두 배 크다)과 탈러의 심적 회계(투자자는 매수가를 기준점으로 삼아 그 가격 밑에서 손실을 확정짓기 싫어한다) 개념을 근거로, 개인 투자자는 수익난 주식은 빨리 팔고 손실난 주식은 오래 보유하는 처분효과를 보인다고 설명한다. 2022년 자본시장연구원이 20만 명의 하루 거래내역을 분석한 실험에서도 처분효과가 투자경험 부족자, 고변동성·저유동성 종목에서 더 강하게 나타났다는 근거를 든다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=fYvSScmHsY0"
+    },
+    {
+      "topic": "투자심리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "주가가 1차 고점까지 빠르게 오른 뒤 급락이 오면 다수는 본전에 도달하면 팔려는 손실회피 심리가 발동하는데, 이 때문에 2차 고점은 대부분 1차 고점을 뚫지 못하고 다시 꺾이며 이 과정에서 기관·외국인은 기계적으로 매도해 빠져나가는 반면 개인은 손실회피·심적회계·후회회피 심리가 겹쳐 장기 투자자로 전락한다고 설명한다. 그래서 투자에 성공하려면 본능과 반대로, 즉 다수가 몰리는 심리적 길목의 반대편에서 분할매수·매도와 손절 기준을 세우는 전략이 필요하다고 강조한다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=fYvSScmHsY0"
+    },
+    {
+      "topic": "산업/구조변화",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "AI 모델 사업은 서버 이용료와 토큰 판매가 사이의 마진으로 돈을 버는 구조인데, GPU·전기료·금리가 모두 오르며 서버 비용이 상승하는 와중에 딥시크·문샷(키미 K2) 등 중국산 모델이 가격을 75%까지 인하하는 치킨게임을 걸어 오픈라우터 사용량 점유율을 6개월 만에 15%에서 45%까지 끌어올렸다고 짚는다. 이 가격전쟁에 밀린 오픈AI·앤스로픽까지 가격을 억지로 낮추게 됐고, 오픈AI 상장이 연기된 것도 이 때문이라고 본다.",
+      "date": "2026-07-18",
+      "video": "https://www.youtube.com/watch?v=rV9xWu5JQw4"
+    },
+    {
+      "topic": "산업/구조변화",
+      "tickers": [
+        "005930",
+        "000660"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "저비용 중국산 모델이 미국 빅테크와 비슷한 성능을 낸 사실이 확인되며 투자자들이 '막대한 설비투자만이 정답인가'를 의심하기 시작했고, 오라클·아마존·메타 등 하이퍼스케일러의 현금흐름이 급속히 나빠지는 상황과 겹치면서 월가는 한국 증시(삼성전자·하이닉스)를 AI 붐의 바로미터로 보고 있다고 설명한다. 다만 미국이 비용 부담 때문에 데이터센터를 해외에 더 짓는 쪽으로 전략을 바꾼다면 오히려 한국 메모리 수요가 늘어 사이클이 더 길어질 수도 있어, 이번 조정이 죽거나 살거나 둘 다 가능한 갈림길이라고 본다.",
+      "date": "2026-07-18",
+      "video": "https://www.youtube.com/watch?v=rV9xWu5JQw4"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "어, 돈이 되는 곳에는 항상 자릿세를 걷는 깡패들이 나타납니다.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=RkOlI_Wy1uU"
+    },
+    {
+      "text": "코스피가 하루에 500포인트씩 움직이는게 이거는 절대 정상도 아니고 이게 말도 안 되는 일이죠.",
+      "date": "2026-07-17",
+      "video": "https://www.youtube.com/watch?v=RkOlI_Wy1uU"
+    },
+    {
+      "text": "주식 투자라는게 정말 어려운 일이거든요. 그 주식으로 돈 번 사람이 많지가 않습니다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=fYvSScmHsY0"
+    },
+    {
+      "text": "사람들은 천만 원을 벌었을 때 기쁨보다 천만 원을 잃었을 때의 고통이 두 배 이상의 감정을 느끼게 만든다라는 겁니다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=gOFGaBOc7QQ"
+    },
+    {
+      "text": "AI 모델은 서버 이용료와 토큰 판매 가격 사이에서 마진을 먹는 사업이라는 거죠.",
+      "date": "2026-07-18",
+      "video": "https://www.youtube.com/watch?v=rV9xWu5JQw4"
+    }
+  ]
+}

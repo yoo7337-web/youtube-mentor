@@ -1,5 +1,5 @@
 {
- "_generated": "2026-07-18T16:47",
+ "_generated": "2026-07-19T01:13",
  "_thresh": 3.0,
  "experts": {
   "druckenmiller": {
@@ -16,6 +16,55 @@
      "direction": "부정",
      "verdict": "데이터없음",
      "ret": null
+    }
+   ]
+  },
+  "eddie": {
+   "name": "에디 (Eddie)",
+   "hits": 0,
+   "miss": 1,
+   "hold": 4,
+   "nodata": 0,
+   "details": [
+    {
+     "ticker": "000660",
+     "date": "2026-07-11",
+     "topic": "미국주식/IPO수급",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": -0.2
+    },
+    {
+     "ticker": "IBM",
+     "date": "2026-07-15",
+     "topic": "빅테크/AI 케펙스",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": 0.7
+    },
+    {
+     "ticker": "ASML",
+     "date": "2026-07-15",
+     "topic": "빅테크/AI 케펙스",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -3.7
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-16",
+     "topic": "한국증시/수급",
+     "direction": "부정",
+     "verdict": "보류",
+     "ret": 0.0
+    },
+    {
+     "ticker": "005930",
+     "date": "2026-07-16",
+     "topic": "한국증시/수급",
+     "direction": "부정",
+     "verdict": "보류",
+     "ret": 0.0
     }
    ]
   },
@@ -38,6 +87,31 @@
      "ticker": "000660",
      "date": "2023-04-30",
      "topic": "산업/반도체",
+     "direction": "긍정",
+     "verdict": "데이터없음",
+     "ret": null
+    }
+   ]
+  },
+  "gwaksangjun": {
+   "name": "곽상준 (증시각도기)",
+   "hits": 0,
+   "miss": 0,
+   "hold": 0,
+   "nodata": 2,
+   "details": [
+    {
+     "ticker": "000660",
+     "date": "2026-07-17",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "데이터없음",
+     "ret": null
+    },
+    {
+     "ticker": "005930",
+     "date": "2026-07-17",
+     "topic": "반도체/메모리",
      "direction": "긍정",
      "verdict": "데이터없음",
      "ret": null
@@ -158,6 +232,80 @@
     }
    ]
   },
+  "jeoningu": {
+   "name": "전인구",
+   "hits": 2,
+   "miss": 0,
+   "hold": 0,
+   "nodata": 2,
+   "details": [
+    {
+     "ticker": "005930",
+     "date": "2026-07-17",
+     "topic": "한국증시/수급",
+     "direction": "부정",
+     "verdict": "데이터없음",
+     "ret": null
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-17",
+     "topic": "한국증시/수급",
+     "direction": "부정",
+     "verdict": "데이터없음",
+     "ret": null
+    },
+    {
+     "ticker": "005930",
+     "date": "2026-07-14",
+     "topic": "한국증시/수급",
+     "direction": "부정",
+     "verdict": "적중",
+     "ret": -3.0
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-14",
+     "topic": "한국증시/수급",
+     "direction": "부정",
+     "verdict": "적중",
+     "ret": -3.7
+    }
+   ]
+  },
+  "kanghwankuk": {
+   "name": "강환국",
+   "hits": 0,
+   "miss": 1,
+   "hold": 2,
+   "nodata": 0,
+   "details": [
+    {
+     "ticker": "005930",
+     "date": "2026-07-13",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": 0.2
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-13",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": -0.2
+    },
+    {
+     "ticker": "MU",
+     "date": "2026-07-13",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -9.4
+    }
+   ]
+  },
   "kimdante": {
    "name": "김단테",
    "hits": 0,
@@ -202,8 +350,8 @@
   "leehyoseok": {
    "name": "이효석",
    "hits": 0,
-   "miss": 6,
-   "hold": 1,
+   "miss": 7,
+   "hold": 2,
    "nodata": 0,
    "details": [
     {
@@ -261,6 +409,22 @@
      "direction": "긍정",
      "verdict": "빗나감",
      "ret": -15.8
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-12",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": -0.2
+    },
+    {
+     "ticker": "005930",
+     "date": "2026-07-07",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -13.9
     }
    ]
   },
@@ -377,6 +541,209 @@
     }
    ]
   },
+  "orlandokim": {
+   "name": "올랜도 킴",
+   "hits": 0,
+   "miss": 10,
+   "hold": 1,
+   "nodata": 0,
+   "details": [
+    {
+     "ticker": "MU",
+     "date": "2026-07-10",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -13.3
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-10",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -15.5
+    },
+    {
+     "ticker": "005930",
+     "date": "2026-07-10",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -10.5
+    },
+    {
+     "ticker": "MU",
+     "date": "2026-07-14",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -13.6
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-14",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -3.7
+    },
+    {
+     "ticker": "005930",
+     "date": "2026-07-14",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -3.0
+    },
+    {
+     "ticker": "META",
+     "date": "2026-07-10",
+     "topic": "빅테크/AI 케펙스",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -3.5
+    },
+    {
+     "ticker": "GOOGL",
+     "date": "2026-07-10",
+     "topic": "빅테크/AI 케펙스",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": -2.9
+    },
+    {
+     "ticker": "MU",
+     "date": "2026-07-10",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -13.3
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-10",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -15.5
+    },
+    {
+     "ticker": "005930",
+     "date": "2026-07-10",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -10.5
+    }
+   ]
+  },
+  "oseon": {
+   "name": "오선",
+   "hits": 1,
+   "miss": 4,
+   "hold": 4,
+   "nodata": 0,
+   "details": [
+    {
+     "ticker": "MU",
+     "date": "2026-07-09",
+     "topic": "빅테크/AI 케펙스",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -14.4
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-09",
+     "topic": "빅테크/AI 케펙스",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -15.7
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-10",
+     "topic": "반도체/메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -15.5
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-13",
+     "topic": "에너지",
+     "direction": "부정",
+     "verdict": "보류",
+     "ret": -0.2
+    },
+    {
+     "ticker": "INTC",
+     "date": "2026-07-13",
+     "topic": "에너지",
+     "direction": "부정",
+     "verdict": "적중",
+     "ret": -7.8
+    },
+    {
+     "ticker": "IBM",
+     "date": "2026-07-14",
+     "topic": "거시/금리",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": -2.0
+    },
+    {
+     "ticker": "JPM",
+     "date": "2026-07-14",
+     "topic": "거시/금리",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": -0.5
+    },
+    {
+     "ticker": "GS",
+     "date": "2026-07-14",
+     "topic": "거시/금리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -6.6
+    },
+    {
+     "ticker": "TSM",
+     "date": "2026-07-16",
+     "topic": "반도체/메모리",
+     "direction": "부정",
+     "verdict": "보류",
+     "ret": -2.8
+    }
+   ]
+  },
+  "parkgomhee": {
+   "name": "박곰희",
+   "hits": 0,
+   "miss": 2,
+   "hold": 0,
+   "nodata": 0,
+   "details": [
+    {
+     "ticker": "005930",
+     "date": "2026-06-24",
+     "topic": "투자심리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -25.1
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-06-24",
+     "topic": "투자심리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -29.7
+    }
+   ]
+  },
   "parkseik": {
    "name": "박세익",
    "hits": 0,
@@ -453,8 +820,8 @@
   "sosumonkey": {
    "name": "소수몽키",
    "hits": 1,
-   "miss": 18,
-   "hold": 7,
+   "miss": 26,
+   "hold": 8,
    "nodata": 0,
    "details": [
     {
@@ -664,14 +1031,86 @@
      "direction": "긍정",
      "verdict": "보류",
      "ret": -1.1
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-14",
+     "topic": "AI/반도체·메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -3.7
+    },
+    {
+     "ticker": "MU",
+     "date": "2026-07-14",
+     "topic": "AI/반도체·메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -13.6
+    },
+    {
+     "ticker": "INTC",
+     "date": "2026-07-14",
+     "topic": "AI/반도체·메모리",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -11.8
+    },
+    {
+     "ticker": "META",
+     "date": "2026-07-13",
+     "topic": "AI/버블",
+     "direction": "부정",
+     "verdict": "보류",
+     "ret": -1.6
+    },
+    {
+     "ticker": "HOOD",
+     "date": "2026-07-07",
+     "topic": "미국 정책/전략자산",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -11.5
+    },
+    {
+     "ticker": "MU",
+     "date": "2026-07-07",
+     "topic": "미국 정책/전략자산",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -9.5
+    },
+    {
+     "ticker": "DELL",
+     "date": "2026-06-01",
+     "topic": "AI 에이전트/CPU",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -14.9
+    },
+    {
+     "ticker": "MU",
+     "date": "2026-06-01",
+     "topic": "AI 에이전트/CPU",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -18.0
+    },
+    {
+     "ticker": "SNDK",
+     "date": "2026-06-01",
+     "topic": "AI 에이전트/CPU",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -23.1
     }
    ]
   },
   "syuka": {
    "name": "슈카 (슈카월드)",
-   "hits": 1,
-   "miss": 8,
-   "hold": 0,
+   "hits": 3,
+   "miss": 9,
+   "hold": 1,
    "nodata": 0,
    "details": [
     {
@@ -745,6 +1184,38 @@
      "direction": "긍정",
      "verdict": "빗나감",
      "ret": -29.9
+    },
+    {
+     "ticker": "000660",
+     "date": "2026-07-13",
+     "topic": "반도체/ADR상장",
+     "direction": "긍정",
+     "verdict": "보류",
+     "ret": -0.2
+    },
+    {
+     "ticker": "TSM",
+     "date": "2026-07-13",
+     "topic": "반도체/ADR상장",
+     "direction": "긍정",
+     "verdict": "빗나감",
+     "ret": -5.5
+    },
+    {
+     "ticker": "042660",
+     "date": "2026-07-14",
+     "topic": "방위산업/수출",
+     "direction": "긍정",
+     "verdict": "적중",
+     "ret": 12.9
+    },
+    {
+     "ticker": "329180",
+     "date": "2026-07-14",
+     "topic": "방위산업/수출",
+     "direction": "긍정",
+     "verdict": "적중",
+     "ret": 3.9
     }
    ]
   },

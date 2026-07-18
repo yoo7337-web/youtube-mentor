@@ -1,0 +1,262 @@
+{
+  "slug": "soopetv",
+  "name": "수페 (수페TV)",
+  "intro": "ETF·배당 구조 분석에 특화된 1인 채널(수페TV). 개별 종목보다 지수추종·배당·채권 ETF의 구조를 체계적으로 비교한다.",
+  "persona": {
+    "domain": "해외주식 / ETF·배당 구조 분석",
+    "tone": "개별 종목보다 ETF·배당 상품의 구조를 뜯어보는 분석가. 지수추종·배당·채권·원자재 ETF를 체계적으로 비교한다.\n상업적 유인 없이 공부한 내용을 공유하는 담백한 화법.",
+    "guardrails": "구체적 매수/매도 지시 금지. ETF·배당 구조 분석 중심. 'AI 재현' 전제. 근거 없는 주장 금지."
+  },
+  "last_indexed": "2026-07-14",
+  "video_count": 15,
+  "insight_count": 9,
+  "videos": [
+    {
+      "id": "rc0OBQNe7LU",
+      "title": "1억원→10억원, 자산이 커질수록 벌어지는 충격적인 일",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=rc0OBQNe7LU",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 7918
+    },
+    {
+      "id": "wkguH3f4XMw",
+      "title": "환율 1.9% 하락, 나스닥 ETF 이렇게 바꿉니다.",
+      "date": "2026-07-11",
+      "url": "https://www.youtube.com/watch?v=wkguH3f4XMw",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 11463
+    },
+    {
+      "id": "z6HQrJZUqOk",
+      "title": "1억원으로 월배당 300만원 받는법 (고배당주, 금융주, 커버드콜)",
+      "date": "2026-07-07",
+      "url": "https://www.youtube.com/watch?v=z6HQrJZUqOk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 8847
+    },
+    {
+      "id": "-PpX9begBHo",
+      "title": "반도체 vs 빅테크, 투자 대가들은 먼저 움직였다!",
+      "date": "2026-07-04",
+      "url": "https://www.youtube.com/watch?v=-PpX9begBHo",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9644
+    },
+    {
+      "id": "5YsRr9aB3GI",
+      "title": "2026년 하반기 미국주식 모든 게 달라질 수 있습니다.",
+      "date": "2026-06-30",
+      "url": "https://www.youtube.com/watch?v=5YsRr9aB3GI",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10102
+    },
+    {
+      "id": "agfoxlAqOt4",
+      "title": "공포탐욕 25, 미국증시 순환매 시작일까?",
+      "date": "2026-06-27",
+      "url": "https://www.youtube.com/watch?v=agfoxlAqOt4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9618
+    },
+    {
+      "id": "H67RTuOAFo0",
+      "title": "S&P500 vs 나스닥100 적립식 위험해진다?",
+      "date": "2026-06-23",
+      "url": "https://www.youtube.com/watch?v=H67RTuOAFo0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 8778
+    },
+    {
+      "id": "Nrkw0sXxkls",
+      "title": "나스닥 반등 vs 금값 -17% 다음 AI는 이겁니다.",
+      "date": "2026-06-20",
+      "url": "https://www.youtube.com/watch?v=Nrkw0sXxkls",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10282
+    },
+    {
+      "id": "xSTIribGifU",
+      "title": "저는 스페이스X 이렇게 준비합니다.",
+      "date": "2026-06-16",
+      "url": "https://www.youtube.com/watch?v=xSTIribGifU",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10699
+    },
+    {
+      "id": "IZPPSBPTLZE",
+      "title": "스페이스X 상장, 빅테크 이대로 괜찮을까?",
+      "date": "2026-06-13",
+      "url": "https://www.youtube.com/watch?v=IZPPSBPTLZE",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10406
+    },
+    {
+      "id": "VN_xMQ6D4lA",
+      "title": "AI 병목을 해결할 게임체인저 후보들+ETF",
+      "date": "2026-06-09",
+      "url": "https://www.youtube.com/watch?v=VN_xMQ6D4lA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 9310
+    },
+    {
+      "id": "xk35tWdAH0U",
+      "title": "현금 쌓아둔 버핏은 이 순간을 기다렸을까?",
+      "date": "2026-06-06",
+      "url": "https://www.youtube.com/watch?v=xk35tWdAH0U",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10585
+    },
+    {
+      "id": "Mcd59KEJZAQ",
+      "title": "제 2의 인텔? 트럼프가 대놓고 밀어줄 기업 등장!",
+      "date": "2026-05-30",
+      "url": "https://www.youtube.com/watch?v=Mcd59KEJZAQ",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 10351
+    },
+    {
+      "id": "5x5uZmpAZoo",
+      "title": "환율 1,519원! 지금은 미국주식 모을 때가 아니다?",
+      "date": "2026-05-23",
+      "url": "https://www.youtube.com/watch?v=5x5uZmpAZoo",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 8015
+    },
+    {
+      "id": "e8J2wNyVC4s",
+      "title": "변심한 투자 대가들의 계좌 공개! (워런버핏, 드러켄밀러, 피터틸, 빌애크먼, 국민연금)",
+      "date": "2026-05-16",
+      "url": "https://www.youtube.com/watch?v=e8J2wNyVC4s",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 8290
+    }
+  ],
+  "insights": [
+    {
+      "topic": "ETF/포트폴리오",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "다우존스는 시가총액이 아니라 주당 가격으로 편입 비중이 결정되는 가격가중 지수라서, 주가가 높은 골드만삭스와 캐터필러의 비중이 가장 크고 유나이티드헬스·마이크로소프트·암젠·구글처럼 각 산업을 대표하는 우량주를 섞어 미국 핵심 산업을 압축해서 보여주는 구조다. 시가총액가중인 S&P500·나스닥100과는 근본적으로 다른 지수 설계이므로, 특정 종목의 '가격' 변동이 실제 시총 비중과 무관하게 지수에 과대 반영될 수 있다는 점을 알아야 한다.",
+      "date": "2026-07-04",
+      "video": "https://www.youtube.com/watch?v=-PpX9begBHo"
+    },
+    {
+      "topic": "미국주식/IPO수급",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "나스닥100은 28년 만에 편입 기준을 바꿔 신규 IPO 기업을 상장 15일 만에 조기 편입하고 리밸런싱도 연 1회에서 분기 1회로 늘렸다(스페이스X 사례처럼 기존 기준이면 12월에야 가능했을 편입이 즉시 가능해짐). 반면 S&P500은 4분기 연속 흑자 등 기존 상장 요건을 그대로 유지하기로 했는데, 이 기준 차이 때문에 두 지수의 변동성 격차가 앞으로 다시 벌어질 수 있다 — 나스닥100은 상승뿐 아니라 하락 폭도 구조적으로 커지는 지수로 바뀐 것이다.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=H67RTuOAFo0"
+    },
+    {
+      "topic": "배당/배당ETF",
+      "tickers": [
+        "QQQ"
+      ],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "커버드콜은 콜옵션을 매도해 받은 프리미엄을 배당 재원으로 만드는 구조라서 변동성이 커질수록 배당 재원이 늘어나지만, 그 대가로 본주가 크게 오를 때 상승분을 온전히 가져가지 못한다. 실제로 QQQ에 투자했다면 시세차익만 약 2천만 원이 났던 반면, 같은 금액을 콜옵션 매도형 커버드콜 상품에 넣었으면 시세차익 561만 원과 배당금 562만 원을 합쳐 비슷한 총수익이 나왔지만 구조적으로 본주의 성장을 다 따라가지는 못한다 — 당장 현금흐름이 필요한 게 아니라면 본주를 선택하는 게 낫다는 판단.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=H67RTuOAFo0"
+    },
+    {
+      "topic": "배당/배당ETF",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "위클리 커버드콜 상품처럼 코스피200 콜옵션을 등가격(ATM)에 매도 비중 100%에 가깝게 파는 구조는 상승장에서 본주를 거의 따라가지 못한다 — 연초 대비 본주는 20.9% 올랐는데 이 상품은 오히려 -24.4%를 기록해, 표면 배당률 25.4%로는 4년이면 원금을 회수한다는 계산이 나오지만 실제로는 6개월 만에 주가 하락분이 배당수익을 모두 상쇄했다. 반대로 옵션 매도 비중을 낮추고 액티브하게 운용하는 상품은 총보수가 0.1%p 더 높아도 연초 대비 85.6% 상승하며 배당금도 주당 70원에서 500원까지 늘려, 콜옵션 매도 방식과 비중이 커버드콜 상품의 실질 성과를 가르는 핵심 변수임을 보여준다.",
+      "date": "2026-07-07",
+      "video": "https://www.youtube.com/watch?v=z6HQrJZUqOk"
+    },
+    {
+      "topic": "배당/배당ETF",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "3억 원으로 배당 15%를 받으면 매달 375만 원이 나와 경제적 자유처럼 보이지만, 이 금액은 명목 고정값이라 물가상승률 3%를 적용하면 1년 뒤 364만 원, 10년 뒤 279만 원, 20년 뒤 208만 원으로 실질 구매력이 계속 줄어든다. 배당금은 그대로인데 나머지 물가는 계속 오르기 때문에(10년 뒤 짜장면이 2만 원이 돼도 받는 돈은 375만 원 그대로) 커버드콜 배당만으로 조기 은퇴를 설계하면 시간이 지날수록 구매력이 잠식되는 구조라는 원칙.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=rc0OBQNe7LU"
+    },
+    {
+      "topic": "배당/배당ETF",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "국내 커버드콜 ETF는 분배금 중 실제 배당소득으로 과세·건보료 부과 대상이 되는 비중이 작아(액티브 운용 배당 커버드콜 상품의 경우 전체 분배금의 3.8%만 배당소득으로 잡힘), 지역가입자처럼 배당소득 1천만 원 초과부터 건보료가 붙는 사람에게는 일반 배당주보다 건보료 부담이 훨씬 낮은 구조적 이점이 있다. 반면 직장가입자는 배당소득 2천만 원까지는 건보료가 추가되지 않으므로 이 이점이 상대적으로 덜 중요하다는 판단.",
+      "date": "2026-07-07",
+      "video": "https://www.youtube.com/watch?v=z6HQrJZUqOk"
+    },
+    {
+      "topic": "ETF/포트폴리오",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "3배 레버리지 ETF는 상승·하락을 반복하는 변동성 구간에서 매일 수익률을 재복리하는 구조 때문에 산술적인 3배 수익률에 못 미친다 — 나스닥100이 올해 20% 오르는 동안 단순 계산으로는 60%가 나와야 할 3배 레버리지 상품이 실제로는 57%에 그쳤다. 나스닥100의 지수 편입 기준 변경으로 앞으로 변동성이 더 커지면 이 복리 효과에 따른 수익률 깎임(디케이)도 함께 커질 수 있다는 구조적 경고.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=H67RTuOAFo0"
+    },
+    {
+      "topic": "배당/배당ETF",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "배당주는 표면 배당률만으로 고르면 안 되고 배당성장률과 그 성장을 주가가 실제로 반영하고 있는지를 함께 봐야 한다. 신한금융지주는 배당률이 2.8%로 낮았지만 배당성장률(29.8%)과 주가수익률이 모두 1위였던 반면, 우리금융은 배당률이 4.8%로 가장 높았지만 배당성장률은 가장 낮았다 — 배당률이 높다는 건 그만큼 주가가 덜 올랐다는 의미이기도 하다는 반증.",
+      "date": "2026-07-07",
+      "video": "https://www.youtube.com/watch?v=z6HQrJZUqOk"
+    },
+    {
+      "topic": "자산배분",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "나스닥100의 지수 편입 기준 변경(패스트트랙)으로 지수 자체의 변동성이 커진 만큼, 기존에 성장:배당을 5:5로 유지해 온 포트폴리오는 아무 것도 바꾸지 않아도 자동으로 더 공격적으로 변한다. 기존과 같은 변동성 수준을 유지하려면 배당 비중을 50%에서 60%로, 더 보수적으로 가려면 70%까지 높여야 한다는 계산인데, 이는 자산배분 비율 자체보다 그 배분이 추종하는 지수의 '구성 규칙'이 바뀌면 리밸런싱 없이도 위험노출이 달라질 수 있다는 원칙을 보여준다.",
+      "date": "2026-06-23",
+      "video": "https://www.youtube.com/watch?v=H67RTuOAFo0"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "그런데 저는 이런 투자는 아직 하면 안 된다고 생각합니다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=rc0OBQNe7LU"
+    },
+    {
+      "text": "매달 받는 배당금 375만 원이 1년 뒤 물가가 3% 오르면 실제 금액은 364만 원입니다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=rc0OBQNe7LU"
+    },
+    {
+      "text": "그런데 커버드 콜의 주가는 함께 움직이기 때문에 안전판이 되어 주지 못합니다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=rc0OBQNe7LU"
+    },
+    {
+      "text": "1년 배당률이 25%라고 했지만 이미 6개월 만에 원금이 그만큼 녹아내린 셈이죠.",
+      "date": "2026-07-07",
+      "video": "https://www.youtube.com/watch?v=z6HQrJZUqOk"
+    },
+    {
+      "text": "배당주는 단순히 배당률만 보고 고르면 안 되고요. 배당을 얼마나 늘리고 있는지 주가가 그 변화를 반영하고 있는지 함께 봐야 합니다.",
+      "date": "2026-07-07",
+      "video": "https://www.youtube.com/watch?v=z6HQrJZUqOk"
+    }
+  ]
+}

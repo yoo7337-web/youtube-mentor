@@ -7,10 +7,100 @@
     "tone": "넓은 주제를 쉽고 재미있게 풀어내는 이야기꾼. 비유와 유머, 큰 그림 위주.\n특정 종목 추천보다 산업·거시 트렌드와 대중 심리를 짚음.",
     "guardrails": "구체적 매수/매도 지시 금지. 엔터적 과장은 걷어내고 사실·맥락 중심으로 재현.\n실제 인물이 아닌 'AI 재현'임을 전제. 발언 근거(영상·날짜) 없는 주장 금지."
   },
-  "last_indexed": "2026-07-04",
-  "video_count": 15,
-  "insight_count": 13,
+  "last_indexed": "2026-07-16",
+  "video_count": 25,
+  "insight_count": 18,
   "videos": [
+    {
+      "id": "5Rhtr2hJ0us",
+      "title": "휘발유 가격 급등, 이유는 다 있었구나",
+      "date": "2026-07-16",
+      "url": "https://www.youtube.com/watch?v=5Rhtr2hJ0us",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15993
+    },
+    {
+      "id": "8su3kszPVV0",
+      "title": "캐나다 잠수함 한국 수주 불발 원인",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=8su3kszPVV0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 785
+    },
+    {
+      "id": "nZ5vlxgXe2w",
+      "title": "폭스바겐 10만 명 대규모 해고 계획 발표",
+      "date": "2026-07-15",
+      "url": "https://www.youtube.com/watch?v=nZ5vlxgXe2w",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 15519
+    },
+    {
+      "id": "3ectdcH1a-Q",
+      "title": "60조원 캐나다 잠수함 수주 불발",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=3ectdcH1a-Q",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 18798
+    },
+    {
+      "id": "5lMmjer-KNA",
+      "title": "주식 할때 EPS 알아야 하는 이유",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=5lMmjer-KNA",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1171
+    },
+    {
+      "id": "4DQP7bVU41M",
+      "title": "실적이 이렇게 좋은데, 주가는 왜 빠져요?",
+      "date": "2026-07-13",
+      "url": "https://www.youtube.com/watch?v=4DQP7bVU41M",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 13634
+    },
+    {
+      "id": "DbDZi0k5mj0",
+      "title": "금리 쫌 오른게 주식이랑 무슨 상관?",
+      "date": "2026-07-10",
+      "url": "https://www.youtube.com/watch?v=DbDZi0k5mj0",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 990
+    },
+    {
+      "id": "PZIvdtDO0Cs",
+      "title": "속보) 트황상 휴휴전 (휴전을 멈춤) 선언",
+      "date": "2026-07-09",
+      "url": "https://www.youtube.com/watch?v=PZIvdtDO0Cs",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 707
+    },
+    {
+      "id": "TaBCFSlTp_M",
+      "title": "SK하이닉스 ADR 상장이 무슨말이야?",
+      "date": "2026-07-08",
+      "url": "https://www.youtube.com/watch?v=TaBCFSlTp_M",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1424
+    },
+    {
+      "id": "MEdLp9dk9oM",
+      "title": "미국 엘리베이터 노조의 위엄",
+      "date": "2026-07-07",
+      "url": "https://www.youtube.com/watch?v=MEdLp9dk9oM",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1197
+    },
     {
       "id": "mR8q1hsV3jU",
       "title": "영국 10년간 총리만 7명 교체, 다음은 누구?",
@@ -277,6 +367,60 @@
       "thesis": "전쟁으로 러시아 청년 약 50만 명이 사망하고 중앙아시아 노동자까지 빠져나가 극심한 인력 공백(실업률 2.2% 완전고용)이 생기자, 그 빈자리를 북한이 노동 수출로 채우며 외화를 번다 — 러시아 파견 북한 근로자 임금이 월 1,200달러(약 180만원)까지 급등해 중국(20만명)보다 러시아(4만명)가 돈을 더 줘 '러시아는 가장이 벌어온 수준'이라 불린다. KDI 추산 해외 파견이 북한 노동력의 10%에 이르고, 여기에 국가가 주도하는 코인 탈취(2024년 12억 달러 등)까지 더해져 제재 속에서도 외화가 도는 구조라는 분석.",
       "date": "2026-06-18",
       "video": "https://www.youtube.com/watch?v=04Nmb_HeeqI"
+    },
+    {
+      "topic": "산업/구조변화",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "폭스바겐이 전체 인력 60만 명 중 10만~12만 명을 감원하고 독일 내 4개 공장을 폐쇄하겠다고 발표했다(주가는 최근 5년간 -66%, 반등 한 번 없이 하락). 중국 판매량이 4~6월 사이 -37%까지 급락하고 중국 신차의 60%가 전기차·하이브리드인 시장에서 가격·전동화 경쟁력을 모두 잃은 게 핵심 원인이며, 유럽 전체가 2025년 사상 최대 대중 무역적자(3,599억 유로, 27개 회원국 전부 적자)를 기록하자 독일 총리가 '1985년 플라자합의처럼 위안화를 절상시켜야 한다'고 공개 제안했다. 다만 중국은 '경쟁력은 환율이 아니라 투자·규모의 경제에서 나온다'고 반박하고 맥킨지·한국은행도 유럽의 경쟁력 상실이 에너지 비용·투자 부진 등 구조적 문제라고 진단해, 환율 탓만으로는 설명되지 않는다고 본다.",
+      "date": "2026-07-15",
+      "video": "https://www.youtube.com/watch?v=nZ5vlxgXe2w"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [
+        "005930",
+        "000660"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "삼성전자가 2분기 영업이익 89.4조원(성과급 충당금 20조를 반영하지 않으면 110조)을 발표했다 — 전년 동기 대비 18배, 2023~2025년 3년 합산 영업이익보다 큰 사상 최대 실적임에도 발표 당일 -9.6%, 다음날 -8.25% 급락했다. 5월 7일 코스피 7,000 돌파 시점부터 외국인이 100조원 넘게 팔고 개인이 그 자리를 받아내며 지수가 정확히 그 지점(7,475)까지 되돌아왔다는 수급 데이터를 근거로, 실적이 아니라 '이제 누가 더 받아줄 것인가'라는 수급 공백이 하락의 실제 원인이라고 진단한다. 반도체로 벌 300~400조는 미래 현금인데 주가는 이미 코스피 9천까지 그 미래를 선반영했기 때문에, 지금 당장의 추가 매수 주체가 없다는게 문제라는 것.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=4DQP7bVU41M"
+    },
+    {
+      "topic": "반도체/ADR상장",
+      "tickers": [
+        "000660",
+        "TSM"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "SK하이닉스가 나스닥에 ADR을 상장해 265억 달러(약 40조원)를 조달했다 — 알리바바의 250억 달러(2014년)를 넘어선 외국 기업 역대 최대 규모이자 스페이스X에 이은 미국 증시 역대 두 번째 자금조달이며, 통상 할인 상장하는 관행과 달리 할증 상장했음에도 장중 177달러까지 오를 만큼 수요가 몰렸다. 다만 ADR을 한국 본주로 바꾸는 것과 달리 본주를 다시 ADR로 되돌리는 역방향 전환에는 총수 제한이 걸려 있어 차익거래가 막혀 있고, TSMC ADR도 같은 이유로 본주 대비 16% 프리미엄이 고착돼 있다는 점에서 SK하이닉스 역시 ADR-본주 간 가격 괴리가 상시화될 가능성이 높다고 본다.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=4DQP7bVU41M"
+    },
+    {
+      "topic": "방위산업/수출",
+      "tickers": [
+        "042660",
+        "329180"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "캐나다의 60조원 규모 초대형 잠수함 사업(디젤전기 추진 12척)에서 한국(한화오션·HD현대중공업 '팀코리아')이 독일(TKMS)에 밀려 최종 탈락했다. 한국은 이미 실전 배치돼 캐나다까지 태평양을 횡단한 3,600톤급 장영실함(장보고-Ⅲ 배치-2)을 제시했고 가격도 독일 2,500톤급 대비 최소 50% 이상 저렴했던 반면, 독일은 실물이 전혀 없는 설계도뿐인 잠수함(노르웨이와의 차세대 공동사업)으로도 나토 동맹이라는 정치적 이유에 힘입어 최종 선정됐다고 분석한다. 성능·가격 모두 앞섰음에도 나토 벽을 넘지 못한 이번 결과를 K-방산 4강 도약의 교훈으로 삼아야 한다는 정부·기업 반응을 전한다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=3ectdcH1a-Q"
+    },
+    {
+      "topic": "산업/독과점",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "검찰이 이란-이스라엘 전쟁 발발 직후 국내 4대 정유사(시장의 98.6%를 과점)의 휘발유 가격 담합을 적발했다 — 두 회사가 '오늘 100원 더 올리자, 우리 올해 2조 벌듯'이라는 대화를 주고받은 정황이 공개됐고, 직접 담합 규모만 14조 2천억 원, 의식적 병행행위까지 포함하면 26조원의 경쟁제한 효과가 발생한 것으로 추산된다. 2011년 유사 담합 사건의 과징금이 4,348억 원이었던 점을 근거로 이번엔 그 두 배 안팎이 될 것으로 예상하면서도, 한 회사는 자진신고(리니언시)로 처벌을 피하고 나머지도 직접 증거 부족으로 빠져나갈 수 있어 '담합은 남는 장사'라는 인식이 쉽게 깨지지 않는다고 지적한다.",
+      "date": "2026-07-16",
+      "video": "https://www.youtube.com/watch?v=5Rhtr2hJ0us"
     }
   ],
   "quotes": [
@@ -319,6 +463,16 @@
       "text": "러시아는 가장이 버러온 수준이고 중국은 딸이 버러온 수준밖에 안 된다.",
       "date": "2026-06-18",
       "video": "https://www.youtube.com/watch?v=04Nmb_HeeqI"
+    },
+    {
+      "text": "제가 아침에 89조를 보고 기분이 흥해서 아무런 문제가 없겠구먼.",
+      "date": "2026-07-13",
+      "video": "https://www.youtube.com/watch?v=4DQP7bVU41M"
+    },
+    {
+      "text": "저는 돈을 건다면 안 되는 쪽에 걸도록 하겠습니다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=3ectdcH1a-Q"
     }
   ]
 }

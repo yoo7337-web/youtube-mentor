@@ -7,10 +7,100 @@
     "tone": "운용 경험에 기반해 '변화된 세상의 생존 전략'을 리서치하는 시장전략가.\n매크로·산업·빅테크를 구조적으로 연결해 설명하고, 데이터와 프레임으로 시장을 해석한다.",
     "guardrails": "구체적 매수/매도 지시 금지. 시장전략·산업 구조 해석 중심. 'AI 재현' 전제. 근거(영상·날짜) 없는 주장 금지."
   },
-  "last_indexed": "2026-07-07",
-  "video_count": 12,
-  "insight_count": 10,
+  "last_indexed": "2026-07-14",
+  "video_count": 22,
+  "insight_count": 17,
   "videos": [
+    {
+      "id": "-NE-0hEoEPs",
+      "title": "[전략효] 급락하는 코스피 대응 방법은?",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=-NE-0hEoEPs",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 4690
+    },
+    {
+      "id": "wShEgg61924",
+      "title": "[속보효] 미국에선 280만원, 한국에선 190만원",
+      "date": "2026-07-14",
+      "url": "https://www.youtube.com/watch?v=wShEgg61924",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 2925
+    },
+    {
+      "id": "1Q2XkHeNrIk",
+      "title": "당신의 계좌를 녹이는건 폭락이나 급락이 아닌 당신의 그릇때문입니다",
+      "date": "2026-07-12",
+      "url": "https://www.youtube.com/watch?v=1Q2XkHeNrIk",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 5661
+    },
+    {
+      "id": "95_M8-DYUA8",
+      "title": "전 세계 투자자들이 자기도 모르게 미국 국채를 사주는 시대가 열렸습니다 | 이동현 LG경영연구원 박사 [2부]",
+      "date": "2026-07-12",
+      "url": "https://www.youtube.com/watch?v=95_M8-DYUA8",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 18872
+    },
+    {
+      "id": "jIRollX6Y6E",
+      "title": "미국이 '맨해튼 프로젝트'급 AI 총력전을 시작했다!  국방비보다 큰 돈을 미친듯이 때려박는 진짜 이유 | 고승연 LG경영연구원 박사 [3부]",
+      "date": "2026-07-12",
+      "url": "https://www.youtube.com/watch?v=jIRollX6Y6E",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 20573
+    },
+    {
+      "id": "zlVuQelTQtY",
+      "title": "미국 상장한 SK하이닉스 250만 원 시작. 아직 흥분하면 위험합니다",
+      "date": "2026-07-12",
+      "url": "https://www.youtube.com/watch?v=zlVuQelTQtY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 13499
+    },
+    {
+      "id": "AbBJl3_G_s4",
+      "title": "미합중국이 자신들의 화폐가치를 스스로 떨어트리려는 충격적인 시나리오ㅣ고승연, 이동현 박사",
+      "date": "2026-07-11",
+      "url": "https://www.youtube.com/watch?v=AbBJl3_G_s4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 13427
+    },
+    {
+      "id": "bGC-mWCd8_Y",
+      "title": "연금저축계좌에서 국내 ETF 투자하면 안내도 될 '세금폭탄'이 날아옵니다",
+      "date": "2026-07-11",
+      "url": "https://www.youtube.com/watch?v=bGC-mWCd8_Y",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 3925
+    },
+    {
+      "id": "48BZ4HJxAvY",
+      "title": "[속보효] SK하이닉스 ADR 상장, 주가에 미치는 영향은?",
+      "date": "2026-07-10",
+      "url": "https://www.youtube.com/watch?v=48BZ4HJxAvY",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 1564
+    },
+    {
+      "id": "8K958q9QFf4",
+      "title": "금리 인하가 반가운 소식이 아닌 이유 ,새 연준 체제가 바꾸는 게임의 룰ㅣ오건영 단장",
+      "date": "2026-07-09",
+      "url": "https://www.youtube.com/watch?v=8K958q9QFf4",
+      "lang": "ko",
+      "source": "youtube",
+      "char_count": 26715
+    },
     {
       "id": "jCVfSLJqRus",
       "title": "삼성전자 호실적에도 급락하는 시장",
@@ -220,6 +310,75 @@
       "thesis": "숏과 롱 중 어느 쪽이 더 큰 용기를 요구하는지 손익비로 따져 방향을 잡는다. 반도체를 숏으로 치려면 이익이 빠지고 밸류에이션이 비싸야 하는데, 장기계약으로 2분기 이익이 급감할 가능성이 낮고 PER도 낮은 지금은 숏의 손익비가 나쁘고 롱의 손익비가 좋다고 판단한다. 또한 세상의 쏠림을 가끔 반대로 뒤집어 생각하고, 뉴스 한 줄로 직관적으로 판단하지 말고 오랫동안 곰곰이 곱씹어 2차적으로 해석하라는 것이 그의 방법론이다.",
       "date": "2026-06-28",
       "video": "https://www.youtube.com/watch?v=fTNpYo8adu8"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "000660"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "SK하이닉스 ADR 상장 초기 미국가는 250만원, 한국가는 220만원으로 괴리가 있었지만, 국내 보유자가 신청하면 미국 ADR로 전환해주는 펀저빌리티 구조 때문에 시간이 지날수록 두 가격은 붙을 수밖에 없다고 본다. 최태원 회장이 인터뷰에서 향후 ADR 규모 확대 가능성을 검토 중이며 안정적 주가와 장기 기업가치 제고가 그 전제조건이라고 밝힌 점을 근거로 든다. 정부 입장에서도 주식 2.5%만으로 40조원의 외화를 조달한 이번 사건을 굳이 막을 이유가 없어, ADR 물량 확대와 두 가격의 수렴 가능성은 시간이 지날수록 커진다고 판단한다.",
+      "date": "2026-07-12",
+      "video": "https://www.youtube.com/watch?v=zlVuQelTQtY"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "000660"
+      ],
+      "direction": "중립",
+      "kind": "시황",
+      "thesis": "한투 보고서발 하이닉스 2분기 어닝서프라이즈 무산 우려로 주가가 190만원까지 밀렸는데, 직접 크로스체크한 결과 실제로 서프라이즈가 나기는 어려워 보이며 이는 '항상 설렐 수는 없다'는 기대치 정상화 국면일 뿐이라고 본다. 다만 주봉 기준 20주선 이탈 여부가 이번 주 핵심 변수로, 이번 주 저가가 전주 저가보다 낮게 끝나면 코스피 강세장 종료 가능성을 30%까지 높여봐야 하고, 그렇지 않다면 하이닉스가 주도주에서 탈락하지 않을 가능성이 70~80%로 여전히 우세하다고 판단한다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=-NE-0hEoEPs"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "급락장에서 대응을 정할 때 '얼마나 더 오를까'가 아니라 '지금 들고 있는 주식을 그대로 들고 최악의 상황이 오더라도 버틸 수 있는가'를 스스로 묻는 것이 핵심이라고 강조한다. 파괴적 손절 기준을 미리 정해두는 생각은 현재 시점에 도움이 안 될 수 있으며, 이 질문에 대한 답을 먼저 한 뒤에야 종목별 비중 조절을 고민해야 한다는 순서를 제시한다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=-NE-0hEoEPs"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "'돈의 그릇'이 준비 안 된 사람에게 큰 돈이 들어가면 반드시 넘쳐흘러 패닉매도·뇌동매매·레버리지 물타기로 계좌가 녹는다며, 그릇을 키우는 다섯 가지로 책임(권한에는 반드시 책임이 따른다는 것을 받아들이기)·훈련(손실을 금액이 아니라 비율로 환산해서 보기)·구분(통제 불가능한 것은 그냥 놔두고 스테이하기)·경험(하락장을 겪을 때마다 느낀 심정과 뉴스를 기록해 경험칙으로 축적하기)·절제(단타·레버리지·조급함을 참는 힘)를 제시한다.",
+      "date": "2026-07-12",
+      "video": "https://www.youtube.com/watch?v=1Q2XkHeNrIk"
+    },
+    {
+      "topic": "한국증시/수급",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "원달러 환율이 1985년 플라자합의 이후 최고 수준(1,955원)까지 오르고 외국인이 올해 100조원어치 주식을 팔았다는 소식에 시장이 불안해했지만, 실제로 계산해보면 연초 1,000조원이던 외국인 보유 한국 주식이 지금은 2,800조원으로 오히려 늘었고 보유 비중도 30%대에서 40%에 육박한다. 이는 연초 대비 시장보다 훨씬 많았던 삼성전자·하이닉스 비중이 급등한 데 따른 차익실현성 매도일 뿐 이탈이 아니라는 뜻이므로, 원화 약세·외국인 매도를 근거로 코스피 급락을 걱정하기엔 아직 이르다고 판단한다.",
+      "date": "2026-07-01",
+      "video": "https://www.youtube.com/watch?v=CRdB96hgfoo"
+    },
+    {
+      "topic": "거시/유동성",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "연준 새 의장 후보 케빈 워시가 상원에 출석해 통화정책 관련 보고를 하는 일정을 두고, 성향과 무관하게 상원의원들 앞에서 '물가를 못 잡을 것 같다'거나 '그냥 금리를 인하하겠다'고 말할 수는 없는 자리이기 때문에 시장에 긍정적 메시지를 주기는 애매한 자리라고 본다. 이어지는 연준 베이지북 발표(7월 말 FOMC 전 마지막 힌트)까지 겹치며, 이제부터는 매크로 이벤트보다 실적 시즌(JP모건·ASML·TSMC·빅테크)이 본격적으로 주가를 좌우하는 국면으로 전환된다고 판단한다.",
+      "date": "2026-07-12",
+      "video": "https://www.youtube.com/watch?v=zlVuQelTQtY"
+    },
+    {
+      "topic": "반도체/메모리",
+      "tickers": [
+        "005930"
+      ],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "삼성전자가 89조원이라는 역대급 실적을 발표했음에도 주가가 장중 7%, 코스피 전체가 5.6% 급락한 것에 대해 2차적 사고('실적 잘 나온 거 다들 알고 있었잖아')로 반응하기보다, 다음 분기 실적이 더 좋아질 여지가 있다는 3차적 사고를 근거로 장기 상승 추세가 이어질 가능성이 높다고 본다. 다만 이번 분기가 전년 동기 대비 성장률 기준 최대치이고 다음 분기부터 어닝 모멘텀이 둔화된다는 점이 단기 조정의 원인일 수 있다며, 2024년 엔비디아가 급등 후 쉬어가는 구간을 거치고도 5조 달러 기업이 된 사례처럼 삼성전자·하이닉스도 비슷한 궤적을 그릴 것으로 기대한다.",
+      "date": "2026-07-07",
+      "video": "https://www.youtube.com/watch?v=jCVfSLJqRus"
     }
   ],
   "quotes": [
@@ -262,6 +421,21 @@
       "text": "메타 이슈가 신호가 아니라 노이즈일 가능성이 저는 7 80% 된다고 생각하지만",
       "date": "2026-07-02",
       "video": "https://www.youtube.com/watch?v=yVevNUcD1vc"
+    },
+    {
+      "text": "그릇이 준비 안 된 사람에게 큰 돈이 들어가면 반드시 넘쳐 흐른다.",
+      "date": "2026-07-12",
+      "video": "https://www.youtube.com/watch?v=1Q2XkHeNrIk"
+    },
+    {
+      "text": "최악의 상황에서 버틸 수 있는가라는 질문이 중요하다",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=-NE-0hEoEPs"
+    },
+    {
+      "text": "내가 초보일수록 그 대응의 폭을 너무 크게 가져가면 안 됩니다.",
+      "date": "2026-07-14",
+      "video": "https://www.youtube.com/watch?v=wShEgg61924"
     }
   ]
 }
