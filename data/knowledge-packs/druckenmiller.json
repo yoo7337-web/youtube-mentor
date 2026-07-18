@@ -1,0 +1,285 @@
+{
+  "slug": "druckenmiller",
+  "name": "스탠리 드러켄밀러 (Stanley Druckenmiller)",
+  "intro": "듀케인 캐피털 30년 무손실·연 30%의 전설적 매크로 투자자. 유동성을 최우선 변수로, 확신이 설 때 크게 집중 베팅하고 틀리면 빠르게 전환하는 실전 매크로가.",
+  "persona": {
+    "domain": "매크로 / 유동성·집중투자·타이밍",
+    "tone": "듀케인 30년 무손실·연 30%의 전설적 매크로 트레이더.\n유동성(연준)을 최우선 변수로 보고, 확신이 설 때 크게 집중 베팅하며 틀리면 빠르게 전환한다.\n\"먼저 투자하고 나서 조사하라\", 미래 12~18개월을 본다는 실전 화법.",
+    "guardrails": "구체적 매수/매도 지시 금지. 매크로·유동성·리스크관리 사고방식 중심.\n제3자 재생목록이라 인터뷰 진행자·타인 발언 배제(본인 발언만). 영어 번역 왜곡 금지. 'AI 재현' 전제. 근거 없는 주장 금지."
+  },
+  "last_indexed": "2021-12-08",
+  "video_count": 15,
+  "insight_count": 11,
+  "videos": [
+    {
+      "id": "ELlmZ7WAMgU",
+      "title": "Stanley Druckenmiller Explains how he makes 30% return every year!",
+      "date": "2021-12-08",
+      "url": "https://www.youtube.com/watch?v=ELlmZ7WAMgU",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 29867
+    },
+    {
+      "id": "rq2lGZyW2yA",
+      "title": "Stanley Druckenmiller 2021 Keynote | USC Marshall",
+      "date": "2021-08-23",
+      "url": "https://www.youtube.com/watch?v=rq2lGZyW2yA",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 47292
+    },
+    {
+      "id": "VqBZZ8fKFCY",
+      "title": "Druckenmiller Warns Of 'Dire Consequences' Of More Government Spending",
+      "date": "2021-07-23",
+      "url": "https://www.youtube.com/watch?v=VqBZZ8fKFCY",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 6266
+    },
+    {
+      "id": "uTeFU1qivbs",
+      "title": "Stanley Druckenmiller talks about if we're in a tech bubble, what makes a great investor, and more",
+      "date": "2021-05-28",
+      "url": "https://www.youtube.com/watch?v=uTeFU1qivbs",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 31899
+    },
+    {
+      "id": "ScAeHsXIUqI",
+      "title": "Stanley Druckenmiller: Current Fed policy is totally inappropriate",
+      "date": "2021-05-11",
+      "url": "https://www.youtube.com/watch?v=ScAeHsXIUqI",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 8750
+    },
+    {
+      "id": "7njzXBzYnNI",
+      "title": "A Conversation With Stanley Druckenmiller - Full Show",
+      "date": "2020-01-06",
+      "url": "https://www.youtube.com/watch?v=7njzXBzYnNI",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 17691
+    },
+    {
+      "id": "9kH01CNISeQ",
+      "title": "Stanley Druckenmiller on Economy, Stocks, Bonds, Trump, Fed: Full Interview",
+      "date": "2020-01-06",
+      "url": "https://www.youtube.com/watch?v=9kH01CNISeQ",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 46510
+    },
+    {
+      "id": "Cs-0aC9Rd8g",
+      "title": "Druckenmiller on 2020 Outlook, Monetary Policy, U.S. Election",
+      "date": "2019-12-19",
+      "url": "https://www.youtube.com/watch?v=Cs-0aC9Rd8g",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 39397
+    },
+    {
+      "id": "S_x0n5BS1Pw",
+      "title": "스탠리 드루켄밀러 & 폴 튜더 존스 인터뷰 로빈 후드 컨퍼런스(2016)",
+      "date": "2019-11-03",
+      "url": "https://www.youtube.com/watch?v=S_x0n5BS1Pw",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 31774
+    },
+    {
+      "id": "XlgBS6ZB5gI",
+      "title": "Watch billionaire hedge fund manager Stanley Druckenmiller's full CNBC appearance",
+      "date": "2019-06-07",
+      "url": "https://www.youtube.com/watch?v=XlgBS6ZB5gI",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 43496
+    },
+    {
+      "id": "r7kMSqgruOY",
+      "title": "Stanley Druckenmiller Interview - The Economic Club of New York (2019)",
+      "date": "2019-06-05",
+      "url": "https://www.youtube.com/watch?v=r7kMSqgruOY",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 44676
+    },
+    {
+      "id": "G-MlrpoMig0",
+      "title": "Stanley F. Druckenmiller: Monetary Policy & Markets",
+      "date": "2018-11-13",
+      "url": "https://www.youtube.com/watch?v=G-MlrpoMig0",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 63625
+    },
+    {
+      "id": "P7NxHdb4Fp4",
+      "title": "George Soros Stanley Druckenmiller Interview Vintage 1994",
+      "date": "2017-08-21",
+      "url": "https://www.youtube.com/watch?v=P7NxHdb4Fp4",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 9462
+    },
+    {
+      "id": "l0YjPekmccs",
+      "title": "DealBook Conference 2015 - The Other Investors’ Perspective",
+      "date": "2015-11-03",
+      "url": "https://www.youtube.com/watch?v=l0YjPekmccs",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 20977
+    },
+    {
+      "id": "DXAEw8psMuQ",
+      "title": "세상에 공짜 점심은 없다 - 노인들은 우리 아이들을 희생시켜 혜택을 누린다: 스탠 드러켄밀러, TEDxWallStreet 강연",
+      "date": "2013-11-26",
+      "url": "https://www.youtube.com/watch?v=DXAEw8psMuQ",
+      "lang": "en",
+      "source": "youtube",
+      "char_count": 10595
+    }
+  ],
+  "insights": [
+    {
+      "topic": "거시/유동성",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "드러켄밀러의 가장 핵심 프레임워크. 그는 시장을 움직이는 것은 실적도 정치도 아닌 오직 유동성(연준)이라고 못박는다. 헤드라인 지수보다 오토·건설·은행·러셀2000 같은 경기민감 섹터의 내부 움직임이 진짜 신호이며, '내가 아는 최고의 경제학자는 주식시장 내부'라고 표현한다. 2018년엔 중앙은행 대차대조표 순증이 연 1조 달러에서 0으로 급변하는 '변화율(rate of change)'이 12개월 내 주식을 반드시 압박할 것으로 봤다.",
+      "date": "2018-11-13",
+      "video": "https://www.youtube.com/watch?v=G-MlrpoMig0"
+    },
+    {
+      "topic": "투자원칙/집중베팅",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "레이 달리오의 '15개 무상관 베팅'과 정반대로, 그의 철학은 '달걀을 한 바구니에 담고 그 바구니를 잘 지켜보는 것'이다. 확신이 서는 변곡점에서는 사이즈로 크게 밀어붙인다. 소로스에게 배운 최대 교훈은 '옳고 그름이 아니라 맞았을 때 얼마를 벌고 틀렸을 때 얼마를 잃느냐'이며, 소로스는 파운드/마르크 트레이드 때 '이런 일방적 베팅은 커리어에 2~3번뿐이니 100%가 아니라 200%를 걸어야 한다'며 포지션 사이징의 중요성을 각인시켰다.",
+      "date": "2021-08-23",
+      "video": "https://www.youtube.com/watch?v=rq2lGZyW2yA"
+    },
+    {
+      "topic": "거시/사이클",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "첫 멘토에게 배운 '가장 중요한 교훈'은 '절대 현재를 기준으로 생각하지 말라'는 것이다. 현재 조건으로 투자하는 것은 돈을 잃는 지름길이며, 12~18개월(길게는 24개월) 뒤 세상이 얼마나 달라질지를 그려야 한다 — 그 시점엔 증권 가격이 완전히 달라져 있기 때문이다. 지금 인기 있는 종목은 이미 모두가 보유 중이라 잃기 쉽고, 후행지표(고용 등)가 아닌 선행지표를 봐야 한다. 그는 자신의 일을 '경제 퍼즐을 풀어 18~24개월 앞을 내다보는 것'이라 정의한다.",
+      "date": "2021-08-23",
+      "video": "https://www.youtube.com/watch?v=rq2lGZyW2yA"
+    },
+    {
+      "topic": "투자원칙/리스크관리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "집중 베팅의 전제조건은 '자기 포지션에 대한 냉혹할 정도의 객관성'이다. 그는 40년간 가격 기준 손절선(stop loss)을 쓴 적이 없고, 대신 '매수한 이유가 사라졌을 때' 청산한다 — 2~3년 보유할 확신으로 들어가도 열흘 만에 사실이 바뀌면 나온다. 또 머니매니저의 핵심 임무는 '지금 내가 뜨거운지 차가운지를 아는 것'이며, 손실 중일 때 만회하려 크게 거는 것은 라스베이거스에서 지고도 크게 거는 비합리적 도박과 같다고 본다.",
+      "date": "2019-11-03",
+      "video": "https://www.youtube.com/watch?v=S_x0n5BS1Pw"
+    },
+    {
+      "topic": "거시/금리",
+      "tickers": [],
+      "direction": "중립",
+      "kind": "원칙",
+      "thesis": "자본주의 시스템은 투자에 대한 '허들 레이트(hurdle rate)'가 반드시 필요하다는 원칙. 금리가 3~4% 근처로 정상화되지 않으면 좀비기업이 존속하고 부실한 자본배분이 일어난다. 실제로 미국 기업부채가 2010년 6조에서 2019년 10조 달러로 65% 늘었지만 이익은 29%밖에 못 늘었고, 5.7조 달러 자사주매입 대 2.2조 달러 설비투자로 자본생산성이 악화됐다 — 공짜 돈이 자본을 오배분한다는 것이 그의 논거다.",
+      "date": "2019-06-07",
+      "video": "https://www.youtube.com/watch?v=XlgBS6ZB5gI"
+    },
+    {
+      "topic": "거시/연준",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "2021년 5월 시점, 백신이 확인되고 소매판매가 추세선 대비 15%(약 5년치 수요) 위로 올라온 경제인데도 연준이 여전히 '블랙홀에 있는 것처럼' 월간 QE를 지속하는 것은 완전히 부적절하다고 단언했다. 지난 봄 6주간의 QE가 2009~2018년 9년치 국채매입을 능가했음을 지적하며, 이는 2차대전 이후 가장 급진적인 통화정책이라고 평가했다. 완화가 정당했던 위기(블랙홀)는 이미 끝났는데 긴급정책을 붙들고 있다는 논리.",
+      "date": "2021-05-11",
+      "video": "https://www.youtube.com/watch?v=ScAeHsXIUqI"
+    },
+    {
+      "topic": "환율",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "커리어 처음으로 '15년 내 달러가 기축통화 지위를 잃는 것이 내 central case'라고 공언했다. 근거는 급진적 통화·재정정책. 10년물이 CBO 정상화 수준(4.9%)으로 가면 이자비용만 GDP의 약 30%(코로나 긴급지출 규모)에 달해 감당 불가 → 연준이 이를 화폐화할 수밖에 없고 이는 달러에 끔찍한 결과다. 결정적으로 2020년 3월 폭락장 한가운데 외국인이 하룻밤에 1조 달러 국채를 매도하며 '위기=국채·달러로 도피'라는 20년 공식이 처음 깨졌다.",
+      "date": "2021-05-11",
+      "video": "https://www.youtube.com/watch?v=ScAeHsXIUqI"
+    },
+    {
+      "topic": "AI/버블",
+      "tickers": [
+        "AMZN"
+      ],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "2021년 5월, 2000년 닷컴과의 공통점은 마니아·투기적 밸류에이션(좋은 SaaS 종목이 매출의 45~50배)이라고 진단했다. 그러나 두 가지 차이를 강조 — (1) 지금의 통화정책(제로금리+QE)은 당시(금리 4~5%)와 비교 불가하게 미쳐 있어 자산버블이 테크뿐 아니라 SPAC·도지코인 등 '모든 것'에 존재한다. (2) 당시는 인터넷을 '건설'하던 국면이라 성장 급락 리스크가 컸던 반면, 지금 클라우드 전환 기업은 실체가 있어 3~4년 보유 시 밸류에이션을 따라잡을 수 있다(아마존 3200달러는 버블 아님). 최대 리스크는 인플레이션에 연준이 긴축으로 반응하는 순간 성장주 편중 지수가 급락하는 것.",
+      "date": "2021-05-28",
+      "video": "https://www.youtube.com/watch?v=uTeFU1qivbs"
+    },
+    {
+      "topic": "미국주식/시황",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "2021년 8월, 코로나 부양책이 과도·무모하다고 진단했다. 3개월 만에 지난 5개 침체 합산보다 큰 재정적자, 6주 QE가 2009~2018년 전체보다 많았고, 소매판매는 추세 대비 15% 위, 사상 가장 빠른 회복에 사상 최완화 연준이 겹쳤다. 시가총액/GDP가 100년 내 최고이고 장난으로 시작된 도지코인 시총이 600억 달러 — '우리가 버블 속이라는 데 의심의 여지가 있나'. 가족오피스는 달러 숏·글로벌 채권 숏·원자재 롱이며 주식은 롱이나 '연말까지 청산하지 못하면 매우 놀랄 것'이라 했다. '끝은 반드시 나쁘게 오지만 언제인지는 모른다.'",
+      "date": "2021-08-23",
+      "video": "https://www.youtube.com/watch?v=rq2lGZyW2yA"
+    },
+    {
+      "topic": "거시/연준",
+      "tickers": [],
+      "direction": "부정",
+      "kind": "시황",
+      "thesis": "2015년 시점, 6년간의 제로금리·QE가 투자자를 리스크 곡선 밖으로 밀어내고 신흥국 정부(브라질·터키)와 기업의 비이성적 행동(4~5년 전의 2.5배 주가에서 2.2조 달러 자사주 매입)을 유발했다고 진단했다. 실업률이 10.1%에서 5.1%로 회복됐는데도 비상조치를 유지하는 것이 문제이며, '지금 하는 것은 미래 수요를 앞당겨 빌려오는 것일 뿐 영구 부양이 아니다' — 자원의 심각한 오배분으로 언젠가 대가를 치른다고 경고했다.",
+      "date": "2015-11-03",
+      "video": "https://www.youtube.com/watch?v=l0YjPekmccs"
+    },
+    {
+      "topic": "미국주식/시황",
+      "tickers": [],
+      "direction": "긍정",
+      "kind": "시황",
+      "thesis": "2020년 초, 완전고용 상태의 1조 달러 재정적자와 전 세계 마이너스 실질금리라는 전례 없는 부양 조합 때문에 중기적으로는 '구성적(constructive) 관점을 갖기 어렵다'면서도, 단기 기술적 지표가 좋아 '일단 전면 매수(all systems go)'라고 했다. 포지션은 주식 롱·구리 등 원자재 롱·채권 숏·파운드 롱·엔 숏이며, 파월이 2020년에 금리를 올릴 용기는 없을 것으로 봤다. 다만 향후 5년 S&P 수익률은 연 0~5%에 그칠 것으로 전망했다.",
+      "date": "2020-01-06",
+      "video": "https://www.youtube.com/watch?v=7njzXBzYnNI"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "never been about earnings it's never been about politics it's always about liquidity and my assumption is one of these hikes I don't know which one it's going to trigger this thing",
+      "date": "2018-11-13",
+      "video": "https://www.youtube.com/watch?v=G-MlrpoMig0"
+    },
+    {
+      "text": "never ever think in the present that's a good way to lose money try and envision the world in 18 months 12 to 18 months out how different it might be",
+      "date": "2021-08-23",
+      "video": "https://www.youtube.com/watch?v=rq2lGZyW2yA"
+    },
+    {
+      "text": "put all your eggs in one basket and watch the basket carefully",
+      "date": "2019-11-03",
+      "video": "https://www.youtube.com/watch?v=S_x0n5BS1Pw"
+    },
+    {
+      "text": "I've never used a stop loss in 40 years, but I have exited a lot of positions not because the price was down, but because the reason I bought them, we're starting to change.",
+      "date": "2019-11-03",
+      "video": "https://www.youtube.com/watch?v=S_x0n5BS1Pw"
+    },
+    {
+      "text": "and them talking about the hole we're in i just think it's totally inappropriate",
+      "date": "2021-05-11",
+      "video": "https://www.youtube.com/watch?v=ScAeHsXIUqI"
+    },
+    {
+      "text": "so we have an asset bubble now that's not just in tech stocks it's in everything",
+      "date": "2021-05-28",
+      "video": "https://www.youtube.com/watch?v=uTeFU1qivbs"
+    }
+  ]
+}
