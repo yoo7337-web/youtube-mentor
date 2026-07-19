@@ -36,13 +36,15 @@ TG_MAX_LEN = 3800     # 텔레그램 안전 분할 길이
 
 # ---------- 유틸 ----------
 def load_env() -> dict:
-    env = {}
+    import os
+    env = {k: v for k, v in os.environ.items() if k in ("TELEGRAM_BOT_TOKEN", "GIANTS_CHANNEL_ID")}
     if ENV_PATH.exists():
         for line in ENV_PATH.read_text(encoding="utf-8").splitlines():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)
-                env[k.strip()] = v.strip()
+                if v.strip():
+                    env[k.strip()] = v.strip()
     return env
 
 

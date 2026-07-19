@@ -8,3 +8,5 @@ pyyaml                    # personas/*.yaml 로드
 python-dotenv             # (선택) 로컬 설정
 pypdf                     # 버핏 주주서한 PDF 텍스트 추출 (fetch_documents)
 brotli                    # berkshirehathaway.com 응답 압축(br) 해제 (fetch_documents)
+requests                  # 텔레그램 다이제스트 발송 (daily_digest)
+yfinance                  # 스코어카드 주가 조회 (scorecard)
