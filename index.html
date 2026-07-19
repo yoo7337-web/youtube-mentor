@@ -422,6 +422,7 @@
         <button class="mode-btn on" id="modeExpert" onclick="location.hash='#insights'">👤 전문가별 보기</button>
         <button class="mode-btn" id="modeCompare" onclick="location.hash='#insights/compare'">⚖️ 주제별 비교</button>
         <button class="mode-btn" id="modeMarket" onclick="location.hash='#insights/market'">🌏 시장별 보기</button>
+        <button class="mode-btn" id="modeSearch" onclick="location.hash='#insights/search'">🔍 전체 검색</button>
       </div>
       <div id="libExpertMode">
         <div class="lib-chips" id="libChips"></div>
@@ -434,6 +435,20 @@
       <div id="libMarketMode" style="display:none">
         <div class="lib-chips" id="marketChips"></div>
         <div id="marketBody"></div>
+      </div>
+      <div id="libSearchMode" style="display:none">
+        <div class="lib-toolbar" style="margin-top:2px">
+          <input id="globalSearchInput" placeholder="🔍 30명 전체에서 검색 (예: 반도체, 금리, 버핏)" oninput="runGlobalSearch()">
+          <span class="sep">|</span>
+          <button class="fchip on" data-f="gdir" data-v="전체" onclick="setGlobalDir('전체')">전체</button>
+          <button class="fchip" data-f="gdir" data-v="긍정" onclick="setGlobalDir('긍정')">긍정</button>
+          <button class="fchip" data-f="gdir" data-v="중립" onclick="setGlobalDir('중립')">중립</button>
+          <button class="fchip" data-f="gdir" data-v="부정" onclick="setGlobalDir('부정')">부정</button>
+          <span class="sep">|</span>
+          <button class="fchip" data-f="gkind" data-v="원칙" onclick="setGlobalKind('원칙')">🧭 원칙만</button>
+          <button class="fchip" data-f="gkind" data-v="시황" onclick="setGlobalKind('시황')">📈 시황만</button>
+        </div>
+        <div id="searchBody"></div>
       </div>
     </section>
   </div><!-- /tab-insights -->
@@ -551,12 +566,19 @@ applyTheme(localStorage.getItem('ym_theme') || 'dark');
 
 /* ===== 도메인 → 분야 라벨·색상 ===== */
 const DOMAIN_CATS = [
+  // 특정 스타일이 뚜렷한 소수 전문가용 — 일반 버킷보다 먼저 매칭되도록 앞에 배치(키워드가 고유해 오매칭 없음)
+  {kw:['밸류에이션'],                 label:'밸류에이션', color:'#eab308'},
+  {kw:['재무제표','회계'],            label:'재무제표·회계', color:'#14b8a6'},
+  {kw:['퀀트','백테스트'],            label:'퀀트·데이터', color:'#22d3ee'},
+  {kw:['투자철학','인간 오판','격자틀 사고','종목 발굴 원칙'], label:'투자철학·원칙', color:'#fb7185'},
+  {kw:['시사','경제 전반'],           label:'경제해설', color:'#f97316'},
+  // 기존 6종
   {kw:['자산배분','올웨더','포트폴리오','자산 배분'], label:'자산배분', color:'#6c8cff'},
   {kw:['가치투자','기업분석','가치 투자'],           label:'가치투자', color:'#34d399'},
   {kw:['리스크','크레딧','사이클','부채'],           label:'사이클·리스크', color:'#f59e0b'},
   {kw:['해외','미국','개별종목','성장주','혁신','ETF'], label:'해외·성장주', color:'#a78bfa'},
   {kw:['시황','투자전략','마켓타이밍','전략'],        label:'시황·전략', color:'#f472b6'},
-  {kw:['거시','환율','부동산','글로벌','매트릭스','정치경제'], label:'거시경제', color:'#38bdf8'},
+  {kw:['거시','환율','부동산','글로벌','매트릭스','정치경제','매크로','유동성'], label:'거시경제', color:'#38bdf8'},
 ];
 function catFor(domain){
   const d = domain || '';
@@ -960,9 +982,10 @@ function switchTab(tab){
   if(tab === 'ask'){ renderSuggestions(); renderHistory(); renderConflicts(); }
   if(tab === 'insights'){
     initLibrary();
-    // 서브라우트: #insights/compare·#insights/market → 해당 모드로 직접 진입(북마크 가능)
+    // 서브라우트: #insights/compare·#insights/market·#insights/search → 해당 모드로 직접 진입(북마크 가능)
     setLibMode(location.hash.includes('/compare') ? 'compare'
-             : location.hash.includes('/market') ? 'market' : 'expert');
+             : location.hash.includes('/market') ? 'market'
+             : location.hash.includes('/search') ? 'search' : 'expert');
   }
   if(tab === 'classify') initClassify();
 }
@@ -1144,11 +1167,14 @@ async function setLibMode(m){
   document.getElementById('modeExpert').classList.toggle('on', m === 'expert');
   document.getElementById('modeCompare').classList.toggle('on', m === 'compare');
   document.getElementById('modeMarket').classList.toggle('on', m === 'market');
+  document.getElementById('modeSearch').classList.toggle('on', m === 'search');
   document.getElementById('libExpertMode').style.display = m === 'expert' ? '' : 'none';
   document.getElementById('libCompareMode').style.display = m === 'compare' ? '' : 'none';
   document.getElementById('libMarketMode').style.display = m === 'market' ? '' : 'none';
+  document.getElementById('libSearchMode').style.display = m === 'search' ? '' : 'none';
   if(m === 'compare') await initCompare();
   if(m === 'market') await initMarket();
+  if(m === 'search') await initSearch();
 }
 
 let allPacksReady = null;
@@ -1237,12 +1263,88 @@ function mktCard(m, i){
     <div class="row mkt-who" onclick="gotoExpert('${m.slug}')" title="${escapeHtml(m.name)} 전문가별 보기로 이동">
       ${avatarHtml(m.name, c.color, m.slug, 'mini')}<b>${escapeHtml(m.name)}</b>
       ${dirBadge(i.direction)}
+      ${i.kind ? `<span class="kindb">${i.kind==='원칙'?'🧭 원칙':'📈 시황'}</span>` : ''}
       <span class="instick">${escapeHtml(i.topic || '기타')}</span>
       <span>${escapeHtml(i.date || '')}</span>
     </div>
     <div class="th">${escapeHtml(i.thesis || '')}</div>
     <div class="src">📺 <a href="${i.video}" target="_blank" rel="noopener">근거 영상 보기</a></div>
   </div>`;
+}
+
+/* ===== 모드 D: 전체 검색 — 30명 전체 인사이트·인용을 가로질러 키워드 검색 ===== */
+const globalSearchState = { dir:'전체', kind:'전체' };
+let searchInited = false;
+
+async function initSearch(){
+  if(!searchInited){
+    document.getElementById('searchBody').innerHTML =
+      '<div class="status" style="margin:14px 0"><span class="spin"></span>전체 지식팩 로드 중…</div>';
+    await ensureAllPacks();
+    searchInited = true;
+  }
+  runGlobalSearch();
+}
+
+function setGlobalDir(d){
+  globalSearchState.dir = d;
+  document.querySelectorAll('#libSearchMode .fchip[data-f="gdir"]').forEach(el =>
+    el.classList.toggle('on', el.dataset.v === d));
+  runGlobalSearch();
+}
+function setGlobalKind(k){
+  globalSearchState.kind = (globalSearchState.kind === k) ? '전체' : k;   // 재클릭 시 해제
+  document.querySelectorAll('#libSearchMode .fchip[data-f="gkind"]').forEach(el =>
+    el.classList.toggle('on', el.dataset.v === globalSearchState.kind));
+  runGlobalSearch();
+}
+
+function runGlobalSearch(){
+  const q = (document.getElementById('globalSearchInput')?.value || '').trim().toLowerCase();
+  const body = document.getElementById('searchBody');
+  if(!q){
+    body.innerHTML = '<div class="lib-empty">검색어를 입력하면 30명 전체 인사이트·인용을 한 번에 훑어줍니다.</div>';
+    return;
+  }
+  const hits = [];
+  manifest.forEach(m => {
+    const p = packs[m.slug]; if(!p) return;
+    (p.insights || []).forEach(i => {
+      if(globalSearchState.dir !== '전체' && i.direction !== globalSearchState.dir) return;
+      if(globalSearchState.kind !== '전체' && i.kind !== globalSearchState.kind) return;
+      const hay = [i.thesis, i.topic, (i.tickers || []).join(' ')].join(' ').toLowerCase();
+      if(hay.includes(q)) hits.push({ m, i, type:'insight' });
+    });
+    (p.quotes || []).forEach(x => {
+      if((x.text || '').toLowerCase().includes(q)) hits.push({ m, x, type:'quote' });
+    });
+  });
+  hits.sort((a, b) => ((b.i || b.x).date || '').localeCompare((a.i || a.x).date || ''));
+
+  if(!hits.length){
+    body.innerHTML = `<div class="lib-empty">"${escapeHtml(q)}"에 대한 결과가 없습니다.</div>`;
+    return;
+  }
+  const insightHits = hits.filter(h => h.type === 'insight');
+  const quoteHits = hits.filter(h => h.type === 'quote');
+  let html = '';
+  if(insightHits.length){
+    html += `<div class="topic-group"><h4>📌 인사이트 <span class="cnt">${insightHits.length}건 · ${new Set(insightHits.map(h=>h.m.slug)).size}명</span></h4>
+      ${insightHits.map(h => mktCard(h.m, h.i)).join('')}</div>`;
+  }
+  if(quoteHits.length){
+    html += `<div class="topic-group"><h4>💬 인용 <span class="cnt">${quoteHits.length}건</span></h4>
+      ${quoteHits.map(h => {
+        const c = catFor(h.m.domain);
+        return `<div class="qt">
+          <div class="mkt-who" onclick="gotoExpert('${h.m.slug}')" style="margin-bottom:6px">
+            ${avatarHtml(h.m.name, c.color, h.m.slug, 'mini')}<b>${escapeHtml(h.m.name)}</b></div>
+          “${escapeHtml(h.x.text || '')}”
+          <div class="src">${escapeHtml(h.x.date || '')} · 📺 <a href="${h.x.video}" target="_blank" rel="noopener">영상</a></div>
+        </div>`;
+      }).join('')}</div>`;
+  }
+  body.innerHTML = html;
 }
 
 function selectMarket(catId){
@@ -1553,6 +1655,8 @@ const DEV_STEPS = [
     x:'오건영·린치·버핏 신규 합류(총 13명, 인사이트 190여 개·전부 원문 검증). ④백업: git 저장소+주간 자동커밋+localStorage 내보내기/복원. ①②다이제스트: 텔레그램 "오늘의 거인"(신규 인사이트·원칙 로테이션·견해 변화 감지·대립). ③적중률 스코어카드 v0(±3% 문턱, 시황판정 배지).' },
   { d:'2026-07-06', t:'설계 보완 4종 (거인의 정수 확보)', s:'done',
     x:'①문서 소스: 하워드 막스 Oaktree 메모 10편·버핏 주주서한 5년(fetch_documents.py, 유튜브 밖의 정수). ②심층 모드: 질문 관련 원문 발췌를 프롬프트에 추가(로컬 전용 RAG-lite). ④검증기 verify_pack.py(인용 원문 대조 — 첫 감사서 기존 인용 28% 불일치 적발). ⑤원칙/시황 kind 태그+필터. ③주1회 자동수집 스케줄(토 03:00).' },
+  { d:'2026-07-19', t:'30명 체제 + 분류·라이브러리 개편', s:'done',
+    x:'전문가 22→30명(다모다란·와조스키·뉴욕주민·이효석·염승환·미주은·멍거·드러켄밀러·사경인 + 곽상준·박곰희·전인구·강환국·에디·오선·수페TV·올랜도킴, 인사이트 401개·인용 전수 검증 ✓). 패널/다인 진행 채널(삼프로TV 등)은 1인=1지식팩 격리 원칙과 안 맞아 제외. 지역 분류(국내12·해외10·일반8) 30명 전원 채움. 스타일 태그(catFor) 5종 신규(밸류에이션·재무제표·퀀트·투자철학·경제해설)로 미분류 0명 달성. 인사이트 라이브러리에 🔍전체검색 모드 추가(30명 인사이트·인용을 키워드+방향+원칙/시황으로 가로질러 검색).' },
 ];
 function renderDevlog(){
   document.getElementById('devlogVer').textContent = DEVLOG_VERSION;
