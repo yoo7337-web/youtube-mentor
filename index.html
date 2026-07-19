@@ -280,6 +280,17 @@
     padding:8px; font-size:.83rem; font-weight:600; cursor:pointer; font-family:inherit; transition:filter .15s;}
   .conf .cta:hover{filter:brightness(1.08);}
 
+  /* ===== 견해 변화 위젯(.conf 재사용, 대립과 시각 언어 통일) ===== */
+  .conf.chg{background:
+      linear-gradient(105deg, color-mix(in srgb, var(--acc) 9%, transparent), transparent 55%),
+      var(--panel);}
+  .conf.chg .ct .vs{font-weight:600;}
+  .chg-row{display:flex; flex-wrap:wrap; align-items:center; gap:7px; padding:6px 0; font-size:.82rem;}
+  .chg-row + .chg-row{border-top:1px dashed var(--line);}
+  .chg-lab{color:var(--sub); font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.03em;}
+  .chg-date{color:var(--sub); font-size:.72rem;}
+  .chg-th{flex:1 1 100%; color:var(--txt); opacity:.88; font-size:.8rem; line-height:1.5; margin-top:1px;}
+
   /* ===== 심층 모드 토글 ===== */
   .deep-toggle{display:flex; align-items:center; gap:8px; margin:10px 2px 0; font-size:.83rem; color:var(--txt); cursor:pointer;}
   .deep-toggle input{width:15px; height:15px; accent-color:var(--acc); cursor:pointer;}
@@ -393,6 +404,7 @@
   </nav>
 
   <div id="tab-ask">
+  <div id="changesBox" class="conflict-wrap" style="display:none"></div>
   <div id="conflictBox" class="conflict-wrap" style="display:none"></div>
 
   <section>
@@ -979,7 +991,7 @@ function switchTab(tab){
   document.getElementById('tabInsBtn').classList.toggle('on', tab === 'insights');
   document.getElementById('tabCatBtn').classList.toggle('on', tab === 'classify');
   sessionStorage.setItem('ym_route', location.hash || '#ask');   // 새로고침 시 보던 화면 복원용
-  if(tab === 'ask'){ renderSuggestions(); renderHistory(); renderConflicts(); }
+  if(tab === 'ask'){ renderSuggestions(); renderHistory(); renderConflicts(); renderChanges(); }
   if(tab === 'insights'){
     initLibrary();
     // 서브라우트: #insights/compare·#insights/market·#insights/search → 해당 모드로 직접 진입(북마크 가능)
@@ -1517,6 +1529,56 @@ function startConflictEl(el){
   qbox.focus();
 }
 
+/* ---- ⑤ 최근 견해 변화 — 같은 전문가·같은 주제에서 방향이 바뀐 지점 자동 감지 ----
+   텔레그램 다이제스트(daily_digest.py sect_changes)와 동일 로직: 원칙 제외, 최근 두 인사이트 비교 */
+function computeChanges(){
+  const out = [];
+  manifest.forEach(m => {
+    const p = packs[m.slug]; if(!p) return;
+    const byTopic = {};
+    (p.insights || []).forEach(i => {
+      if(i.kind === '원칙') return;   // 원칙은 방향 이동 개념이 없음
+      const t = i.topic || '기타';
+      (byTopic[t] = byTopic[t] || []).push(i);
+    });
+    Object.entries(byTopic).forEach(([topic, arr]) => {
+      if(arr.length < 2) return;
+      const sorted = [...arr].sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+      const prev = sorted[sorted.length - 2], last = sorted[sorted.length - 1];
+      if(prev.direction !== last.direction) out.push({ m, topic, prev, last });
+    });
+  });
+  return out.sort((a, b) => (b.last.date || '').localeCompare(a.last.date || ''));
+}
+function trimThesis(t, n){
+  t = t || ''; return t.length > n ? t.slice(0, n) + '…' : t;
+}
+function changeCard(c){
+  const m = c.m;
+  return `<div class="conf chg">
+    <div class="ct">🔄 ${escapeHtml(m.name.split(' (')[0])} <span class="vs">${escapeHtml(c.topic)}</span></div>
+    <div class="chg-row">
+      <span class="chg-lab">이전</span>${dirBadge(c.prev.direction)}<span class="chg-date">${escapeHtml(c.prev.date || '')}</span>
+      <div class="chg-th">${escapeHtml(trimThesis(c.prev.thesis, 70))}</div>
+    </div>
+    <div class="chg-row">
+      <span class="chg-lab">최근</span>${dirBadge(c.last.direction)}<span class="chg-date">${escapeHtml(c.last.date || '')}</span>
+      <div class="chg-th">${escapeHtml(trimThesis(c.last.thesis, 70))}</div>
+    </div>
+    <button class="cta" onclick="gotoExpert('${m.slug}')">${escapeHtml(m.name.split(' (')[0])} 인사이트 보기 →</button>
+  </div>`;
+}
+async function renderChanges(){
+  const box = document.getElementById('changesBox');
+  await ensureAllPacks();
+  const changes = computeChanges();
+  if(!changes.length){ box.style.display = 'none'; return; }
+  box.style.display = '';
+  box.innerHTML = `<div class="conflict-head"><span class="t">🔄 최근 견해 변화</span>
+      <span class="s">— 같은 주제에서 방향이 바뀐 전문가. 왜 바뀌었는지 근거를 확인해보세요.</span></div>
+    <div class="conflict-grid">${changes.slice(0, 4).map(changeCard).join('')}</div>`;
+}
+
 /* ---- ④ 추천 질문 칩 ---- */
 const Q_TEMPLATES = [
   { kw:['반도체'],                q:'지금 반도체 업황 어떻게 보세요?' },
@@ -1657,6 +1719,8 @@ const DEV_STEPS = [
     x:'①문서 소스: 하워드 막스 Oaktree 메모 10편·버핏 주주서한 5년(fetch_documents.py, 유튜브 밖의 정수). ②심층 모드: 질문 관련 원문 발췌를 프롬프트에 추가(로컬 전용 RAG-lite). ④검증기 verify_pack.py(인용 원문 대조 — 첫 감사서 기존 인용 28% 불일치 적발). ⑤원칙/시황 kind 태그+필터. ③주1회 자동수집 스케줄(토 03:00).' },
   { d:'2026-07-19', t:'30명 체제 + 분류·라이브러리 개편', s:'done',
     x:'전문가 22→30명(다모다란·와조스키·뉴욕주민·이효석·염승환·미주은·멍거·드러켄밀러·사경인 + 곽상준·박곰희·전인구·강환국·에디·오선·수페TV·올랜도킴, 인사이트 401개·인용 전수 검증 ✓). 패널/다인 진행 채널(삼프로TV 등)은 1인=1지식팩 격리 원칙과 안 맞아 제외. 지역 분류(국내12·해외10·일반8) 30명 전원 채움. 스타일 태그(catFor) 5종 신규(밸류에이션·재무제표·퀀트·투자철학·경제해설)로 미분류 0명 달성. 인사이트 라이브러리에 🔍전체검색 모드 추가(30명 인사이트·인용을 키워드+방향+원칙/시황으로 가로질러 검색).' },
+  { d:'2026-07-19', t:'🔄 최근 견해 변화 위젯', s:'done',
+    x:'상담 탭에 텔레그램 다이제스트와 같은 견해 변화 감지 로직을 사이트에도 이식(같은 전문가·같은 topic에서 direction이 바뀐 최근 쌍 자동 탐지, kind:원칙 제외). ⚔️오늘의 대립 위젯 위에 배치, 이전/최근 방향·근거 요약을 카드로 보여주고 클릭 시 해당 전문가 인사이트로 이동.' },
 ];
 function renderDevlog(){
   document.getElementById('devlogVer').textContent = DEVLOG_VERSION;
