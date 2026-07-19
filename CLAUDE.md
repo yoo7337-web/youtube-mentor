@@ -33,14 +33,15 @@
 - **"○○○에게 심층으로 물어봐줘"** → 지식팩 인사이트뿐 아니라 `data/transcripts/<slug>/`의 **원문 자막·문서를 직접 읽고** 답변(압축 손실 보완). 사이트에선 상담 탭 **🔬 심층 모드** 체크박스(로컬 전용 — 질문 관련 원문 발췌 자동 투입)
 - **문서 소스 확장**: `python src/fetch_documents.py marks|buffett` (Oaktree 메모·Berkshire 서한 — 유튜브 밖 정수). 신규 fetcher는 가이드 §7.0 패턴
 - **주 1회 자동 수집**: Windows 작업 `youtube-mentor-weekly-collect`(토 03:00, `scripts/weekly_collect.cmd` → `--all --limit 50 --max-new 10` + **git 자동 커밋**). 로그 `data/collect.log`. 수집만 자동 → 그 뒤 "멘토 인덱싱해줘"로 신규분 증분 큐레이션
-- **"다이제스트 보내줘"**: `python src/daily_digest.py [--dry-run]` — 텔레그램 '오늘의 거인'(신규 인사이트·🧭원칙 로테이션·🔄견해 변화 감지·⚔️대립 1건). 상태 `data/digest_state.json`(중복 방지). 설정 `.env`(TELEGRAM_BOT_TOKEN·GIANTS_CHANNEL_ID)
+- **"다이제스트 보내줘"**: `python src/daily_digest.py [--dry-run]` — 텔레그램 '오늘의 거인'(신규 인사이트·🧭원칙 로테이션·🔄견해 변화 감지·⚔️대립 1건). 상태 `data/digest_state.json`(중복 방지, git 커밋). 설정 `.env`(TELEGRAM_BOT_TOKEN·GIANTS_CHANNEL_ID)
+- **자동 발송(2026-07-19 연결 완료)**: GitHub Actions `.github/workflows/digest.yml` — 매일 08:00 KST 자동 실행 → 텔레그램 채널 `@giants_shoulder_digest`. 시크릿은 GH repo Secrets(TELEGRAM_BOT_TOKEN·GIANTS_CHANNEL_ID)에 등록됨. 실행 후 `digest_state.json` 변경분을 워크플로가 자동 커밋·푸시 → 로컬은 다음 작업 전 `git pull`로 동기화. 수동 실행: `gh workflow run digest.yml --repo yoo7337-web/youtube-mentor`
 - **"스코어카드 갱신해줘"**: `python src/scorecard.py` — 시황 인사이트(티커+긍/부정)를 발언일→현재 수익률로 채점(±3% 문턱) → `data/scorecard.json` → 사이트 전문가 헤더 🎯 배지. 원칙·중립·무티커는 채점 제외(정상)
 - **백업**: git 저장소(주간 자동 커밋). 브라우저 데이터(분류·상담일지·메모)는 📓개발일지 모달의 💾 내보내기/복원 버튼
 
 ## 다음 단계
 1. ~~GitHub Pages 배포~~ **완료(2026-07-19)** — `https://yoo7337-web.github.io/youtube-mentor/` (공개 저장소 `yoo7337-web/youtube-mentor`, 라이브 검증 완료: 30명·4개 인사이트 모드·콘솔 에러 0)
 2. 미큐레이션 자료 420여 개(백필로 쌓인 옛 영상) — 다음 "인덱싱해줘" 때 §3.6 증분으로 더 파낼 여지
-3. **텔레그램 다이제스트 — 사용자 채널 생성 대기 중**(코드는 완성): 채널 생성 → `@dsrkrbot` 관리자 추가 → 채널 @핸들/ID 전달 → `.env`의 `GIANTS_CHANNEL_ID` 설정 → 테스트 발송 → 매일 08:00 스케줄 등록
+3. ~~텔레그램 다이제스트~~ **완료(2026-07-19)** — 채널 `@giants_shoulder_digest` 생성·`@dsrkrbot` 관리자 등록·GitHub Actions로 매일 08:00 자동 발송 연결, 테스트 발송 확인됨
 4. 추가 전문가 후보(사용자가 원할 시): Munger·Druckenmiller류 해외 인터뷰형은 재생목록 소스로 이미 온보딩됨. 국내 패널형(삼프로TV 등)은 아키텍처상 영구 제외. (참고 제안: SemiAnalysis·Asianometry·TechTechPotato 등 반도체 전문 영어 채널 — 사용자 확정 대기)
 
 ## 구조
